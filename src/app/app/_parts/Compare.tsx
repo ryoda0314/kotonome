@@ -14,8 +14,12 @@ export function Compare({ groups, title = ja.rain.notice.compare }: { groups: st
   if (!groups.length) return null;
   return (
     <div className={styles.compare}>
-      <p className={styles.compareTitle}>{title}</p>
-      <p className={styles.lead}>{ja.rain.notice.compareLead}</p>
+      {title ? (
+        <>
+          <p className={styles.compareTitle}>{title}</p>
+          <p className={styles.lead}>{ja.rain.notice.compareLead}</p>
+        </>
+      ) : null}
       <ul className={styles.compareRows}>
         {groups.map((g) => (
           <li key={g.join("/")} className={styles.compareRow} style={{ gridTemplateColumns: `repeat(${g.length}, minmax(0, 1fr))` }}>

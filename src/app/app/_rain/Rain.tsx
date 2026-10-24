@@ -7,6 +7,7 @@
 //   文の中で    ことのあめ's sentences holding the words, with their clips
 // then the new letter and the letters typed off the way are said to come back (ことのあめ's violet). Nothing is scored.
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import page from "@/components/page.module.css";
 import { Icon } from "@/components/Icon";
@@ -16,6 +17,7 @@ import { TypeLine } from "@/components/TypeLine";
 import SENTENCES from "@/content/sentences.json";
 import { isWay, lettersOf, PATCHIM, SAID } from "@/lib/hangul";
 import { ja } from "@/lib/i18n/ja";
+import { LESSON_IDS, LESSONS } from "@/lib/lessons";
 import { planRain, type RainPlan } from "@/lib/rain-core";
 import { clearLetters, dayOf, finishRain, knownSet, meetLetters, mixLetters, readWord, typedWord } from "@/lib/record";
 import type { Sentence } from "@/lib/sentences";
@@ -191,6 +193,19 @@ export function Rain() {
             ) : null}
             {plan.fresh || mixed.length ? <p className={parts.lead}>{ja.rain.comesBack(!!plan.fresh, mixed.length > 0)}</p> : null}
             {firstToday ? <p className={parts.lead}>{ja.rain.enough}</p> : null}
+            {(() => {
+              // The next of the next 90 seconds, while one is left that still has something new.
+              const lesson = LESSONS.find((l) => !state.lessons?.[l.id] && l.items.some((x) => !known.has(x)));
+              if (!lesson) return null;
+              const c = ja.next.lessons[lesson.id];
+              return (
+                <Link href={`/app/next/${lesson.id}`} className={styles.nextLesson}>
+                  <span className={styles.nextKicker}>{ja.next.number(LESSON_IDS.indexOf(lesson.id))}</span>
+                  <span className={styles.nextName}>{c.name}</span>
+                  <span className={styles.nextLead}>{c.lead}</span>
+                </Link>
+              );
+            })()}
             <div className={parts.actions}>
               <button type="button" className="btn" onClick={start}>
                 {ja.rain.nextRain}

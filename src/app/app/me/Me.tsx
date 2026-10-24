@@ -12,6 +12,7 @@ import { useOpenLetter } from "@/components/LetterSheet";
 import page from "@/components/page.module.css";
 import { ja } from "@/lib/i18n/ja";
 import { FIRST_LETTERS, LETTER, MEET_ORDER, PATCHIM } from "@/lib/hangul";
+import { LESSON_IDS } from "@/lib/lessons";
 import { dayOf, isOwed, knownSet } from "@/lib/record";
 import { useRecord } from "@/lib/store";
 import styles from "./me.module.css";
@@ -159,15 +160,38 @@ export function Me() {
       </section>
 
       <section className={page.section}>
+        <h2 className={page.h2}>{t.lessons}</h2>
+        <p className={page.note}>{ja.next.lead}</p>
         <ul className={page.rows}>
           <li>
             <Link href="/app/first" className={page.row}>
               <span className={page.rowMain}>
-                <span className={page.rowTitle}>{t.replay}</span>
+                <span className={page.rowTitle}>{ja.first.title}</span>
+                <span className={page.rowSub}>{t.replay}</span>
               </span>
+              {state.first ? <span className={page.met}>{ja.next.done}</span> : null}
               <Icon name="arrow" size={18} />
             </Link>
           </li>
+          {LESSON_IDS.map((id, i) => (
+            <li key={id}>
+              <Link href={`/app/next/${id}`} className={page.row}>
+                <span className={page.rowMain}>
+                  <span className={page.rowTitle}>
+                    {ja.next.number(i)}　{ja.next.lessons[id].name}
+                  </span>
+                  <span className={page.rowSub}>{ja.next.lessons[id].lead}</span>
+                </span>
+                {state.lessons?.[id] ? <span className={page.met}>{ja.next.done}</span> : null}
+                <Icon name="arrow" size={18} />
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className={page.section}>
+        <ul className={page.rows}>
           <li>
             <Link href="/app/me/export" className={page.row}>
               <span className={page.rowMain}>

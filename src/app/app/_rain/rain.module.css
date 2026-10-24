@@ -21,6 +21,16 @@
   color: var(--again); font-size: 20px; cursor: pointer;
 }
 
+/* The next of the next 90 seconds */
+.nextLesson {
+  display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: var(--radius);
+  background: var(--paper); color: var(--ink); text-decoration: none;
+}
+.nextLesson:hover { border-color: var(--accent); }
+.nextKicker { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.nextName { font-size: 17px; font-weight: 600; }
+.nextLead { font-size: 13.5px; line-height: 1.7; color: var(--muted); }
+
 /* 文の中で: ことのあめ's sentences, the word in the accent */
 .sentences { display: flex; flex-direction: column; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .sentence { display: flex; gap: 12px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid var(--line); animation: fall 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; }

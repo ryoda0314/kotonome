@@ -16,6 +16,8 @@ export type State = {
   v: 2;
   /** When the 90 seconds were seen (or passed over). */
   first?: number;
+  /** When each of the next 90 seconds was gone through (次の90秒: breath, vowels, patchim). */
+  lessons: Record<string, number>;
   letters: Record<string, LetterLog>;
   words: Record<string, WordLog>;
   /** ことのあめ's sentences typed in 打つ. */
@@ -25,7 +27,7 @@ export type State = {
   rains: RainEntry[];
 };
 
-export const emptyState = (): State => ({ v: 2, letters: {}, words: {}, lines: {}, drills: {}, rains: [] });
+export const emptyState = (): State => ({ v: 2, lessons: {}, letters: {}, words: {}, lines: {}, drills: {}, rains: [] });
 
 /** A mixed-up letter comes back after this long, or after this many other rains, whichever comes first. */
 export const RETURN_MS = 20 * 60 * 60 * 1000;
@@ -87,6 +89,12 @@ export function freshLetters(s: State): string[] {
 export function seeFirst(s: State, at: number): State {
   const next = s.first ? s : { ...s, first: at };
   return meetLetters(next, FIRST_LETTERS, at);
+}
+
+/** One of the next 90 seconds gone through: its letters (or パッチム) are met. */
+export function seeLesson(s: State, id: string, items: string[], at: number): State {
+  const next = s.lessons?.[id] ? s : { ...s, lessons: { ...s.lessons, [id]: at } };
+  return meetLetters(next, items, at);
 }
 
 /** The first time each of these was met. */
@@ -166,7 +174,22 @@ export function mergeStates(a: State, b: State): State {
   const byAt = new Map<number, RainEntry>();
   for (const r of [...a.rains, ...b.rains]) byAt.set(r.at, r);
   const rains = [...byAt.values()].sort((x, y) => x.at - y.at).slice(-RAINS_KEPT);
-  const out: State = { v: 2, letters, words, lines: mergeStamps(a.lines, b.lines), drills: mergeStamps(a.drills, b.drills), rains };
+  const lessons: State["lessons"] = {};
+  const la = a.lessons ?? {};
+  const lb = b.lessons ?? {};
+  for (const id of new Set([...Object.keys(la), ...Object.keys(lb)])) {
+    const at = minOf(la[id], lb[id]);
+    if (at) lessons[id] = at;
+  }
+  const out: State = {
+    v: 2,
+    lessons,
+    letters,
+    words,
+    lines: mergeStamps(a.lines, b.lines),
+    drills: mergeStamps(a.drills, b.drills),
+    rains,
+  };
   const first = minOf(a.first, b.first);
   return first ? { ...out, first } : out;
 }

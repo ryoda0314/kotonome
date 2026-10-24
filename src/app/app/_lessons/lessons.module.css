@@ -1,4 +1,4 @@
-/* 最初の90秒: pages one after another, the place shown as small marks, 次へ at the bottom. Hairlines, one accent. */
+/* The 90 seconds and the next 90 seconds: pages one after another, the place shown as small marks, 次へ at the bottom. Hairlines, one accent. */
 .pageOf { font-family: var(--font-en); font-size: 13px; color: var(--faint); letter-spacing: 0.04em; }
 .dots { display: flex; gap: 4px; margin: 0; padding: 10px 0 0; list-style: none; }
 .dots li { flex: 1; height: 3px; border-radius: 2px; background: var(--line); }
@@ -23,8 +23,17 @@
 /* A stroke more in the same place: the mouth of the plain one, then the two letters */
 .growRow { display: flex; align-items: center; gap: 16px; padding: 4px 0; }
 .growPicture { flex-shrink: 0; width: 132px; }
-.pairSounds { display: flex; align-items: center; gap: 10px; font-size: 20px; }
+.grownList { display: flex; flex-direction: column; gap: 10px; }
+.pairSounds { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; font-size: 20px; }
 .pairSounds > svg { color: var(--faint); }
+.plus { font-size: 16px; color: var(--faint); }
+
+/* Mouths in a row, and words with their sounds */
+.mouths { display: flex; gap: 10px; }
+.mouthSmall { width: min(30%, 110px); }
+.showWords { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.showWords > li { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.showMeaning { display: flex; flex-direction: column; gap: 2px; font-size: 14px; color: var(--muted); }
 .rieulRow { display: flex; align-items: center; gap: 24px; }
 .ra { font-family: var(--font-ja); font-size: 72px; line-height: 1; color: var(--faint); }
 

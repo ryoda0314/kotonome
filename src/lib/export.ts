@@ -3,7 +3,10 @@
 
 import { ALL_ITEMS, FIRST_LETTERS, LETTER, PATCHIM, SAID } from "./hangul.ts";
 import { dayOf, isOwed, knownSet, type State } from "./record.ts";
+import { LESSON_IDS, type LessonId } from "./lessons.ts";
 import { readableWords } from "./rain-core.ts";
+
+const LESSON_NAMES: Record<LessonId, string> = { breath: "息を強く・のどを締めて", vowels: "ヤ行・エ・ワ", patchim: "下にもう1字" };
 
 const nameOf = (item: string) => (item === PATCHIM ? "パッチム" : item === SAID ? "発音（書いたとおりに読まない語）" : item);
 
@@ -12,6 +15,10 @@ export function exportMarkdown(s: State, prompt: string): string {
   const known = knownSet(s);
   const met = ALL_ITEMS.filter((x) => known.has(x));
   lines.push(`- 90秒: ${s.first ? `${dayOf(s.first)} に見た` : "まだ"}`);
+  for (const [i, id] of LESSON_IDS.entries()) {
+    const at = s.lessons?.[id];
+    lines.push(`- 次の90秒 ${i + 1}（${LESSON_NAMES[id]}）: ${at ? `${dayOf(at)} に済` : "まだ"}`);
+  }
   lines.push(`- 出会った字: ${met.filter((x) => LETTER.has(x)).length} / 40（パッチム${known.has(PATCHIM) ? "も" : "はまだ"}）`);
   lines.push(`- 読める語: ${readableWords(s, known).length}`);
   lines.push(`- 読んだ語: ${Object.values(s.words).filter((w) => w.read.length).length}`);

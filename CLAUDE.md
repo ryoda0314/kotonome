@@ -56,6 +56,11 @@ Korean keyboard (as on 한컴타자연습) and heard.
   due letters first, then letters just met, then never read. 3 to type, the new one's first. Up to 2 of ことのあめ's
   sentences with the words, the fewest letters not met first (at most `LINE_UNKNOWN_MAX`), from the rain that brings
   パッチム.
+- `lessons.ts`: 次の90秒, three lessons in the 90 seconds' way (breath: ㅋ ㅌ ㅍ ㅊ ㄲ ㄸ ㅃ ㅆ ㅉ; vowels: ㅑ … ㅞ;
+  patchim): steps (`grow` beside what it comes from, `practice`/`words` many goes, `compare`, `show`, `join`, `read`,
+  `end`), the words of each in `ja.next`. With the 90 seconds they bring every letter once; each lesson's words are
+  readable with the 90 seconds and that lesson alone (`tests/lessons.test.mjs`). Gone through (`record.ts`
+  `seeLesson`, `lessons`), its letters are met and the rain passes them over.
 - `practice.ts`: the goes of 練習 (`rounds`: shuffled rounds, never the same twice in a row, seeded so always the same;
   `again`: a missed go once more a little later; `practiceFor`: after 気づく, the new letter twice to each of up to three
   rivals (what it grew from, the same kana row, its kind; never two said alike, ㅐ/ㅔ), two rounds).
@@ -68,7 +73,7 @@ Korean keyboard (as on 한컴타자연습) and heard.
 
 ## The app
 
-- `/` intro (static). `/app` 浴びる (`_rain/Start.tsx`): the 90 seconds the first time (`_first/First.tsx`: three mouth
+- `/` intro (static). `/app` 浴びる (`_rain/Start.tsx`): the 90 seconds the first time (`_lessons/First.tsx`: three mouth
   pictures from the side with the letter taken out of each, `components/Mouth.tsx`, then 思い出す (`_parts/Practice.tsx`:
   hear, press the letter, every letter three rounds; a wrong press shows the mouth again and that go comes once more a
   little later; nothing counted), two from the front and 思い出す for all five, then a stroke more in the same place two
@@ -80,7 +85,9 @@ Korean keyboard (as on 한컴타자연습) and heard.
   for パッチム words like 산/삼/상) → 打ってみる (`components/TypeLine.tsx`, 3 words) → 文の中で
   (`_rain/Lines.tsx`, ことのあめ's clips from its public `pl-audio` bucket; a syllable holding a letter not met is dotted
   and opens it, `components/KoText.tsx`) → the new thing and the letters typed off the way are said to come back
-  (violet). `/app/first`: the 90 seconds again (from 自分).
+  (violet); at the end of a rain, the next of 次の90秒 that still has something new. `/app/first`: the 90 seconds
+  again (from 自分). `/app/next/[id]`: one of 次の90秒 (`_lessons/Next.tsx`). The lessons share their player and pages
+  (`_lessons/Lesson.tsx`, `_lessons/pages.tsx`) with the 90 seconds (`_lessons/First.tsx`).
 - `/app/type` 打つ: 자리연습 by row (`/app/type/keys/[row]`, `_type/Drill.tsx`), 単語 (`_type/WordsRound.tsx`), 短文
   (`_type/LinesRound.tsx`), 打って聞く (`_type/Free.tsx`: a word's or sentence's own clip, else the device's Korean voice).
 - `/app/me` 自分: counts (own, never compared), the letters (the 90 seconds', then `MEET_ORDER`; faint until met, violet

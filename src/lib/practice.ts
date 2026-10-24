@@ -81,6 +81,16 @@ export function letterPractice(letters: string[], times: number, seed = seedOf(l
   return rounds(letters, times, seed).map((ch) => ({ answer: ch, say: soundOf(ch), choices: letters }));
 }
 
+/** Words to tell apart by ear: each heard, pressed among its own group (산 among 산 삼 상), `times` rounds over. */
+export function wordPractice(groups: string[][], times: number, seed = seedOf(groups.flat().join(""))): PracticeItem[] {
+  return rounds(
+    groups.flatMap((g) => g.map((answer) => ({ answer, say: answer, choices: g }))),
+    times,
+    seed,
+    (x) => x.answer,
+  );
+}
+
 /**
  * Right after 気づく: the new letter among the letters it is told from, it twice to each of theirs, two rounds (10 goes
  * with three rivals). For パッチム: words told apart by the letter under the vowel (산/삼/상), each twice. For 発音
@@ -95,13 +105,7 @@ export function practiceFor(fresh: string, known: ReadonlySet<string>): Practice
   }
   if (fresh === PATCHIM) {
     const withIt = new Set(known).add(PATCHIM);
-    const groups = pairsFor(PATCHIM, (ko) => canRead(WORD.get(ko) ?? { ko }, withIt)).slice(0, 2);
-    return rounds(
-      groups.flatMap((g) => g.map((answer) => ({ answer, say: answer, choices: g }))),
-      2,
-      seed,
-      (x) => x.answer,
-    );
+    return wordPractice(pairsFor(PATCHIM, (ko) => canRead(WORD.get(ko) ?? { ko }, withIt)).slice(0, 2), 2, seed);
   }
   return [];
 }

@@ -5,7 +5,7 @@
 import { useRouter } from "next/navigation";
 import { seeFirst } from "@/lib/record";
 import { commit } from "@/lib/store";
-import { First } from "../_first/First";
+import { First } from "../_lessons/First";
 
 export function Again() {
   const router = useRouter();

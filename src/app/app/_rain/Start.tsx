@@ -6,7 +6,7 @@ import page from "@/components/page.module.css";
 import { ja } from "@/lib/i18n/ja";
 import { seeFirst } from "@/lib/record";
 import { commit, useRecord } from "@/lib/store";
-import { First } from "../_first/First";
+import { First } from "../_lessons/First";
 import { Rain } from "./Rain";
 
 export function Start() {
