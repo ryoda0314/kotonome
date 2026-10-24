@@ -1,0 +1,145 @@
+[
+ {
+  "clip": "kore/gang-6a06",
+  "text": "강",
+  "takes": 6,
+  "heard": [
+   "간",
+   "간",
+   "간",
+   "간"
+  ]
+ },
+ {
+  "clip": "kore/sang-4a5b",
+  "text": "상",
+  "takes": 6,
+  "heard": [
+   "산",
+   "산",
+   "산",
+   "산"
+  ]
+ },
+ {
+  "clip": "kore/bak-9da8",
+  "text": "밖",
+  "takes": 6,
+  "heard": [
+   "밖",
+   "팥",
+   "밭",
+   "밭"
+  ]
+ },
+ {
+  "clip": "kore/bang-5085",
+  "text": "방",
+  "takes": 6,
+  "heard": [
+   "밤",
+   "밤",
+   "밤",
+   "밤"
+  ]
+ },
+ {
+  "clip": "kore/chil-2ba2",
+  "text": "칠",
+  "takes": 6,
+  "heard": [
+   "칠",
+   "칠",
+   "치",
+   "추"
+  ]
+ },
+ {
+  "clip": "kore/baek-764d",
+  "text": "백",
+  "takes": 6,
+  "heard": [
+   "백",
+   "백",
+   "팩",
+   "팩"
+  ]
+ },
+ {
+  "clip": "kore/ba-a0ce",
+  "text": "바",
+  "takes": 6,
+  "heard": [
+   "다",
+   "빠",
+   "타",
+   "타"
+  ]
+ },
+ {
+  "clip": "kore/kka-2a80",
+  "text": "까",
+  "takes": 6,
+  "heard": [
+   "가",
+   "가",
+   "가",
+   "가"
+  ]
+ },
+ {
+  "clip": "kore/ppa-02ab",
+  "text": "빠",
+  "takes": 6,
+  "heard": [
+   "빠",
+   "바",
+   "아",
+   "아"
+  ]
+ },
+ {
+  "clip": "charon/bak-a261",
+  "text": "박",
+  "takes": 6,
+  "heard": [
+   "팍",
+   "팍",
+   "박",
+   "박"
+  ]
+ },
+ {
+  "clip": "charon/chil-2ba2",
+  "text": "칠",
+  "takes": 6,
+  "heard": [
+   "칠",
+   "칠",
+   "추",
+   "쯔"
+  ]
+ },
+ {
+  "clip": "charon/tta-4ade",
+  "text": "따",
+  "takes": 6,
+  "heard": [
+   "따",
+   "타",
+   "아",
+   "아"
+  ]
+ },
+ {
+  "clip": "charon/jja-3208",
+  "text": "짜",
+  "takes": 6,
+  "heard": [
+   "자",
+   "짜",
+   "자",
+   "자"
+  ]
+ }
+]

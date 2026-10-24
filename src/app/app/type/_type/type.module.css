@@ -1,0 +1,37 @@
+/* 打つ: the rows of keys, a round of words or sentences, the pad to hear what was typed. Hairlines, one accent. */
+.physical { margin: 8px 0 0; font-size: 13px; line-height: 1.7; color: var(--muted); }
+.drills { list-style: none; margin: 0; padding: 0; }
+.drills > li { border-top: 1px solid var(--line); }
+.drills > li:last-child { border-bottom: 1px solid var(--line); }
+.count { font-family: var(--font-en); font-size: 13px; color: var(--faint); letter-spacing: 0.04em; }
+
+.round, .drill { display: flex; flex-direction: column; gap: 12px; padding: 16px 0 32px; }
+.end { display: flex; flex-direction: column; gap: 12px; padding: 20px 0; animation: settle 0.4s ease-out both; }
+@keyframes settle { from { opacity: 0; transform: translateY(8px); } }
+.endTitle { margin: 0; font-size: 20px; font-weight: 600; }
+.source { margin: 0; font-size: 12.5px; color: var(--faint); }
+.typedList { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.typedList > li { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.typedMeaning { font-size: 13.5px; color: var(--muted); }
+
+/* 자리연습: the letter now, those to come, the finger */
+.now { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 8px 0; }
+.ahead { list-style: none; margin: 0; padding: 0; display: flex; gap: 12px; font-size: 20px; color: var(--faint); }
+.finger { margin: 0; min-height: 1.6em; text-align: center; font-size: 14px; color: var(--muted); }
+.finger[data-miss] { color: var(--again); }
+.finger[data-miss] .t-ko { font-size: 18px; }
+
+/* 打って聞く */
+.pad { display: flex; flex-direction: column; gap: 12px; padding: 16px 0 32px; }
+.padText {
+  min-height: 88px; display: flex; align-items: center; flex-wrap: wrap; padding: 10px 4px;
+  border-bottom: 1.5px solid var(--ink); font-size: 26px; line-height: 1.5;
+}
+.padPlaceholder { font-size: 14px; color: var(--faint); }
+.caret {
+  display: inline-block; width: 2px; height: 1.1em; margin-left: 2px;
+  background: var(--accent); animation: blink 1.1s steps(1) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+.padActions { display: flex; gap: 10px; }
+.padNote { margin: 0; font-size: 13px; line-height: 1.7; color: var(--muted); }

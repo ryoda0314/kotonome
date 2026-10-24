@@ -1,0 +1,78 @@
+/* The 두벌식 keyboard: ten keys across as on a phone, consonants in ink and vowels in the accent (as everywhere in the
+   app), hairlines, one accent for the key to press next. */
+.keys {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  gap: 5px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.indent { grid-column: span 1; }
+.key {
+  grid-column: span 2;
+  min-width: 0;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 19px;
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.1s ease, opacity 0.2s ease;
+}
+.key:active { transform: scale(0.95); background: var(--tint); }
+.cons { color: var(--ink); }
+.vowel { color: var(--accent); }
+.mod { color: var(--ink-2); }
+.wide { grid-column: span 3; }
+.space { grid-column: 5 / span 12; }
+.spaceLabel { font-size: 12.5px; color: var(--muted); }
+.on { border-color: var(--accent); color: var(--accent); background: var(--tint); }
+/* Not in use yet: there, faint, still a key. */
+.faint { opacity: 0.32; }
+/* The key to press next. */
+.next { border-color: var(--accent); background: var(--accent); color: #fff; opacity: 1; }
+.next .spaceLabel { color: #fff; }
+/* Pressed on the keyboard in front of the learner. */
+.pressed { outline: 3px solid var(--tint); background: var(--tint); }
+.next.pressed { background: var(--accent); }
+
+@media (min-width: 720px) {
+  .keys { gap: 6px; padding: 8px; }
+  .key { height: 52px; font-size: 21px; }
+}
+
+/* Small and still, in a letter's sheet. */
+.map {
+  display: inline-grid;
+  grid-template-columns: repeat(20, 12px);
+  gap: 2px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.map .indent { grid-column: span 1; }
+.mapKey {
+  grid-column: span 2;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-2);
+  border-radius: 5px;
+  background: var(--paper);
+  color: var(--faint);
+  font-size: 12.5px;
+}
+.mapWide { grid-column: span 3; }
+.mapOn { border-color: var(--accent); background: var(--accent); color: #fff; font-weight: 600; }

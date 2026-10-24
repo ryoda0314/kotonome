@@ -1,0 +1,38 @@
+/* The rain: 浴びる → 気づく → 打ってみる → 文の中で. As in ことのあめ: things fall from above and settle, a playing button
+   sends out ripples, hairlines separate, one accent, and what comes back in the again violet. */
+.body { display: flex; flex-direction: column; gap: 20px; padding: 16px 0 40px; }
+.due { margin: 0; padding: 8px 12px; border-left: 3px solid var(--again); background: var(--again-tint); font-size: 14px; }
+.typeHead { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+.end { display: flex; flex-direction: column; gap: 14px; padding-top: 16px; border-top: 1.5px solid var(--ink); animation: settle 0.4s ease-out both; }
+@keyframes settle { from { opacity: 0; transform: translateY(8px); } }
+.endLabel { margin: 0; font-size: 13px; font-weight: 600; color: var(--muted); }
+.met { display: flex; align-items: center; gap: 12px; }
+.metLead { margin: 0; font-size: 14px; color: var(--ink-2); }
+.metItem {
+  min-width: 48px; height: 48px; padding: 0 12px; border: 1.5px solid var(--accent); border-radius: 12px; background: var(--tint);
+  color: var(--accent); font-size: 22px; font-weight: 600; cursor: pointer;
+}
+.metItem:not(:global(.t-ko)) { font-size: 16px; }
+.owed { display: flex; flex-direction: column; gap: 8px; padding: 12px 14px; border-left: 3px solid var(--again); background: var(--again-tint); }
+.owedLetters { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.owedLetter {
+  min-width: 40px; height: 40px; padding: 0 8px; border: 1px solid var(--again); border-radius: 10px; background: var(--paper);
+  color: var(--again); font-size: 20px; cursor: pointer;
+}
+
+/* 文の中で: ことのあめ's sentences, the word in the accent */
+.sentences { display: flex; flex-direction: column; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.sentence { display: flex; gap: 12px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid var(--line); animation: fall 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@keyframes fall { from { opacity: 0; transform: translateY(-28px); } to { opacity: 1; transform: none; } }
+.speak {
+  position: relative; flex-shrink: 0; width: var(--tap); height: var(--tap); border-radius: 50%;
+  border: 1px solid var(--line-2); background: var(--paper); color: var(--ink);
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer;
+}
+.speak[data-playing] { border-color: var(--accent); color: var(--accent); }
+.ko { margin: 0; font-size: 21px; line-height: 1.7; }
+.target { color: var(--accent); font-weight: 600; }
+.ja { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.toggle { padding: 0; border: 0; background: none; color: var(--accent); font-size: 13px; cursor: pointer; text-decoration: underline; text-underline-offset: 0.25em; }
+.source { margin: 0; font-size: 12.5px; color: var(--faint); }

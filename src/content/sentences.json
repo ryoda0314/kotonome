@@ -1,0 +1,2710 @@
+[
+ {
+  "ko": "가게 앞에서 기다릴게",
+  "ja": "店の前で待ってる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3166adf18dcd7771623e7271a9ea9d799f9589808827cb987e55366b44f2fbad.wav",
+  "words": [
+   "가게",
+   "앞"
+  ]
+ },
+ {
+  "ko": "가게에 전화해 줄게",
+  "ja": "お店に電話してあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b70b0a5421755a5ad3b088cd145bce8903377ab8636eeef802f00df23689539f.wav",
+  "words": [
+   "가게"
+  ]
+ },
+ {
+  "ko": "가방 들어 줄까?",
+  "ja": "カバン持とうか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d9ffea0f41bff78abef9a4657f05b17a8bb721fb326e85744ae1eeadebff730a.wav",
+  "words": [
+   "가방"
+  ]
+ },
+ {
+  "ko": "가족이랑 바다에 있어",
+  "ja": "家族と海にいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/95cde1d8383ee3133ef6584cc4e561f5702eb4d64df3d06106869da0d6020996.wav",
+  "words": [
+   "바다"
+  ]
+ },
+ {
+  "ko": "간장 어디 있어?",
+  "ja": "醤油はどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/def60a4320b1db9c523cf583dd679902be40cd6d9170f8c2a68ef56ae8d838d4.wav",
+  "words": [
+   "어디"
+  ]
+ },
+ {
+  "ko": "감기 걸렸어? 약 사다 줄게",
+  "ja": "風邪？薬買ってきてあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/28a20e75dbab84635571a8b2b57e39693cb5e11a4602e811954475984bb7022e.wav",
+  "words": [
+   "사다"
+  ]
+ },
+ {
+  "ko": "강아지 병원에 데려가야 돼.",
+  "ja": "犬を病院に連れてかなきゃ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ced68d91cb9e0f66a68fcc25d0a734e053879e3f7f47ec1c7f57d1b435eb09aa.wav",
+  "words": [
+   "병원"
+  ]
+ },
+ {
+  "ko": "강아지 언제 병원 데려가?",
+  "ja": "いつ犬を病院に連れてくの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/96ebe1937ce6f5040c4102d1a2508f819a9ef4fbcb69746d7a0c6d16719bdf34.wav",
+  "words": [
+   "병원"
+  ]
+ },
+ {
+  "ko": "같이 가자.",
+  "ja": "一緒に行こう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0e1ff2dce24bbe99dbe0f20a4b9f81488f3018830bca691fc8bef83fa859b803.wav",
+  "words": [
+   "가자"
+  ]
+ },
+ {
+  "ko": "개찰구 앞에 있어",
+  "ja": "改札の前にいるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2ca0c9f3d035349e5feb7ccf56388304d4ebdd1484d1af3c7b8ac2045d25a6d0.wav",
+  "words": [
+   "앞"
+  ]
+ },
+ {
+  "ko": "걔 이름 외우기 쉬워.",
+  "ja": "あの子の名前、覚えやすいね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b6d2cc9520c24b5445a972e628029d58e9eee8d7af47e2bdf7e41be2cf16bb8c.wav",
+  "words": [
+   "이름"
+  ]
+ },
+ {
+  "ko": "거기 일요일에도 열어?",
+  "ja": "そこ、日曜も開いてる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/340d134834d5b595ad80d8f7f9b17b5efe4e52b04384743d49393b42e27ad093.wav",
+  "words": [
+   "거기"
+  ]
+ },
+ {
+  "ko": "거기 학생 할인 있어?",
+  "ja": "そこって学割ある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cd1a1a68157f3cff8eb7c0fe27e5bedf519201fdbbb6f721b5a08eb36f106e97.wav",
+  "words": [
+   "거기",
+   "학생"
+  ]
+ },
+ {
+  "ko": "걸으면서 지도 보고 있어",
+  "ja": "歩きながら地図見てる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/598f68f5af6306306c11cbdff229db833aeb96f2f39b8486b42a02daaea74b73.wav",
+  "words": [
+   "지도"
+  ]
+ },
+ {
+  "ko": "결국 파티에 안 갔어",
+  "ja": "結局パーティー行かなかった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6002de87d28d3238103b0a1050b0324feceb0f4487c8a885a8ed18e51b072d69.wav",
+  "words": [
+   "파티"
+  ]
+ },
+ {
+  "ko": "경기 보면서 소리 질렀어",
+  "ja": "試合見ながら叫んでた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/514fc90e127467e748154839e1d7e17d0cd3c504a87f113253105891d74601fc.wav",
+  "words": [
+   "소리"
+  ]
+ },
+ {
+  "ko": "계속 이 책 읽고 있어",
+  "ja": "ずっとこの本読んでる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7b5b2d9ee4b091802ecb91652a897bf41a85bbc256e218c516128501e2062c5b.wav",
+  "words": [
+   "책"
+  ]
+ },
+ {
+  "ko": "고기 구우면서 맥주 마셨어",
+  "ja": "肉焼きながらビール飲んでた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2380787b596ea54d824da5c52f08ebbb9b1e9d06ba537ee15b173ececcbe1b90.wav",
+  "words": [
+   "고기",
+   "맥주"
+  ]
+ },
+ {
+  "ko": "고기 구워 먹고 싶어.",
+  "ja": "焼肉食べたい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7ea980342af5dd864bb5038de6ed6c659684b39d9876bebe1d71ec8db99cd96e.wav",
+  "words": [
+   "고기"
+  ]
+ },
+ {
+  "ko": "고기 해동해 놓을게.",
+  "ja": "お肉解凍しとく",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1729d5c2fdde7dfa8d3512273225b7da97393e95ec86d6a190a1f5eeb7866873.wav",
+  "words": [
+   "고기"
+  ]
+ },
+ {
+  "ko": "고양이 밥 줬지?",
+  "ja": "猫にごはんあげたよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/53f74d90f7cd7bb2126b43faf4b93c2bd108b5851204ac42c91594e9c83f70d0.wav",
+  "words": [
+   "밥"
+  ]
+ },
+ {
+  "ko": "고추 열 개 들어간 전골? 엄청 맵겠다!",
+  "ja": "唐辛子10本入りの鍋？辛そうだね！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a3c220e71c0603238de01bcead5a4b4d58497f61b3d1cd22f4d4efd9dbacc9b3.wav",
+  "words": [
+   "고추"
+  ]
+ },
+ {
+  "ko": "공항에 있어. 곧 탑승해",
+  "ja": "空港にいる。もうすぐ搭乗",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cc26c5d65f596f3fdbdc43dafdd9fcd5504bae368a92dfd463c6e3c8e4c10c4e.wav",
+  "words": [
+   "공항"
+  ]
+ },
+ {
+  "ko": "공항에 환전소 있어?",
+  "ja": "空港に両替所ある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a7f2b3a596eb218302861e9d629f1cfa8d4d015714295015788e57662bae51c5.wav",
+  "words": [
+   "공항"
+  ]
+ },
+ {
+  "ko": "과자 굽는 거 좋아해.",
+  "ja": "お菓子を焼くのが好き",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/36a4fcda1fa908d1fb4c91f3316bfd9cb02b7624a9b834500c9df619adb1dfd6.wav",
+  "words": [
+   "과자"
+  ]
+ },
+ {
+  "ko": "그 가게 코스 요리 비싸겠다.",
+  "ja": "そのお店のコース、高そうだね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9a11d6bacd291bedec79eacc08b430eb757546c1b446b8ae11e2e781a1c666f5.wav",
+  "words": [
+   "코스",
+   "요리",
+   "가게"
+  ]
+ },
+ {
+  "ko": "그 가게는 이제 안 가",
+  "ja": "もうあの店は行かない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f1f9260f3dcfb0373a33051fa2f2e57aa1dd04b80a8c4757d82d0655bfbf64c4.wav",
+  "words": [
+   "가게"
+  ]
+ },
+ {
+  "ko": "그 공원에 화장실 있어?",
+  "ja": "その公園、トイレある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a69d9438fa7545b4db46d7b745e904898ab1e63c52a9961e02d6b2e57c74a894.wav",
+  "words": [
+   "화장실"
+  ]
+ },
+ {
+  "ko": "그 단어 내가 찾아봐 줄게",
+  "ja": "その単語、調べてあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c9e8a16bb83ee28e19fb64179cef06d0c8685a5f1f6d359d257535d0cbb8d0bc.wav",
+  "words": [
+   "단어"
+  ]
+ },
+ {
+  "ko": "그 드라마 결말 어때?",
+  "ja": "あのドラマの結末ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c27a44c286f1c99eb1db48169f748ac784ec6b9f3e19986a6ee31f9e791d834f.wav",
+  "words": [
+   "드라마"
+  ]
+ },
+ {
+  "ko": "그 사람 이름만 알아.",
+  "ja": "あの人、名前だけ知ってる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b191a7f0e4aa30e61c910f1f6a93985abbecda37a818789cfff26d23f967026e.wav",
+  "words": [
+   "사람",
+   "이름"
+  ]
+ },
+ {
+  "ko": "그 시계 얼마 줬어?",
+  "ja": "その時計、いくらしたの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a1385cadab30aa9670d053d66dfcb21e8bf34c253460b8706a46808fe7eee429.wav",
+  "words": [
+   "시계"
+  ]
+ },
+ {
+  "ko": "그 식당에 채식 메뉴 있어?",
+  "ja": "その店、ベジタリアンメニューある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e3d15ec6cec6e56538ceea5bd388f9d603b30813eed5cd5f1971d6b6426e6f51.wav",
+  "words": [
+   "메뉴"
+  ]
+ },
+ {
+  "ko": "그 옷 버리지 마.",
+  "ja": "その服、捨てないで",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/84e022d54447b57036f422e0cb56164a03c214c08a52e73888cb76cbc3cd344f.wav",
+  "words": [
+   "옷"
+  ]
+ },
+ {
+  "ko": "그 의자는 사는 게 낫다고 생각해.",
+  "ja": "その椅子、買ったほうがいいと思う",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/12ca06a97757a9ae0b89b0951f406f5bf465061696dc7cad6e8069fc9b0267fe.wav",
+  "words": [
+   "의자"
+  ]
+ },
+ {
+  "ko": "그 책 얼마나 읽었어?",
+  "ja": "その本、どれくらい読んだ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2e761b22b3c5d8d7c0eba288fada7ae12823c0499697d285c994242dc37961d8.wav",
+  "words": [
+   "책"
+  ]
+ },
+ {
+  "ko": "그 카페 와이파이 있어?",
+  "ja": "そのカフェ、Wi-Fiある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/bfbc1854bf18154e9e80386129cf1e81cac75601cbe05bf7e667847d351904de.wav",
+  "words": [
+   "카페",
+   "와이파이"
+  ]
+ },
+ {
+  "ko": "그 코트 결국 사기로 했어.",
+  "ja": "あのコート、結局買うことにした",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3d9f94c53582c2e706a5f5e9cf7fd77bd48cc9ce602b526328704a86e7ece96a.wav",
+  "words": [
+   "코트"
+  ]
+ },
+ {
+  "ko": "그 티셔츠 결국 안 샀어",
+  "ja": "あのTシャツ、結局買わなかった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a7ad4aeb27f6cd36aef2b403dfe79b5e46456396cfb6f038f41b68b778ab38cc.wav",
+  "words": [
+   "티셔츠"
+  ]
+ },
+ {
+  "ko": "그거 너무 비싸.",
+  "ja": "それ高すぎる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0017f2f720c9f655573bc1554b85ba58a0497147cde10d01a8140f986e664df0.wav",
+  "words": [
+   "그거"
+  ]
+ },
+ {
+  "ko": "그거 얼마나 해?",
+  "ja": "それ、どれくらいする？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/30a8a43ff26f0439ec6b98a97865047e200c6112af1e54e6bbe1d1d787e24cb9.wav",
+  "words": [
+   "그거"
+  ]
+ },
+ {
+  "ko": "그냥 머리 기를래",
+  "ja": "やっぱり髪伸ばそうかな",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/241d5e4263211c11c74f6752176981e84e0f632d427892a805db464e2e923b25.wav",
+  "words": [
+   "머리"
+  ]
+ },
+ {
+  "ko": "그냥 전화로 얘기하자",
+  "ja": "やっぱり電話で話そう",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/29e467a00d13d843eba9ae19a19fd7ff8a2e304561ec29ac6ed317e0bc955267.wav",
+  "words": [
+   "전화"
+  ]
+ },
+ {
+  "ko": "그냥 택시 탈게",
+  "ja": "やっぱりタクシーにする",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1f11c5ed1838673fcd5fba92b52bbe067f5946c24806c8f2428c2987e8150413.wav",
+  "words": [
+   "택시"
+  ]
+ },
+ {
+  "ko": "그러고 보니 내 동생 대학 붙었어.",
+  "ja": "そういえば、弟が大学受かったんだ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/feb1d2488f8128cd9821b93b83ee44a50170467f4fe756f0944e3f2603c20150.wav",
+  "words": [
+   "대학"
+  ]
+ },
+ {
+  "ko": "기념품 하나도 안 샀어",
+  "ja": "お土産、何も買わなかった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cc0a0df29f7a1b522c20baecbface350ada227b430c469fdfcb0eebcd2781218.wav",
+  "words": [
+   "하나"
+  ]
+ },
+ {
+  "ko": "기차 타고 가는 거 어때?",
+  "ja": "電車で行くのはどう？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/88a02c5afee8f07174543f9d03d09e619cc399b518feb1f622d8a8276054195f.wav",
+  "words": [
+   "기차"
+  ]
+ },
+ {
+  "ko": "기타 연습하고 있어",
+  "ja": "ギターの練習してる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0be73762ed9b5a91707caa11439cca1708a84d4f40a6a98772aa4e744d94d690.wav",
+  "words": [
+   "기타"
+  ]
+ },
+ {
+  "ko": "기타 줄 얼마야?",
+  "ja": "ギターの弦っていくら？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2a2dac082039e9ef7d2fbdef4a9cbda1382b9c182845bb914ebe4fc44d46ccfc.wav",
+  "words": [
+   "기타"
+  ]
+ },
+ {
+  "ko": "김치 만들어 본 적 있어?",
+  "ja": "キムチ作ったことある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1dc2acbe911bf1e8bea039d3559f0b93702257c1b5676aa4792c1144dfd4e53a.wav",
+  "words": [
+   "김치"
+  ]
+ },
+ {
+  "ko": "나 구제 옷 사게 됐어",
+  "ja": "古着買うようになった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8ba5a6a69d3e7c25e60b8b8e23d659fd20b26fee33f0365f88cd30ae2daface5.wav",
+  "words": [
+   "옷"
+  ]
+ },
+ {
+  "ko": "나 다시 전화해야 돼.",
+  "ja": "折り返し電話しなきゃ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a0678f5674ba13963f1e3af6d88df9f2c64ee2a2facbba865fbb8082fe19fa2b.wav",
+  "words": [
+   "다시"
+  ]
+ },
+ {
+  "ko": "나 아이스 아니고 따뜻한 거 시켰어.",
+  "ja": "頼んだの、アイスじゃなくてホットだよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b1e377e380b868c68aae1699f87cc98781b57f4e9fb8b1f43da60b55814e154b.wav",
+  "words": [
+   "아이스"
+  ]
+ },
+ {
+  "ko": "나 요리 잘해.",
+  "ja": "料理が得意だよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5f0afcdbcbd3b2450b5516d38bd7ecf39873941b1fde9e677b569015b1d531c6.wav",
+  "words": [
+   "요리"
+  ]
+ },
+ {
+  "ko": "나 지도 보는 거 잘해.",
+  "ja": "地図読むのが得意だよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/98a48aab46847135f0142782f6016f10eff9441ccc1418b46de2df3d6a1fb613.wav",
+  "words": [
+   "지도"
+  ]
+ },
+ {
+  "ko": "나가는 김에 쓰레기 버릴게",
+  "ja": "出かけるついでにゴミ出すね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/27c29f71bc5ef799103c700534ffdea8aa4d0ed48683782016e7299c72a2e0bc.wav",
+  "words": [
+   "쓰레기"
+  ]
+ },
+ {
+  "ko": "나도 그거 좋아해!",
+  "ja": "私もそれ好き！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/955ec8b396cbd95bf73ed6f9a7f0a1f8dcad46684505ef7cad0a57751026cfb9.wav",
+  "words": [
+   "그거"
+  ]
+ },
+ {
+  "ko": "낯선 도시에서 길 잃은 적 있어?",
+  "ja": "知らない街で迷ったことある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a77b9fb43d92279b516e8c8b0f4fd364c4de405469b2aaf2d94ffe636fa0944e.wav",
+  "words": [
+   "도시"
+  ]
+ },
+ {
+  "ko": "내 머리 어때?",
+  "ja": "この髪型ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/291fc59ae887f19178b7da86f2bde582e197738add34dab9185f537fa16b2e87.wav",
+  "words": [
+   "머리"
+  ]
+ },
+ {
+  "ko": "내 얘기 좀 들어 줬으면 해.",
+  "ja": "ちょっと話聞いてほしい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6d9a91f49e0f28d213d48caacdc83f4a49f50e92cff3a1404f6a222efca052c2.wav",
+  "words": [
+   "얘기"
+  ]
+ },
+ {
+  "ko": "내일 노트 돌려줄게",
+  "ja": "明日ノート返すね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4e64647ba6f60b1c38032aaea81d276b729876164704cec8829f665c0c58278a.wav",
+  "words": [
+   "노트",
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 누가 시간 돼?",
+  "ja": "明日、誰が空いてる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/94d868c529d89a6001581ccd6de7e94b64147ed49a7b33667f46a8ab41a5d9bf.wav",
+  "words": [
+   "시간",
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 다시 알려 줄래?",
+  "ja": "明日リマインドしてくれる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/04ef7ea2912769e9fe690be38ee087fa3d8a08df9c7139af946700b67e861385.wav",
+  "words": [
+   "다시",
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 뭐 해?",
+  "ja": "明日、何する？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fdc26ea4f79e8d9f415d1063c39e2c39a112fdea12ad6a460653ea6f188b7124.wav",
+  "words": [
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 비 오지?",
+  "ja": "明日雨降るよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/46f0d456fc4d4d00c06816f777615eb199fdc73e986f89ff9558d130b63be64c.wav",
+  "words": [
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 올 거지?",
+  "ja": "明日来るよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cdcf6a21169648c7f2f2bedaf099fb844a21e0ee3d3206e09366f1420e5cc7de.wav",
+  "words": [
+   "내일"
+  ]
+ },
+ {
+  "ko": "내일 카페 갈래?",
+  "ja": "明日カフェ行かない？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/55c76517440c319232aa268d288ace2649f01ba78acf8920424342d8c5d354a1.wav",
+  "words": [
+   "카페",
+   "내일"
+  ]
+ },
+ {
+  "ko": "냉장고에 버터 있어?",
+  "ja": "冷蔵庫にバターある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/db03bb49d05884318e625a5d4f086ef76dfbf0e98db0ef136545183a4c8f9801.wav",
+  "words": [
+   "버터"
+  ]
+ },
+ {
+  "ko": "너무 많이 뛰어서 다리 아파.",
+  "ja": "走りすぎて足痛い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4c2bbb8a08cd072f7c0f1f9a6a22774b204a25031d90558d1c05355c682c4ebb.wav",
+  "words": [
+   "다리"
+  ]
+ },
+ {
+  "ko": "네 아이스크림 먹어서 미안.",
+  "ja": "アイス食べちゃってごめん。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/56223155981272b8d7cc3749f7e4055f1abc1ebec97f4b704942213c4a269369.wav",
+  "words": [
+   "아이스크림"
+  ]
+ },
+ {
+  "ko": "노트 좀 보여 줄래?",
+  "ja": "ノート見せてくれる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4f294418fabf03ad57fd24bca3c145cb035b2463eed515113607db34e6de0c8e.wav",
+  "words": [
+   "노트"
+  ]
+ },
+ {
+  "ko": "노트 좀 빌려도 돼?",
+  "ja": "ノート借りてもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b3cf6ce5759788d22888ee4b7759b0ee9d8393c3df39c4053544c3cf57fbef8e.wav",
+  "words": [
+   "노트"
+  ]
+ },
+ {
+  "ko": "노트북 또 멈췄어.",
+  "ja": "パソコンまたフリーズした",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7d95e26884bc3fe11fe31dcbba01f22a09196c8744b30fa978998a304165659f.wav",
+  "words": [
+   "노트북"
+  ]
+ },
+ {
+  "ko": "노트북에 커피 쏟을 뻔했어.",
+  "ja": "もう少しでパソコンにコーヒーこぼすとこだった。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c5424dcf0e87366133a6eda6861e4406f9d32a306185cfa6a8dde59e5ef611e8.wav",
+  "words": [
+   "커피",
+   "노트북"
+  ]
+ },
+ {
+  "ko": "누구랑 같이 가?",
+  "ja": "誰と一緒に行くの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/75b8e899117d6a1979c40e6cb74d9a5f423a512487521be13ac6b4dcf5a33de7.wav",
+  "words": [
+   "누구"
+  ]
+ },
+ {
+  "ko": "다리 아플 때까지 돌아다녔어.",
+  "ja": "足が痛くなるまで歩き回った",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/17105a77cbad4742aa8b85c9c8a1f48a189549c205882590bad53b4bb9e19d38.wav",
+  "words": [
+   "다리"
+  ]
+ },
+ {
+  "ko": "다시 만나서 좋아!",
+  "ja": "また会えて嬉しい！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5901c06c89f60d03c5d124a4df6b1ab179a5b9de0bfa9c145baf636d8611abdf.wav",
+  "words": [
+   "다시"
+  ]
+ },
+ {
+  "ko": "대학 합격 축하해!",
+  "ja": "大学合格おめでとう！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/526e0f48914366f8de8ea11f77c4dea0566767364723a7934d38d7795cd07aa3.wav",
+  "words": [
+   "대학"
+  ]
+ },
+ {
+  "ko": "대학에서 뭐 공부해?",
+  "ja": "大学で何勉強してるの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c34b8beac6d37884691171cb4bb3284b6429e399c572c16f3b4b1fc3e3ce92f2.wav",
+  "words": [
+   "대학"
+  ]
+ },
+ {
+  "ko": "더우니까 아이스크림 먹자.",
+  "ja": "暑いから、アイス食べよう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/69558d3b060a86ac4471eb8ef67c62b69195e7dbd74f46d2b98d4db893becd36.wav",
+  "words": [
+   "아이스크림"
+  ]
+ },
+ {
+  "ko": "도서관에서 빵 터질 뻔했어.",
+  "ja": "図書館で、もう少しで吹き出すとこだった。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5eb96d1a45ac7e05e81a3922e2a884984e522d95df5612258d816fd159f3dce3.wav",
+  "words": [
+   "빵"
+  ]
+ },
+ {
+  "ko": "도착했어! 밖에 있어",
+  "ja": "着いた！外にいるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/18704423edcf3845b1011628ed3c3bd706b0cfcb998ee57901244a0df6321a9c.wav",
+  "words": [
+   "밖"
+  ]
+ },
+ {
+  "ko": "돈 얘기는 꺼내기 어려워.",
+  "ja": "お金の話って切り出しにくい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/303e072776493a1cb8f3fc99111edecd9ad6ee1219472346a8d9bb4b7e5fc2ef.wav",
+  "words": [
+   "얘기"
+  ]
+ },
+ {
+  "ko": "동생이 또 내 과자 먹었어.",
+  "ja": "弟がまた私のお菓子食べた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fae5d9d8e17a1c00a07921bc2361c326cf793ef578235140d50d87cfe7a2c837.wav",
+  "words": [
+   "과자"
+  ]
+ },
+ {
+  "ko": "드라마 녹화해 줄게",
+  "ja": "ドラマ録画してあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7a871e3ff9e46085741b00abba5e8e5f2fa9814e0829af002092747cb85e0322.wav",
+  "words": [
+   "드라마"
+  ]
+ },
+ {
+  "ko": "딸기 먹고 싶어.",
+  "ja": "いちごが食べたい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4fe8cbf8f47e464269168e05073e6c7af24c4d0b39c87705436ffa497a349de4.wav",
+  "words": [
+   "딸기"
+  ]
+ },
+ {
+  "ko": "또 새 옷 샀어?",
+  "ja": "また新しい服買ったの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ca84c9130bef4314dbbb831f7cb59d30e98f8e6c0d9ed576836e438fbd045e8c.wav",
+  "words": [
+   "옷"
+  ]
+ },
+ {
+  "ko": "라면 끓일 때 항상 계란 넣어.",
+  "ja": "ラーメン作るとき、いつも卵入れる。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/986038737cb7cc12bc2d43457db809ecbf47d863156c614403e28f293e9452ca.wav",
+  "words": [
+   "라면"
+  ]
+ },
+ {
+  "ko": "리모컨 건전지 다 됐어. 새 거 필요해.",
+  "ja": "リモコンの電池切れた。新しいのいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/edfdea38c39231a919a055754608cc0fbcac14d089c927812cebd527c92ec952.wav",
+  "words": [
+   "리모컨"
+  ]
+ },
+ {
+  "ko": "리모컨 어디 있어?",
+  "ja": "リモコンはどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c1fe69654165a859e9ed50cd51bc95fac2309df428372275fa9990218220c2b8.wav",
+  "words": [
+   "어디",
+   "리모컨"
+  ]
+ },
+ {
+  "ko": "마음 바뀌면 알려 줘.",
+  "ja": "気が変わったら教えて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ec5b1fce058a67c446fddef7f79ff52d23ca66d39029562b193a26baa8a39ba0.wav",
+  "words": [
+   "마음"
+  ]
+ },
+ {
+  "ko": "마음에 들면 가져.",
+  "ja": "気に入ったら、あげるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ec022b49c33afa2fdbd30228c533f1f2bafab5ce5db64b2ac6c9a7a7695eafbc.wav",
+  "words": [
+   "마음"
+  ]
+ },
+ {
+  "ko": "마지막 하나는 남겨 줄게",
+  "ja": "最後の一個、取っといてあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/33e121d2f972e74e0e265203107b42e7c26c93a80c1ac124a67b419060f0d1f2.wav",
+  "words": [
+   "하나"
+  ]
+ },
+ {
+  "ko": "마트 들를 건데 뭐 필요해?",
+  "ja": "スーパー寄るけど、何かいる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ebfecb27076fbed7397e18f61b6822791f27d35e75e18aff72aca88df8de5327.wav",
+  "words": [
+   "마트"
+  ]
+ },
+ {
+  "ko": "마트에 있어. 뭐 사 갈까?",
+  "ja": "スーパーにいるけど、何か買ってく？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b7e4ac042baac111c1908ef6406898642cd3bf15c520b28587401eb0151bf665.wav",
+  "words": [
+   "마트"
+  ]
+ },
+ {
+  "ko": "마트에서 뭐 사 가면 돼?",
+  "ja": "スーパーで何買えばいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/04a9128801b263ae0ce51f2474054f016b6f671e1c0f82a421c8820648cbc1ce.wav",
+  "words": [
+   "마트"
+  ]
+ },
+ {
+  "ko": "막차 분명 탈 수 있을 거야.",
+  "ja": "終電、きっと間に合うよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7fc13d506e61b74a3325b6bb4000da74e5883c94907ff4802e9ada7f09ed4af7.wav",
+  "words": [
+   "탈"
+  ]
+ },
+ {
+  "ko": "막차 시간 찾아봐 줄까?",
+  "ja": "終電の時間、調べようか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4eb1de39719e02d2a87f788d34efec2c71624db41dd3b4df7a0d289718952497.wav",
+  "words": [
+   "시간"
+  ]
+ },
+ {
+  "ko": "맞아, 거기 좀 비싸.",
+  "ja": "確かに、あの店ちょっと高い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/428afa7169284b838bb68d110abe4235c6ede1a4baa63f5eb668ca39b87db06a.wav",
+  "words": [
+   "거기"
+  ]
+ },
+ {
+  "ko": "머리 다 말렸어.",
+  "ja": "髪、乾かし終わった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/141436426591916d525f2f9d4de13f6a5799773cf271e178b1743052875475ed.wav",
+  "words": [
+   "머리"
+  ]
+ },
+ {
+  "ko": "메모 좀 해 봐.",
+  "ja": "メモ取ってみて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a73355b3f08e38a507976cc723624468e60a396b68a8499167814a086b83e3c1.wav",
+  "words": [
+   "메모"
+  ]
+ },
+ {
+  "ko": "모기가 나오기 시작했어. 여름이다.",
+  "ja": "蚊が出始めた。夏だね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8b2cc081a96a8ba41070aea1334c28245875fa8314716eeabcd74c811075208e.wav",
+  "words": [
+   "모기"
+  ]
+ },
+ {
+  "ko": "바다 보러 가고 싶어.",
+  "ja": "海見に行きたい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/aeb93142a3f711c4a59a645d284395599e2d4ec0977e0f189add445acc9de7be.wav",
+  "words": [
+   "바다"
+  ]
+ },
+ {
+  "ko": "밖에 비 오는구나!",
+  "ja": "外、雨降ってるじゃん！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9f19acadc04cfc46ace9868d155621f1b7656f49bb35457dd582db9389b33f75.wav",
+  "words": [
+   "밖"
+  ]
+ },
+ {
+  "ko": "밖이 추운 것 같아",
+  "ja": "外寒そうだね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cb7a20ca0f960c5fea5936a697e1cd1b44a7a2d934536d6b5a2d94135116104d.wav",
+  "words": [
+   "밖"
+  ]
+ },
+ {
+  "ko": "밤엔 추우니까 코트 필요해.",
+  "ja": "夜は冷えるからコートいるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/12fa9b546a1c20183262e1a8ecf563f0113165d018de32c40752eeb1bdc6c8c6.wav",
+  "words": [
+   "코트"
+  ]
+ },
+ {
+  "ko": "밥 다 먹었어?",
+  "ja": "ご飯、食べ終わった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2c5f5c9cc0433d9215a63721826ee6bad6b02f0573c3a781079cfa3a4ff88381.wav",
+  "words": [
+   "밥"
+  ]
+ },
+ {
+  "ko": "밥 해 놓을게.",
+  "ja": "ご飯炊いとくね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5e121cbdf635ec18bf514b7c0503f2c5fb7683e2b6ba3ef4662a7c76998f1d9b.wav",
+  "words": [
+   "밥"
+  ]
+ },
+ {
+  "ko": "밥솥 취사 버튼 누르는 거 깜빡했어.",
+  "ja": "炊飯器のスイッチ入れるの忘れた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/bf45bd8766e567a5d7d8fce73f048121ceb23f2ffb09911ae1f3e4bc988d5f17.wav",
+  "words": [
+   "버튼"
+  ]
+ },
+ {
+  "ko": "방금 지하철 탔어.",
+  "ja": "電車乗ったばかり",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/07f566a0f2f92e4e77a0c693f8ac24671ce5aafb3c220713a6d2c2e8b342043d.wav",
+  "words": [
+   "지하철"
+  ]
+ },
+ {
+  "ko": "방금 커피 내렸어.",
+  "ja": "コーヒー淹れたばかり",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fb0eb29fa80dac3964616615258dd6861f44614c81780cdf1158969f7f53e125.wav",
+  "words": [
+   "커피"
+  ]
+ },
+ {
+  "ko": "버스 곧 올 것 같아",
+  "ja": "バスもうすぐ来そう",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cb01c4c03ea2213e389a1c5e9a34e41a97f763507d30864056f86dd7082a814d.wav",
+  "words": [
+   "버스"
+  ]
+ },
+ {
+  "ko": "벚꽃 구경 가자.",
+  "ja": "お花見しよう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e74db03fffec3db88d6af1d526ce81a5c69eddad8731754e10a96351f3ca9198.wav",
+  "words": [
+   "가자"
+  ]
+ },
+ {
+  "ko": "베란다에 토마토 심었어",
+  "ja": "ベランダにトマト植えた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c4f2194e4ac403c9ae737cafc10b1edd1f38ae287ab10576649624b4b51a5f5e.wav",
+  "words": [
+   "토마토"
+  ]
+ },
+ {
+  "ko": "병원 같이 가 줄까?",
+  "ja": "病院、ついて行こうか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ce5992181ada26f6b77f518429f0231326b96cf0bb73ce944bb3d605ad3d42d7.wav",
+  "words": [
+   "병원"
+  ]
+ },
+ {
+  "ko": "본가는 기차로 두 시간쯤 걸려",
+  "ja": "実家は新幹線で2時間くらい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f8fa596c8c5f75f51443f59e9fe22aaeb4bd7c03f32a0ec42aa966871f88852d.wav",
+  "words": [
+   "기차"
+  ]
+ },
+ {
+  "ko": "볼링은 패스할게, 팔이 아파서.",
+  "ja": "ボウリングはちょっと…腕が痛くて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8ad6740e571e35e378899457573cc6eba41be3cccca1f83f73585b87a18c056a.wav",
+  "words": [
+   "팔"
+  ]
+ },
+ {
+  "ko": "불 안 끈 사람 누구야?",
+  "ja": "電気つけっぱなしにしたの誰？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d1ca4ff849cae7ab1e2d3dd2ff6d1bbf1ea96f1b5bd5e03e99b0a0b23514509f.wav",
+  "words": [
+   "누구",
+   "사람"
+  ]
+ },
+ {
+  "ko": "비행기 탈 때는 창가 자리가 좋아.",
+  "ja": "飛行機乗るときは、窓側の席がいい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d3e695ce76ec0adef4a5ff60849d9871d98d613af0f29554c2e3326c64f69634.wav",
+  "words": [
+   "탈"
+  ]
+ },
+ {
+  "ko": "빨리 먹어, 라면 불어!",
+  "ja": "早く食べて、ラーメンのびるよ！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/df89b8a6d9df5840df427c68fcd5fbdece398c5315bcb88b359f24cbb7790693.wav",
+  "words": [
+   "라면"
+  ]
+ },
+ {
+  "ko": "빨리 찍어, 팔 아파!",
+  "ja": "早く撮って、腕つらい！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4fe96d18ed1e4e001497a6f93c42d9090588d2775b9733056eec5e14ec362392.wav",
+  "words": [
+   "팔"
+  ]
+ },
+ {
+  "ko": "사과 깎아 줄게",
+  "ja": "りんごむいてあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/81d02e04fffbc9030bbfb995ac94c3bfffd4b812ae53bae328ea5696b8980ecc.wav",
+  "words": [
+   "사과"
+  ]
+ },
+ {
+  "ko": "사실은 나 오늘 휴가 냈어.",
+  "ja": "実は今日、休み取ったんだ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9f26eb51cc97626dc9a67b412be9db68134abf20b4709bc3ce355a5516b926f7.wav",
+  "words": [
+   "휴가",
+   "오늘"
+  ]
+ },
+ {
+  "ko": "사진 예쁘게 찍으려고 카메라 샀어",
+  "ja": "きれいな写真撮るためにカメラ買った",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/475beaee73a6f4005a3a440bfa7674daabccd63ca5c6dee8e5bbbad168ff67a7.wav",
+  "words": [
+   "카메라",
+   "사진"
+  ]
+ },
+ {
+  "ko": "사진 찍어도 돼?",
+  "ja": "写真撮ってもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/49f63b81ab54c22f7fe007dbb3991154389d486fdcb601a4727f73c594f3ddca.wav",
+  "words": [
+   "사진"
+  ]
+ },
+ {
+  "ko": "사진도 보내 줘!",
+  "ja": "写真も送って！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/413937b8dde92216afa61fee6be60ac06df8318dd5295037c1d1d1bac2514803.wav",
+  "words": [
+   "사진"
+  ]
+ },
+ {
+  "ko": "새 선생님 진짜 젊어.",
+  "ja": "新しい先生、すごく若い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f7c0b753ada63ffbf5553d80654007e0ecdd460807c373fd0c48700961364c24.wav",
+  "words": [
+   "선생님"
+  ]
+ },
+ {
+  "ko": "새로 온 선생님 어때?",
+  "ja": "新しい先生ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/153501f389507a9bffe51df3f3470c91e03060b42b0605b2bc653763d3deb3e9.wav",
+  "words": [
+   "선생님"
+  ]
+ },
+ {
+  "ko": "새벽에 라면 먹어 버렸어.",
+  "ja": "深夜にカップ麺食べちゃった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/231deaa9f99c1ac37b20122b2485b0a2c8dd00340dd21082845d43b463148506.wav",
+  "words": [
+   "라면"
+  ]
+ },
+ {
+  "ko": "생일 케이크 구워 줄까?",
+  "ja": "誕生日にケーキ焼こうか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/dff190464315854370f427a95f1cf3a10b665729381d7ec036c341ab71dea4d4.wav",
+  "words": [
+   "케이크"
+  ]
+ },
+ {
+  "ko": "생일 파티 언제 해?",
+  "ja": "誕生日会いつやるの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fa7827f2103ebafa1bec18ea5f0f1b6c8af603d5e13235201853abb81dde80a6.wav",
+  "words": [
+   "파티"
+  ]
+ },
+ {
+  "ko": "생크림 왕창 추가? 엄청 달겠다.",
+  "ja": "生クリーム増し増し？甘そうだね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c96ee5ceb387e4a5b37eefcf171b35a8ea2054eda691497425bda73abe1a467e.wav",
+  "words": [
+   "추가"
+  ]
+ },
+ {
+  "ko": "샤워 좀 해도 돼?",
+  "ja": "シャワー借りてもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/355e8710e5abb944bab5fbd06de6232ec62407ad75bd35d022ca7e577f991384.wav",
+  "words": [
+   "샤워"
+  ]
+ },
+ {
+  "ko": "샤워하고 나서 접속할게.",
+  "ja": "シャワーしてからログインする",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/66c036c306071eb0fb06da64906b1bc2596ccff1a02a958571bc1411d026bfe2.wav",
+  "words": [
+   "샤워"
+  ]
+ },
+ {
+  "ko": "선물은 그냥 꽃으로 할게",
+  "ja": "やっぱりプレゼント、花にする",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8ec4c7743f660c271ec031498bcc89c2a5c6dac75d9774c84b92d0dcfe690751.wav",
+  "words": [
+   "꽃"
+  ]
+ },
+ {
+  "ko": "선생님도 와?",
+  "ja": "先生も来るの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0c5435ea06e90bd5336bf862545fdef360ea4aa3f4da6ad985568429dea7e83a.wav",
+  "words": [
+   "선생님"
+  ]
+ },
+ {
+  "ko": "소리 너무 커.",
+  "ja": "音大きすぎる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d120a5ca952b50fd14a26c9e53d8b719bcdf47feb60e05fc60137e4aa81da142.wav",
+  "words": [
+   "소리"
+  ]
+ },
+ {
+  "ko": "쇼핑 같이 가줘서 고마워.",
+  "ja": "買い物付き合ってくれて助かった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5ffa3c7f92610365a1dc2ccf80f5e04559c2249551fee8c6984d2ee8400a1866.wav",
+  "words": [
+   "쇼핑"
+  ]
+ },
+ {
+  "ko": "수업 시간에 자주 졸려.",
+  "ja": "授業中によく眠くなる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a7aa0675819d27e3d9717c85d81f117d73393e327056251de060b1eb964b183c.wav",
+  "words": [
+   "자주",
+   "시간"
+  ]
+ },
+ {
+  "ko": "수험 공부 화이팅!",
+  "ja": "受験勉強頑張って！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/43f2f877f3d72e8dbe6a8ec3c54bd4a064f6323cd3e1a5271b4d4ae5097aef61.wav",
+  "words": [
+   "공부"
+  ]
+ },
+ {
+  "ko": "쉬는 날에 소파 보러 가려고 해",
+  "ja": "休みの日にソファ見に行くつもり",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/599d2fe1d66e5893f9bfdf2a6b85a2f2883df090c8b05c159d639f23e65adaff.wav",
+  "words": [
+   "소파"
+  ]
+ },
+ {
+  "ko": "스트레스 때문에 피부 뒤집어졌어.",
+  "ja": "ストレスのせいで肌荒れした",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/230351487d2beb5535d33d841eeb37aec5a98928b29a4cc9d9577483d37d47e0.wav",
+  "words": [
+   "피부"
+  ]
+ },
+ {
+  "ko": "시계 밑에서 기다릴게",
+  "ja": "時計の下で待ってるね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/91f05021837bfbcc886b0a55e39cae1a78ed2ea51e604c064e064fd52b9d4ed2.wav",
+  "words": [
+   "시계"
+  ]
+ },
+ {
+  "ko": "시차 때문에 낮에 너무 졸려.",
+  "ja": "時差ボケのせいで昼間眠い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/96e104bd0488593e5ce93c0fff88c414a41d4a40adfececc74a662adc6e6dff9.wav",
+  "words": [
+   "낮"
+  ]
+ },
+ {
+  "ko": "시험 단어 다 외웠어.",
+  "ja": "テストの単語、全部覚え終わった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ae20dc14bf19672e7d95f900a3afcb6ed790cd70b1192ae05e878f7b00f6575d.wav",
+  "words": [
+   "단어"
+  ]
+ },
+ {
+  "ko": "실험이 자주 실패해.",
+  "ja": "実験、よく失敗する",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4a9716a63ebb55b91bf19fa1b9a0f884bc79fa89b7ce6e1384f198ce353f76db.wav",
+  "words": [
+   "자주"
+  ]
+ },
+ {
+  "ko": "싸면 두 개 사다 줘.",
+  "ja": "安かったら、二つ買っといて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0737a49b14fa94caa9d3374cf4c7ad57aea54867278d13f65c61f63d8283db39.wav",
+  "words": [
+   "사다"
+  ]
+ },
+ {
+  "ko": "쓰레기 아직 안 버렸어.",
+  "ja": "ゴミ、まだ出してない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8c3254026c84ae6fcbcdbf1501f2d13725b9dd2ddcc419dfcc09001c6f358168.wav",
+  "words": [
+   "쓰레기"
+  ]
+ },
+ {
+  "ko": "아기 고양이 주웠는데 뭐 필요해?",
+  "ja": "子猫拾ったんだけど、何いる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/240d75020d384d8d1427427738d12e9000d6d21372849b5df803eec4be28d659.wav",
+  "words": [
+   "아기"
+  ]
+ },
+ {
+  "ko": "아까 그 전화 누구야?",
+  "ja": "さっきの電話、誰から？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c46df63081f540ec1ec7f4e7c5a40a19f2aa73aaf52e824bc22e75437fe2cfc3.wav",
+  "words": [
+   "누구",
+   "아까",
+   "전화"
+  ]
+ },
+ {
+  "ko": "아까 보낸 이모지 무슨 뜻이야?",
+  "ja": "さっきの絵文字ってどういう意味？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1fb7af7fc4e318ac7e6a7098434e6569c1036cf0a818af23a52a7b2de3a91466.wav",
+  "words": [
+   "이모",
+   "아까"
+  ]
+ },
+ {
+  "ko": "아까는 운전하고 있었어",
+  "ja": "さっきは運転してた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5172d20c82cb9fca8ef305e2f0a9f0caccaa111c699174c95a0c1f43697b2819.wav",
+  "words": [
+   "아까"
+  ]
+ },
+ {
+  "ko": "아까부터 계속 전화하고 있어",
+  "ja": "さっきからずっと電話かけてる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fa04f984dc992e2212d9c0982fccbccbd3cf2cd8f6c531d08bae9e058142b789.wav",
+  "words": [
+   "아까",
+   "전화"
+  ]
+ },
+ {
+  "ko": "아빠 벌써 오셨구나.",
+  "ja": "お父さんもう帰ってるじゃん。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cddba7748b51a91e8c63d0cc13d58f259408d7b162f416f34efb340c13808b83.wav",
+  "words": [
+   "아빠"
+  ]
+ },
+ {
+  "ko": "아빠가 노트북 고쳐 줬어",
+  "ja": "お父さんがパソコン直してくれた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a04643d6e0f205df0a07616dd5a984ccdbd9307fff1462ff0f2cc697f456dfe0.wav",
+  "words": [
+   "아빠",
+   "노트북"
+  ]
+ },
+ {
+  "ko": "아빠가 셔츠 다려 줬어",
+  "ja": "お父さんがシャツにアイロンかけてくれた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/47daa50eead96646c643d5fcaf61088aedf44b295358b63140f26bdf8e49f6ff.wav",
+  "words": [
+   "아빠"
+  ]
+ },
+ {
+  "ko": "아빠는 항상 소파에서 잠들어.",
+  "ja": "お父さん、いつもソファで寝落ちしてる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/12e593db145b5449190b10088f2ebd398c55b14d8e2401d9404a8489731c9ba3.wav",
+  "words": [
+   "소파",
+   "아빠"
+  ]
+ },
+ {
+  "ko": "아빠랑 같이 낚시 갔어",
+  "ja": "お父さんと一緒に釣り行った",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/bb47d343d84e9a5f0256b90be496f0e7aa2d55eb83cc37512ad97eaf43981114.wav",
+  "words": [
+   "아빠"
+  ]
+ },
+ {
+  "ko": "아이스크림 녹을 것 같아",
+  "ja": "アイス溶けそう",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e94696495e57bb3082dd3be868513d7f0761194b4e4a2894b5cd4cf41a43a29a.wav",
+  "words": [
+   "아이스크림"
+  ]
+ },
+ {
+  "ko": "약국 어디 있어?",
+  "ja": "薬局はどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a50edab22c76b376e838d2b560b36572388217c7b5aac7677c1b3f0bbcbc3f67.wav",
+  "words": [
+   "어디"
+  ]
+ },
+ {
+  "ko": "어느 게 진짜야?",
+  "ja": "どっちが本物？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/68ebf91d280633889fdd3fa13e187f1d727adf7d7833490d2c33bec726b7018f.wav",
+  "words": [
+   "어느"
+  ]
+ },
+ {
+  "ko": "어느 답이 맞아?",
+  "ja": "答え、どっちが合ってる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c1d1738a6861e7b1688b890b7576b9dd642dae7f4e6292c442dadff717be62d7.wav",
+  "words": [
+   "어느"
+  ]
+ },
+ {
+  "ko": "어느 팀 응원해?",
+  "ja": "どっちのチーム応援してる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2f476f74605798251ae900114a0cc82458269e5c2506a08071d7de7e5d6081ce.wav",
+  "words": [
+   "어느"
+  ]
+ },
+ {
+  "ko": "어제 맥주 몇 잔 마셨어?",
+  "ja": "昨日ビール何杯飲んだ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f57bc44f1f8c719f4e2691f2f2b79ef8897637389467b8104abdda9361041c3e.wav",
+  "words": [
+   "맥주"
+  ]
+ },
+ {
+  "ko": "어제 쇼핑 어땠어?",
+  "ja": "昨日の買い物どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ab49b3b20b51b3972a2ab725fa4a3e46e77236b4165e9f72f84718f17d71ba50.wav",
+  "words": [
+   "쇼핑"
+  ]
+ },
+ {
+  "ko": "어제 콘서트 갔어!",
+  "ja": "昨日ライブ行った！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2bf457f2f549727ffdd8e66369347a7b06506f659ba0f504454f62de1dec9aaf.wav",
+  "words": [
+   "콘서트"
+  ]
+ },
+ {
+  "ko": "어젯밤 호텔 어땠어?",
+  "ja": "昨日泊まったホテルどうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/26c7b401c18a5e0205dbe2910b1abb9943618ac184e0ba5f16b78ac1affd4fbf.wav",
+  "words": [
+   "호텔"
+  ]
+ },
+ {
+  "ko": "언제 이사 가?",
+  "ja": "いつ引っ越すの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ed0492ae29626fe67d0c92fd74f0ed62e2bf444ec053ae97bc8d41e50166aa41.wav",
+  "words": [
+   "이사"
+  ]
+ },
+ {
+  "ko": "언제 집에 가?",
+  "ja": "いつ帰るの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f090eb7698244532c3e3e908ed80931bdd1905a9f14fd616916c7ed6afaa61d6.wav",
+  "words": [
+   "집"
+  ]
+ },
+ {
+  "ko": "엄마 선물 사자.",
+  "ja": "お母さんにプレゼント買おう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d61533b1a3c3c3cbd4148cf78b17cb4f09a2f04cbd6e4410df8cf3faee258c91.wav",
+  "words": [
+   "사자"
+  ]
+ },
+ {
+  "ko": "엄마 어디 있어?",
+  "ja": "お母さんはどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3fc4272bbf8befebe160cc06e466cd31944365f3c5da76f606e710dd2cec382b.wav",
+  "words": [
+   "어디"
+  ]
+ },
+ {
+  "ko": "에어컨 어떻게 켜?",
+  "ja": "エアコンどうやってつけるの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d0da03f986728dfbddb0ada4b83feae69c7664ba2ee156dafb4341591df281e9.wav",
+  "words": [
+   "에어컨"
+  ]
+ },
+ {
+  "ko": "에어컨 켜 줄까?",
+  "ja": "エアコンつけようか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/55f8c4460d9439dfae9f5f6e6e9d7022b956b04e6b152b15e87f6c6184569dc9.wav",
+  "words": [
+   "에어컨"
+  ]
+ },
+ {
+  "ko": "에어컨 켜도 돼?",
+  "ja": "エアコンつけてもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/528028452132e4cafdc08b338ecc43c36389d4ed6707167a7a8e40758b37c663.wav",
+  "words": [
+   "에어컨"
+  ]
+ },
+ {
+  "ko": "여기 앉아도 돼?",
+  "ja": "ここ、座ってもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c09e001ef542439d7d16c94593e822e38467158f2ffbfd7fa39a2aed4962bb78.wav",
+  "words": [
+   "여기"
+  ]
+ },
+ {
+  "ko": "여기 카드 되는구나.",
+  "ja": "ここカード使えるじゃん。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d0345664a2a85be0c6139b32c2d4c528b83c069dae099a1d51616f4655d6f165.wav",
+  "words": [
+   "카드",
+   "여기"
+  ]
+ },
+ {
+  "ko": "여기 커피가 저기보다 더 싸.",
+  "ja": "ここのコーヒーはあっちより安い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2cecf84378ecf214ecbd711d23e09bb9b9f5aeda520a866a410633555b5b5021.wav",
+  "words": [
+   "커피",
+   "저기",
+   "여기"
+  ]
+ },
+ {
+  "ko": "여기가 제일 편해.",
+  "ja": "ここが一番落ち着く。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/27f17535bd5584ca0881990d3e085d4353f5854d836371d81c6819ec0e0caa22.wav",
+  "words": [
+   "여기"
+  ]
+ },
+ {
+  "ko": "여기도 눈 와.",
+  "ja": "こっちも雪降ってるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3c06afd47abe432a1c6048c86e2f2b887da07bb9ed5d533f5c3d354740e9fb1d.wav",
+  "words": [
+   "여기"
+  ]
+ },
+ {
+  "ko": "여름엔 항상 피부가 타.",
+  "ja": "夏はいつも日焼けする",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/389da7b703fb74c499b465d07dcaebdd6215355b285d7a4a96d7b939ef53234a.wav",
+  "words": [
+   "피부"
+  ]
+ },
+ {
+  "ko": "여행 어땠어?",
+  "ja": "旅行どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8ea94fd739a8b40f791ec9f80ca54d2e15e28ecd41c0ef57d81e37d07800cb21.wav",
+  "words": [
+   "여행"
+  ]
+ },
+ {
+  "ko": "여행 짐 싸고 있어",
+  "ja": "旅行の荷造りしてる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1987cd4e26d7e948d20ebace2a76f29f48fddcf940ba4261bef36cbe860d8a49.wav",
+  "words": [
+   "여행"
+  ]
+ },
+ {
+  "ko": "역 앞 카페에 있어",
+  "ja": "駅前のカフェにいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ae3fe9ff96bb9474541f5c4da461c160e05a602949f9a26f31e2d2579760e0e6.wav",
+  "words": [
+   "카페",
+   "앞"
+  ]
+ },
+ {
+  "ko": "역시 집이 제일 마음 편해.",
+  "ja": "やっぱ家が一番安心する。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/380518800e5cf7b661a7099ef443241a927cdef970883f532f92399afb27457d.wav",
+  "words": [
+   "집",
+   "마음"
+  ]
+ },
+ {
+  "ko": "연휴니까 여행 가자.",
+  "ja": "三連休だから、旅行行こうよ。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a25ec207b84a9664bd81631ad2b1e160c93c8cb139b8b0721dfca898f44de44d.wav",
+  "words": [
+   "가자",
+   "여행"
+  ]
+ },
+ {
+  "ko": "영어 교과서 깜빡했어.",
+  "ja": "英語の教科書忘れた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2895549cd5ec9a88046fa76e9a65e4d8c1e6ebea418eae225e38f91f1282756d.wav",
+  "words": [
+   "교과서",
+   "영어"
+  ]
+ },
+ {
+  "ko": "영어 시험 어땠어?",
+  "ja": "英語のテストどうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f374e41f35f2fb1f44d0a67607c44f97cd4032fa0f0fb851ac00d6c603e9dfe9.wav",
+  "words": [
+   "영어"
+  ]
+ },
+ {
+  "ko": "영어로 말해 봐.",
+  "ja": "英語で話してみて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/bd4c0621a49bf68d6f1523bbe8ef197979ca3c8ffc9255d0ee4bdfc28317d931.wav",
+  "words": [
+   "영어"
+  ]
+ },
+ {
+  "ko": "옆집 아기가 울기 시작했어.",
+  "ja": "隣の赤ちゃんが泣き始めた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9079ea699b98db63eab026bfee35b84ba5ff7de8e9c5649db0565c08fe2fc458.wav",
+  "words": [
+   "아기"
+  ]
+ },
+ {
+  "ko": "예전엔 매일 피아노 쳤었어",
+  "ja": "前は毎日ピアノ弾いてた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/56ca7102c80b796e110d5102bb54c8155620cc2e8477f706358dde80c5e29859.wav",
+  "words": [
+   "피아노"
+  ]
+ },
+ {
+  "ko": "오늘 누구 만나?",
+  "ja": "今日、誰と会うの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1c6a29275d57d99b2352f1bce076f0dbc968407bc0a57707c3988ccc69aed630.wav",
+  "words": [
+   "누구",
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘 영어 시험 봤어",
+  "ja": "今日、英語のテスト受けた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/673c46b7d6278c662ad74f0d5b2aff87aa493d822462fa553e55ca62b7bc8af1.wav",
+  "words": [
+   "영어",
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘 좀 춥다.",
+  "ja": "今日ちょっと寒いね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/811b6de5b861554d33fefa98960c999eb6f0c611b8d7848d8b724a96ac23e30b.wav",
+  "words": [
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘 필기했지?",
+  "ja": "今日のノート取ったよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ad880afc5a9763508a4f3114e8fb840aadc88ab1c6541764e2b8a81237a4a4b0.wav",
+  "words": [
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘도 알바야?",
+  "ja": "今日もバイト？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9cb5e3c4ae6bc058ff8704ba1ccbd2214dc6ffc02dc0fa6bba644af0d11b1678.wav",
+  "words": [
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘은 버스로 갈게",
+  "ja": "今日はバスで行くね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9e04fb481f63d6b90116f31e666b53e1cf17458d1875a76f8e3a371a56e1f336.wav",
+  "words": [
+   "버스",
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오늘은 어느 코스로 뛸까?",
+  "ja": "今日はどっちのコース走る？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b5f4928f2918bd561f9f07670d227ed853250e3376b36f7b87b1ae094b03c2de.wav",
+  "words": [
+   "어느",
+   "코스",
+   "오늘"
+  ]
+ },
+ {
+  "ko": "오른쪽 다리만 근육통 왔어.",
+  "ja": "右足だけ筋肉痛…",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/19ab476bfd936dbb446fbe412d92ade11b65f0ee867147bc37eac82639dd7d72.wav",
+  "words": [
+   "다리"
+  ]
+ },
+ {
+  "ko": "오토바이 한 번만 타 보게 해 줘.",
+  "ja": "一回だけバイク乗らせて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a1b18be0f72f26dbc81e4fc45e4a12abc3995cc87b54548681e77a16979820b4.wav",
+  "words": [
+   "오토바이"
+  ]
+ },
+ {
+  "ko": "오후엔 엄마랑 쇼핑하고 있었어",
+  "ja": "午後はお母さんと買い物してた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/95ac6511fed42d88e9f8dc4636eecad1340d8891537770013a0815bfb9a41b06.wav",
+  "words": [
+   "쇼핑"
+  ]
+ },
+ {
+  "ko": "와이파이 비밀번호 알아?",
+  "ja": "Wi-Fiのパスワード知ってる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5b4569c1b87cca8e37e1986a6eae25cc627dceb585926988e668fb9e5920bce2.wav",
+  "words": [
+   "와이파이"
+  ]
+ },
+ {
+  "ko": "와이파이 어떻게 연결해?",
+  "ja": "Wi-Fiどうやってつなぐの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f13cff76bd62c5d4a82be5932f4c45d1cd81ea48f0b66dec141b5b7cf7fa74c5.wav",
+  "words": [
+   "와이파이"
+  ]
+ },
+ {
+  "ko": "왜 기타 팔았어?",
+  "ja": "なんでギター売っちゃったの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/26c91e3d32af417bea7a816fa89de0c8812b0ed963cb6bb355dd6ecbf04ac0b8.wav",
+  "words": [
+   "기타"
+  ]
+ },
+ {
+  "ko": "왜 하나도 안 먹어?",
+  "ja": "なんで全然食べないの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/22fb6e83eb502f47e8c7de997766f74ec85191ab959b04a97611410a7c749879.wav",
+  "words": [
+   "하나"
+  ]
+ },
+ {
+  "ko": "요리 수업 어땠어?",
+  "ja": "料理教室どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0c904b0012e2a988d5eb4b3fd7a3102b484796a2fee8ab4c17baf8ee92cc0f0a.wav",
+  "words": [
+   "요리"
+  ]
+ },
+ {
+  "ko": "우리 강아지 아기 때 기억나?",
+  "ja": "うちの犬が子犬だったころ覚えてる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9ded87de507b6b3ff3c9035b02b939525daa58acf920ebda7186851890606cc5.wav",
+  "words": [
+   "아기",
+   "우리"
+  ]
+ },
+ {
+  "ko": "우리 고양이는 항상 내 의자에서 자.",
+  "ja": "うちの猫、いつも私の椅子で寝てる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4c609d01b788e98030afc39281e6d93ee0ead66eba3f9374c850d448a443610a.wav",
+  "words": [
+   "우리",
+   "의자"
+  ]
+ },
+ {
+  "ko": "우리 생일 같구나!",
+  "ja": "誕生日同じじゃん！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/724eb4392297f506ed35977bd0b98e6302be5530820b33c6dbd17bb134b37f46.wav",
+  "words": [
+   "우리"
+  ]
+ },
+ {
+  "ko": "우리 이제 가야 돼.",
+  "ja": "そろそろ行かなきゃ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/dc8ae9072f7362d9c8fe161dd0f7f8fbf32318e56b23a8d0e49f8754c554db21.wav",
+  "words": [
+   "우리"
+  ]
+ },
+ {
+  "ko": "우리 팀 또 졌어.",
+  "ja": "うちのチーム、また負けた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d5185405f8dfe05337846c1ccf85383ec7b5d930ff0a63ad07a244675a3d2693.wav",
+  "words": [
+   "우리"
+  ]
+ },
+ {
+  "ko": "우산 빌려줄까?",
+  "ja": "傘、貸そうか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ccd29239074544d52b8fd4daa3439bdb1bb865690bd83f7144c2a2b0cab67b03.wav",
+  "words": [
+   "우산"
+  ]
+ },
+ {
+  "ko": "우산 있지?",
+  "ja": "傘持ってるよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/29526dc8efb49536ee8298caa69abede8fb9a28e45a46db6c88715f7a7bea3ee.wav",
+  "words": [
+   "우산"
+  ]
+ },
+ {
+  "ko": "우산 챙겨 가자.",
+  "ja": "傘持って行こう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/aaef9ed42352cc47477eea3908dbea504ee4f9f89ad90fdcc14fcf02f4366685.wav",
+  "words": [
+   "가자",
+   "우산"
+  ]
+ },
+ {
+  "ko": "우산도 챙겨 가.",
+  "ja": "傘も持ってって",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b486bb473b96e15c05417afad2c5373381f0a28d4a1a1915297c1db1012b342f.wav",
+  "words": [
+   "우산"
+  ]
+ },
+ {
+  "ko": "우유 다 떨어졌지?",
+  "ja": "牛乳もうないよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/bd33320eff7f8227996d7dee28ea15758c4b077c51af1653a2b41d5c0e248a17.wav",
+  "words": [
+   "우유"
+  ]
+ },
+ {
+  "ko": "우유 얼마였어?",
+  "ja": "牛乳いくらだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/45a6fa3ca1754f1c2997f281244ae17d1dc7c3f90b98627805ee375551ad3a2d.wav",
+  "words": [
+   "우유"
+  ]
+ },
+ {
+  "ko": "우유도 사 와.",
+  "ja": "牛乳も買ってきて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/732b538e2852a6ab782bf0af6e052b7a56668e6a3dcbaa0a224a64816d8b23d2.wav",
+  "words": [
+   "우유"
+  ]
+ },
+ {
+  "ko": "운동 더 해야 돼.",
+  "ja": "もっと運動しなきゃ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2c72914675922f536b196124dc7f9b7f376bbff2a43c6229f1fe493cce7ec5ca.wav",
+  "words": [
+   "운동"
+  ]
+ },
+ {
+  "ko": "울면서 영화 봤어",
+  "ja": "泣きながら映画見てた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3a5cf8b153350936956163036fa5b44337b88be1003a2bc476d03ab8c8f19611.wav",
+  "words": [
+   "영화"
+  ]
+ },
+ {
+  "ko": "월세 내러 은행 가는 중이야",
+  "ja": "家賃払いに銀行向かってる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9cee4570a269d25a7e22b1c3eca30d458b0c49062741c134a05c3ebd4d52077f.wav",
+  "words": [
+   "은행"
+  ]
+ },
+ {
+  "ko": "음악 들으면서 공부해",
+  "ja": "音楽聞きながら勉強してる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f4d4bdf4042c24bcc2cafc3136666e8aa566836c7ce68e42ccc862a2af9d9512.wav",
+  "words": [
+   "음악"
+  ]
+ },
+ {
+  "ko": "음악 틀어도 돼?",
+  "ja": "音楽かけてもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4016e3716657ddfa26866f25ab8c62a0d517dec21ad40d15c7852e6eabf7c9c8.wav",
+  "words": [
+   "음악"
+  ]
+ },
+ {
+  "ko": "이 가방 너무 무거워.",
+  "ja": "このカバン重すぎる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/21c48ae5d998fc09e3ebf701f584be76a3f61a6e37d7317b0adafa6badea6071.wav",
+  "words": [
+   "가방"
+  ]
+ },
+ {
+  "ko": "이 가방 좀 비싸.",
+  "ja": "このバッグ、ちょっと高い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3ba13cb97744d26cc96bd51871b458adf6b024a17a6d2c6a7ccf19e5cebdc26b.wav",
+  "words": [
+   "가방"
+  ]
+ },
+ {
+  "ko": "이 가사 무슨 뜻이야?",
+  "ja": "この歌詞ってどういう意味？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/a73d6677c6f1a99df9ff0ec1fb6d6629f43232804a9cf371814b61b2d21be571.wav",
+  "words": [
+   "가사"
+  ]
+ },
+ {
+  "ko": "이 과자 누가 가져왔어?",
+  "ja": "このお菓子、誰が持ってきたの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4c8f1cac6b94b3d9eb819d947aa9f80c0457b7c533d451caefa1bdee5ed35e71.wav",
+  "words": [
+   "과자"
+  ]
+ },
+ {
+  "ko": "이 근처에 편의점 있어?",
+  "ja": "この辺にコンビニある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d29e45378663e995233943d21ee7ad714909d37a8e237529e929b7f363584e8a.wav",
+  "words": [
+   "편의점"
+  ]
+ },
+ {
+  "ko": "이 노래 가사가 예쁘다고 생각해.",
+  "ja": "この曲、歌詞がきれいだと思う",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/94d025e750d3a68a256f64e5c5fe70863867332404bc0de5204ff3f61008b7bb.wav",
+  "words": [
+   "가사",
+   "노래"
+  ]
+ },
+ {
+  "ko": "이 노래 알아?",
+  "ja": "この曲知ってる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1a490476f091e7c97d08c27272ebe9b8cbb2ee2c8e5145d5a59b3abeb879bc69.wav",
+  "words": [
+   "노래"
+  ]
+ },
+ {
+  "ko": "이 노래 어때?",
+  "ja": "この曲ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/dc5c8c00f3015c41d37325e69b1490085b8e77a800844c336e562214ab5cc961.wav",
+  "words": [
+   "노래"
+  ]
+ },
+ {
+  "ko": "이 노래 좀 슬퍼.",
+  "ja": "この曲、ちょっと切ない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1afe108f98a7f8b23fb89dd5b614b13a191e1d5ce4b483abbd8877ae9c897161.wav",
+  "words": [
+   "노래"
+  ]
+ },
+ {
+  "ko": "이 노래 후렴 가사 기억나?",
+  "ja": "この曲のサビの歌詞覚えてる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5f152d10c0350b5f4c594a606a58f50f07d6ee62c51f3a53e75e73f9e72fb140.wav",
+  "words": [
+   "가사",
+   "노래"
+  ]
+ },
+ {
+  "ko": "이 단어 발음하기 어려워.",
+  "ja": "この単語、発音しにくい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d12a13470584248618e8efde5bc5734b1b4354787c8f2bbcb47783793b78fb6a.wav",
+  "words": [
+   "단어"
+  ]
+ },
+ {
+  "ko": "이 라멘집 자주 와.",
+  "ja": "このラーメン屋、よく来るんだ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d47c0ae4597350232e1501137604ce16c459181444b8573df46bf1509d483d2d.wav",
+  "words": [
+   "자주"
+  ]
+ },
+ {
+  "ko": "이 메시지 답장하기 어려워.",
+  "ja": "このメッセージ、返信しにくい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c7c90570b2e90d590b5b840c84ed5822a92d57256bfa9be319076c45af2fc760.wav",
+  "words": [
+   "메시지"
+  ]
+ },
+ {
+  "ko": "이 모자 나한테 별로 안 어울려.",
+  "ja": "この帽子、あんまり似合わない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9ee90cc209e3825514f7d3e160bd3b9d2a15c15b1b91e9eacfd8e26ae7712382.wav",
+  "words": [
+   "모자"
+  ]
+ },
+ {
+  "ko": "이 버스 공항 가지?",
+  "ja": "このバス、空港行くよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/69d0f894a222e663e7aa89bb81b8445f21c75ee7d7b2250d2b2c6fc71a018bf4.wav",
+  "words": [
+   "버스",
+   "공항"
+  ]
+ },
+ {
+  "ko": "이 빵 별로 안 달아.",
+  "ja": "このパン、あんまり甘くない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/dc0dd6a08a6229ad870ce5fe6fa6461546e75c1da0d05627b4adacebbb5f3ad8.wav",
+  "words": [
+   "빵"
+  ]
+ },
+ {
+  "ko": "이 사진 어때?",
+  "ja": "この写真ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6e3577f02b9b55489984e5d666e1532a0b3d3373490a60c4b61f9fbef39b784b.wav",
+  "words": [
+   "사진"
+  ]
+ },
+ {
+  "ko": "이 새 이름 알아?",
+  "ja": "この鳥の名前知ってる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/40303454704fb4f0f7a9a657bf6f227cb2afcb84b2a233f41400b0f8834f1d81.wav",
+  "words": [
+   "이름"
+  ]
+ },
+ {
+  "ko": "이 소파 진짜 편해.",
+  "ja": "このソファ、すごく座り心地いい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9e4696cf60aeaa5acf2d8a04aee6883a1b5bff7dc227e7082a7e4e39e19154c8.wav",
+  "words": [
+   "소파"
+  ]
+ },
+ {
+  "ko": "이 에러 메시지 무슨 뜻이야?",
+  "ja": "このエラーメッセージってどういう意味？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e080d14d535d7a958516b7bc6ea0768c162f0407cda4f254a64440642b546246.wav",
+  "words": [
+   "메시지"
+  ]
+ },
+ {
+  "ko": "이 영화 어때?",
+  "ja": "この映画ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8369333820ff6120c430fc9e70d1bef2eb6849686062722eff93f70412940bb1.wav",
+  "words": [
+   "영화"
+  ]
+ },
+ {
+  "ko": "이 이름 어때?",
+  "ja": "この名前ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/548541630264f94f9ca212ed51cdbb11b3132ee379e26be3c079f45cf6e6aff0.wav",
+  "words": [
+   "이름"
+  ]
+ },
+ {
+  "ko": "이 자리가 저기보다 더 추워.",
+  "ja": "この席はあっちより寒い",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1ad3df3de4ef91ed3600f50883f1ececada6f45f5c1f887c290f68a1f431ae07.wav",
+  "words": [
+   "저기"
+  ]
+ },
+ {
+  "ko": "이 집 어때?",
+  "ja": "この店ってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6fa87dbdfc42c67ebb9a71830336a7c9ad78fcdea5900fff5a180840e13a7c7a.wav",
+  "words": [
+   "집"
+  ]
+ },
+ {
+  "ko": "이 코트 진짜 따뜻해.",
+  "ja": "このコート、すごくあったかい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/88f31335189a60f172b37f70c5c8115b3f35322e8a8cb3759e3eecda52edfa74.wav",
+  "words": [
+   "코트"
+  ]
+ },
+ {
+  "ko": "이 티셔츠 얼마야?",
+  "ja": "このTシャツいくら？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d28fd2be69080bbefc1e750f4ca31c37cb694abc26a4899304e720bf48a42334.wav",
+  "words": [
+   "티셔츠"
+  ]
+ },
+ {
+  "ko": "이 티셔츠 좀 커.",
+  "ja": "このTシャツ、ちょっと大きい",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f1c7fe2fe13be7cedcdff9e4b31cd42664e04daec8d040526d5a9ba1caee7652.wav",
+  "words": [
+   "티셔츠"
+  ]
+ },
+ {
+  "ko": "이거 검색해 봐.",
+  "ja": "これ検索してみて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/912b377ef9100fbab8c3ff2a57e46786f48be300a9beafa632462e7c096b3ea0.wav",
+  "words": [
+   "이거"
+  ]
+ },
+ {
+  "ko": "이거 데워도 돼?",
+  "ja": "これ温めてもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4b638e3a65ebd52b5a3a1cb4f1c7f687922cd8a1deb69833297aa6a34fc34407.wav",
+  "words": [
+   "이거"
+  ]
+ },
+ {
+  "ko": "이거 얼마나 걸려?",
+  "ja": "この作業、どれくらいかかる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/01c40e1d6b45f4c7a8dd83c48642ebcd25600673c197e92d1534e1442f53eac2.wav",
+  "words": [
+   "이거"
+  ]
+ },
+ {
+  "ko": "이거 치즈 들어 있지?",
+  "ja": "これ、チーズ入ってるよね？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/de166c24c9afee1ebd9a0461093ef83b2db219ae4a8e951a41a042b2a0d6eeca.wav",
+  "words": [
+   "이거",
+   "치즈"
+  ]
+ },
+ {
+  "ko": "이따가 같이 산책할래?",
+  "ja": "あとで一緒に散歩しない？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8391cb8ddcffad4ca611c7daf0de11afbd811e9a13bdadf917878d17ee3d2d32.wav",
+  "words": [
+   "이따가"
+  ]
+ },
+ {
+  "ko": "이따가 전화해도 돼?",
+  "ja": "あとで電話してもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b4f3de6485f2fbc762d58885e6743d4d1b1ef0f955fb3a5d541ddb08debefd32.wav",
+  "words": [
+   "이따가"
+  ]
+ },
+ {
+  "ko": "이따가 통화하고 싶어.",
+  "ja": "あとで電話したいな。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/0d06179de8101ec8f9153c2375e4cf5879c067e1da45cdf0ed1a5d6769934ea2.wav",
+  "words": [
+   "이따가"
+  ]
+ },
+ {
+  "ko": "이미 요리 시작했어.",
+  "ja": "もうご飯作り始めた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ef5a27b93bd421e9452b3a7c712d4f7213790980800bb2d59320968e766df2d4.wav",
+  "words": [
+   "요리"
+  ]
+ },
+ {
+  "ko": "이미 택시 불렀어.",
+  "ja": "もうタクシー呼んだ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2f8d409d5765a22a15b4c840e93b3757e2da0d7bd2a4a38d17f67f9837c965ce.wav",
+  "words": [
+   "택시"
+  ]
+ },
+ {
+  "ko": "이미 호텔 예약했어.",
+  "ja": "もうホテル予約した",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1fbd486f77861656e796848ecbc4b1280d475fae99463eb45847a57b366e5402.wav",
+  "words": [
+   "호텔"
+  ]
+ },
+ {
+  "ko": "이번 주엔 운동 하나도 안 했어",
+  "ja": "今週は全然運動しなかった",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/437d7cb4d1179f6ce889fa8d983807551dbe5a0cafb553a98670e68655443187.wav",
+  "words": [
+   "하나",
+   "운동"
+  ]
+ },
+ {
+  "ko": "이사 도와줄까?",
+  "ja": "引っ越し、手伝おうか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4027c506b815840ce0efa5518761f260a2ef2117f8d530397c6a3fc2bbd7049f.wav",
+  "words": [
+   "이사"
+  ]
+ },
+ {
+  "ko": "이사 준비해야 돼.",
+  "ja": "引っ越しの準備しなきゃ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/83757ec8c71904f3e98c1cf3e93404e4b4356d88d0c02e1d80d7b16b913f8438.wav",
+  "words": [
+   "이사"
+  ]
+ },
+ {
+  "ko": "이삿짐 정리 진짜 장난 아니야.",
+  "ja": "引っ越しの片付け、すごく大変",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/36633f11a65a9dc9acb2d5eb36042159a05e699cdf7adbf98056278ad3a5ed20.wav",
+  "words": [
+   "아니"
+  ]
+ },
+ {
+  "ko": "이상한 소리 하지 마.",
+  "ja": "変なこと言わないでよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/db9897c84dadf935e4190bfcb3317d668ebb143506e00c1119de3867c26e7e07.wav",
+  "words": [
+   "소리"
+  ]
+ },
+ {
+  "ko": "이제 집에 가자.",
+  "ja": "そろそろ帰ろう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1ce029f6e896bd7e87cf5b02d7ee03ee0c30e86dc879ea6a66925a00ee4058d0.wav",
+  "words": [
+   "가자",
+   "집"
+  ]
+ },
+ {
+  "ko": "자격증 공부 화이팅!",
+  "ja": "資格の勉強頑張って！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7085884df3d7ba1271569763b263642c6b969e4005aba42e71256a4e3f1c5e2c.wav",
+  "words": [
+   "공부"
+  ]
+ },
+ {
+  "ko": "자기 전에 라디오를 자주 들어.",
+  "ja": "寝る前によくラジオ聴く",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/90cc8f6cb82f20cde70f0267383f01ed9ade590ed2867c0958a8ca6a1e422308.wav",
+  "words": [
+   "자주",
+   "라디오"
+  ]
+ },
+ {
+  "ko": "자기 전에 샤워하고 올게",
+  "ja": "寝る前にシャワー浴びてくる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/8906e5f89e524246be9e8735c2509509620894c874755b53287d1fc4471d47d6.wav",
+  "words": [
+   "샤워"
+  ]
+ },
+ {
+  "ko": "잠 안 올 때 음악 들어.",
+  "ja": "眠れないときは、音楽聴いてる。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2948b08760a9b2f8cdde43e2ea699058eadaf07ecc350a31974bd1459ae19da7.wav",
+  "words": [
+   "음악"
+  ]
+ },
+ {
+  "ko": "전화 기다릴게",
+  "ja": "電話待ってるね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/47a6647e5ac9788d1713a530473b2e7897d316b559bc2f0055fe16f37c99ea66.wav",
+  "words": [
+   "전화"
+  ]
+ },
+ {
+  "ko": "전화 끊지 마.",
+  "ja": "電話切らないで",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6c37dd0a9de3aab78585e25e43d35d5ec3dfebfacf4f524b6ab324a262fbd1ee.wav",
+  "words": [
+   "전화"
+  ]
+ },
+ {
+  "ko": "좋아하는 가수 직접 만나 본 적 있어?",
+  "ja": "好きな歌手に会ったことある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c4808ae4493f082d33f95b5971112fe2c64218b3cc0a813f51a2e6c4e3d26e63.wav",
+  "words": [
+   "가수"
+  ]
+ },
+ {
+  "ko": "주말 계획 어때?",
+  "ja": "週末のプランってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/11a7a246cc749d9ddde46bf1444be52887620e9c171f828a9e87b190ae09329b.wav",
+  "words": [
+   "주말"
+  ]
+ },
+ {
+  "ko": "주말 어땠어?",
+  "ja": "週末どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9c2749d5f271ce55f2effa91753a946c3e641e4b63ab3c314a132e70bfd68b11.wav",
+  "words": [
+   "주말"
+  ]
+ },
+ {
+  "ko": "주말에 뭐 했어?",
+  "ja": "週末、何した？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/00731c91d82eea4b547d6698bed457b2165e4a1c326dc3f53f861a2a89b7dfbc.wav",
+  "words": [
+   "주말"
+  ]
+ },
+ {
+  "ko": "주말에 바다 갈래?",
+  "ja": "週末、海行かない？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2a0b8b00f5a0181e14e766a91c48269955230c1726f14066a19590c781a4a533.wav",
+  "words": [
+   "바다",
+   "주말"
+  ]
+ },
+ {
+  "ko": "주말에 영화 볼래?",
+  "ja": "週末、映画見ない？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cf4cc894368c77841203cc06a293077fb9697b08e97744fb117b9fb2e2eda6f6.wav",
+  "words": [
+   "주말",
+   "영화"
+  ]
+ },
+ {
+  "ko": "지금 드라마 보고 있어",
+  "ja": "今、ドラマ見てる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7fcf70d9be3af651b1c05477b3633591f486a092caa21e17297e39e84ad28314.wav",
+  "words": [
+   "드라마"
+  ]
+ },
+ {
+  "ko": "지금 위치 좀 보내 줄래?",
+  "ja": "今いる場所送ってくれる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/05522479d30c135f81a05b5dcf06598c7718bae85915720b36572df264265fa9.wav",
+  "words": [
+   "위치"
+  ]
+ },
+ {
+  "ko": "지금 편의점 들를래?",
+  "ja": "今コンビニ寄らない？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/cf195ddc726ef3319ef932b449e780c1a8d259b8b79b0c23e4e96522e5f3d257.wav",
+  "words": [
+   "편의점"
+  ]
+ },
+ {
+  "ko": "지도 그려 줄게",
+  "ja": "地図描いてあげる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5472946301d1403bf83e0f03f3cfbfd047d7296f08f555c002c92263d5677c36.wav",
+  "words": [
+   "지도"
+  ]
+ },
+ {
+  "ko": "지하철 너무 붐벼.",
+  "ja": "電車混みすぎ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/91898d11ee14f231026b58bc7cb325f14ebb5cc9f9fa036046725db5dbe4553a.wav",
+  "words": [
+   "지하철"
+  ]
+ },
+ {
+  "ko": "지하철 타면서 책 읽어",
+  "ja": "電車乗りながら本読んでる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/42ee92754a8c5a51b8f881e1d9917584908021c490c1e3459ae55a8aa6a7b8ec.wav",
+  "words": [
+   "책",
+   "지하철"
+  ]
+ },
+ {
+  "ko": "지하철 탈 때 폰이 잘 안 터져.",
+  "ja": "地下鉄乗ってるとき、電波悪くなる。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/41694906f28a25a593466c158da97b644c463f3b3294da7b3c4f555980700ffa.wav",
+  "words": [
+   "탈",
+   "지하철"
+  ]
+ },
+ {
+  "ko": "집에서 만든 피자? 맛있겠다!",
+  "ja": "手作りピザ？おいしそうだね！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c152df5d340d597e5ea27b98426caa8844f78d1515e62bb8203a580a3b4eb0e3.wav",
+  "words": [
+   "피자",
+   "집"
+  ]
+ },
+ {
+  "ko": "창문 닫았는데도 모기가 있어.",
+  "ja": "窓閉めたのに蚊がいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6626517a10cec977d5cfc25ce895045c1e21b8ce1c07552704e1fe1735ad8a4e.wav",
+  "words": [
+   "모기"
+  ]
+ },
+ {
+  "ko": "처음으로 빵 구워 봤어.",
+  "ja": "初めてパン焼いた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e6a495e14bb68eec0b7077ff16479ca6c2a8f10e36e181f913e38b161a5622d3.wav",
+  "words": [
+   "빵"
+  ]
+ },
+ {
+  "ko": "첫 데이트 즐거운 하루 되길 바라!",
+  "ja": "初デート、楽しい一日になりますように！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/56e37b55f4d1d1004772c6c747d5d775542d5319a2574104a5f84cdc1afeae0c.wav",
+  "words": [
+   "데이트"
+  ]
+ },
+ {
+  "ko": "치킨 시키자.",
+  "ja": "フライドチキン頼もう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1c276f166d76dce8ca616be547706dbe14e621675fb9445717462db3b82431f5.wav",
+  "words": [
+   "치킨"
+  ]
+ },
+ {
+  "ko": "친구 데려가도 돼?",
+  "ja": "友だち連れてってもいい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/383fc13831092bcc1c85ed273934bcf74b1b387430a035379cbb0fcb4ad522f4.wav",
+  "words": [
+   "친구"
+  ]
+ },
+ {
+  "ko": "친구 차로 가",
+  "ja": "友達の車で行く",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ff901a8b41f74860c7a322680ef8fb269c813247fb93c3d285f2fc9d036f6f29.wav",
+  "words": [
+   "친구"
+  ]
+ },
+ {
+  "ko": "친구가 맨날 스포해",
+  "ja": "友達がネタバレしてばっかり",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/336683089f2b378b28f3f284cc986b57bd53eaae9fdc342a58bf84ecdf23afbd.wav",
+  "words": [
+   "친구"
+  ]
+ },
+ {
+  "ko": "카메라 무거워도 들고 갈 거야.",
+  "ja": "カメラ重くても持ってく",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/998b7c6f4a9e40a28a34815378cb6ab4fcbd7deb2a981c9b8d980f6a964b8589.wav",
+  "words": [
+   "카메라"
+  ]
+ },
+ {
+  "ko": "카메라 충전해 놓을게.",
+  "ja": "カメラ充電しとく",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/029aaba5daa484fd941afcdd586ece7bcda73721b37c6d771fac7d6af8e2f65f.wav",
+  "words": [
+   "카메라"
+  ]
+ },
+ {
+  "ko": "카페에서 공부하자.",
+  "ja": "カフェで勉強しよう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d0da7952c1eccf607a5e519b6a05357eb72d7b95cacf404fb88d2ec5dbde0523.wav",
+  "words": [
+   "카페"
+  ]
+ },
+ {
+  "ko": "커피 끊기로 했어.",
+  "ja": "コーヒーやめることにした",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b89903421dc11787e9caebd7631158465ac0b6612a514873e8f4eee5226ded6e.wav",
+  "words": [
+   "커피"
+  ]
+ },
+ {
+  "ko": "커피를 자주 쏟아.",
+  "ja": "よくコーヒーこぼす",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/41beae260da6ebc7de423ff0daa58ab3f4af1071b0404d4b0537271c972074ab.wav",
+  "words": [
+   "커피",
+   "자주"
+  ]
+ },
+ {
+  "ko": "컵 깨졌어. 유리 조각 조심해.",
+  "ja": "コップ割れたから、破片に気をつけて",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f0e7165dc10bc769baa49036f61b936871fa96cc9470cdd62de5af88a6500bfa.wav",
+  "words": [
+   "유리"
+  ]
+ },
+ {
+  "ko": "케이크 다 구웠어.",
+  "ja": "ケーキ焼き終わったよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/5864b90f2f68f0954d04830d9d1114b1de87e1abaa4a0554f4bf5d057866f073.wav",
+  "words": [
+   "케이크"
+  ]
+ },
+ {
+  "ko": "케이크 반만 먹었어.",
+  "ja": "ケーキ、半分だけ食べた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b7cedbdee9c236d9189cf33681ad66be9a452e934598d2330528e6358d73ffe3.wav",
+  "words": [
+   "케이크"
+  ]
+ },
+ {
+  "ko": "콘서트 누구랑 가?",
+  "ja": "ライブ、誰と行くの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1e9717c676931f820bd192fedd95007f7dd3d4089dc1ba3e635bf250db862d80.wav",
+  "words": [
+   "누구",
+   "콘서트"
+  ]
+ },
+ {
+  "ko": "콘서트 언제 가?",
+  "ja": "ライブいつ行くの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/77c590b17408f3c122b00116ff00fe72e9c811f8482f3766b0a8d6fd2748decc.wav",
+  "words": [
+   "콘서트"
+  ]
+ },
+ {
+  "ko": "크리스마스 선물 뭐 갖고 싶어?",
+  "ja": "クリスマス、何が欲しい？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/2e4e591c0d32303730f534afa36f84378231393b33762dcc4f98b1961ac53ac9.wav",
+  "words": [
+   "크리스마스"
+  ]
+ },
+ {
+  "ko": "택시 타자.",
+  "ja": "タクシー乗ろう。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/73fba9a1be09796897c473396bc91f02e75e2e0248da47f001cff237d371395d.wav",
+  "words": [
+   "택시"
+  ]
+ },
+ {
+  "ko": "파티 음식 얼마나 살까?",
+  "ja": "パーティーの食べ物、どれくらい買う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b897899fb80fa455693d743aabaebdf3070575bfd884863a81a9541f9f9508de.wav",
+  "words": [
+   "파티"
+  ]
+ },
+ {
+  "ko": "편의점 앞 사거리에 있어",
+  "ja": "コンビニ前の交差点にいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fcbda52feaa8339cd90582db9479d25df585056d0ed64eabfdcb3c9554e1e2a2.wav",
+  "words": [
+   "앞",
+   "편의점"
+  ]
+ },
+ {
+  "ko": "편의점에서 뭐 사다 줄까?",
+  "ja": "コンビニで何か買ってこようか？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/be7e077125911c1e852b15b33ed04ffb3272310715b8e187e55610879c28006d.wav",
+  "words": [
+   "사다",
+   "편의점"
+  ]
+ },
+ {
+  "ko": "피아노 발표회 어땠어?",
+  "ja": "ピアノの発表会どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/9f0f089f04cf97bb4aa7e97d494aa8a3edbfc693c7e4aa48d6eaf546714c214d.wav",
+  "words": [
+   "피아노"
+  ]
+ },
+ {
+  "ko": "피아노 치는 거 좋아해.",
+  "ja": "ピアノ弾くのが好き",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/384f25a807cdbe72d27dbbad1b2841c31fa0643614f134bad4bce35bc551732e.wav",
+  "words": [
+   "피아노"
+  ]
+ },
+ {
+  "ko": "피자 몇 판 시킬까?",
+  "ja": "ピザ何枚頼む？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3d715c9947e7ba258b83d13eaf50d3d4ff1f620589de26ee3ab6146d2a9adb23.wav",
+  "words": [
+   "피자"
+  ]
+ },
+ {
+  "ko": "학교 도서관에 있어",
+  "ja": "大学の図書館にいる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/def285a5546e81815b0f774e491123bdb99454fb1b1423e09191536dd66acf11.wav",
+  "words": [
+   "학교"
+  ]
+ },
+ {
+  "ko": "학교 축제 어땠어?",
+  "ja": "学園祭どうだった？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/f6153663f2dd8aecae0d52a73a240bc2fe21a7e3c01ecdc8eb5856f09124ab55.wav",
+  "words": [
+   "학교"
+  ]
+ },
+ {
+  "ko": "학교는 지하철로 다녀",
+  "ja": "大学には電車で通ってる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3c57e02ee26c321b7e2c84d5c92f36ab85fe2a8b4dff916dc2ea93018602a789.wav",
+  "words": [
+   "지하철",
+   "학교"
+  ]
+ },
+ {
+  "ko": "학생 식당 어디 있어?",
+  "ja": "学食はどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7101d35c0ff743cf1dfb321fc5925ebd8ba35e51eb1d1a18ebddee17eee319fb.wav",
+  "words": [
+   "어디",
+   "학생"
+  ]
+ },
+ {
+  "ko": "학생 할인 덕분에 노트북 싸게 샀어.",
+  "ja": "学割のおかげでパソコン安く買えた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/3e7e6e39ea7c886816603616baf557050f66b8a901a0a29c20a13de0e0c0885e.wav",
+  "words": [
+   "노트북",
+   "학생"
+  ]
+ },
+ {
+  "ko": "학식 새 메뉴 어때?",
+  "ja": "学食の新メニューってどう思う？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/d6ec9c63afd73c1a978d0fe6fc414cf403cacaa92f537fe1f5e7a548fc77e9e0.wav",
+  "words": [
+   "메뉴"
+  ]
+ },
+ {
+  "ko": "학회 기차로 가",
+  "ja": "学会、新幹線で行く",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/c89a66739b9d3ffe413297bea0237a2ade7ed9f54c2e9f44f7c7ea7f265ef6e4.wav",
+  "words": [
+   "기차"
+  ]
+ },
+ {
+  "ko": "한국어 공부 화이팅!",
+  "ja": "韓国語の勉強頑張って！",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1072d8459a2d7bc8666df9ea65270666d702e693ee4c899c5e0a57035c83d92e.wav",
+  "words": [
+   "공부",
+   "한국어"
+  ]
+ },
+ {
+  "ko": "한국에 가 본 적 있어?",
+  "ja": "韓国に行ったことある？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/1397f535031b1461d56cb80c0c717afd7fcbcdc0364afbd04006a84cde2cf35b.wav",
+  "words": [
+   "한국"
+  ]
+ },
+ {
+  "ko": "한국에 가고 싶어.",
+  "ja": "韓国に行きたい。",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/7c20a6aead834a2e8adf95a64af5f61014104a06b2c5146ad3eada1af6985635.wav",
+  "words": [
+   "한국"
+  ]
+ },
+ {
+  "ko": "한정 메뉴가 끝나서 아쉬워.",
+  "ja": "限定メニュー終わってて残念",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ce41897497c6499972f618e9356b5c3c89985306f3432d6a9c23594cbf067c76.wav",
+  "words": [
+   "메뉴"
+  ]
+ },
+ {
+  "ko": "할머니가 좋아하는 꽃 알아?",
+  "ja": "おばあちゃんの好きな花知ってる？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/4442d2728b722625614681f4159b6b87ff28d85171a803ee7ce6b0cc0303fdc9.wav",
+  "words": [
+   "꽃"
+  ]
+ },
+ {
+  "ko": "합격하면 고기 쏠게.",
+  "ja": "受かったら、焼肉おごるよ",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/e44fef9e891d64d786d379d63c4f3344f2ad58d69c16aa7952b9bb2f4f0e2066.wav",
+  "words": [
+   "고기"
+  ]
+ },
+ {
+  "ko": "허리가 아파서 청소 못 해.",
+  "ja": "腰痛くて掃除できない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/6f634d9b8f877c90d3a18eb77b0a8f521cefe62bed55bb18f32649c6f134b478.wav",
+  "words": [
+   "허리"
+  ]
+ },
+ {
+  "ko": "헬스장도 사람 많았어.",
+  "ja": "ジムも混んでた",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/619359672ece4c66736bc29b9cd414308d1fae49dcf20b621c15ae96e4176fc8.wav",
+  "words": [
+   "사람"
+  ]
+ },
+ {
+  "ko": "헬스장에서 운동하고 있어",
+  "ja": "ジムで筋トレしてる",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/528c7d9e06246c7dddf38d948607ebef443e387cdc423f4bd1687ebd8c67abc7.wav",
+  "words": [
+   "운동"
+  ]
+ },
+ {
+  "ko": "형이랑은 별로 얘기 안 해.",
+  "ja": "兄とはあんまり話さない",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fca2b10d63f6b35fe8af7f28edb8e49b9201f8f8939207ed8bff6c864146ef3c.wav",
+  "words": [
+   "얘기"
+  ]
+ },
+ {
+  "ko": "호텔 뷔페? 엄청 고급스럽겠다!",
+  "ja": "ホテルのビュッフェ？豪華そうだね",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/377719bd370d7420d001eb8496cb7be2f9ebcd404508a91a9357e9177bc38a23.wav",
+  "words": [
+   "뷔페",
+   "호텔"
+  ]
+ },
+ {
+  "ko": "호텔 언제 예약해?",
+  "ja": "ホテルいつ予約するの？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/fd69edb4ec53af003405b8f2f9ada11cbfd8bb3bc8e8edf43bb3e1f9b26e6542.wav",
+  "words": [
+   "호텔"
+  ]
+ },
+ {
+  "ko": "화장실 어디 있어?",
+  "ja": "トイレはどこ？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/ad26e552db879ef1f82e0414e4cd9dfafdee2fa12624ad806bab69d66f030eee.wav",
+  "words": [
+   "어디",
+   "화장실"
+  ]
+ },
+ {
+  "ko": "회사 몇 군데 지원했어?",
+  "ja": "何社エントリーした？",
+  "audio": "https://uttfgsxrbrwubjewxblw.supabase.co/storage/v1/object/public/pl-audio/Kore/ko/b2a5c95c9232ae272b1201ef6dd23f657005bd1bf54af35501d76f3aca7b92c4.wav",
+  "words": [
+   "회사"
+  ]
+ }
+]

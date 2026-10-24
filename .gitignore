@@ -1,0 +1,27 @@
+# dependencies, in any folder (promo/ has its own)
+node_modules/
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files (keys live in .env.local only)
+.env*
+!.env.example
+
+# the raw takes behind the clips (data/clips.json keeps which passed), and other generation scratch
+scripts/work/
+
+# the film's renders and caches (promo/out/hangul.mp4 is several tens of MB)
+promo/out/
+promo/.cache/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# the listening page for clips waiting for a person (scripts/review-page.mjs writes it from the raw takes)
+public/review/

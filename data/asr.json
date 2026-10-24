@@ -1,0 +1,5668 @@
+{
+ "kore/ai-983b.0": {
+  "plain": "아이"
+ },
+ "kore/oi-3420.0": {
+  "plain": "오이"
+ },
+ "kore/neo-7e86.0": {
+  "choices": {
+   "gpt-4o-transcribe|너,노": "너",
+   "gpt-4o-transcribe|노,너": "너",
+   "gpt-4o-mini-transcribe|너,노": "너",
+   "gpt-4o-mini-transcribe|노,너": "너"
+  }
+ },
+ "kore/na-19e0.0": {
+  "choices": {
+   "gpt-4o-transcribe|나": "나",
+   "gpt-4o-mini-transcribe|나": "나"
+  }
+ },
+ "kore/namu-5489.0": {
+  "plain": "나무"
+ },
+ "kore/nuna-ea95.0": {
+  "plain": "누나"
+ },
+ "kore/gogi-c654.0": {
+  "plain": "고기"
+ },
+ "kore/geogi-6b7a.0": {
+  "plain": "거기"
+ },
+ "kore/eomeoni-8ae4.0": {
+  "plain": "어머니"
+ },
+ "kore/gasu-eb43.0": {
+  "plain": "가수"
+ },
+ "kore/gagu-702c.0": {
+  "plain": "가구"
+ },
+ "kore/ima-0944.0": {
+  "plain": "이나",
+  "choices": {
+   "gpt-4o-transcribe|이마": "이마",
+   "gpt-4o-mini-transcribe|이마": "이나"
+  }
+ },
+ "charon/ai-983b.0": {
+  "plain": "아이"
+ },
+ "kore/ima-0944.1": {
+  "plain": "이마"
+ },
+ "charon/na-19e0.0": {
+  "choices": {
+   "gpt-4o-transcribe|나": "나",
+   "gpt-4o-mini-transcribe|나": "나"
+  }
+ },
+ "charon/neo-7e86.0": {
+  "choices": {
+   "gpt-4o-transcribe|너,노": "너",
+   "gpt-4o-transcribe|노,너": "너",
+   "gpt-4o-mini-transcribe|너,노": "너.",
+   "gpt-4o-mini-transcribe|노,너": "너?"
+  }
+ },
+ "charon/oi-3420.0": {
+  "plain": "오이"
+ },
+ "charon/nuna-ea95.0": {
+  "plain": "누나."
+ },
+ "charon/gogi-c654.0": {
+  "plain": "고기"
+ },
+ "charon/namu-5489.0": {
+  "plain": "나무"
+ },
+ "charon/geogi-6b7a.0": {
+  "plain": "거기"
+ },
+ "charon/eomeoni-8ae4.0": {
+  "plain": "어머니"
+ },
+ "charon/gasu-eb43.0": {
+  "plain": "가수"
+ },
+ "charon/ima-0944.0": {
+  "plain": "이마"
+ },
+ "charon/gagu-702c.0": {
+  "plain": "가구"
+ },
+ "kore/sai-a362.0": {
+  "plain": "사이"
+ },
+ "kore/nai-14dd.0": {
+  "plain": "나이"
+ },
+ "kore/ani-4c10.0": {
+  "plain": "아니"
+ },
+ "kore/goguma-f0cd.0": {
+  "plain": "고구마"
+ },
+ "kore/mogi-932e.0": {
+  "plain": "모기"
+ },
+ "kore/agi-7398.0": {
+  "plain": "아디",
+  "choices": {
+   "gpt-4o-transcribe|아기": "아기",
+   "gpt-4o-mini-transcribe|아기": "아디"
+  }
+ },
+ "kore/gisa-ac6d.0": {
+  "plain": "기사"
+ },
+ "kore/musi-f2ad.0": {
+  "plain": "무시"
+ },
+ "kore/agi-7398.1": {
+  "plain": "아기"
+ },
+ "kore/geomi-0062.0": {
+  "plain": "콜미",
+  "choices": {
+   "gpt-4o-transcribe|거미": "거미",
+   "gpt-4o-mini-transcribe|거미": "Call me."
+  }
+ },
+ "kore/geomi-0062.1": {
+  "plain": "거미"
+ },
+ "kore/soseu-b499.0": {
+  "plain": "소스"
+ },
+ "kore/oasiseu-28cb.0": {
+  "plain": "오아시스"
+ },
+ "kore/siso-b452.0": {
+  "plain": "시소"
+ },
+ "kore/seusi-98a4.0": {
+  "plain": "수시",
+  "choices": {
+   "gpt-4o-transcribe|스시": "스시",
+   "gpt-4o-mini-transcribe|스시": "스시"
+  }
+ },
+ "kore/aiseu-a96b.0": {
+  "plain": "아이스"
+ },
+ "kore/miso-2bc1.0": {
+  "plain": "비소",
+  "choices": {
+   "gpt-4o-transcribe|미소": "미소",
+   "gpt-4o-mini-transcribe|미소": "미소"
+  }
+ },
+ "kore/gaseu-2ac5.0": {
+  "plain": "다스",
+  "choices": {
+   "gpt-4o-transcribe|가스": "가스",
+   "gpt-4o-mini-transcribe|가스": "가스"
+  }
+ },
+ "kore/gomo-3915.0": {
+  "plain": "고무",
+  "choices": {
+   "gpt-4o-transcribe|고모": "고모",
+   "gpt-4o-mini-transcribe|고모": "고모."
+  }
+ },
+ "kore/imo-8c21.0": {
+  "plain": "이모"
+ },
+ "kore/nugu-e5fd.0": {
+  "plain": "누구?"
+ },
+ "kore/eoneu-ba3c.0": {
+  "plain": "어느"
+ },
+ "kore/igeo-f1a1.0": {
+  "plain": "이거"
+ },
+ "kore/gasa-8475.0": {
+  "plain": "다사",
+  "choices": {
+   "gpt-4o-transcribe|가사": "가사",
+   "gpt-4o-mini-transcribe|가사": "다사"
+  }
+ },
+ "kore/gasa-8475.1": {
+  "plain": "가사"
+ },
+ "kore/ua-852e.0": {
+  "plain": "우와",
+  "choices": {
+   "gpt-4o-transcribe|우아": "우아",
+   "gpt-4o-mini-transcribe|우아": "우아"
+  }
+ },
+ "kore/geugeo-e751.0": {
+  "plain": "그거"
+ },
+ "kore/isa-1a1c.0": {
+  "plain": "이사"
+ },
+ "kore/mu-2572.0": {
+  "choices": {
+   "gpt-4o-transcribe|무,므": "무",
+   "gpt-4o-transcribe|므,무": "무",
+   "gpt-4o-mini-transcribe|무,므": "무",
+   "gpt-4o-mini-transcribe|므,무": "무"
+  }
+ },
+ "kore/so-4621.0": {
+  "choices": {
+   "gpt-4o-transcribe|소,쏘,서": "소",
+   "gpt-4o-transcribe|서,쏘,소": "소",
+   "gpt-4o-mini-transcribe|소,쏘,서": "수",
+   "gpt-4o-mini-transcribe|서,쏘,소": "수"
+  }
+ },
+ "kore/ama-824c.0": {
+  "plain": "아마"
+ },
+ "kore/so-4621.1": {
+  "choices": {
+   "gpt-4o-transcribe|소,쏘,서": "소",
+   "gpt-4o-transcribe|서,쏘,소": "소",
+   "gpt-4o-mini-transcribe|소,쏘,서": "소",
+   "gpt-4o-mini-transcribe|서,쏘,소": "소"
+  }
+ },
+ "kore/gu-531c.0": {
+  "choices": {
+   "gpt-4o-transcribe|구,그,쿠,꾸": "구",
+   "gpt-4o-transcribe|꾸,쿠,그,구": "구",
+   "gpt-4o-mini-transcribe|구,그,쿠,꾸": "구",
+   "gpt-4o-mini-transcribe|꾸,쿠,그,구": "구"
+  }
+ },
+ "kore/geu-c3b2.0": {
+  "choices": {
+   "gpt-4o-transcribe|그,구,크,끄": "그",
+   "gpt-4o-transcribe|끄,크,구,그": "그",
+   "gpt-4o-mini-transcribe|그,구,크,끄": "그",
+   "gpt-4o-mini-transcribe|끄,크,구,그": "그"
+  }
+ },
+ "kore/keopi-2a0b.0": {
+  "plain": "쿠키",
+  "choices": {
+   "gpt-4o-transcribe|커피,코피": "커피",
+   "gpt-4o-transcribe|코피,커피": "커피",
+   "gpt-4o-mini-transcribe|커피,코피": "커키",
+   "gpt-4o-mini-transcribe|코피,커피": "커키"
+  }
+ },
+ "kore/kopi-89f5.0": {
+  "plain": "쿠키",
+  "choices": {
+   "gpt-4o-transcribe|코피,커피": "쿠키",
+   "gpt-4o-transcribe|커피,코피": "코키",
+   "gpt-4o-mini-transcribe|코피,커피": "쿠키",
+   "gpt-4o-mini-transcribe|커피,코피": "쿠키"
+  }
+ },
+ "kore/keopi-2a0b.1": {
+  "plain": "커피"
+ },
+ "kore/kopi-89f5.1": {
+  "plain": "코피"
+ },
+ "kore/tomato-3a59.0": {
+  "plain": "토마토."
+ },
+ "kore/banana-34b8.0": {
+  "plain": "바나나"
+ },
+ "kore/beoseu-8d76.0": {
+  "plain": "보스",
+  "choices": {
+   "gpt-4o-transcribe|버스": "버스",
+   "gpt-4o-mini-transcribe|버스": "버스"
+  }
+ },
+ "kore/pija-b432.0": {
+  "plain": "키자.",
+  "choices": {
+   "gpt-4o-transcribe|피자": "피자",
+   "gpt-4o-mini-transcribe|피자": "키자"
+  }
+ },
+ "kore/chijeu-c45c.0": {
+  "plain": "치즈."
+ },
+ "kore/pija-b432.1": {
+  "plain": "피자"
+ },
+ "kore/hana-de88.0": {
+  "plain": "하나"
+ },
+ "kore/bada-b168.0": {
+  "plain": "바다"
+ },
+ "kore/pi-2ca8.0": {
+  "choices": {
+   "gpt-4o-transcribe|피,비,삐": "키",
+   "gpt-4o-transcribe|삐,비,피": "키",
+   "gpt-4o-mini-transcribe|피,비,삐": "키",
+   "gpt-4o-mini-transcribe|삐,비,피": "키"
+  }
+ },
+ "kore/pi-2ca8.1": {
+  "choices": {
+   "gpt-4o-transcribe|피,비,삐": "피",
+   "gpt-4o-transcribe|삐,비,피": "피",
+   "gpt-4o-mini-transcribe|피,비,삐": "피",
+   "gpt-4o-mini-transcribe|삐,비,피": "피"
+  }
+ },
+ "kore/bi-3b57.0": {
+  "choices": {
+   "gpt-4o-transcribe|비,피,삐": "비",
+   "gpt-4o-transcribe|삐,피,비": "비",
+   "gpt-4o-mini-transcribe|비,피,삐": "비",
+   "gpt-4o-mini-transcribe|삐,피,비": "비"
+  }
+ },
+ "kore/gochu-f2fc.0": {
+  "plain": "고추"
+ },
+ "kore/dubu-971e.0": {
+  "plain": "두불",
+  "choices": {
+   "gpt-4o-transcribe|두부": "두부",
+   "gpt-4o-mini-transcribe|두부": "두불"
+  }
+ },
+ "kore/gicha-7573.0": {
+  "plain": "기차"
+ },
+ "kore/jido-31ee.0": {
+  "plain": "지도"
+ },
+ "kore/podo-ac8b.0": {
+  "plain": "포도"
+ },
+ "kore/dubu-971e.1": {
+  "plain": "두두",
+  "choices": {
+   "gpt-4o-transcribe|두부": "두부",
+   "gpt-4o-mini-transcribe|두부": "두두"
+  }
+ },
+ "kore/dubu-971e.2": {
+  "plain": "두부"
+ },
+ "kore/moja-b0a2.0": {
+  "plain": "모자"
+ },
+ "kore/abeoji-914c.0": {
+  "plain": "아버지"
+ },
+ "kore/baji-9b09.0": {
+  "plain": "바지"
+ },
+ "kore/eodi-f306.0": {
+  "plain": "어디"
+ },
+ "kore/juseu-56ce.0": {
+  "plain": "주스"
+ },
+ "kore/kokoa-3ec4.0": {
+  "plain": "코코아"
+ },
+ "kore/piano-0df7.0": {
+  "plain": "피아노"
+ },
+ "kore/taieo-5e82.0": {
+  "plain": "타이어"
+ },
+ "kore/koteu-1c37.0": {
+  "plain": "코트"
+ },
+ "kore/pati-645c.0": {
+  "plain": "파티"
+ },
+ "kore/ki-b89e.0": {
+  "choices": {
+   "gpt-4o-transcribe|키,기,끼": "키",
+   "gpt-4o-transcribe|끼,기,키": "키",
+   "gpt-4o-mini-transcribe|키,기,끼": "키",
+   "gpt-4o-mini-transcribe|끼,기,키": "키"
+  }
+ },
+ "kore/ko-fa22.0": {
+  "choices": {
+   "gpt-4o-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-transcribe|커,꼬,고,코": "코",
+   "gpt-4o-mini-transcribe|코,고,꼬,커": "쿠",
+   "gpt-4o-mini-transcribe|커,꼬,고,코": "고"
+  }
+ },
+ "kore/cha-85eb.0": {
+  "choices": {
+   "gpt-4o-transcribe|차,자,짜": "차",
+   "gpt-4o-transcribe|짜,자,차": "차",
+   "gpt-4o-mini-transcribe|차,자,짜": "차",
+   "gpt-4o-mini-transcribe|짜,자,차": "차"
+  }
+ },
+ "kore/chima-ccbc.0": {
+  "plain": "치마"
+ },
+ "kore/ko-fa22.1": {
+  "choices": {
+   "gpt-4o-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-transcribe|커,꼬,고,코": "코",
+   "gpt-4o-mini-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-mini-transcribe|커,꼬,고,코": "쿨!"
+  }
+ },
+ "kore/buja-d6ce.0": {
+  "plain": "부자"
+ },
+ "kore/ko-fa22.2": {
+  "choices": {
+   "gpt-4o-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-transcribe|커,꼬,고,코": "코",
+   "gpt-4o-mini-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-mini-transcribe|커,꼬,고,코": "쿠"
+  }
+ },
+ "kore/babo-4570.0": {
+  "plain": "바보"
+ },
+ "kore/hama-5d55.0": {
+  "plain": "하마"
+ },
+ "kore/apateu-c1ba.0": {
+  "plain": "아파트"
+ },
+ "kore/bija-b047.0": {
+  "plain": "피자",
+  "choices": {
+   "gpt-4o-transcribe|비자": "비자",
+   "gpt-4o-mini-transcribe|비자": "비자"
+  }
+ },
+ "kore/sopa-431c.0": {
+  "plain": "소파"
+ },
+ "kore/saja-e80d.0": {
+  "plain": "사자"
+ },
+ "kore/otobai-e17a.0": {
+  "plain": "오토바이"
+ },
+ "kore/seupocheu-9025.0": {
+  "plain": "스포츠"
+ },
+ "kore/pibu-2667.0": {
+  "plain": "피부"
+ },
+ "kore/dosi-a738.0": {
+  "plain": "도시"
+ },
+ "kore/jigu-296b.0": {
+  "plain": "지구"
+ },
+ "kore/gita-edeb.0": {
+  "plain": "기타"
+ },
+ "kore/noteu-74a4.0": {
+  "plain": "노트"
+ },
+ "kore/saida-da8c.0": {
+  "plain": "사이다"
+ },
+ "kore/mateu-4332.0": {
+  "plain": "마트"
+ },
+ "kore/hodu-eb98.0": {
+  "plain": "호두"
+ },
+ "kore/bubu-b0fb.0": {
+  "plain": "부부"
+ },
+ "kore/dogu-2d00.0": {
+  "plain": "도구"
+ },
+ "kore/aju-0f1d.0": {
+  "plain": "아주"
+ },
+ "kore/hateu-1822.0": {
+  "plain": "하트"
+ },
+ "kore/dasi-f544.0": {
+  "plain": "다시"
+ },
+ "kore/jaju-af24.0": {
+  "plain": "자주"
+ },
+ "kore/chuga-b8b1.0": {
+  "plain": "추가"
+ },
+ "kore/toseuteu-14cd.0": {
+  "plain": "토스트"
+ },
+ "kore/teochi-dcb9.0": {
+  "plain": "터치"
+ },
+ "kore/kadeu-0990.0": {
+  "plain": "카드"
+ },
+ "kore/bidio-aef4.0": {
+  "plain": "비디오"
+ },
+ "kore/odio-9c14.0": {
+  "plain": "오디오"
+ },
+ "kore/seuta-c763.0": {
+  "plain": "스파",
+  "choices": {
+   "gpt-4o-transcribe|스타": "스파",
+   "gpt-4o-mini-transcribe|스타": "스파"
+  }
+ },
+ "kore/koseu-f2ec.0": {
+  "plain": "코스"
+ },
+ "kore/seuta-c763.1": {
+  "plain": "스타"
+ },
+ "kore/jiha-f37e.0": {
+  "plain": "지하"
+ },
+ "kore/jeogi-a7db.0": {
+  "plain": "저기"
+ },
+ "kore/jeo-0523.0": {
+  "choices": {
+   "gpt-4o-transcribe|저,처,쩌,조": "저",
+   "gpt-4o-transcribe|조,쩌,처,저": "저",
+   "gpt-4o-mini-transcribe|저,처,쩌,조": "저",
+   "gpt-4o-mini-transcribe|조,쩌,처,저": "저"
+  }
+ },
+ "kore/jada-232d.0": {
+  "plain": "잡아",
+  "choices": {
+   "gpt-4o-transcribe|자다,차다,짜다": "자다",
+   "gpt-4o-transcribe|짜다,차다,자다": "자다",
+   "gpt-4o-mini-transcribe|자다,차다,짜다": "자다",
+   "gpt-4o-mini-transcribe|짜다,차다,자다": "자다"
+  }
+ },
+ "kore/chada-dd2f.0": {
+  "plain": "차다"
+ },
+ "kore/sada-0d75.0": {
+  "plain": "사다."
+ },
+ "kore/tada-84e7.0": {
+  "plain": "다바",
+  "choices": {
+   "gpt-4o-transcribe|타다": "타다",
+   "gpt-4o-mini-transcribe|타다": "타바"
+  }
+ },
+ "kore/hada-da5d.0": {
+  "plain": "하다"
+ },
+ "kore/tada-84e7.1": {
+  "plain": "타다"
+ },
+ "kore/keuda-5685.0": {
+  "plain": "크다"
+ },
+ "kore/da-bab5.0": {
+  "choices": {
+   "gpt-4o-transcribe|다,타,따": "다",
+   "gpt-4o-transcribe|따,타,다": "다",
+   "gpt-4o-mini-transcribe|다,타,따": "바",
+   "gpt-4o-mini-transcribe|따,타,다": "바"
+  }
+ },
+ "kore/da-bab5.1": {
+  "choices": {
+   "gpt-4o-transcribe|다,타,따": "다",
+   "gpt-4o-transcribe|따,타,다": "다",
+   "gpt-4o-mini-transcribe|다,타,따": "다",
+   "gpt-4o-mini-transcribe|따,타,다": "다"
+  }
+ },
+ "kore/apeuda-4a85.0": {
+  "plain": "아프다"
+ },
+ "kore/deo-4523.0": {
+  "choices": {
+   "gpt-4o-transcribe|더,터,떠,도": "더",
+   "gpt-4o-transcribe|도,떠,터,더": "더",
+   "gpt-4o-mini-transcribe|더,터,떠,도": "더",
+   "gpt-4o-mini-transcribe|도,떠,터,더": "더"
+  }
+ },
+ "kore/gudu-db94.0": {
+  "plain": "구두"
+ },
+ "kore/soju-8f40.0": {
+  "plain": "소주"
+ },
+ "kore/radio-8838.0": {
+  "plain": "라디오"
+ },
+ "kore/kamera-3582.0": {
+  "plain": "카메라"
+ },
+ "kore/deurama-fd17.0": {
+  "plain": "드라마"
+ },
+ "kore/oppa-0e15.0": {
+  "plain": "오빠"
+ },
+ "kore/appa-748a.0": {
+  "plain": "아빠"
+ },
+ "kore/tokki-2212.0": {
+  "plain": "토끼"
+ },
+ "kore/meori-9529.0": {
+  "plain": "머리"
+ },
+ "kore/dari-35e8.0": {
+  "plain": "다리"
+ },
+ "kore/uri-6264.0": {
+  "plain": "위",
+  "choices": {
+   "gpt-4o-transcribe|우리": "우리",
+   "gpt-4o-mini-transcribe|우리": "We"
+  }
+ },
+ "kore/nara-8e48.0": {
+  "plain": "나다",
+  "choices": {
+   "gpt-4o-transcribe|나라": "나라",
+   "gpt-4o-mini-transcribe|나라": "나라"
+  }
+ },
+ "kore/uri-6264.1": {
+  "plain": "우리"
+ },
+ "kore/doro-dcc3.0": {
+  "plain": "도로"
+ },
+ "kore/ori-80ae.0": {
+  "plain": "오리"
+ },
+ "kore/raiteo-c727.0": {
+  "plain": "라이터"
+ },
+ "kore/keuriseumaseu-37d6.0": {
+  "plain": "크리스마스"
+ },
+ "kore/beoteo-2837.0": {
+  "plain": "버터"
+ },
+ "kore/kkachi-c3cd.0": {
+  "plain": "까치"
+ },
+ "kore/kkori-61b0.0": {
+  "plain": "꼬리"
+ },
+ "kore/kokkiri-245d.0": {
+  "plain": "코끼리"
+ },
+ "kore/ittaga-509f.0": {
+  "plain": "이따가"
+ },
+ "kore/ppuri-2c34.0": {
+  "plain": "뿌리"
+ },
+ "kore/ssada-e616.0": {
+  "plain": "싸다"
+ },
+ "kore/bissada-c21c.0": {
+  "plain": "비싸다"
+ },
+ "kore/ttada-bc58.0": {
+  "plain": "따다"
+ },
+ "kore/jjada-dfb6.0": {
+  "plain": "자다",
+  "choices": {
+   "gpt-4o-transcribe|짜다,자다,차다": "짜다",
+   "gpt-4o-transcribe|차다,자다,짜다": "짜다",
+   "gpt-4o-mini-transcribe|짜다,자다,차다": "짜다",
+   "gpt-4o-mini-transcribe|차다,자다,짜다": "자다"
+  }
+ },
+ "kore/ajeossi-af26.0": {
+  "plain": "아저씨"
+ },
+ "kore/jjada-dfb6.1": {
+  "plain": "싸다",
+  "choices": {
+   "gpt-4o-transcribe|짜다,자다,차다": "짜다",
+   "gpt-4o-transcribe|차다,자다,짜다": "짜다.",
+   "gpt-4o-mini-transcribe|짜다,자다,차다": "짜다",
+   "gpt-4o-mini-transcribe|차다,자다,짜다": "짜다"
+  }
+ },
+ "kore/agassi-e268.0": {
+  "plain": "아가씨"
+ },
+ "kore/sori-fdac.0": {
+  "plain": "소리"
+ },
+ "kore/seori-1192.0": {
+  "plain": "설이",
+  "choices": {
+   "gpt-4o-transcribe|서리,소리": "서리",
+   "gpt-4o-transcribe|소리,서리": "서리",
+   "gpt-4o-mini-transcribe|서리,소리": "서리",
+   "gpt-4o-mini-transcribe|소리,서리": "서리"
+  }
+ },
+ "kore/geori-949f.0": {
+  "plain": "거울이",
+  "choices": {
+   "gpt-4o-transcribe|거리,고리": "고리",
+   "gpt-4o-transcribe|고리,거리": "거리",
+   "gpt-4o-mini-transcribe|거리,고리": "거리",
+   "gpt-4o-mini-transcribe|고리,거리": "거리"
+  }
+ },
+ "kore/gori-c445.0": {
+  "plain": "고리"
+ },
+ "kore/geori-949f.1": {
+  "plain": "거리"
+ },
+ "kore/roma-34d3.0": {
+  "plain": "로마"
+ },
+ "kore/reosia-4275.0": {
+  "plain": "러시아"
+ },
+ "kore/bori-59a0.0": {
+  "plain": "보리"
+ },
+ "kore/heori-ba76.0": {
+  "plain": "허리"
+ },
+ "kore/koria-6906.0": {
+  "plain": "코리아"
+ },
+ "kore/pari-4dab.0": {
+  "plain": "파리"
+ },
+ "kore/osaka-90bc.0": {
+  "plain": "오사카"
+ },
+ "kore/ppoppo-8619.0": {
+  "plain": "뽀뽀"
+ },
+ "kore/ssi-6dff.0": {
+  "choices": {
+   "gpt-4o-transcribe|씨,시": "씨",
+   "gpt-4o-transcribe|시,씨": "시",
+   "gpt-4o-mini-transcribe|씨,시": "씨",
+   "gpt-4o-mini-transcribe|시,씨": "씨"
+  }
+ },
+ "kore/ttaro-15e2.0": {
+  "plain": "바로",
+  "choices": {
+   "gpt-4o-transcribe|따로": "바로",
+   "gpt-4o-mini-transcribe|따로": "바로"
+  }
+ },
+ "kore/ssi-6dff.1": {
+  "choices": {
+   "gpt-4o-transcribe|씨,시": "씨",
+   "gpt-4o-transcribe|시,씨": "시",
+   "gpt-4o-mini-transcribe|씨,시": "씨",
+   "gpt-4o-mini-transcribe|시,씨": "씨"
+  }
+ },
+ "kore/ttaro-15e2.1": {
+  "plain": "따로"
+ },
+ "kore/ppareuda-25a1.0": {
+  "plain": "파인다.",
+  "choices": {
+   "gpt-4o-transcribe|빠르다": "빠르다",
+   "gpt-4o-mini-transcribe|빠르다": "빠르다"
+  }
+ },
+ "kore/ssi-6dff.2": {
+  "choices": {
+   "gpt-4o-transcribe|씨,시": "씨",
+   "gpt-4o-transcribe|시,씨": "씨",
+   "gpt-4o-mini-transcribe|씨,시": "씨",
+   "gpt-4o-mini-transcribe|시,씨": "씨"
+  }
+ },
+ "kore/bappeuda-fe9b.0": {
+  "plain": "바쁘다"
+ },
+ "kore/gippeuda-2cd4.0": {
+  "plain": "기쁘다."
+ },
+ "kore/nappeuda-9755.0": {
+  "plain": "나쁘다"
+ },
+ "kore/tto-5b92.0": {
+  "choices": {
+   "gpt-4o-transcribe|또,도,토,떠": "또",
+   "gpt-4o-transcribe|떠,토,도,또": "또",
+   "gpt-4o-mini-transcribe|또,도,토,떠": "또",
+   "gpt-4o-mini-transcribe|떠,토,도,또": "또"
+  }
+ },
+ "kore/sseuda-8856.0": {
+  "plain": "쓰다"
+ },
+ "kore/kkoma-81c5.0": {
+  "plain": "꼼바아",
+  "choices": {
+   "gpt-4o-transcribe|꼬마": "꼬마",
+   "gpt-4o-mini-transcribe|꼬마": "꼰바"
+  }
+ },
+ "kore/akka-c645.0": {
+  "plain": "아까"
+ },
+ "kore/rubi-b63b.0": {
+  "plain": "루기",
+  "choices": {
+   "gpt-4o-transcribe|루비": "루비.",
+   "gpt-4o-mini-transcribe|루비": "루기"
+  }
+ },
+ "kore/kkoma-81c5.1": {
+  "plain": "꼬마"
+ },
+ "kore/uyu-64fb.0": {
+  "plain": "우유"
+ },
+ "kore/rubi-b63b.1": {
+  "plain": "로비",
+  "choices": {
+   "gpt-4o-transcribe|루비": "루비",
+   "gpt-4o-mini-transcribe|루비": "로비"
+  }
+ },
+ "kore/yagu-7b71.0": {
+  "plain": "야구"
+ },
+ "kore/yeoja-dc32.0": {
+  "plain": "여자"
+ },
+ "kore/yori-5528.0": {
+  "plain": "유리",
+  "choices": {
+   "gpt-4o-transcribe|요리": "요리",
+   "gpt-4o-mini-transcribe|요리": "유리"
+  }
+ },
+ "kore/yori-5528.1": {
+  "plain": "요리"
+ },
+ "kore/rubi-b63b.2": {
+  "plain": "루비"
+ },
+ "kore/yeou-58d6.0": {
+  "plain": "여우"
+ },
+ "kore/hyuji-7443.0": {
+  "plain": "휴지"
+ },
+ "kore/yuri-5416.0": {
+  "plain": "유리"
+ },
+ "kore/dokyo-5014.0": {
+  "plain": "도쿄"
+ },
+ "kore/gyoto-ac71.0": {
+  "plain": "교토"
+ },
+ "kore/norae-85da.0": {
+  "plain": "노래"
+ },
+ "kore/gae-7831.0": {
+  "choices": {
+   "gpt-4o-transcribe|개,캐,깨": "개",
+   "gpt-4o-transcribe|깨,캐,개": "개",
+   "gpt-4o-mini-transcribe|개,캐,깨": "개",
+   "gpt-4o-mini-transcribe|깨,캐,개": "개"
+  }
+ },
+ "kore/gyosu-d62c.0": {
+  "plain": "교수"
+ },
+ "kore/bae-74ba.0": {
+  "choices": {
+   "gpt-4o-transcribe|배,패,빼": "배",
+   "gpt-4o-transcribe|빼,패,배": "배",
+   "gpt-4o-mini-transcribe|배,패,빼": "배",
+   "gpt-4o-mini-transcribe|빼,패,배": "배"
+  }
+ },
+ "kore/sae-3c30.0": {
+  "choices": {
+   "gpt-4o-transcribe|새,쌔": "새",
+   "gpt-4o-transcribe|쌔,새": "새",
+   "gpt-4o-mini-transcribe|새,쌔": "새",
+   "gpt-4o-mini-transcribe|쌔,새": "새"
+  }
+ },
+ "kore/ge-6d03.0": {
+  "choices": {
+   "gpt-4o-transcribe|게,케,께": "게",
+   "gpt-4o-transcribe|께,케,게": "께",
+   "gpt-4o-mini-transcribe|게,케,께": "개",
+   "gpt-4o-mini-transcribe|께,케,게": "게"
+  }
+ },
+ "kore/ge-6d03.1": {
+  "choices": {
+   "gpt-4o-transcribe|게,케,께": "게",
+   "gpt-4o-transcribe|께,케,게": "게",
+   "gpt-4o-mini-transcribe|게,케,께": "개",
+   "gpt-4o-mini-transcribe|께,케,게": "개"
+  }
+ },
+ "kore/sigye-185d.0": {
+  "plain": "시계"
+ },
+ "kore/gage-8a13.0": {
+  "plain": "가게"
+ },
+ "kore/segye-1090.0": {
+  "plain": "세계"
+ },
+ "kore/menyu-ce49.0": {
+  "plain": "메뉴"
+ },
+ "kore/kape-70cf.0": {
+  "plain": "카페"
+ },
+ "kore/keikeu-8da2.0": {
+  "plain": "케이크"
+ },
+ "kore/deiteu-5695.0": {
+  "plain": "데이트"
+ },
+ "kore/sagwa-9d82.0": {
+  "plain": "사과"
+ },
+ "kore/gwaja-8164.0": {
+  "plain": "과자"
+ },
+ "kore/gaja-80bd.0": {
+  "plain": "가자"
+ },
+ "kore/hwaga-b175.0": {
+  "plain": "화가"
+ },
+ "kore/hoesa-d430.0": {
+  "plain": "회사"
+ },
+ "kore/dwaeji-c268.0": {
+  "plain": "돼지."
+ },
+ "kore/wi-01a3.0": {
+  "choices": {
+   "gpt-4o-transcribe|위": "위",
+   "gpt-4o-mini-transcribe|위": "미"
+  }
+ },
+ "kore/wi-01a3.1": {
+  "choices": {
+   "gpt-4o-transcribe|위": "위",
+   "gpt-4o-mini-transcribe|위": "위"
+  }
+ },
+ "kore/gwi-1bda.0": {
+  "choices": {
+   "gpt-4o-transcribe|귀,기,퀴,뀌": "기",
+   "gpt-4o-transcribe|뀌,퀴,기,귀": "기",
+   "gpt-4o-mini-transcribe|귀,기,퀴,뀌": "기",
+   "gpt-4o-mini-transcribe|뀌,퀴,기,귀": "기"
+  }
+ },
+ "kore/wae-90fe.0": {
+  "choices": {
+   "gpt-4o-transcribe|왜": "왜",
+   "gpt-4o-mini-transcribe|왜": "왜?"
+  }
+ },
+ "kore/gwi-1bda.1": {
+  "choices": {
+   "gpt-4o-transcribe|귀,기,퀴,뀌": "티",
+   "gpt-4o-transcribe|뀌,퀴,기,귀": "티",
+   "gpt-4o-mini-transcribe|귀,기,퀴,뀌": "티",
+   "gpt-4o-mini-transcribe|뀌,퀴,기,귀": "티"
+  }
+ },
+ "kore/gi-3dfd.0": {
+  "choices": {
+   "gpt-4o-transcribe|기,귀,키,끼": "기",
+   "gpt-4o-transcribe|끼,키,귀,기": "기",
+   "gpt-4o-mini-transcribe|기,귀,키,끼": "기",
+   "gpt-4o-mini-transcribe|끼,키,귀,기": "기"
+  }
+ },
+ "kore/gwi-1bda.2": {
+  "choices": {
+   "gpt-4o-transcribe|귀,기,퀴,뀌": "퀴",
+   "gpt-4o-transcribe|뀌,퀴,기,귀": "귀",
+   "gpt-4o-mini-transcribe|귀,기,퀴,뀌": "지",
+   "gpt-4o-mini-transcribe|뀌,퀴,기,귀": "티"
+  }
+ },
+ "kore/jwi-208e.0": {
+  "choices": {
+   "gpt-4o-transcribe|쥐,취,쮜": "쥐",
+   "gpt-4o-transcribe|쮜,취,쥐": "쥐",
+   "gpt-4o-mini-transcribe|쥐,취,쮜": "쥐",
+   "gpt-4o-mini-transcribe|쮜,취,쥐": "쥐"
+  }
+ },
+ "kore/uisa-6b20.0": {
+  "plain": "의사"
+ },
+ "kore/uija-8808.0": {
+  "plain": "의자"
+ },
+ "kore/uimi-cc18.0": {
+  "plain": "리니",
+  "choices": {
+   "gpt-4o-transcribe|의미": "의미",
+   "gpt-4o-mini-transcribe|의미": "리미"
+  }
+ },
+ "kore/chwimi-ceba.0": {
+  "plain": "취미"
+ },
+ "kore/uimi-cc18.1": {
+  "plain": "리미",
+  "choices": {
+   "gpt-4o-transcribe|의미": "의미",
+   "gpt-4o-mini-transcribe|의미": "리미"
+  }
+ },
+ "kore/uimi-cc18.2": {
+  "plain": "의미"
+ },
+ "kore/wichi-6f9c.0": {
+  "plain": "위치"
+ },
+ "kore/weiteo-debc.0": {
+  "plain": "웨이터"
+ },
+ "kore/syawo-79bf.0": {
+  "plain": "샤워"
+ },
+ "kore/seuweteo-4013.0": {
+  "plain": "스웨터"
+ },
+ "kore/waipai-a4eb.0": {
+  "plain": "와이파이"
+ },
+ "kore/yeogi-287e.0": {
+  "plain": "여기"
+ },
+ "kore/bwipe-407a.0": {
+  "plain": "뷔페"
+ },
+ "kore/eokkae-9d78.0": {
+  "plain": "어깨"
+ },
+ "kore/jjigae-ab6b.0": {
+  "plain": "찌개"
+ },
+ "kore/sseuregi-ca59.0": {
+  "plain": "쓰레기"
+ },
+ "kore/yaegi-e2d5.0": {
+  "plain": "예디",
+  "choices": {
+   "gpt-4o-transcribe|얘기": "얘기",
+   "gpt-4o-mini-transcribe|얘기": "예디"
+  }
+ },
+ "kore/yaegi-e2d5.1": {
+  "plain": "예디",
+  "choices": {
+   "gpt-4o-transcribe|얘기": "얘기",
+   "gpt-4o-mini-transcribe|얘기": "얘디"
+  }
+ },
+ "kore/yaegi-e2d5.2": {
+  "plain": "예지",
+  "choices": {
+   "gpt-4o-transcribe|얘기": "얘기",
+   "gpt-4o-mini-transcribe|얘기": "예지"
+  }
+ },
+ "kore/yeppeuda-7462.0": {
+  "plain": "예쁘다"
+ },
+ "kore/gyogwaseo-8897.0": {
+  "plain": "교과서"
+ },
+ "kore/muryo-d86c.0": {
+  "plain": "무료"
+ },
+ "kore/gaeguri-530b.0": {
+  "plain": "개구리"
+ },
+ "kore/hae-d519.0": {
+  "choices": {
+   "gpt-4o-transcribe|해": "해",
+   "gpt-4o-mini-transcribe|해": "헤이."
+  }
+ },
+ "kore/memo-7756.0": {
+  "plain": "대모",
+  "choices": {
+   "gpt-4o-transcribe|메모": "메모",
+   "gpt-4o-mini-transcribe|메모": "메모"
+  }
+ },
+ "kore/hae-d519.1": {
+  "choices": {
+   "gpt-4o-transcribe|해": "해",
+   "gpt-4o-mini-transcribe|해": "해"
+  }
+ },
+ "kore/maeu-9afd.0": {
+  "plain": "매우"
+ },
+ "kore/jaemi-1719.0": {
+  "plain": "재미"
+ },
+ "kore/ne-5f0a.0": {
+  "choices": {
+   "gpt-4o-transcribe|네": "네",
+   "gpt-4o-mini-transcribe|네": "네."
+  }
+ },
+ "kore/ye-7eb3.0": {
+  "choices": {
+   "gpt-4o-transcribe|예": "예",
+   "gpt-4o-mini-transcribe|예": "예."
+  }
+ },
+ "kore/aniyo-97da.0": {
+  "plain": "아니요"
+ },
+ "kore/mwo-914f.0": {
+  "choices": {
+   "gpt-4o-transcribe|뭐,뫄": "뭐",
+   "gpt-4o-transcribe|뫄,뭐": "뭐",
+   "gpt-4o-mini-transcribe|뭐,뫄": "뭐?",
+   "gpt-4o-mini-transcribe|뫄,뭐": "뭐?"
+  }
+ },
+ "kore/kaenada-74da.0": {
+  "plain": "캐나다"
+ },
+ "kore/mesiji-5e81.0": {
+  "plain": "메시지"
+ },
+ "kore/seuteikeu-cc3c.0": {
+  "plain": "스테이크"
+ },
+ "kore/cheri-5140.0": {
+  "plain": "체리"
+ },
+ "kore/tisyeocheu-a1b8.0": {
+  "plain": "티셔츠"
+ },
+ "kore/syupeo-2735.0": {
+  "plain": "슈퍼"
+ },
+ "kore/hyuga-35e6.0": {
+  "plain": "휴가"
+ },
+ "kore/sosiji-3d93.0": {
+  "plain": "소시지"
+ },
+ "kore/yumeo-f9dc.0": {
+  "plain": "유머"
+ },
+ "kore/pyo-7e75.0": {
+  "choices": {
+   "gpt-4o-transcribe|표,뵤,뾰,펴": "표",
+   "gpt-4o-transcribe|펴,뾰,뵤,표": "표",
+   "gpt-4o-mini-transcribe|표,뵤,뾰,펴": "표",
+   "gpt-4o-mini-transcribe|펴,뾰,뵤,표": "표"
+  }
+ },
+ "kore/gim-3d64.0": {
+  "choices": {
+   "gpt-4o-transcribe|김,킴,낌,긴,깅": "킴",
+   "gpt-4o-transcribe|깅,긴,낌,킴,김": "킴",
+   "gpt-4o-mini-transcribe|김,킴,낌,긴,깅": "김",
+   "gpt-4o-mini-transcribe|깅,긴,낌,킴,김": "김"
+  }
+ },
+ "kore/gim-3d64.1": {
+  "choices": {
+   "gpt-4o-transcribe|김,킴,낌,긴,깅": "김",
+   "gpt-4o-transcribe|깅,긴,낌,킴,김": "김",
+   "gpt-4o-mini-transcribe|김,킴,낌,긴,깅": "김",
+   "gpt-4o-mini-transcribe|깅,긴,낌,킴,김": "김"
+  }
+ },
+ "kore/gyohoe-2419.0": {
+  "plain": "교회"
+ },
+ "kore/ramyeon-a68d.0": {
+  "plain": "라면"
+ },
+ "kore/seoul-bc17.0": {
+  "plain": "서울"
+ },
+ "kore/hanguk-2cc3.0": {
+  "plain": "한국"
+ },
+ "kore/hangeul-d481.0": {
+  "plain": "한글"
+ },
+ "kore/sarang-37b7.0": {
+  "plain": "사란",
+  "choices": {
+   "gpt-4o-transcribe|사랑": "사랑",
+   "gpt-4o-mini-transcribe|사랑": "사란"
+  }
+ },
+ "kore/chingu-3de5.0": {
+  "plain": "친구"
+ },
+ "kore/sarang-37b7.1": {
+  "plain": "사랑"
+ },
+ "kore/seonsaengnim-0925.0": {
+  "plain": "선생님"
+ },
+ "kore/mul-320a.0": {
+  "choices": {
+   "gpt-4o-transcribe|물,믈": "물",
+   "gpt-4o-transcribe|믈,물": "물",
+   "gpt-4o-mini-transcribe|물,믈": "물",
+   "gpt-4o-mini-transcribe|믈,물": "물"
+  }
+ },
+ "kore/bap-56d1.0": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "밥",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "밥"
+  }
+ },
+ "kore/bulgogi-c291.0": {
+  "plain": "불고기"
+ },
+ "kore/gimchi-5df1.0": {
+  "plain": "김치"
+ },
+ "kore/annyeong-a929.0": {
+  "plain": "안녕"
+ },
+ "kore/annyeonghaseyo-6b7b.0": {
+  "plain": "안녕하세요"
+ },
+ "kore/gamsa-9de5.0": {
+  "plain": "감사"
+ },
+ "kore/saram-3c70.0": {
+  "plain": "차렘",
+  "choices": {
+   "gpt-4o-transcribe|사람": "사람",
+   "gpt-4o-mini-transcribe|사람": "사람"
+  }
+ },
+ "kore/sigan-192e.0": {
+  "plain": "시단",
+  "choices": {
+   "gpt-4o-transcribe|시간": "시간",
+   "gpt-4o-mini-transcribe|시간": "시단"
+  }
+ },
+ "kore/gongbu-56e4.0": {
+  "plain": "공부"
+ },
+ "kore/gabang-6d55.0": {
+  "plain": "가방"
+ },
+ "kore/sigan-192e.1": {
+  "plain": "시간"
+ },
+ "kore/wain-f277.0": {
+  "plain": "라인",
+  "choices": {
+   "gpt-4o-transcribe|와인": "와인",
+   "gpt-4o-mini-transcribe|와인": "라인"
+  }
+ },
+ "kore/wain-f277.1": {
+  "plain": "와인"
+ },
+ "kore/usan-ecd5.0": {
+  "plain": "우산"
+ },
+ "kore/hotel-ce2e.0": {
+  "plain": "호텔"
+ },
+ "kore/gang-6a06.0": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "kore/gang-6a06.1": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "칸"
+  }
+ },
+ "kore/gang-6a06.2": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "강",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "kore/san-3d01.0": {
+  "choices": {
+   "gpt-4o-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-transcribe|싼,상,삼,산": "싼.",
+   "gpt-4o-mini-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-mini-transcribe|싼,상,삼,산": "산"
+  }
+ },
+ "kore/san-3d01.1": {
+  "choices": {
+   "gpt-4o-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-transcribe|싼,상,삼,산": "싼",
+   "gpt-4o-mini-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-mini-transcribe|싼,상,삼,산": "산"
+  }
+ },
+ "kore/sam-36b5.0": {
+  "choices": {
+   "gpt-4o-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-transcribe|쌈,상,산,삼": "삼",
+   "gpt-4o-mini-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-mini-transcribe|쌈,상,산,삼": "쌈"
+  }
+ },
+ "kore/san-3d01.2": {
+  "choices": {
+   "gpt-4o-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-transcribe|싼,상,삼,산": "산",
+   "gpt-4o-mini-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-mini-transcribe|싼,상,삼,산": "산"
+  }
+ },
+ "kore/sam-36b5.1": {
+  "choices": {
+   "gpt-4o-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-transcribe|쌈,상,산,삼": "삼.",
+   "gpt-4o-mini-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-mini-transcribe|쌈,상,산,삼": "삼"
+  }
+ },
+ "kore/sang-4a5b.0": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "삼",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "상",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "사"
+  }
+ },
+ "kore/gam-71e5.0": {
+  "choices": {
+   "gpt-4o-transcribe|감,간,강,캄,깜": "감",
+   "gpt-4o-transcribe|깜,캄,강,간,감": "감",
+   "gpt-4o-mini-transcribe|감,간,강,캄,깜": "감",
+   "gpt-4o-mini-transcribe|깜,캄,강,간,감": "감"
+  }
+ },
+ "kore/sang-4a5b.1": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "산"
+  }
+ },
+ "kore/gan-84c9.0": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "간",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "간"
+  }
+ },
+ "kore/gom-be0e.0": {
+  "choices": {
+   "gpt-4o-transcribe|곰,콤,꼼,검,곤": "곰",
+   "gpt-4o-transcribe|곤,검,꼼,콤,곰": "곰",
+   "gpt-4o-mini-transcribe|곰,콤,꼼,검,곤": "곰",
+   "gpt-4o-mini-transcribe|곤,검,꼼,콤,곰": "곰"
+  }
+ },
+ "kore/gong-c5ed.0": {
+  "choices": {
+   "gpt-4o-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-transcribe|곤,겅,꽁,콩,공": "곤",
+   "gpt-4o-mini-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-mini-transcribe|곤,겅,꽁,콩,공": "공"
+  }
+ },
+ "kore/sang-4a5b.2": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "상",
+   "gpt-4o-transcribe|쌍,삼,산,상": "상",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "상 또는 산 또는 삼 또는 쌍 중 하나입니다.",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "쌍"
+  }
+ },
+ "kore/kong-1b31.0": {
+  "choices": {
+   "gpt-4o-transcribe|콩,공,꽁,컹,콘": "콩",
+   "gpt-4o-transcribe|콘,컹,꽁,공,콩": "콩",
+   "gpt-4o-mini-transcribe|콩,공,꽁,컹,콘": "쿵",
+   "gpt-4o-mini-transcribe|콘,컹,꽁,공,콩": "쿵"
+  }
+ },
+ "kore/kong-1b31.1": {
+  "choices": {
+   "gpt-4o-transcribe|콩,공,꽁,컹,콘": "콩",
+   "gpt-4o-transcribe|콘,컹,꽁,공,콩": "콩",
+   "gpt-4o-mini-transcribe|콩,공,꽁,컹,콘": "콩",
+   "gpt-4o-mini-transcribe|콘,컹,꽁,공,콩": "콩"
+  }
+ },
+ "kore/gong-c5ed.1": {
+  "choices": {
+   "gpt-4o-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-transcribe|곤,겅,꽁,콩,공": "공",
+   "gpt-4o-mini-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-mini-transcribe|곤,겅,꽁,콩,공": "공"
+  }
+ },
+ "kore/chaek-bf91.0": {
+  "choices": {
+   "gpt-4o-transcribe|책,잭,짹,챋,챕": "책",
+   "gpt-4o-transcribe|챕,챋,짹,잭,책": "책",
+   "gpt-4o-mini-transcribe|책,잭,짹,챋,챕": "책",
+   "gpt-4o-mini-transcribe|챕,챋,짹,잭,책": "책"
+  }
+ },
+ "kore/jip-2d4f.0": {
+  "choices": {
+   "gpt-4o-transcribe|집,칩,찝,직,짇": "칩",
+   "gpt-4o-transcribe|짇,직,찝,칩,집": "집",
+   "gpt-4o-mini-transcribe|집,칩,찝,직,짇": "집",
+   "gpt-4o-mini-transcribe|짇,직,찝,칩,집": "집"
+  }
+ },
+ "kore/got-a997.0": {
+  "choices": {
+   "gpt-4o-transcribe|곧,콛,꼳,걷,곡": "곧",
+   "gpt-4o-transcribe|곡,걷,꼳,콛,곧": "곧",
+   "gpt-4o-mini-transcribe|곧,콛,꼳,걷,곡": "곧?",
+   "gpt-4o-mini-transcribe|곡,걷,꼳,콛,곧": "곧"
+  }
+ },
+ "kore/jip-2d4f.1": {
+  "choices": {
+   "gpt-4o-transcribe|집,칩,찝,직,짇": "집",
+   "gpt-4o-transcribe|짇,직,찝,칩,집": "집",
+   "gpt-4o-mini-transcribe|집,칩,찝,직,짇": "집",
+   "gpt-4o-mini-transcribe|짇,직,찝,칩,집": "집"
+  }
+ },
+ "kore/mal-aa65.0": {
+  "choices": {
+   "gpt-4o-transcribe|말": "말",
+   "gpt-4o-mini-transcribe|말": "바이"
+  }
+ },
+ "kore/bat-4a39.0": {
+  "choices": {
+   "gpt-4o-transcribe|밭,박,밥,팥,빹": "밭",
+   "gpt-4o-transcribe|빹,팥,밥,박,밭": "밭",
+   "gpt-4o-mini-transcribe|밭,박,밥,팥,빹": "밭",
+   "gpt-4o-mini-transcribe|빹,팥,밥,박,밭": "밭"
+  }
+ },
+ "kore/mal-aa65.1": {
+  "choices": {
+   "gpt-4o-transcribe|말": "말",
+   "gpt-4o-mini-transcribe|말": "말"
+  }
+ },
+ "kore/kkot-c579.0": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "풋",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "붙"
+  }
+ },
+ "kore/kkot-c579.1": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "꽃"
+  }
+ },
+ "kore/ot-79fa.0": {
+  "choices": {
+   "gpt-4o-transcribe|옷,엇": "옷",
+   "gpt-4o-transcribe|엇,옷": "엇",
+   "gpt-4o-mini-transcribe|옷,엇": "어",
+   "gpt-4o-mini-transcribe|엇,옷": "어"
+  }
+ },
+ "kore/nat-0a22.0": {
+  "choices": {
+   "gpt-4o-transcribe|낮": "낮",
+   "gpt-4o-mini-transcribe|낮": "낮"
+  }
+ },
+ "kore/bueok-6b0b.0": {
+  "plain": "부엌"
+ },
+ "kore/ot-79fa.1": {
+  "choices": {
+   "gpt-4o-transcribe|옷,엇": "옷",
+   "gpt-4o-transcribe|엇,옷": "옷",
+   "gpt-4o-mini-transcribe|옷,엇": "옷",
+   "gpt-4o-mini-transcribe|엇,옷": "옷"
+  }
+ },
+ "kore/ap-3e2c.0": {
+  "choices": {
+   "gpt-4o-transcribe|앞": "앞",
+   "gpt-4o-mini-transcribe|앞": "앞"
+  }
+ },
+ "kore/bak-a261.0": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "팍",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팍",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "팍",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "팍"
+  }
+ },
+ "kore/bak-9da8.0": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팎",
+   "gpt-4o-transcribe|빢,팎,밖": "타드",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "다",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "타다."
+  }
+ },
+ "kore/bak-a261.1": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "밭",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팟",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "밭",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "파"
+  }
+ },
+ "kore/bak-a261.2": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팍",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "박."
+  }
+ },
+ "kore/ppang-2094.0": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빤",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빤",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "반",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "반"
+  }
+ },
+ "kore/ppang-2094.1": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빰",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "빰"
+  }
+ },
+ "kore/ppang-2094.2": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빤",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빤",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "반",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "빤"
+  }
+ },
+ "kore/bak-9da8.1": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팥",
+   "gpt-4o-transcribe|빢,팎,밖": "밖",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "밭",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "밝"
+  }
+ },
+ "kore/bang-5085.0": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "반",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "반",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "반",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "반"
+  }
+ },
+ "kore/bak-9da8.2": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팎",
+   "gpt-4o-transcribe|빢,팎,밖": "팎",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "파",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "바"
+  }
+ },
+ "kore/bang-5085.1": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "반경",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "반경",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "방경",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "방경"
+  }
+ },
+ "kore/bang-5085.2": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "방짐",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "방짐",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "방짐",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "방짐"
+  }
+ },
+ "kore/bam-553e.0": {
+  "choices": {
+   "gpt-4o-transcribe|밤,반,방,팜,빰": "밤",
+   "gpt-4o-transcribe|빰,팜,방,반,밤": "밤",
+   "gpt-4o-mini-transcribe|밤,반,방,팜,빰": "밤",
+   "gpt-4o-mini-transcribe|빰,팜,방,반,밤": "밤"
+  }
+ },
+ "kore/ttalgi-b0cc.0": {
+  "plain": "딸기"
+ },
+ "kore/ban-9a82.0": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "반",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "반",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "반",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "반"
+  }
+ },
+ "kore/dal-c74d.0": {
+  "choices": {
+   "gpt-4o-transcribe|달,탈,딸": "달",
+   "gpt-4o-transcribe|딸,탈,달": "달。",
+   "gpt-4o-mini-transcribe|달,탈,딸": "달",
+   "gpt-4o-mini-transcribe|딸,탈,달": "달"
+  }
+ },
+ "kore/ttal-3e46.0": {
+  "choices": {
+   "gpt-4o-transcribe|딸,달,탈": "딸",
+   "gpt-4o-transcribe|탈,달,딸": "딸",
+   "gpt-4o-mini-transcribe|딸,달,탈": "딸",
+   "gpt-4o-mini-transcribe|탈,달,딸": "딸"
+  }
+ },
+ "kore/tal-808b.0": {
+  "choices": {
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-transcribe|딸,달,탈": "딸",
+   "gpt-4o-mini-transcribe|탈,달,딸": "패르",
+   "gpt-4o-mini-transcribe|딸,달,탈": "패리"
+  }
+ },
+ "kore/bul-8f54.0": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "클리",
+   "gpt-4o-transcribe|블,뿔,풀,불": "클리.",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "클리",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "클리"
+  }
+ },
+ "kore/tal-808b.1": {
+  "choices": {
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-transcribe|딸,달,탈": "탈을",
+   "gpt-4o-mini-transcribe|탈,달,딸": "타이드",
+   "gpt-4o-mini-transcribe|딸,달,탈": "타이드"
+  }
+ },
+ "kore/bul-8f54.1": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "풀이",
+   "gpt-4o-transcribe|블,뿔,풀,불": "불이",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "풀이",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "풀이"
+  }
+ },
+ "kore/tal-808b.2": {
+  "choices": {
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-transcribe|딸,달,탈": "탈",
+   "gpt-4o-mini-transcribe|탈,달,딸": "탈",
+   "gpt-4o-mini-transcribe|딸,달,탈": "태"
+  }
+ },
+ "kore/bul-8f54.2": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "주의",
+   "gpt-4o-transcribe|블,뿔,풀,불": "주의",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "주의",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "주의"
+  }
+ },
+ "kore/ppul-3cc1.0": {
+  "choices": {
+   "gpt-4o-transcribe|뿔,불,풀,쁠": "뿔",
+   "gpt-4o-transcribe|쁠,풀,불,뿔": "뿔",
+   "gpt-4o-mini-transcribe|뿔,불,풀,쁠": "뿔",
+   "gpt-4o-mini-transcribe|쁠,풀,불,뿔": "뿔"
+  }
+ },
+ "kore/pul-52fa.0": {
+  "choices": {
+   "gpt-4o-transcribe|풀,불,뿔,플": "툴",
+   "gpt-4o-transcribe|플,뿔,불,풀": "풀",
+   "gpt-4o-mini-transcribe|풀,불,뿔,플": "툴",
+   "gpt-4o-mini-transcribe|플,뿔,불,풀": "투엘"
+  }
+ },
+ "kore/pul-52fa.1": {
+  "choices": {
+   "gpt-4o-transcribe|풀,불,뿔,플": "풀",
+   "gpt-4o-transcribe|플,뿔,불,풀": "풀",
+   "gpt-4o-mini-transcribe|풀,불,뿔,플": "풀",
+   "gpt-4o-mini-transcribe|플,뿔,불,풀": "풀"
+  }
+ },
+ "kore/kkul-b592.0": {
+  "choices": {
+   "gpt-4o-transcribe|꿀,굴,쿨,끌": "꿀",
+   "gpt-4o-transcribe|끌,쿨,굴,꿀": "꿀",
+   "gpt-4o-mini-transcribe|꿀,굴,쿨,끌": "꿀",
+   "gpt-4o-mini-transcribe|끌,쿨,굴,꿀": "꿀"
+  }
+ },
+ "kore/bal-9436.0": {
+  "choices": {
+   "gpt-4o-transcribe|발,팔,빨": "발",
+   "gpt-4o-transcribe|빨,팔,발": "발",
+   "gpt-4o-mini-transcribe|발,팔,빨": "발",
+   "gpt-4o-mini-transcribe|빨,팔,발": "발"
+  }
+ },
+ "kore/pal-fb98.0": {
+  "choices": {
+   "gpt-4o-transcribe|팔,발,빨": "팔",
+   "gpt-4o-transcribe|빨,발,팔": "팔",
+   "gpt-4o-mini-transcribe|팔,발,빨": "Pay",
+   "gpt-4o-mini-transcribe|빨,발,팔": "pay"
+  }
+ },
+ "kore/gul-4684.0": {
+  "choices": {
+   "gpt-4o-transcribe|굴,꿀,쿨,글": "굴",
+   "gpt-4o-transcribe|글,쿨,꿀,굴": "굴",
+   "gpt-4o-mini-transcribe|굴,꿀,쿨,글": "굴",
+   "gpt-4o-mini-transcribe|글,쿨,꿀,굴": "굴"
+  }
+ },
+ "kore/pal-fb98.1": {
+  "choices": {
+   "gpt-4o-transcribe|팔,발,빨": "팔",
+   "gpt-4o-transcribe|빨,발,팔": "팔",
+   "gpt-4o-mini-transcribe|팔,발,빨": "팔",
+   "gpt-4o-mini-transcribe|빨,발,팔": "팔"
+  }
+ },
+ "kore/ssal-615f.0": {
+  "choices": {
+   "gpt-4o-transcribe|쌀,살": "쌀",
+   "gpt-4o-transcribe|살,쌀": "쌀",
+   "gpt-4o-mini-transcribe|쌀,살": "쌀",
+   "gpt-4o-mini-transcribe|살,쌀": "사이"
+  }
+ },
+ "kore/sal-434d.0": {
+  "choices": {
+   "gpt-4o-transcribe|살,쌀": "살",
+   "gpt-4o-transcribe|쌀,살": "살",
+   "gpt-4o-mini-transcribe|살,쌀": "살",
+   "gpt-4o-mini-transcribe|쌀,살": "살"
+  }
+ },
+ "kore/ssal-615f.1": {
+  "choices": {
+   "gpt-4o-transcribe|쌀,살": "쌀",
+   "gpt-4o-transcribe|살,쌀": "쌀",
+   "gpt-4o-mini-transcribe|쌀,살": "쌀",
+   "gpt-4o-mini-transcribe|살,쌀": "쌀"
+  }
+ },
+ "kore/geubun-0929.0": {
+  "plain": "그분"
+ },
+ "kore/ilbon-8478.0": {
+  "plain": "교도 다른 가지 치미는 여는 부분데.",
+  "choices": {
+   "gpt-4o-transcribe|일본": "교도 다른 가지 취미는 연음 부분데",
+   "gpt-4o-mini-transcribe|일본": "교도 다른 가제 취미는 연음 부분데."
+  }
+ },
+ "kore/gubun-0867.0": {
+  "plain": "구분"
+ },
+ "kore/yeongeo-da1e.0": {
+  "plain": "The thing on the bucket was the tall one, so the tall one went with the bucket.",
+  "choices": {
+   "gpt-4o-transcribe|영어": "영어",
+   "gpt-4o-mini-transcribe|영어": "The thing on the bucket was the tall one, so the tall one went with the bucket."
+  }
+ },
+ "kore/yeongeo-da1e.1": {
+  "plain": "닌 유큼",
+  "choices": {
+   "gpt-4o-transcribe|영어": "닌 유큼",
+   "gpt-4o-mini-transcribe|영어": "닌 유금"
+  }
+ },
+ "kore/ilbon-8478.1": {
+  "plain": "돌고기를 일본에 좋아해요.",
+  "choices": {
+   "gpt-4o-transcribe|일본": "돌고기를 일본에 좋아해요.",
+   "gpt-4o-mini-transcribe|일본": "돌고기를 일본에 좋아하여"
+  }
+ },
+ "kore/ilbon-8478.2": {
+  "plain": "일본"
+ },
+ "kore/yeongeo-da1e.2": {
+  "plain": "양영이 파티를 가시면 뭐든 돈을 가져다 주세요.",
+  "choices": {
+   "gpt-4o-transcribe|영어": "양영이 파티를 가시면 뭐든 돈을 가져다 주세요.",
+   "gpt-4o-mini-transcribe|영어": "양형이 파티를 가시면 뭐든 돈을 가져다 주세요."
+  }
+ },
+ "kore/ireum-03c9.0": {
+  "plain": "이름"
+ },
+ "kore/maeum-b332.0": {
+  "plain": "마음"
+ },
+ "kore/oneul-89c6.0": {
+  "plain": "오늘"
+ },
+ "kore/naeil-6c59.0": {
+  "plain": "뛰.",
+  "choices": {
+   "gpt-4o-transcribe|내일": "내일",
+   "gpt-4o-mini-transcribe|내일": "내일"
+  }
+ },
+ "kore/jumal-a682.0": {
+  "plain": "주말"
+ },
+ "kore/sijang-3525.0": {
+  "plain": "시잔.",
+  "choices": {
+   "gpt-4o-transcribe|시장": "시잔",
+   "gpt-4o-mini-transcribe|시장": "시잔"
+  }
+ },
+ "kore/byeongwon-0925.0": {
+  "plain": "병원"
+ },
+ "kore/sijang-3525.1": {
+  "plain": "시잔",
+  "choices": {
+   "gpt-4o-transcribe|시장": "시장",
+   "gpt-4o-mini-transcribe|시장": "시단"
+  }
+ },
+ "kore/yeonghwa-b842.0": {
+  "plain": "영화"
+ },
+ "kore/yeohaeng-6106.0": {
+  "plain": "여행"
+ },
+ "kore/eunhaeng-dc44.0": {
+  "plain": "은행"
+ },
+ "kore/sijang-3525.2": {
+  "plain": "시장"
+ },
+ "kore/daehak-f3df.0": {
+  "plain": "배합",
+  "choices": {
+   "gpt-4o-transcribe|대학": "대합",
+   "gpt-4o-mini-transcribe|대학": "배합"
+  }
+ },
+ "kore/jeonhwa-e13b.0": {
+  "plain": "전화"
+ },
+ "kore/noteubuk-6b50.0": {
+  "plain": "노트북"
+ },
+ "kore/daehak-f3df.1": {
+  "plain": "대합",
+  "choices": {
+   "gpt-4o-transcribe|대학": "대합",
+   "gpt-4o-mini-transcribe|대학": "대합"
+  }
+ },
+ "kore/keompyuteo-bef3.0": {
+  "plain": "펌펌퍼",
+  "choices": {
+   "gpt-4o-transcribe|컴퓨터": "컴퓨터",
+   "gpt-4o-mini-transcribe|컴퓨터": "펌펌퍼"
+  }
+ },
+ "kore/daehak-f3df.2": {
+  "plain": "대학"
+ },
+ "kore/keompyuteo-bef3.1": {
+  "plain": "컴퓨터"
+ },
+ "kore/haendeupon-4317.0": {
+  "plain": "핸드폰"
+ },
+ "kore/aiseukeurim-a196.0": {
+  "plain": "아이스크림"
+ },
+ "kore/haembeogeo-6e2c.0": {
+  "plain": "행복어",
+  "choices": {
+   "gpt-4o-transcribe|햄버거": "햄버거",
+   "gpt-4o-mini-transcribe|햄버거": "행복어"
+  }
+ },
+ "kore/haembeogeo-6e2c.1": {
+  "plain": "햄버거"
+ },
+ "kore/naengmyeon-e74a.0": {
+  "plain": "냉면"
+ },
+ "kore/galbi-0ecf.0": {
+  "plain": "갈비"
+ },
+ "kore/kolra-a8f2.0": {
+  "plain": "콜라"
+ },
+ "kore/chikin-1057.0": {
+  "plain": "치킨"
+ },
+ "kore/aidol-4c33.0": {
+  "plain": "아이돌"
+ },
+ "kore/konseoteu-b063.0": {
+  "plain": "콘서트"
+ },
+ "kore/sajin-3500.0": {
+  "plain": "사진"
+ },
+ "kore/undong-1ba2.0": {
+  "plain": "운동"
+ },
+ "kore/gonghang-4a86.0": {
+  "plain": "공간",
+  "choices": {
+   "gpt-4o-transcribe|공항": "공항",
+   "gpt-4o-mini-transcribe|공항": "공간"
+  }
+ },
+ "kore/jihacheol-8624.0": {
+  "plain": "지하철"
+ },
+ "kore/gonghang-4a86.1": {
+  "plain": "공항"
+ },
+ "kore/hwajangsil-af79.0": {
+  "plain": "화장실"
+ },
+ "kore/mianhaeyo-2cf2.0": {
+  "plain": "미안해요."
+ },
+ "kore/saranghaeyo-e257.0": {
+  "plain": "사랑해요."
+ },
+ "kore/remon-eb8d.0": {
+  "plain": "레몬"
+ },
+ "kore/eeokeon-15b1.0": {
+  "plain": "에어컨"
+ },
+ "kore/rimokeon-21ce.0": {
+  "plain": "리모컨"
+ },
+ "kore/beteunam-8050.0": {
+  "plain": "베트남"
+ },
+ "kore/robot-36a5.0": {
+  "plain": "로그",
+  "choices": {
+   "gpt-4o-transcribe|로봇": "로봇",
+   "gpt-4o-mini-transcribe|로봇": "로고드."
+  }
+ },
+ "kore/robot-36a5.1": {
+  "plain": "로봇"
+ },
+ "kore/beoteun-895d.0": {
+  "plain": "버튼"
+ },
+ "kore/keoteun-9e15.0": {
+  "plain": "커튼"
+ },
+ "kore/sip-4f57.0": {
+  "choices": {
+   "gpt-4o-transcribe|십,씹,식,싣": "십",
+   "gpt-4o-transcribe|싣,식,씹,십": "십",
+   "gpt-4o-mini-transcribe|십,씹,식,싣": "십",
+   "gpt-4o-mini-transcribe|싣,식,씹,십": "십"
+  }
+ },
+ "kore/il-f43a.0": {
+  "choices": {
+   "gpt-4o-transcribe|일": "일.",
+   "gpt-4o-mini-transcribe|일": "일"
+  }
+ },
+ "kore/yaegi-e2d5.3": {
+  "plain": "얘기"
+ },
+ "kore/gwi-1bda.3": {
+  "choices": {
+   "gpt-4o-transcribe|귀,기,퀴,뀌": "귀",
+   "gpt-4o-transcribe|뀌,퀴,기,귀": "귀",
+   "gpt-4o-mini-transcribe|귀,기,퀴,뀌": "귀",
+   "gpt-4o-mini-transcribe|뀌,퀴,기,귀": "귀"
+  }
+ },
+ "kore/gang-6a06.3": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "kore/sang-4a5b.3": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "산"
+  }
+ },
+ "kore/bak-9da8.3": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-transcribe|빢,팎,밖": "팎",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "파"
+  }
+ },
+ "kore/ppang-2094.3": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빤",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빤",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "반",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "반"
+  }
+ },
+ "kore/bang-5085.3": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "당균",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "방균",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "당균",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "당균"
+  }
+ },
+ "kore/bul-8f54.3": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "불",
+   "gpt-4o-transcribe|블,뿔,풀,불": "불",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "부일",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "불"
+  }
+ },
+ "kore/yeongeo-da1e.3": {
+  "plain": "볼(ball)",
+  "choices": {
+   "gpt-4o-transcribe|영어": "Both ball",
+   "gpt-4o-mini-transcribe|영어": "Both ball?"
+  }
+ },
+ "kore/syoping-b15d.0": {
+  "plain": "쇼핑"
+ },
+ "kore/chil-2ba2.0": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "2",
+   "gpt-4o-mini-transcribe|찔,질,칠": "two"
+  }
+ },
+ "kore/yuk-d3fc.0": {
+  "choices": {
+   "gpt-4o-transcribe|육,윧,윱": "육",
+   "gpt-4o-transcribe|윱,윧,육": "윱",
+   "gpt-4o-mini-transcribe|육,윧,윱": "유",
+   "gpt-4o-mini-transcribe|윱,윧,육": "유"
+  }
+ },
+ "kore/chil-2ba2.1": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "kore/yuk-d3fc.1": {
+  "choices": {
+   "gpt-4o-transcribe|육,윧,윱": "육",
+   "gpt-4o-transcribe|윱,윧,육": "육",
+   "gpt-4o-mini-transcribe|육,윧,윱": "육",
+   "gpt-4o-mini-transcribe|윱,윧,육": "육"
+  }
+ },
+ "kore/baek-764d.0": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "팩",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팩"
+  }
+ },
+ "kore/chil-2ba2.2": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "t"
+  }
+ },
+ "kore/baek-764d.1": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "팩",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팩"
+  }
+ },
+ "kore/baek-764d.2": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "뱁",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "테이크",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "백"
+  }
+ },
+ "kore/chil-2ba2.3": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "kore/baek-764d.3": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "백",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "백",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "객",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "객"
+  }
+ },
+ "kore/cheon-9765.0": {
+  "choices": {
+   "gpt-4o-transcribe|천,전,쩐,촌,첨": "천",
+   "gpt-4o-transcribe|첨,촌,쩐,전,천": "천",
+   "gpt-4o-mini-transcribe|천,전,쩐,촌,첨": "천",
+   "gpt-4o-mini-transcribe|첨,촌,쩐,전,천": "천"
+  }
+ },
+ "kore/man-c9e1.0": {
+  "choices": {
+   "gpt-4o-transcribe|만,맘,망": "만",
+   "gpt-4o-transcribe|망,맘,만": "만",
+   "gpt-4o-mini-transcribe|만,맘,망": "만?",
+   "gpt-4o-mini-transcribe|망,맘,만": "만?"
+  }
+ },
+ "kore/won-95e0.0": {
+  "choices": {
+   "gpt-4o-transcribe|원,완,웜,웡": "원",
+   "gpt-4o-transcribe|웡,웜,완,원": "원",
+   "gpt-4o-mini-transcribe|원,완,웜,웡": "원",
+   "gpt-4o-mini-transcribe|웡,웜,완,원": "원"
+  }
+ },
+ "kore/eumak-f2e0.0": {
+  "plain": "음악"
+ },
+ "kore/hangukeo-831f.1": {
+  "plain": "전개는 오전 널자가",
+  "choices": {
+   "gpt-4o-transcribe|한국어": "전개는 오전 널자가",
+   "gpt-4o-mini-transcribe|한국어": "전개는 오전 널자가"
+  }
+ },
+ "kore/daneo-1fe5.0": {
+  "plain": "단어"
+ },
+ "kore/ilboneo-ccde.2": {
+  "plain": "거지는 맞아잖아.",
+  "choices": {
+   "gpt-4o-transcribe|일본어": "거지는 맞아잖아.",
+   "gpt-4o-mini-transcribe|일본어": "거지는 맞아잖아."
+  }
+ },
+ "kore/ilboneo-ccde.3": {
+  "plain": "번호커입니다.",
+  "choices": {
+   "gpt-4o-transcribe|일본어": "번호컴이다",
+   "gpt-4o-mini-transcribe|일본어": "번호 커미가!"
+  }
+ },
+ "kore/jikeop-b3ad.0": {
+  "plain": "직업"
+ },
+ "kore/pyeonuijeom-202d.0": {
+  "plain": "편의점"
+ },
+ "kore/haksaeng-7f7a.0": {
+  "plain": "학생"
+ },
+ "kore/hakgyo-094d.0": {
+  "plain": "하뚜",
+  "choices": {
+   "gpt-4o-transcribe|학교": "학교",
+   "gpt-4o-mini-transcribe|학교": "학교"
+  }
+ },
+ "kore/maekju-5bb1.0": {
+  "plain": "맥주"
+ },
+ "kore/tteokboki-2b5e.0": {
+  "plain": "떡볶이"
+ },
+ "kore/samgyeopsal-65a6.0": {
+  "plain": "삼겹살"
+ },
+ "kore/taeksi-a5ff.0": {
+  "plain": "택시"
+ },
+ "kore/bibimbap-4535.0": {
+  "plain": "비빔밥"
+ },
+ "kore/makgeolri-a0fc.0": {
+  "plain": "막걸리"
+ },
+ "kore/gamsahapnida-c8ee.0": {
+  "plain": "감사합니다."
+ },
+ "kore/matiteoyo-6b4e.0": {
+  "plain": "맛있어요."
+ },
+ "kore/jotayo-95f5.0": {
+  "plain": "좋아요"
+ },
+ "kore/ra-f84b.0": {
+  "choices": {
+   "gpt-4o-transcribe|라": "라.",
+   "gpt-4o-mini-transcribe|라": "라"
+  }
+ },
+ "kore/ma-d02d.0": {
+  "choices": {
+   "gpt-4o-transcribe|마": "마",
+   "gpt-4o-mini-transcribe|마": "마"
+  }
+ },
+ "kore/ga-8b15.0": {
+  "choices": {
+   "gpt-4o-transcribe|가,카,까": "가",
+   "gpt-4o-transcribe|까,카,가": "가",
+   "gpt-4o-mini-transcribe|가,카,까": "가",
+   "gpt-4o-mini-transcribe|까,카,가": "가"
+  }
+ },
+ "kore/sa-1d85.0": {
+  "choices": {
+   "gpt-4o-transcribe|사,싸": "사",
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-mini-transcribe|사,싸": "사",
+   "gpt-4o-mini-transcribe|싸,사": "사"
+  }
+ },
+ "kore/a-671a.0": {
+  "choices": {
+   "gpt-4o-transcribe|아": "아",
+   "gpt-4o-mini-transcribe|아": "아..."
+  }
+ },
+ "kore/ja-2c4d.0": {
+  "choices": {
+   "gpt-4o-transcribe|자,차,짜": "자",
+   "gpt-4o-transcribe|짜,차,자": "자",
+   "gpt-4o-mini-transcribe|자,차,짜": "자",
+   "gpt-4o-mini-transcribe|짜,차,자": "자"
+  }
+ },
+ "kore/ka-0c26.0": {
+  "choices": {
+   "gpt-4o-transcribe|카,가,까": "카",
+   "gpt-4o-transcribe|까,가,카": "타",
+   "gpt-4o-mini-transcribe|카,가,까": "타",
+   "gpt-4o-mini-transcribe|까,가,카": "타"
+  }
+ },
+ "kore/ka-0c26.1": {
+  "choices": {
+   "gpt-4o-transcribe|카,가,까": "카",
+   "gpt-4o-transcribe|까,가,카": "카",
+   "gpt-4o-mini-transcribe|카,가,까": "카",
+   "gpt-4o-mini-transcribe|까,가,카": "카"
+  }
+ },
+ "kore/ta-73f3.0": {
+  "choices": {
+   "gpt-4o-transcribe|타,다,따": "파",
+   "gpt-4o-transcribe|따,다,타": "파",
+   "gpt-4o-mini-transcribe|타,다,따": "파",
+   "gpt-4o-mini-transcribe|따,다,타": "파"
+  }
+ },
+ "kore/ba-a0ce.0": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "파",
+   "gpt-4o-transcribe|빠,파,바": "파",
+   "gpt-4o-mini-transcribe|바,파,빠": "바",
+   "gpt-4o-mini-transcribe|빠,파,바": "바"
+  }
+ },
+ "kore/ta-73f3.1": {
+  "choices": {
+   "gpt-4o-transcribe|타,다,따": "타",
+   "gpt-4o-transcribe|따,다,타": "타",
+   "gpt-4o-mini-transcribe|타,다,따": "파",
+   "gpt-4o-mini-transcribe|따,다,타": "파"
+  }
+ },
+ "kore/ba-a0ce.1": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "파",
+   "gpt-4o-transcribe|빠,파,바": "파",
+   "gpt-4o-mini-transcribe|바,파,빠": "파",
+   "gpt-4o-mini-transcribe|빠,파,바": "파"
+  }
+ },
+ "kore/ta-73f3.2": {
+  "choices": {
+   "gpt-4o-transcribe|타,다,따": "타",
+   "gpt-4o-transcribe|따,다,타": "타",
+   "gpt-4o-mini-transcribe|타,다,따": "타",
+   "gpt-4o-mini-transcribe|따,다,타": "타"
+  }
+ },
+ "kore/pa-0830.0": {
+  "choices": {
+   "gpt-4o-transcribe|파,바,빠": "파",
+   "gpt-4o-transcribe|빠,바,파": "파",
+   "gpt-4o-mini-transcribe|파,바,빠": "파",
+   "gpt-4o-mini-transcribe|빠,바,파": "파"
+  }
+ },
+ "kore/ba-a0ce.2": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "파",
+   "gpt-4o-transcribe|빠,파,바": "파",
+   "gpt-4o-mini-transcribe|바,파,빠": "파",
+   "gpt-4o-mini-transcribe|빠,파,바": "파?"
+  }
+ },
+ "kore/ha-b59d.0": {
+  "choices": {
+   "gpt-4o-transcribe|하": "하",
+   "gpt-4o-mini-transcribe|하": "하"
+  }
+ },
+ "kore/kka-2a80.0": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "가",
+   "gpt-4o-transcribe|카,가,까": "가",
+   "gpt-4o-mini-transcribe|까,가,카": "까",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "kore/kka-2a80.1": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "다음",
+   "gpt-4o-transcribe|카,가,까": "다음",
+   "gpt-4o-mini-transcribe|까,가,카": "다",
+   "gpt-4o-mini-transcribe|카,가,까": "다"
+  }
+ },
+ "kore/kka-2a80.2": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "가",
+   "gpt-4o-transcribe|카,가,까": "가",
+   "gpt-4o-mini-transcribe|까,가,카": "가",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "kore/kka-2a80.3": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "까",
+   "gpt-4o-transcribe|카,가,까": "가",
+   "gpt-4o-mini-transcribe|까,가,카": "가",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "kore/tta-4ade.0": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "터키",
+   "gpt-4o-transcribe|타,다,따": "터키",
+   "gpt-4o-mini-transcribe|따,다,타": "터키",
+   "gpt-4o-mini-transcribe|타,다,따": "터키"
+  }
+ },
+ "kore/ba-a0ce.3": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "다",
+   "gpt-4o-transcribe|빠,파,바": "다.",
+   "gpt-4o-mini-transcribe|바,파,빠": "다",
+   "gpt-4o-mini-transcribe|빠,파,바": "다"
+  }
+ },
+ "kore/tta-4ade.1": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라하다",
+   "gpt-4o-transcribe|타,다,따": "따라하다",
+   "gpt-4o-mini-transcribe|따,다,타": "따라하다",
+   "gpt-4o-mini-transcribe|타,다,따": "따라하다"
+  }
+ },
+ "kore/tta-4ade.2": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라다니다가",
+   "gpt-4o-transcribe|타,다,따": "다라다니다가",
+   "gpt-4o-mini-transcribe|따,다,타": "따라다니다가",
+   "gpt-4o-mini-transcribe|타,다,따": "따라다니다가"
+  }
+ },
+ "kore/ppa-02ab.0": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "다",
+   "gpt-4o-transcribe|파,바,빠": "다.",
+   "gpt-4o-mini-transcribe|빠,바,파": "다",
+   "gpt-4o-mini-transcribe|파,바,빠": "다"
+  }
+ },
+ "kore/tta-4ade.3": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라다니다",
+   "gpt-4o-transcribe|타,다,따": "따라다니다",
+   "gpt-4o-mini-transcribe|따,다,타": "따라다니다.",
+   "gpt-4o-mini-transcribe|타,다,따": "따라다니다."
+  }
+ },
+ "kore/ppa-02ab.1": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "바",
+   "gpt-4o-transcribe|파,바,빠": "바",
+   "gpt-4o-mini-transcribe|빠,바,파": "빠",
+   "gpt-4o-mini-transcribe|파,바,빠": "바"
+  }
+ },
+ "kore/ssa-60a8.0": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-transcribe|사,싸": "사",
+   "gpt-4o-mini-transcribe|싸,사": "사",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "kore/ppa-02ab.2": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "빠",
+   "gpt-4o-transcribe|파,바,빠": "파",
+   "gpt-4o-mini-transcribe|빠,바,파": "아",
+   "gpt-4o-mini-transcribe|파,바,빠": "아"
+  }
+ },
+ "kore/ssa-60a8.1": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-transcribe|사,싸": "사.",
+   "gpt-4o-mini-transcribe|싸,사": "사",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "kore/ppa-02ab.3": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "빠",
+   "gpt-4o-transcribe|파,바,빠": "빠",
+   "gpt-4o-mini-transcribe|빠,바,파": "아",
+   "gpt-4o-mini-transcribe|파,바,빠": "아"
+  }
+ },
+ "kore/ssa-60a8.2": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-transcribe|사,싸": "사",
+   "gpt-4o-mini-transcribe|싸,사": "사",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "kore/jja-3208.0": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "짜",
+   "gpt-4o-transcribe|차,자,짜": "자",
+   "gpt-4o-mini-transcribe|짜,자,차": "자",
+   "gpt-4o-mini-transcribe|차,자,짜": "자"
+  }
+ },
+ "kore/jja-3208.1": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "짜",
+   "gpt-4o-transcribe|차,자,짜": "짜",
+   "gpt-4o-mini-transcribe|짜,자,차": "짜",
+   "gpt-4o-mini-transcribe|차,자,짜": "짜"
+  }
+ },
+ "kore/ssa-60a8.3": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-transcribe|사,싸": "싸",
+   "gpt-4o-mini-transcribe|싸,사": "싸",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "kore/o-5f37.0": {
+  "choices": {
+   "gpt-4o-transcribe|오,어": "오",
+   "gpt-4o-transcribe|어,오": "오",
+   "gpt-4o-mini-transcribe|오,어": "오",
+   "gpt-4o-mini-transcribe|어,오": "오"
+  }
+ },
+ "kore/eo-33e9.0": {
+  "choices": {
+   "gpt-4o-transcribe|어,오": "오",
+   "gpt-4o-transcribe|오,어": "오",
+   "gpt-4o-mini-transcribe|어,오": "어",
+   "gpt-4o-mini-transcribe|오,어": "어."
+  }
+ },
+ "kore/u-e209.0": {
+  "choices": {
+   "gpt-4o-transcribe|우,으": "우",
+   "gpt-4o-transcribe|으,우": "우",
+   "gpt-4o-mini-transcribe|우,으": "우",
+   "gpt-4o-mini-transcribe|으,우": "우"
+  }
+ },
+ "kore/eo-33e9.1": {
+  "choices": {
+   "gpt-4o-transcribe|어,오": "어",
+   "gpt-4o-transcribe|오,어": "오",
+   "gpt-4o-mini-transcribe|어,오": "어",
+   "gpt-4o-mini-transcribe|오,어": "어"
+  }
+ },
+ "kore/eu-c2ab.0": {
+  "choices": {
+   "gpt-4o-transcribe|으,우": "으",
+   "gpt-4o-transcribe|우,으": "으",
+   "gpt-4o-mini-transcribe|으,우": "으.",
+   "gpt-4o-mini-transcribe|우,으": "으"
+  }
+ },
+ "kore/i-e7a2.0": {
+  "choices": {
+   "gpt-4o-transcribe|이": "이",
+   "gpt-4o-mini-transcribe|이": "이"
+  }
+ },
+ "kore/ya-0ef2.0": {
+  "choices": {
+   "gpt-4o-transcribe|야": "야",
+   "gpt-4o-mini-transcribe|야": "야"
+  }
+ },
+ "kore/yeo-a4a8.0": {
+  "choices": {
+   "gpt-4o-transcribe|여,요": "여",
+   "gpt-4o-transcribe|요,여": "여",
+   "gpt-4o-mini-transcribe|여,요": "여",
+   "gpt-4o-mini-transcribe|요,여": "여"
+  }
+ },
+ "kore/yo-b5f5.0": {
+  "choices": {
+   "gpt-4o-transcribe|요,여": "요",
+   "gpt-4o-transcribe|여,요": "요",
+   "gpt-4o-mini-transcribe|요,여": "요",
+   "gpt-4o-mini-transcribe|여,요": "요"
+  }
+ },
+ "kore/yu-d58f.0": {
+  "choices": {
+   "gpt-4o-transcribe|유": "유",
+   "gpt-4o-mini-transcribe|유": "유"
+  }
+ },
+ "kore/ae-2e6e.0": {
+  "choices": {
+   "gpt-4o-transcribe|애": "애",
+   "gpt-4o-mini-transcribe|애": "애"
+  }
+ },
+ "kore/yae-792d.1": {
+  "choices": {
+   "gpt-4o-transcribe|얘": "얘, 그",
+   "gpt-4o-mini-transcribe|얘": "얘, 그..."
+  }
+ },
+ "kore/e-52cc.0": {
+  "choices": {
+   "gpt-4o-transcribe|에": "에",
+   "gpt-4o-mini-transcribe|에": "에"
+  }
+ },
+ "kore/oe-c9aa.0": {
+  "choices": {
+   "gpt-4o-transcribe|외": "왜",
+   "gpt-4o-mini-transcribe|외": "왜?"
+  }
+ },
+ "kore/wo-c1f4.0": {
+  "choices": {
+   "gpt-4o-transcribe|워,와": "워",
+   "gpt-4o-transcribe|와,워": "워",
+   "gpt-4o-mini-transcribe|워,와": "워",
+   "gpt-4o-mini-transcribe|와,워": "워"
+  }
+ },
+ "kore/wa-a3e2.0": {
+  "choices": {
+   "gpt-4o-transcribe|와,워": "와",
+   "gpt-4o-transcribe|워,와": "와",
+   "gpt-4o-mini-transcribe|와,워": "와",
+   "gpt-4o-mini-transcribe|워,와": "와"
+  }
+ },
+ "kore/we-8948.0": {
+  "choices": {
+   "gpt-4o-transcribe|웨": "웨",
+   "gpt-4o-mini-transcribe|웨": "왜?"
+  }
+ },
+ "kore/ui-204e.0": {
+  "choices": {
+   "gpt-4o-transcribe|의": "의가",
+   "gpt-4o-mini-transcribe|의": "의가"
+  }
+ },
+ "kore/go-a4de.0": {
+  "choices": {
+   "gpt-4o-transcribe|고,코,꼬,거": "고",
+   "gpt-4o-transcribe|거,꼬,코,고": "고",
+   "gpt-4o-mini-transcribe|고,코,꼬,거": "그",
+   "gpt-4o-mini-transcribe|거,꼬,코,고": "그"
+  }
+ },
+ "kore/go-a4de.1": {
+  "choices": {
+   "gpt-4o-transcribe|고,코,꼬,거": "꼬",
+   "gpt-4o-transcribe|거,꼬,코,고": "꼬",
+   "gpt-4o-mini-transcribe|고,코,꼬,거": "고.",
+   "gpt-4o-mini-transcribe|거,꼬,코,고": "고"
+  }
+ },
+ "kore/ui-204e.1": {
+  "choices": {
+   "gpt-4o-transcribe|의": "리",
+   "gpt-4o-mini-transcribe|의": "리"
+  }
+ },
+ "kore/go-a4de.2": {
+  "choices": {
+   "gpt-4o-transcribe|고,코,꼬,거": "고",
+   "gpt-4o-transcribe|거,꼬,코,고": "고",
+   "gpt-4o-mini-transcribe|고,코,꼬,거": "고",
+   "gpt-4o-mini-transcribe|거,꼬,코,고": "고"
+  }
+ },
+ "kore/ui-204e.2": {
+  "choices": {
+   "gpt-4o-transcribe|의": "의",
+   "gpt-4o-mini-transcribe|의": "이"
+  }
+ },
+ "kore/geo-647c.0": {
+  "choices": {
+   "gpt-4o-transcribe|거,커,꺼,고": "거",
+   "gpt-4o-transcribe|고,꺼,커,거": "거",
+   "gpt-4o-mini-transcribe|거,커,꺼,고": "거",
+   "gpt-4o-mini-transcribe|고,꺼,커,거": "거"
+  }
+ },
+ "kore/ui-204e.3": {
+  "choices": {
+   "gpt-4o-transcribe|의": "이",
+   "gpt-4o-mini-transcribe|의": "리"
+  }
+ },
+ "charon/mogi-932e.0": {
+  "plain": "모기"
+ },
+ "charon/sai-a362.0": {
+  "plain": "사이"
+ },
+ "charon/nai-14dd.0": {
+  "plain": "나이"
+ },
+ "charon/ani-4c10.0": {
+  "plain": "아니"
+ },
+ "charon/agi-7398.0": {
+  "plain": "아기에",
+  "choices": {
+   "gpt-4o-transcribe|아기": "아기",
+   "gpt-4o-mini-transcribe|아기": "아기의"
+  }
+ },
+ "charon/goguma-f0cd.0": {
+  "plain": "고구마"
+ },
+ "charon/agi-7398.1": {
+  "plain": "아기"
+ },
+ "charon/musi-f2ad.0": {
+  "plain": "무시"
+ },
+ "charon/geomi-0062.0": {
+  "plain": "거미"
+ },
+ "charon/gisa-ac6d.0": {
+  "plain": "기사"
+ },
+ "charon/soseu-b499.0": {
+  "plain": "소스"
+ },
+ "charon/oasiseu-28cb.0": {
+  "plain": "오아시스"
+ },
+ "charon/siso-b452.0": {
+  "plain": "시소"
+ },
+ "charon/gaseu-2ac5.0": {
+  "plain": "가스"
+ },
+ "charon/aiseu-a96b.0": {
+  "plain": "아이스"
+ },
+ "charon/miso-2bc1.0": {
+  "plain": "미소"
+ },
+ "charon/imo-8c21.0": {
+  "plain": "이모"
+ },
+ "charon/gomo-3915.0": {
+  "plain": "고모"
+ },
+ "charon/seusi-98a4.0": {
+  "plain": "스시"
+ },
+ "charon/nugu-e5fd.0": {
+  "plain": "두구",
+  "choices": {
+   "gpt-4o-transcribe|누구": "누구",
+   "gpt-4o-mini-transcribe|누구": "누구?"
+  }
+ },
+ "charon/eoneu-ba3c.0": {
+  "plain": "어느"
+ },
+ "charon/igeo-f1a1.0": {
+  "plain": "이거"
+ },
+ "charon/gasa-8475.0": {
+  "plain": "가사"
+ },
+ "charon/ua-852e.0": {
+  "plain": "와",
+  "choices": {
+   "gpt-4o-transcribe|우아": "우아",
+   "gpt-4o-mini-transcribe|우아": "우아"
+  }
+ },
+ "charon/geugeo-e751.0": {
+  "plain": "그거"
+ },
+ "charon/isa-1a1c.0": {
+  "plain": "이사"
+ },
+ "charon/so-4621.0": {
+  "choices": {
+   "gpt-4o-transcribe|소,쏘,서": "소",
+   "gpt-4o-transcribe|서,쏘,소": "소",
+   "gpt-4o-mini-transcribe|소,쏘,서": "소",
+   "gpt-4o-mini-transcribe|서,쏘,소": "소"
+  }
+ },
+ "charon/mu-2572.0": {
+  "choices": {
+   "gpt-4o-transcribe|무,므": "무",
+   "gpt-4o-transcribe|므,무": "무",
+   "gpt-4o-mini-transcribe|무,므": "무",
+   "gpt-4o-mini-transcribe|므,무": "무"
+  }
+ },
+ "charon/gu-531c.0": {
+  "choices": {
+   "gpt-4o-transcribe|구,그,쿠,꾸": "부",
+   "gpt-4o-transcribe|꾸,쿠,그,구": "구",
+   "gpt-4o-mini-transcribe|구,그,쿠,꾸": "부",
+   "gpt-4o-mini-transcribe|꾸,쿠,그,구": "부"
+  }
+ },
+ "charon/gu-531c.1": {
+  "choices": {
+   "gpt-4o-transcribe|구,그,쿠,꾸": "구",
+   "gpt-4o-transcribe|꾸,쿠,그,구": "구",
+   "gpt-4o-mini-transcribe|구,그,쿠,꾸": "구",
+   "gpt-4o-mini-transcribe|꾸,쿠,그,구": "구"
+  }
+ },
+ "charon/geu-c3b2.0": {
+  "choices": {
+   "gpt-4o-transcribe|그,구,크,끄": "그",
+   "gpt-4o-transcribe|끄,크,구,그": "구",
+   "gpt-4o-mini-transcribe|그,구,크,끄": "그",
+   "gpt-4o-mini-transcribe|끄,크,구,그": "그"
+  }
+ },
+ "charon/keopi-2a0b.0": {
+  "plain": "커피"
+ },
+ "charon/kopi-89f5.0": {
+  "plain": "코피"
+ },
+ "charon/ama-824c.0": {
+  "plain": "아마"
+ },
+ "charon/tomato-3a59.0": {
+  "plain": "토마토"
+ },
+ "charon/banana-34b8.0": {
+  "plain": "바나나"
+ },
+ "charon/pija-b432.0": {
+  "plain": "피자"
+ },
+ "charon/beoseu-8d76.0": {
+  "plain": "버스"
+ },
+ "charon/chijeu-c45c.0": {
+  "plain": "치즈"
+ },
+ "charon/hana-de88.0": {
+  "plain": "하",
+  "choices": {
+   "gpt-4o-transcribe|하나": "하",
+   "gpt-4o-mini-transcribe|하나": "하"
+  }
+ },
+ "charon/bada-b168.0": {
+  "plain": "바다"
+ },
+ "charon/bi-3b57.0": {
+  "choices": {
+   "gpt-4o-transcribe|비,피,삐": "비",
+   "gpt-4o-transcribe|삐,피,비": "비",
+   "gpt-4o-mini-transcribe|비,피,삐": "비",
+   "gpt-4o-mini-transcribe|삐,피,비": "비"
+  }
+ },
+ "charon/pi-2ca8.0": {
+  "choices": {
+   "gpt-4o-transcribe|피,비,삐": "피",
+   "gpt-4o-transcribe|삐,비,피": "피",
+   "gpt-4o-mini-transcribe|피,비,삐": "키",
+   "gpt-4o-mini-transcribe|삐,비,피": "키"
+  }
+ },
+ "charon/hana-de88.1": {
+  "plain": "하나."
+ },
+ "charon/gicha-7573.0": {
+  "plain": "기차"
+ },
+ "charon/gochu-f2fc.0": {
+  "plain": "고추"
+ },
+ "charon/pi-2ca8.1": {
+  "choices": {
+   "gpt-4o-transcribe|피,비,삐": "피",
+   "gpt-4o-transcribe|삐,비,피": "피",
+   "gpt-4o-mini-transcribe|피,비,삐": "키",
+   "gpt-4o-mini-transcribe|삐,비,피": "키"
+  }
+ },
+ "charon/dubu-971e.0": {
+  "plain": "두부"
+ },
+ "charon/jido-31ee.0": {
+  "plain": "디보",
+  "choices": {
+   "gpt-4o-transcribe|지도": "지도",
+   "gpt-4o-mini-transcribe|지도": "디보"
+  }
+ },
+ "charon/pi-2ca8.2": {
+  "choices": {
+   "gpt-4o-transcribe|피,비,삐": "피",
+   "gpt-4o-transcribe|삐,비,피": "피",
+   "gpt-4o-mini-transcribe|피,비,삐": "피",
+   "gpt-4o-mini-transcribe|삐,비,피": "피"
+  }
+ },
+ "charon/jido-31ee.1": {
+  "plain": "지도"
+ },
+ "charon/podo-ac8b.0": {
+  "plain": "포도"
+ },
+ "charon/baji-9b09.0": {
+  "plain": "바지"
+ },
+ "charon/moja-b0a2.0": {
+  "plain": "모자"
+ },
+ "charon/abeoji-914c.0": {
+  "plain": "아버지"
+ },
+ "charon/juseu-56ce.0": {
+  "plain": "주스"
+ },
+ "charon/eodi-f306.0": {
+  "plain": "어디"
+ },
+ "charon/piano-0df7.0": {
+  "plain": "피아노"
+ },
+ "charon/kokoa-3ec4.0": {
+  "plain": "코코아"
+ },
+ "charon/koteu-1c37.0": {
+  "plain": "코트"
+ },
+ "charon/pati-645c.0": {
+  "plain": "파티"
+ },
+ "charon/ki-b89e.0": {
+  "choices": {
+   "gpt-4o-transcribe|키,기,끼": "키",
+   "gpt-4o-transcribe|끼,기,키": "키",
+   "gpt-4o-mini-transcribe|키,기,끼": "키",
+   "gpt-4o-mini-transcribe|끼,기,키": "키"
+  }
+ },
+ "charon/taieo-5e82.0": {
+  "plain": "태어",
+  "choices": {
+   "gpt-4o-transcribe|타이어": "타이어",
+   "gpt-4o-mini-transcribe|타이어": "타이어"
+  }
+ },
+ "charon/ko-fa22.0": {
+  "choices": {
+   "gpt-4o-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-transcribe|커,꼬,고,코": "코",
+   "gpt-4o-mini-transcribe|코,고,꼬,커": "코",
+   "gpt-4o-mini-transcribe|커,꼬,고,코": "코"
+  }
+ },
+ "charon/cha-85eb.0": {
+  "choices": {
+   "gpt-4o-transcribe|차,자,짜": "차",
+   "gpt-4o-transcribe|짜,자,차": "차",
+   "gpt-4o-mini-transcribe|차,자,짜": "차",
+   "gpt-4o-mini-transcribe|짜,자,차": "차"
+  }
+ },
+ "charon/chima-ccbc.0": {
+  "plain": "치마"
+ },
+ "charon/buja-d6ce.0": {
+  "plain": "부자"
+ },
+ "charon/babo-4570.0": {
+  "plain": "바보"
+ },
+ "charon/hama-5d55.0": {
+  "plain": "하마"
+ },
+ "charon/apateu-c1ba.0": {
+  "plain": "아파트"
+ },
+ "charon/bija-b047.0": {
+  "plain": "비자"
+ },
+ "charon/sopa-431c.0": {
+  "plain": "소파"
+ },
+ "charon/saja-e80d.0": {
+  "plain": "사자"
+ },
+ "charon/otobai-e17a.0": {
+  "plain": "오토바이"
+ },
+ "charon/seupocheu-9025.0": {
+  "plain": "스포츠"
+ },
+ "charon/pibu-2667.0": {
+  "plain": "피부"
+ },
+ "charon/dosi-a738.0": {
+  "plain": "도시"
+ },
+ "charon/jigu-296b.0": {
+  "plain": "지구"
+ },
+ "charon/gita-edeb.0": {
+  "plain": "기타"
+ },
+ "charon/hateu-1822.0": {
+  "plain": "하트"
+ },
+ "charon/noteu-74a4.0": {
+  "plain": "노트"
+ },
+ "charon/mateu-4332.0": {
+  "plain": "마트"
+ },
+ "charon/hodu-eb98.0": {
+  "plain": "호두"
+ },
+ "charon/bubu-b0fb.0": {
+  "plain": "북우",
+  "choices": {
+   "gpt-4o-transcribe|부부": "부부",
+   "gpt-4o-mini-transcribe|부부": "부부"
+  }
+ },
+ "charon/saida-da8c.0": {
+  "plain": "사이다"
+ },
+ "charon/dogu-2d00.0": {
+  "plain": "도구"
+ },
+ "charon/aju-0f1d.0": {
+  "plain": "아주"
+ },
+ "charon/dasi-f544.0": {
+  "plain": "다시"
+ },
+ "charon/jaju-af24.0": {
+  "plain": "자주"
+ },
+ "charon/chuga-b8b1.0": {
+  "plain": "추가"
+ },
+ "charon/toseuteu-14cd.0": {
+  "plain": "토스트"
+ },
+ "charon/teochi-dcb9.0": {
+  "plain": "터치"
+ },
+ "charon/kadeu-0990.0": {
+  "plain": "카그",
+  "choices": {
+   "gpt-4o-transcribe|카드": "카드",
+   "gpt-4o-mini-transcribe|카드": "카그"
+  }
+ },
+ "charon/kadeu-0990.1": {
+  "plain": "카드"
+ },
+ "charon/bidio-aef4.0": {
+  "plain": "비비오",
+  "choices": {
+   "gpt-4o-transcribe|비디오": "비디오",
+   "gpt-4o-mini-transcribe|비디오": "비비오"
+  }
+ },
+ "charon/koseu-f2ec.0": {
+  "plain": "코스"
+ },
+ "charon/bidio-aef4.1": {
+  "plain": "비디오"
+ },
+ "charon/odio-9c14.0": {
+  "plain": "오디오"
+ },
+ "charon/seuta-c763.0": {
+  "plain": "스카",
+  "choices": {
+   "gpt-4o-transcribe|스타": "스타",
+   "gpt-4o-mini-transcribe|스타": "스카"
+  }
+ },
+ "charon/seuta-c763.1": {
+  "plain": "스타"
+ },
+ "charon/jeogi-a7db.0": {
+  "plain": "저기"
+ },
+ "charon/jeo-0523.0": {
+  "choices": {
+   "gpt-4o-transcribe|저,처,쩌,조": "저",
+   "gpt-4o-transcribe|조,쩌,처,저": "저",
+   "gpt-4o-mini-transcribe|저,처,쩌,조": "저?",
+   "gpt-4o-mini-transcribe|조,쩌,처,저": "저..."
+  }
+ },
+ "charon/jiha-f37e.0": {
+  "plain": "지하"
+ },
+ "charon/jada-232d.0": {
+  "plain": "자다"
+ },
+ "charon/chada-dd2f.0": {
+  "plain": "차다"
+ },
+ "charon/tada-84e7.0": {
+  "plain": "파바",
+  "choices": {
+   "gpt-4o-transcribe|타다": "타다",
+   "gpt-4o-mini-transcribe|타다": "파바"
+  }
+ },
+ "charon/tada-84e7.1": {
+  "plain": "타바",
+  "choices": {
+   "gpt-4o-transcribe|타다": "타다",
+   "gpt-4o-mini-transcribe|타다": "타바"
+  }
+ },
+ "charon/sada-0d75.0": {
+  "plain": "사다"
+ },
+ "charon/tada-84e7.2": {
+  "plain": "타다"
+ },
+ "charon/hada-da5d.0": {
+  "plain": "하다"
+ },
+ "charon/keuda-5685.0": {
+  "plain": "크다"
+ },
+ "charon/apeuda-4a85.0": {
+  "plain": "아프다"
+ },
+ "charon/da-bab5.0": {
+  "choices": {
+   "gpt-4o-transcribe|다,타,따": "다",
+   "gpt-4o-transcribe|따,타,다": "가",
+   "gpt-4o-mini-transcribe|다,타,따": "가",
+   "gpt-4o-mini-transcribe|따,타,다": "가"
+  }
+ },
+ "charon/deo-4523.0": {
+  "choices": {
+   "gpt-4o-transcribe|더,터,떠,도": "더",
+   "gpt-4o-transcribe|도,떠,터,더": "터",
+   "gpt-4o-mini-transcribe|더,터,떠,도": "버",
+   "gpt-4o-mini-transcribe|도,떠,터,더": "버"
+  }
+ },
+ "charon/da-bab5.1": {
+  "choices": {
+   "gpt-4o-transcribe|다,타,따": "다",
+   "gpt-4o-transcribe|따,타,다": "다",
+   "gpt-4o-mini-transcribe|다,타,따": "다",
+   "gpt-4o-mini-transcribe|따,타,다": "다"
+  }
+ },
+ "charon/deo-4523.1": {
+  "choices": {
+   "gpt-4o-transcribe|더,터,떠,도": "더",
+   "gpt-4o-transcribe|도,떠,터,더": "더",
+   "gpt-4o-mini-transcribe|더,터,떠,도": "더",
+   "gpt-4o-mini-transcribe|도,떠,터,더": "더"
+  }
+ },
+ "charon/gudu-db94.0": {
+  "plain": "구구",
+  "choices": {
+   "gpt-4o-transcribe|구두": "구두",
+   "gpt-4o-mini-transcribe|구두": "구두"
+  }
+ },
+ "charon/radio-8838.0": {
+  "plain": "라디오"
+ },
+ "charon/kamera-3582.0": {
+  "plain": "카메라"
+ },
+ "charon/soju-8f40.0": {
+  "plain": "소주"
+ },
+ "charon/oppa-0e15.0": {
+  "plain": "오빠"
+ },
+ "charon/appa-748a.0": {
+  "plain": "아빠"
+ },
+ "charon/deurama-fd17.0": {
+  "plain": "드라마"
+ },
+ "charon/tokki-2212.0": {
+  "plain": "토끼"
+ },
+ "charon/meori-9529.0": {
+  "plain": "머리"
+ },
+ "charon/dari-35e8.0": {
+  "plain": "발이",
+  "choices": {
+   "gpt-4o-transcribe|다리": "다리",
+   "gpt-4o-mini-transcribe|다리": "다리"
+  }
+ },
+ "charon/uri-6264.0": {
+  "plain": "우리"
+ },
+ "charon/nara-8e48.0": {
+  "plain": "말아.",
+  "choices": {
+   "gpt-4o-transcribe|나라": "나라",
+   "gpt-4o-mini-transcribe|나라": "말아"
+  }
+ },
+ "charon/doro-dcc3.0": {
+  "plain": "도로"
+ },
+ "charon/ori-80ae.0": {
+  "plain": "오리"
+ },
+ "charon/nara-8e48.1": {
+  "plain": "나라"
+ },
+ "charon/raiteo-c727.0": {
+  "plain": "라이터"
+ },
+ "charon/keuriseumaseu-37d6.0": {
+  "plain": "크리스마스"
+ },
+ "charon/beoteo-2837.0": {
+  "plain": "버터"
+ },
+ "charon/kkori-61b0.0": {
+  "plain": "꼬리"
+ },
+ "charon/kkachi-c3cd.0": {
+  "plain": "까치"
+ },
+ "charon/kokkiri-245d.0": {
+  "plain": "코끼리"
+ },
+ "charon/ppuri-2c34.0": {
+  "plain": "뿌리"
+ },
+ "charon/ssada-e616.0": {
+  "plain": "싸다"
+ },
+ "charon/bissada-c21c.0": {
+  "plain": "비싸다"
+ },
+ "charon/ittaga-509f.0": {
+  "plain": "이따가"
+ },
+ "charon/jjada-dfb6.0": {
+  "plain": "자라.",
+  "choices": {
+   "gpt-4o-transcribe|짜다,자다,차다": "짜다",
+   "gpt-4o-transcribe|차다,자다,짜다": "자다",
+   "gpt-4o-mini-transcribe|짜다,자다,차다": "자다",
+   "gpt-4o-mini-transcribe|차다,자다,짜다": "자다"
+  }
+ },
+ "charon/ttada-bc58.0": {
+  "plain": "다다",
+  "choices": {
+   "gpt-4o-transcribe|따다": "따다",
+   "gpt-4o-mini-transcribe|따다": "따다"
+  }
+ },
+ "charon/jjada-dfb6.1": {
+  "plain": "짜다"
+ },
+ "charon/ajeossi-af26.0": {
+  "plain": "아저씨"
+ },
+ "charon/agassi-e268.0": {
+  "plain": "아가씨"
+ },
+ "charon/seori-1192.0": {
+  "plain": "소리",
+  "choices": {
+   "gpt-4o-transcribe|서리,소리": "서리",
+   "gpt-4o-transcribe|소리,서리": "소리",
+   "gpt-4o-mini-transcribe|서리,소리": "서리",
+   "gpt-4o-mini-transcribe|소리,서리": "서리"
+  }
+ },
+ "charon/seori-1192.1": {
+  "plain": "설이",
+  "choices": {
+   "gpt-4o-transcribe|서리,소리": "서리",
+   "gpt-4o-transcribe|소리,서리": "서리",
+   "gpt-4o-mini-transcribe|서리,소리": "서리",
+   "gpt-4o-mini-transcribe|소리,서리": "서리"
+  }
+ },
+ "charon/sori-fdac.0": {
+  "plain": "소리"
+ },
+ "charon/gori-c445.0": {
+  "plain": "고리"
+ },
+ "charon/roma-34d3.0": {
+  "plain": "로마"
+ },
+ "charon/reosia-4275.0": {
+  "plain": "러시아."
+ },
+ "charon/geori-949f.0": {
+  "plain": "코리",
+  "choices": {
+   "gpt-4o-transcribe|거리,고리": "고리",
+   "gpt-4o-transcribe|고리,거리": "고리",
+   "gpt-4o-mini-transcribe|거리,고리": "거리",
+   "gpt-4o-mini-transcribe|고리,거리": "거리"
+  }
+ },
+ "charon/bori-59a0.0": {
+  "plain": "보리"
+ },
+ "charon/heori-ba76.0": {
+  "plain": "호리",
+  "choices": {
+   "gpt-4o-transcribe|허리": "허리",
+   "gpt-4o-mini-transcribe|허리": "허리"
+  }
+ },
+ "charon/koria-6906.0": {
+  "plain": "코리아"
+ },
+ "charon/pari-4dab.0": {
+  "plain": "파리"
+ },
+ "charon/osaka-90bc.0": {
+  "plain": "오사카"
+ },
+ "charon/geori-949f.1": {
+  "plain": "거리"
+ },
+ "charon/ppoppo-8619.0": {
+  "plain": "뽀뽀"
+ },
+ "charon/ssi-6dff.0": {
+  "choices": {
+   "gpt-4o-transcribe|씨,시": "시",
+   "gpt-4o-transcribe|시,씨": "시",
+   "gpt-4o-mini-transcribe|씨,시": "씨",
+   "gpt-4o-mini-transcribe|시,씨": "시"
+  }
+ },
+ "charon/ssi-6dff.1": {
+  "choices": {
+   "gpt-4o-transcribe|씨,시": "씨",
+   "gpt-4o-transcribe|시,씨": "씨",
+   "gpt-4o-mini-transcribe|씨,시": "씨",
+   "gpt-4o-mini-transcribe|시,씨": "시"
+  }
+ },
+ "charon/ttaro-15e2.0": {
+  "plain": "따로"
+ },
+ "charon/bappeuda-fe9b.0": {
+  "plain": "바쁘다"
+ },
+ "charon/gippeuda-2cd4.0": {
+  "plain": "기쁘라",
+  "choices": {
+   "gpt-4o-transcribe|기쁘다": "기쁘라",
+   "gpt-4o-mini-transcribe|기쁘다": "기쁘라"
+  }
+ },
+ "charon/gippeuda-2cd4.1": {
+  "plain": "기쁘다."
+ },
+ "charon/ppareuda-25a1.0": {
+  "plain": "빠르다"
+ },
+ "charon/nappeuda-9755.0": {
+  "plain": "나쁘다"
+ },
+ "charon/tto-5b92.0": {
+  "choices": {
+   "gpt-4o-transcribe|또,도,토,떠": "또",
+   "gpt-4o-transcribe|떠,토,도,또": "또",
+   "gpt-4o-mini-transcribe|또,도,토,떠": "또",
+   "gpt-4o-mini-transcribe|떠,토,도,또": "또"
+  }
+ },
+ "charon/sseuda-8856.0": {
+  "plain": "수박",
+  "choices": {
+   "gpt-4o-transcribe|쓰다": "쓰다",
+   "gpt-4o-mini-transcribe|쓰다": "쓰다"
+  }
+ },
+ "charon/kkoma-81c5.0": {
+  "plain": "꼬마"
+ },
+ "charon/akka-c645.0": {
+  "plain": "아까."
+ },
+ "charon/uyu-64fb.0": {
+  "plain": "우유"
+ },
+ "charon/yagu-7b71.0": {
+  "plain": "야구"
+ },
+ "charon/yeoja-dc32.0": {
+  "plain": "여자"
+ },
+ "charon/yori-5528.0": {
+  "plain": "유리",
+  "choices": {
+   "gpt-4o-transcribe|요리": "요리",
+   "gpt-4o-mini-transcribe|요리": "요리"
+  }
+ },
+ "charon/rubi-b63b.0": {
+  "plain": "루비"
+ },
+ "charon/yuri-5416.0": {
+  "plain": "유리"
+ },
+ "charon/yeou-58d6.0": {
+  "plain": "요",
+  "choices": {
+   "gpt-4o-transcribe|여우": "여우",
+   "gpt-4o-mini-transcribe|여우": "여우"
+  }
+ },
+ "charon/hyuji-7443.0": {
+  "plain": "휴지"
+ },
+ "charon/gyosu-d62c.0": {
+  "plain": "교수"
+ },
+ "charon/dokyo-5014.0": {
+  "plain": "도쿄"
+ },
+ "charon/gyoto-ac71.0": {
+  "plain": "교토"
+ },
+ "charon/norae-85da.0": {
+  "plain": "노래"
+ },
+ "charon/gae-7831.0": {
+  "choices": {
+   "gpt-4o-transcribe|개,캐,깨": "개",
+   "gpt-4o-transcribe|깨,캐,개": "깨",
+   "gpt-4o-mini-transcribe|개,캐,깨": "개",
+   "gpt-4o-mini-transcribe|깨,캐,개": "개."
+  }
+ },
+ "charon/bae-74ba.0": {
+  "choices": {
+   "gpt-4o-transcribe|배,패,빼": "대",
+   "gpt-4o-transcribe|빼,패,배": "배",
+   "gpt-4o-mini-transcribe|배,패,빼": "네.",
+   "gpt-4o-mini-transcribe|빼,패,배": "네."
+  }
+ },
+ "charon/sae-3c30.0": {
+  "choices": {
+   "gpt-4o-transcribe|새,쌔": "새",
+   "gpt-4o-transcribe|쌔,새": "새",
+   "gpt-4o-mini-transcribe|새,쌔": "새해",
+   "gpt-4o-mini-transcribe|쌔,새": "새해"
+  }
+ },
+ "charon/bae-74ba.1": {
+  "choices": {
+   "gpt-4o-transcribe|배,패,빼": "배",
+   "gpt-4o-transcribe|빼,패,배": "배",
+   "gpt-4o-mini-transcribe|배,패,빼": "네.",
+   "gpt-4o-mini-transcribe|빼,패,배": "네."
+  }
+ },
+ "charon/bae-74ba.2": {
+  "choices": {
+   "gpt-4o-transcribe|배,패,빼": "개",
+   "gpt-4o-transcribe|빼,패,배": "패",
+   "gpt-4o-mini-transcribe|배,패,빼": "개.",
+   "gpt-4o-mini-transcribe|빼,패,배": "개"
+  }
+ },
+ "charon/sae-3c30.1": {
+  "choices": {
+   "gpt-4o-transcribe|새,쌔": "새",
+   "gpt-4o-transcribe|쌔,새": "새",
+   "gpt-4o-mini-transcribe|새,쌔": "새.",
+   "gpt-4o-mini-transcribe|쌔,새": "새"
+  }
+ },
+ "charon/ge-6d03.0": {
+  "choices": {
+   "gpt-4o-transcribe|게,케,께": "게",
+   "gpt-4o-transcribe|께,케,게": "게",
+   "gpt-4o-mini-transcribe|게,케,께": "게",
+   "gpt-4o-mini-transcribe|께,케,게": "게"
+  }
+ },
+ "charon/gage-8a13.0": {
+  "plain": "가게"
+ },
+ "charon/bae-74ba.3": {
+  "choices": {
+   "gpt-4o-transcribe|배,패,빼": "배",
+   "gpt-4o-transcribe|빼,패,배": "배",
+   "gpt-4o-mini-transcribe|배,패,빼": "배",
+   "gpt-4o-mini-transcribe|빼,패,배": "배"
+  }
+ },
+ "charon/sigye-185d.0": {
+  "plain": "시계"
+ },
+ "charon/segye-1090.0": {
+  "plain": "세 개",
+  "choices": {
+   "gpt-4o-transcribe|세계": "세계",
+   "gpt-4o-mini-transcribe|세계": "세 개"
+  }
+ },
+ "charon/menyu-ce49.0": {
+  "plain": "메뉴"
+ },
+ "charon/kape-70cf.0": {
+  "plain": "카페"
+ },
+ "charon/segye-1090.1": {
+  "plain": "세 개.",
+  "choices": {
+   "gpt-4o-transcribe|세계": "세계",
+   "gpt-4o-mini-transcribe|세계": "세게"
+  }
+ },
+ "charon/keikeu-8da2.0": {
+  "plain": "케이크"
+ },
+ "charon/segye-1090.2": {
+  "plain": "세계"
+ },
+ "charon/deiteu-5695.0": {
+  "plain": "데이트"
+ },
+ "charon/sagwa-9d82.0": {
+  "plain": "사과"
+ },
+ "charon/gwaja-8164.0": {
+  "plain": "과자"
+ },
+ "charon/hwaga-b175.0": {
+  "plain": "화과",
+  "choices": {
+   "gpt-4o-transcribe|화가": "화가",
+   "gpt-4o-mini-transcribe|화가": "화과"
+  }
+ },
+ "charon/hwaga-b175.1": {
+  "plain": "화다",
+  "choices": {
+   "gpt-4o-transcribe|화가": "화다.",
+   "gpt-4o-mini-transcribe|화가": "화다"
+  }
+ },
+ "charon/hwaga-b175.2": {
+  "plain": "화가"
+ },
+ "charon/gaja-80bd.0": {
+  "plain": "가자."
+ },
+ "charon/hoesa-d430.0": {
+  "plain": "회사"
+ },
+ "charon/dwaeji-c268.0": {
+  "plain": "돼지"
+ },
+ "charon/wae-90fe.0": {
+  "choices": {
+   "gpt-4o-transcribe|왜": "왜",
+   "gpt-4o-mini-transcribe|왜": "왜?"
+  }
+ },
+ "charon/wi-01a3.0": {
+  "choices": {
+   "gpt-4o-transcribe|위": "위",
+   "gpt-4o-mini-transcribe|위": "위"
+  }
+ },
+ "charon/gwi-1bda.0": {
+  "choices": {
+   "gpt-4o-transcribe|귀,기,퀴,뀌": "귀",
+   "gpt-4o-transcribe|뀌,퀴,기,귀": "귀",
+   "gpt-4o-mini-transcribe|귀,기,퀴,뀌": "귀",
+   "gpt-4o-mini-transcribe|뀌,퀴,기,귀": "귀"
+  }
+ },
+ "charon/jwi-208e.0": {
+  "choices": {
+   "gpt-4o-transcribe|쥐,취,쮜": "쥐",
+   "gpt-4o-transcribe|쮜,취,쥐": "쥐",
+   "gpt-4o-mini-transcribe|쥐,취,쮜": "쥐",
+   "gpt-4o-mini-transcribe|쮜,취,쥐": "쥐"
+  }
+ },
+ "charon/uisa-6b20.0": {
+  "plain": "의사"
+ },
+ "charon/gi-3dfd.0": {
+  "choices": {
+   "gpt-4o-transcribe|기,귀,키,끼": "지",
+   "gpt-4o-transcribe|끼,키,귀,기": "기",
+   "gpt-4o-mini-transcribe|기,귀,키,끼": "지",
+   "gpt-4o-mini-transcribe|끼,키,귀,기": "지"
+  }
+ },
+ "charon/uija-8808.0": {
+  "plain": "의자"
+ },
+ "charon/gi-3dfd.1": {
+  "choices": {
+   "gpt-4o-transcribe|기,귀,키,끼": "기",
+   "gpt-4o-transcribe|끼,키,귀,기": "기",
+   "gpt-4o-mini-transcribe|기,귀,키,끼": "기",
+   "gpt-4o-mini-transcribe|끼,키,귀,기": "기?"
+  }
+ },
+ "charon/chwimi-ceba.0": {
+  "plain": "취임이",
+  "choices": {
+   "gpt-4o-transcribe|취미": "취미",
+   "gpt-4o-mini-transcribe|취미": "취임이"
+  }
+ },
+ "charon/uimi-cc18.0": {
+  "plain": "의미"
+ },
+ "charon/wichi-6f9c.0": {
+  "plain": "위치"
+ },
+ "charon/syawo-79bf.0": {
+  "plain": "샤워"
+ },
+ "charon/weiteo-debc.0": {
+  "plain": "웨이커",
+  "choices": {
+   "gpt-4o-transcribe|웨이터": "웨이터",
+   "gpt-4o-mini-transcribe|웨이터": "웨이커"
+  }
+ },
+ "charon/chwimi-ceba.1": {
+  "plain": "취미"
+ },
+ "charon/weiteo-debc.1": {
+  "plain": "웨이커",
+  "choices": {
+   "gpt-4o-transcribe|웨이터": "웨이터",
+   "gpt-4o-mini-transcribe|웨이터": "웨이커"
+  }
+ },
+ "charon/bwipe-407a.0": {
+  "plain": "뷰페.",
+  "choices": {
+   "gpt-4o-transcribe|뷔페": "뷔페.",
+   "gpt-4o-mini-transcribe|뷔페": "뷔페"
+  }
+ },
+ "charon/weiteo-debc.2": {
+  "plain": "웨이포",
+  "choices": {
+   "gpt-4o-transcribe|웨이터": "웨이터",
+   "gpt-4o-mini-transcribe|웨이터": "웨이터"
+  }
+ },
+ "charon/waipai-a4eb.0": {
+  "plain": "와이파이"
+ },
+ "charon/yeogi-287e.0": {
+  "plain": "여디",
+  "choices": {
+   "gpt-4o-transcribe|여기": "여기",
+   "gpt-4o-mini-transcribe|여기": "여기"
+  }
+ },
+ "charon/seuweteo-4013.0": {
+  "plain": "스매터",
+  "choices": {
+   "gpt-4o-transcribe|스웨터": "스웨터",
+   "gpt-4o-mini-transcribe|스웨터": "스메터"
+  }
+ },
+ "charon/seuweteo-4013.1": {
+  "plain": "스웨터"
+ },
+ "charon/jjigae-ab6b.0": {
+  "plain": "지지",
+  "choices": {
+   "gpt-4o-transcribe|찌개": "찌개",
+   "gpt-4o-mini-transcribe|찌개": "찌개"
+  }
+ },
+ "charon/eokkae-9d78.0": {
+  "plain": "오케",
+  "choices": {
+   "gpt-4o-transcribe|어깨": "어깨",
+   "gpt-4o-mini-transcribe|어깨": "오케이."
+  }
+ },
+ "charon/sseuregi-ca59.0": {
+  "plain": "쓰레기"
+ },
+ "charon/eokkae-9d78.1": {
+  "plain": "오케이",
+  "choices": {
+   "gpt-4o-transcribe|어깨": "어깨",
+   "gpt-4o-mini-transcribe|어깨": "오케이."
+  }
+ },
+ "charon/eokkae-9d78.2": {
+  "plain": "오케",
+  "choices": {
+   "gpt-4o-transcribe|어깨": "어깨",
+   "gpt-4o-mini-transcribe|어깨": "오케이."
+  }
+ },
+ "charon/yeppeuda-7462.0": {
+  "plain": "예쁘다"
+ },
+ "charon/eokkae-9d78.3": {
+  "plain": "어깨"
+ },
+ "charon/memo-7756.0": {
+  "plain": "메모"
+ },
+ "charon/yaegi-e2d5.0": {
+  "plain": "얘기"
+ },
+ "charon/gyogwaseo-8897.0": {
+  "plain": "교과서"
+ },
+ "charon/muryo-d86c.0": {
+  "plain": "무려",
+  "choices": {
+   "gpt-4o-transcribe|무료": "무료",
+   "gpt-4o-mini-transcribe|무료": "무료"
+  }
+ },
+ "charon/gaeguri-530b.0": {
+  "plain": "개구리"
+ },
+ "charon/hae-d519.0": {
+  "choices": {
+   "gpt-4o-transcribe|해": "해",
+   "gpt-4o-mini-transcribe|해": "해"
+  }
+ },
+ "charon/maeu-9afd.0": {
+  "plain": "매우"
+ },
+ "charon/jaemi-1719.0": {
+  "plain": "재미"
+ },
+ "charon/ne-5f0a.0": {
+  "choices": {
+   "gpt-4o-transcribe|네": "네",
+   "gpt-4o-mini-transcribe|네": "네."
+  }
+ },
+ "charon/ye-7eb3.0": {
+  "choices": {
+   "gpt-4o-transcribe|예": "예",
+   "gpt-4o-mini-transcribe|예": "예"
+  }
+ },
+ "charon/mwo-914f.0": {
+  "choices": {
+   "gpt-4o-transcribe|뭐,뫄": "뭐",
+   "gpt-4o-transcribe|뫄,뭐": "뭐",
+   "gpt-4o-mini-transcribe|뭐,뫄": "뭐",
+   "gpt-4o-mini-transcribe|뫄,뭐": "뭐"
+  }
+ },
+ "charon/cheri-5140.0": {
+  "plain": "체리"
+ },
+ "charon/kaenada-74da.0": {
+  "plain": "캐나다."
+ },
+ "charon/aniyo-97da.0": {
+  "plain": "아니요"
+ },
+ "charon/mesiji-5e81.0": {
+  "plain": "메시지"
+ },
+ "charon/sosiji-3d93.0": {
+  "plain": "소시지"
+ },
+ "charon/tisyeocheu-a1b8.0": {
+  "plain": "티셔츠"
+ },
+ "charon/syupeo-2735.0": {
+  "plain": "슈퍼"
+ },
+ "charon/seuteikeu-cc3c.0": {
+  "plain": "스테이크"
+ },
+ "charon/hyuga-35e6.0": {
+  "plain": "휴가"
+ },
+ "charon/yumeo-f9dc.0": {
+  "plain": "유머"
+ },
+ "charon/pyo-7e75.0": {
+  "choices": {
+   "gpt-4o-transcribe|표,뵤,뾰,펴": "표",
+   "gpt-4o-transcribe|펴,뾰,뵤,표": "표",
+   "gpt-4o-mini-transcribe|표,뵤,뾰,펴": "표",
+   "gpt-4o-mini-transcribe|펴,뾰,뵤,표": "표"
+  }
+ },
+ "charon/gyohoe-2419.0": {
+  "plain": "교회"
+ },
+ "charon/gim-3d64.0": {
+  "choices": {
+   "gpt-4o-transcribe|김,킴,낌,긴,깅": "김",
+   "gpt-4o-transcribe|깅,긴,낌,킴,김": "김",
+   "gpt-4o-mini-transcribe|김,킴,낌,긴,깅": "김",
+   "gpt-4o-mini-transcribe|깅,긴,낌,킴,김": "김"
+  }
+ },
+ "charon/ramyeon-a68d.0": {
+  "plain": "라면"
+ },
+ "charon/hanguk-2cc3.0": {
+  "plain": "한국"
+ },
+ "charon/hangeul-d481.0": {
+  "plain": "한글"
+ },
+ "charon/sarang-37b7.0": {
+  "plain": "사랑"
+ },
+ "charon/seoul-bc17.0": {
+  "plain": "서울"
+ },
+ "charon/seonsaengnim-0925.0": {
+  "plain": "선생님"
+ },
+ "charon/mul-320a.0": {
+  "choices": {
+   "gpt-4o-transcribe|물,믈": "물",
+   "gpt-4o-transcribe|믈,물": "물",
+   "gpt-4o-mini-transcribe|물,믈": "물",
+   "gpt-4o-mini-transcribe|믈,물": "물"
+  }
+ },
+ "charon/chingu-3de5.0": {
+  "plain": "친구"
+ },
+ "charon/gimchi-5df1.0": {
+  "plain": "김치"
+ },
+ "charon/bulgogi-c291.0": {
+  "plain": "불고기"
+ },
+ "charon/bap-56d1.0": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "팝",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "팝"
+  }
+ },
+ "charon/annyeong-a929.0": {
+  "plain": "안녕"
+ },
+ "charon/bap-56d1.1": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "팝",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "팝"
+  }
+ },
+ "charon/annyeonghaseyo-6b7b.0": {
+  "plain": "안녕하세요."
+ },
+ "charon/gamsa-9de5.0": {
+  "plain": "감사"
+ },
+ "charon/saram-3c70.0": {
+  "plain": "사람"
+ },
+ "charon/bap-56d1.2": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "팝",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "팝"
+  }
+ },
+ "charon/sigan-192e.0": {
+  "plain": "시간"
+ },
+ "charon/gongbu-56e4.0": {
+  "plain": "공부"
+ },
+ "charon/bap-56d1.3": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "팝",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "팝",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "밥"
+  }
+ },
+ "charon/gabang-6d55.0": {
+  "plain": "가방"
+ },
+ "charon/hotel-ce2e.0": {
+  "plain": "호패",
+  "choices": {
+   "gpt-4o-transcribe|호텔": "호텔",
+   "gpt-4o-mini-transcribe|호텔": "호페"
+  }
+ },
+ "charon/wain-f277.0": {
+  "plain": "와인"
+ },
+ "charon/usan-ecd5.0": {
+  "plain": "우판",
+  "choices": {
+   "gpt-4o-transcribe|우산": "우산.",
+   "gpt-4o-mini-transcribe|우산": "午飯"
+  }
+ },
+ "charon/hotel-ce2e.1": {
+  "plain": "호텔"
+ },
+ "charon/san-3d01.0": {
+  "choices": {
+   "gpt-4o-transcribe|산,삼,상,싼": "삼",
+   "gpt-4o-transcribe|싼,상,삼,산": "삼",
+   "gpt-4o-mini-transcribe|산,삼,상,싼": "삼",
+   "gpt-4o-mini-transcribe|싼,상,삼,산": "삼"
+  }
+ },
+ "charon/usan-ecd5.1": {
+  "plain": "우산"
+ },
+ "charon/san-3d01.1": {
+  "choices": {
+   "gpt-4o-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-transcribe|싼,상,삼,산": "싼",
+   "gpt-4o-mini-transcribe|산,삼,상,싼": "산",
+   "gpt-4o-mini-transcribe|싼,상,삼,산": "산"
+  }
+ },
+ "charon/gang-6a06.0": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "「간」",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "charon/sam-36b5.0": {
+  "choices": {
+   "gpt-4o-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-transcribe|쌈,상,산,삼": "삼.",
+   "gpt-4o-mini-transcribe|삼,산,상,쌈": "삼",
+   "gpt-4o-mini-transcribe|쌈,상,산,삼": "쌈"
+  }
+ },
+ "charon/gang-6a06.1": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간.",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "charon/sang-4a5b.0": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "산"
+  }
+ },
+ "charon/sang-4a5b.1": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "삼",
+   "gpt-4o-transcribe|쌍,삼,산,상": "삼",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "샘",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "셈"
+  }
+ },
+ "charon/sang-4a5b.2": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "사운",
+   "gpt-4o-transcribe|쌍,삼,산,상": "상",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "상",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "상"
+  }
+ },
+ "charon/gang-6a06.2": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "감",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "감",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "감",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "감"
+  }
+ },
+ "charon/gam-71e5.0": {
+  "choices": {
+   "gpt-4o-transcribe|감,간,강,캄,깜": "깜",
+   "gpt-4o-transcribe|깜,캄,강,간,감": "감",
+   "gpt-4o-mini-transcribe|감,간,강,캄,깜": "감",
+   "gpt-4o-mini-transcribe|깜,캄,강,간,감": "감"
+  }
+ },
+ "charon/gang-6a06.3": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "강",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "강",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "강",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "강"
+  }
+ },
+ "charon/gan-84c9.0": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "감",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "감",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "감",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "감"
+  }
+ },
+ "charon/gan-84c9.1": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "칸",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "칸",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "간"
+  }
+ },
+ "charon/gan-84c9.2": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "단",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "단",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "단"
+  }
+ },
+ "charon/gan-84c9.3": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "칸",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "칸",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "칸",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "칸"
+  }
+ },
+ "charon/gong-c5ed.0": {
+  "choices": {
+   "gpt-4o-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-transcribe|곤,겅,꽁,콩,공": "「공」",
+   "gpt-4o-mini-transcribe|공,콩,꽁,겅,곤": "공",
+   "gpt-4o-mini-transcribe|곤,겅,꽁,콩,공": "공"
+  }
+ },
+ "charon/gom-be0e.0": {
+  "choices": {
+   "gpt-4o-transcribe|곰,콤,꼼,검,곤": "콤",
+   "gpt-4o-transcribe|곤,검,꼼,콤,곰": "콤",
+   "gpt-4o-mini-transcribe|곰,콤,꼼,검,곤": "곰",
+   "gpt-4o-mini-transcribe|곤,검,꼼,콤,곰": "곰"
+  }
+ },
+ "charon/gom-be0e.1": {
+  "choices": {
+   "gpt-4o-transcribe|곰,콤,꼼,검,곤": "곰",
+   "gpt-4o-transcribe|곤,검,꼼,콤,곰": "곰",
+   "gpt-4o-mini-transcribe|곰,콤,꼼,검,곤": "곰",
+   "gpt-4o-mini-transcribe|곤,검,꼼,콤,곰": "곰"
+  }
+ },
+ "charon/chaek-bf91.0": {
+  "choices": {
+   "gpt-4o-transcribe|책,잭,짹,챋,챕": "책",
+   "gpt-4o-transcribe|챕,챋,짹,잭,책": "책",
+   "gpt-4o-mini-transcribe|책,잭,짹,챋,챕": "책",
+   "gpt-4o-mini-transcribe|챕,챋,짹,잭,책": "책"
+  }
+ },
+ "charon/kong-1b31.0": {
+  "choices": {
+   "gpt-4o-transcribe|콩,공,꽁,컹,콘": "콩",
+   "gpt-4o-transcribe|콘,컹,꽁,공,콩": "콩",
+   "gpt-4o-mini-transcribe|콩,공,꽁,컹,콘": "콩",
+   "gpt-4o-mini-transcribe|콘,컹,꽁,공,콩": "콩"
+  }
+ },
+ "charon/jip-2d4f.0": {
+  "choices": {
+   "gpt-4o-transcribe|집,칩,찝,직,짇": "집",
+   "gpt-4o-transcribe|짇,직,찝,칩,집": "집",
+   "gpt-4o-mini-transcribe|집,칩,찝,직,짇": "집",
+   "gpt-4o-mini-transcribe|짇,직,찝,칩,집": "집"
+  }
+ },
+ "charon/got-a997.0": {
+  "choices": {
+   "gpt-4o-transcribe|곧,콛,꼳,걷,곡": "곧",
+   "gpt-4o-transcribe|곡,걷,꼳,콛,곧": "곧",
+   "gpt-4o-mini-transcribe|곧,콛,꼳,걷,곡": "곧",
+   "gpt-4o-mini-transcribe|곡,걷,꼳,콛,곧": "곧"
+  }
+ },
+ "charon/mal-aa65.0": {
+  "choices": {
+   "gpt-4o-transcribe|말": "말",
+   "gpt-4o-mini-transcribe|말": "마을"
+  }
+ },
+ "charon/mal-aa65.1": {
+  "choices": {
+   "gpt-4o-transcribe|말": "말",
+   "gpt-4o-mini-transcribe|말": "말"
+  }
+ },
+ "charon/bat-4a39.0": {
+  "choices": {
+   "gpt-4o-transcribe|밭,박,밥,팥,빹": "팥",
+   "gpt-4o-transcribe|빹,팥,밥,박,밭": "팥",
+   "gpt-4o-mini-transcribe|밭,박,밥,팥,빹": "밭",
+   "gpt-4o-mini-transcribe|빹,팥,밥,박,밭": "밭"
+  }
+ },
+ "charon/kkot-c579.0": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "어",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "어"
+  }
+ },
+ "charon/bat-4a39.1": {
+  "choices": {
+   "gpt-4o-transcribe|밭,박,밥,팥,빹": "밭",
+   "gpt-4o-transcribe|빹,팥,밥,박,밭": "밭",
+   "gpt-4o-mini-transcribe|밭,박,밥,팥,빹": "밭",
+   "gpt-4o-mini-transcribe|빹,팥,밥,박,밭": "밭"
+  }
+ },
+ "charon/ot-79fa.0": {
+  "choices": {
+   "gpt-4o-transcribe|옷,엇": "옷",
+   "gpt-4o-transcribe|엇,옷": "옷",
+   "gpt-4o-mini-transcribe|옷,엇": "옷",
+   "gpt-4o-mini-transcribe|엇,옷": "옷"
+  }
+ },
+ "charon/kkot-c579.1": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "곷",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "보드",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "보드"
+  }
+ },
+ "charon/nat-0a22.0": {
+  "choices": {
+   "gpt-4o-transcribe|낮": "낮",
+   "gpt-4o-mini-transcribe|낮": "낮"
+  }
+ },
+ "charon/bueok-6b0b.0": {
+  "plain": "부엌"
+ },
+ "charon/kkot-c579.2": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "봇",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "봇"
+  }
+ },
+ "charon/ap-3e2c.0": {
+  "choices": {
+   "gpt-4o-transcribe|앞": "앞",
+   "gpt-4o-mini-transcribe|앞": "앞"
+  }
+ },
+ "charon/bak-9da8.0": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팎",
+   "gpt-4o-transcribe|빢,팎,밖": "팎.",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "파",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "파"
+  }
+ },
+ "charon/bak-9da8.1": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-transcribe|빢,팎,밖": "팎",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "파",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "파"
+  }
+ },
+ "charon/kkot-c579.3": {
+  "choices": {
+   "gpt-4o-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-transcribe|껓,콫,곷,꽃": "꽃",
+   "gpt-4o-mini-transcribe|꽃,곷,콫,껓": "꽃",
+   "gpt-4o-mini-transcribe|껓,콫,곷,꽃": "꽃"
+  }
+ },
+ "charon/bak-9da8.2": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팎",
+   "gpt-4o-transcribe|빢,팎,밖": "팎",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "밖"
+  }
+ },
+ "charon/bak-a261.0": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "팍",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팍",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "파"
+  }
+ },
+ "charon/bak-a261.1": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "빡",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "아",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "아."
+  }
+ },
+ "charon/bak-9da8.3": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-transcribe|빢,팎,밖": "밖",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "바",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "바"
+  }
+ },
+ "charon/bak-a261.2": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "밥",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "밥",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "밥",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "팝"
+  }
+ },
+ "charon/bak-a261.3": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "팍",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팍",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "파",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "팝"
+  }
+ },
+ "charon/bang-5085.0": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "반영",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "반영",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "반영",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "반영"
+  }
+ },
+ "charon/ppang-2094.0": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빰",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "암",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "암"
+  }
+ },
+ "charon/bang-5085.1": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "방",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "팡",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "방",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "방"
+  }
+ },
+ "charon/ppang-2094.1": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빵",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "방"
+  }
+ },
+ "charon/ban-9a82.0": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "판",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "반",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "단",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "단"
+  }
+ },
+ "charon/bam-553e.0": {
+  "choices": {
+   "gpt-4o-transcribe|밤,반,방,팜,빰": "밤",
+   "gpt-4o-transcribe|빰,팜,방,반,밤": "밤",
+   "gpt-4o-mini-transcribe|밤,반,방,팜,빰": "밤",
+   "gpt-4o-mini-transcribe|빰,팜,방,반,밤": "밤"
+  }
+ },
+ "charon/ban-9a82.1": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "밤",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "밤",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "밤",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "밤"
+  }
+ },
+ "charon/ttalgi-b0cc.0": {
+  "plain": "딸기"
+ },
+ "charon/dal-c74d.0": {
+  "choices": {
+   "gpt-4o-transcribe|달,탈,딸": "칼",
+   "gpt-4o-transcribe|딸,탈,달": "탈",
+   "gpt-4o-mini-transcribe|달,탈,딸": "칼",
+   "gpt-4o-mini-transcribe|딸,탈,달": "칼"
+  }
+ },
+ "charon/ban-9a82.2": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "판",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "판",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "반",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "반"
+  }
+ },
+ "charon/ban-9a82.3": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "밤",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "밤",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "밤",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "밤"
+  }
+ },
+ "charon/dal-c74d.1": {
+  "choices": {
+   "gpt-4o-transcribe|달,탈,딸": "탈",
+   "gpt-4o-transcribe|딸,탈,달": "달",
+   "gpt-4o-mini-transcribe|달,탈,딸": "파일",
+   "gpt-4o-mini-transcribe|딸,탈,달": "파일"
+  }
+ },
+ "charon/ttal-3e46.0": {
+  "choices": {
+   "gpt-4o-transcribe|딸,달,탈": "딸",
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-mini-transcribe|딸,달,탈": "다의",
+   "gpt-4o-mini-transcribe|탈,달,딸": "따의"
+  }
+ },
+ "charon/dal-c74d.2": {
+  "choices": {
+   "gpt-4o-transcribe|달,탈,딸": "달",
+   "gpt-4o-transcribe|딸,탈,달": "달",
+   "gpt-4o-mini-transcribe|달,탈,딸": "달",
+   "gpt-4o-mini-transcribe|딸,탈,달": "달"
+  }
+ },
+ "charon/ttal-3e46.1": {
+  "choices": {
+   "gpt-4o-transcribe|딸,달,탈": "달",
+   "gpt-4o-transcribe|탈,달,딸": "달",
+   "gpt-4o-mini-transcribe|딸,달,탈": "달",
+   "gpt-4o-mini-transcribe|탈,달,딸": "달"
+  }
+ },
+ "charon/tal-808b.0": {
+  "choices": {
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-transcribe|딸,달,탈": "탈",
+   "gpt-4o-mini-transcribe|탈,달,딸": "탈",
+   "gpt-4o-mini-transcribe|딸,달,탈": "팔"
+  }
+ },
+ "charon/ttal-3e46.2": {
+  "choices": {
+   "gpt-4o-transcribe|딸,달,탈": "딸.",
+   "gpt-4o-transcribe|탈,달,딸": "탈",
+   "gpt-4o-mini-transcribe|딸,달,탈": "다해?",
+   "gpt-4o-mini-transcribe|탈,달,딸": "다해"
+  }
+ },
+ "charon/bul-8f54.0": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "플",
+   "gpt-4o-transcribe|블,뿔,풀,불": "불",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "플루",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "플"
+  }
+ },
+ "charon/ttal-3e46.3": {
+  "choices": {
+   "gpt-4o-transcribe|딸,달,탈": "딸",
+   "gpt-4o-transcribe|탈,달,딸": "딸",
+   "gpt-4o-mini-transcribe|딸,달,탈": "딸",
+   "gpt-4o-mini-transcribe|탈,달,딸": "딸"
+  }
+ },
+ "charon/bul-8f54.1": {
+  "choices": {
+   "gpt-4o-transcribe|불,풀,뿔,블": "불",
+   "gpt-4o-transcribe|블,뿔,풀,불": "불",
+   "gpt-4o-mini-transcribe|불,풀,뿔,블": "불",
+   "gpt-4o-mini-transcribe|블,뿔,풀,불": "불."
+  }
+ },
+ "charon/ppul-3cc1.0": {
+  "choices": {
+   "gpt-4o-transcribe|뿔,불,풀,쁠": "뿔",
+   "gpt-4o-transcribe|쁠,풀,불,뿔": "뿔",
+   "gpt-4o-mini-transcribe|뿔,불,풀,쁠": "뿔",
+   "gpt-4o-mini-transcribe|쁠,풀,불,뿔": "뿔"
+  }
+ },
+ "charon/pul-52fa.0": {
+  "choices": {
+   "gpt-4o-transcribe|풀,불,뿔,플": "풀",
+   "gpt-4o-transcribe|플,뿔,불,풀": "풀",
+   "gpt-4o-mini-transcribe|풀,불,뿔,플": "풀",
+   "gpt-4o-mini-transcribe|플,뿔,불,풀": "풀"
+  }
+ },
+ "charon/gul-4684.0": {
+  "choices": {
+   "gpt-4o-transcribe|굴,꿀,쿨,글": "굴",
+   "gpt-4o-transcribe|글,쿨,꿀,굴": "굴",
+   "gpt-4o-mini-transcribe|굴,꿀,쿨,글": "굴",
+   "gpt-4o-mini-transcribe|글,쿨,꿀,굴": "굴"
+  }
+ },
+ "charon/kkul-b592.0": {
+  "choices": {
+   "gpt-4o-transcribe|꿀,굴,쿨,끌": "꿀",
+   "gpt-4o-transcribe|끌,쿨,굴,꿀": "꿀",
+   "gpt-4o-mini-transcribe|꿀,굴,쿨,끌": "월",
+   "gpt-4o-mini-transcribe|끌,쿨,굴,꿀": "올"
+  }
+ },
+ "charon/bal-9436.0": {
+  "choices": {
+   "gpt-4o-transcribe|발,팔,빨": "발",
+   "gpt-4o-transcribe|빨,팔,발": "발",
+   "gpt-4o-mini-transcribe|발,팔,빨": "발",
+   "gpt-4o-mini-transcribe|빨,팔,발": "발."
+  }
+ },
+ "charon/kkul-b592.1": {
+  "choices": {
+   "gpt-4o-transcribe|꿀,굴,쿨,끌": "꿀",
+   "gpt-4o-transcribe|끌,쿨,굴,꿀": "꿀",
+   "gpt-4o-mini-transcribe|꿀,굴,쿨,끌": "꿀",
+   "gpt-4o-mini-transcribe|끌,쿨,굴,꿀": "꿀"
+  }
+ },
+ "charon/pal-fb98.0": {
+  "choices": {
+   "gpt-4o-transcribe|팔,발,빨": "팔",
+   "gpt-4o-transcribe|빨,발,팔": "팔",
+   "gpt-4o-mini-transcribe|팔,발,빨": "파이",
+   "gpt-4o-mini-transcribe|빨,발,팔": "팔"
+  }
+ },
+ "charon/sal-434d.0": {
+  "choices": {
+   "gpt-4o-transcribe|살,쌀": "살",
+   "gpt-4o-transcribe|쌀,살": "살",
+   "gpt-4o-mini-transcribe|살,쌀": "살",
+   "gpt-4o-mini-transcribe|쌀,살": "살"
+  }
+ },
+ "charon/ssal-615f.0": {
+  "choices": {
+   "gpt-4o-transcribe|쌀,살": "쌀",
+   "gpt-4o-transcribe|살,쌀": "쌀",
+   "gpt-4o-mini-transcribe|쌀,살": "쌀",
+   "gpt-4o-mini-transcribe|살,쌀": "쌀"
+  }
+ },
+ "charon/gubun-0867.0": {
+  "plain": "구분"
+ },
+ "charon/geubun-0929.0": {
+  "plain": "그굼",
+  "choices": {
+   "gpt-4o-transcribe|그분,구분": "그분",
+   "gpt-4o-transcribe|구분,그분": "그분",
+   "gpt-4o-mini-transcribe|그분,구분": "그분",
+   "gpt-4o-mini-transcribe|구분,그분": "그분"
+  }
+ },
+ "charon/ilbon-8478.0": {
+  "plain": "일본"
+ },
+ "charon/ireum-03c9.0": {
+  "plain": "이름"
+ },
+ "charon/maeum-b332.0": {
+  "plain": "마음"
+ },
+ "charon/yeongeo-da1e.0": {
+  "plain": "영어"
+ },
+ "charon/naeil-6c59.0": {
+  "plain": "내일"
+ },
+ "charon/jumal-a682.0": {
+  "plain": "주말"
+ },
+ "charon/oneul-89c6.0": {
+  "plain": "오늘"
+ },
+ "charon/byeongwon-0925.0": {
+  "plain": "병원"
+ },
+ "charon/yeonghwa-b842.0": {
+  "plain": "영화"
+ },
+ "charon/yeohaeng-6106.0": {
+  "plain": "여행"
+ },
+ "charon/eunhaeng-dc44.0": {
+  "plain": "은행"
+ },
+ "charon/sijang-3525.0": {
+  "plain": "시장"
+ },
+ "charon/jeonhwa-e13b.0": {
+  "plain": "전화"
+ },
+ "charon/daehak-f3df.0": {
+  "plain": "폐하",
+  "choices": {
+   "gpt-4o-transcribe|대학": "대학",
+   "gpt-4o-mini-transcribe|대학": "대학"
+  }
+ },
+ "charon/noteubuk-6b50.0": {
+  "plain": "노트북."
+ },
+ "charon/keompyuteo-bef3.0": {
+  "plain": "컴퓨터"
+ },
+ "charon/aiseukeurim-a196.0": {
+  "plain": "아이스크림"
+ },
+ "charon/haembeogeo-6e2c.0": {
+  "plain": "햄버거"
+ },
+ "charon/kolra-a8f2.0": {
+  "plain": "콜라"
+ },
+ "charon/haendeupon-4317.0": {
+  "plain": "핸드폰"
+ },
+ "charon/naengmyeon-e74a.0": {
+  "plain": "냉면"
+ },
+ "charon/chikin-1057.0": {
+  "plain": "치킨"
+ },
+ "charon/aidol-4c33.0": {
+  "plain": "아이돌"
+ },
+ "charon/konseoteu-b063.0": {
+  "plain": "콘서트"
+ },
+ "charon/sajin-3500.0": {
+  "plain": "사진"
+ },
+ "charon/galbi-0ecf.0": {
+  "plain": "갈디",
+  "choices": {
+   "gpt-4o-transcribe|갈비": "갈디",
+   "gpt-4o-mini-transcribe|갈비": "갈디"
+  }
+ },
+ "charon/undong-1ba2.0": {
+  "plain": "운돔",
+  "choices": {
+   "gpt-4o-transcribe|운동": "운돔",
+   "gpt-4o-mini-transcribe|운동": "운동"
+  }
+ },
+ "charon/undong-1ba2.1": {
+  "plain": "운동"
+ },
+ "charon/gonghang-4a86.0": {
+  "plain": "공함",
+  "choices": {
+   "gpt-4o-transcribe|공항": "공함",
+   "gpt-4o-mini-transcribe|공항": "공함"
+  }
+ },
+ "charon/gonghang-4a86.1": {
+  "plain": "공항"
+ },
+ "charon/jihacheol-8624.0": {
+  "plain": "지하철"
+ },
+ "charon/hwajangsil-af79.0": {
+  "plain": "화장실"
+ },
+ "charon/mianhaeyo-2cf2.0": {
+  "plain": "미안해요"
+ },
+ "charon/saranghaeyo-e257.0": {
+  "plain": "사랑해요."
+ },
+ "charon/robot-36a5.0": {
+  "plain": "로봇"
+ },
+ "charon/galbi-0ecf.1": {
+  "plain": "갈비"
+ },
+ "charon/remon-eb8d.0": {
+  "plain": "레몬"
+ },
+ "charon/eeokeon-15b1.0": {
+  "plain": "에어컨"
+ },
+ "charon/rimokeon-21ce.0": {
+  "plain": "리모컨"
+ },
+ "charon/beteunam-8050.0": {
+  "plain": "베트남"
+ },
+ "charon/keoteun-9e15.0": {
+  "plain": "커튼"
+ },
+ "charon/beoteun-895d.0": {
+  "plain": "버튼"
+ },
+ "charon/sip-4f57.0": {
+  "choices": {
+   "gpt-4o-transcribe|십,씹,식,싣": "십",
+   "gpt-4o-transcribe|싣,식,씹,십": "십",
+   "gpt-4o-mini-transcribe|십,씹,식,싣": "십",
+   "gpt-4o-mini-transcribe|싣,식,씹,십": "십"
+  }
+ },
+ "charon/syoping-b15d.0": {
+  "plain": "쇼핑"
+ },
+ "charon/chil-2ba2.0": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "츠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "charon/il-f43a.0": {
+  "choices": {
+   "gpt-4o-transcribe|일": "일",
+   "gpt-4o-mini-transcribe|일": "일"
+  }
+ },
+ "charon/yuk-d3fc.0": {
+  "choices": {
+   "gpt-4o-transcribe|육,윧,윱": "육",
+   "gpt-4o-transcribe|윱,윧,육": "윱",
+   "gpt-4o-mini-transcribe|육,윧,윱": "육",
+   "gpt-4o-mini-transcribe|윱,윧,육": "윱"
+  }
+ },
+ "charon/chil-2ba2.1": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "질",
+   "gpt-4o-mini-transcribe|칠,질,찔": "2",
+   "gpt-4o-mini-transcribe|찔,질,칠": "2"
+  }
+ },
+ "charon/yuk-d3fc.1": {
+  "choices": {
+   "gpt-4o-transcribe|육,윧,윱": "육",
+   "gpt-4o-transcribe|윱,윧,육": "육",
+   "gpt-4o-mini-transcribe|육,윧,윱": "육",
+   "gpt-4o-mini-transcribe|윱,윧,육": "육"
+  }
+ },
+ "charon/baek-764d.0": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "팩",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팩"
+  }
+ },
+ "charon/chil-2ba2.2": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "추",
+   "gpt-4o-mini-transcribe|찔,질,칠": "추"
+  }
+ },
+ "charon/baek-764d.1": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "뱁",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "다음은",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "테",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "태"
+  }
+ },
+ "charon/chil-2ba2.3": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "charon/cheon-9765.0": {
+  "choices": {
+   "gpt-4o-transcribe|천,전,쩐,촌,첨": "천",
+   "gpt-4o-transcribe|첨,촌,쩐,전,천": "촌",
+   "gpt-4o-mini-transcribe|천,전,쩐,촌,첨": "천",
+   "gpt-4o-mini-transcribe|첨,촌,쩐,전,천": "천"
+  }
+ },
+ "charon/man-c9e1.0": {
+  "choices": {
+   "gpt-4o-transcribe|만,맘,망": "만",
+   "gpt-4o-transcribe|망,맘,만": "망",
+   "gpt-4o-mini-transcribe|만,맘,망": "만",
+   "gpt-4o-mini-transcribe|망,맘,만": "만"
+  }
+ },
+ "charon/baek-764d.2": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "팩",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팩"
+  }
+ },
+ "charon/won-95e0.0": {
+  "choices": {
+   "gpt-4o-transcribe|원,완,웜,웡": "원",
+   "gpt-4o-transcribe|웡,웜,완,원": "원",
+   "gpt-4o-mini-transcribe|원,완,웜,웡": "원",
+   "gpt-4o-mini-transcribe|웡,웜,완,원": "원"
+  }
+ },
+ "charon/baek-764d.3": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "백",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "백",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "백",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "백"
+  }
+ },
+ "charon/eumak-f2e0.0": {
+  "plain": "빠나.",
+  "choices": {
+   "gpt-4o-transcribe|음악": "음악",
+   "gpt-4o-mini-transcribe|음악": "그지나"
+  }
+ },
+ "charon/eumak-f2e0.1": {
+  "plain": "음악."
+ },
+ "charon/ilboneo-ccde.0": {
+  "plain": "이래라야",
+  "choices": {
+   "gpt-4o-transcribe|일본어": "이레나야",
+   "gpt-4o-mini-transcribe|일본어": "이레나야"
+  }
+ },
+ "charon/ilboneo-ccde.1": {
+  "plain": "요람매로",
+  "choices": {
+   "gpt-4o-transcribe|일본어": "요람메로",
+   "gpt-4o-mini-transcribe|일본어": "요람메로"
+  }
+ },
+ "charon/ilboneo-ccde.2": {
+  "plain": "예노국미례.",
+  "choices": {
+   "gpt-4o-transcribe|일본어": "예노 국민례",
+   "gpt-4o-mini-transcribe|일본어": "예노 국미래"
+  }
+ },
+ "charon/hangukeo-831f.3": {
+  "plain": "여",
+  "choices": {
+   "gpt-4o-transcribe|한국어": "여",
+   "gpt-4o-mini-transcribe|한국어": "이야."
+  }
+ },
+ "charon/daneo-1fe5.0": {
+  "plain": "단어."
+ },
+ "charon/baleum-d29f.0": {
+  "plain": "발음"
+ },
+ "charon/pyeonuijeom-202d.0": {
+  "plain": "편의점"
+ },
+ "charon/hakgyo-094d.0": {
+  "plain": "학교"
+ },
+ "charon/haksaeng-7f7a.0": {
+  "plain": "학생"
+ },
+ "charon/jikeop-b3ad.0": {
+  "plain": "직업"
+ },
+ "charon/taeksi-a5ff.0": {
+  "plain": "택시"
+ },
+ "charon/maekju-5bb1.0": {
+  "plain": "맥주"
+ },
+ "charon/samgyeopsal-65a6.0": {
+  "plain": "삼겹살"
+ },
+ "charon/tteokboki-2b5e.0": {
+  "plain": "떡볶이"
+ },
+ "charon/makgeolri-a0fc.0": {
+  "plain": "막걸리"
+ },
+ "charon/bibimbap-4535.0": {
+  "plain": "비빔밥"
+ },
+ "charon/gamsahapnida-c8ee.0": {
+  "plain": "감사합니다."
+ },
+ "charon/matiteoyo-6b4e.0": {
+  "plain": "맛있어요"
+ },
+ "charon/jotayo-95f5.0": {
+  "plain": "좋아요"
+ },
+ "charon/ga-8b15.0": {
+  "choices": {
+   "gpt-4o-transcribe|가,카,까": "가",
+   "gpt-4o-transcribe|까,카,가": "가",
+   "gpt-4o-mini-transcribe|가,카,까": "가",
+   "gpt-4o-mini-transcribe|까,카,가": "가"
+  }
+ },
+ "charon/ra-f84b.0": {
+  "choices": {
+   "gpt-4o-transcribe|라": "라",
+   "gpt-4o-mini-transcribe|라": "라"
+  }
+ },
+ "charon/ma-d02d.0": {
+  "choices": {
+   "gpt-4o-transcribe|마": "마",
+   "gpt-4o-mini-transcribe|마": "마"
+  }
+ },
+ "charon/ba-a0ce.0": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "파",
+   "gpt-4o-transcribe|빠,파,바": "파",
+   "gpt-4o-mini-transcribe|바,파,빠": "바",
+   "gpt-4o-mini-transcribe|빠,파,바": "파"
+  }
+ },
+ "charon/sa-1d85.0": {
+  "choices": {
+   "gpt-4o-transcribe|사,싸": "사",
+   "gpt-4o-transcribe|싸,사": "사",
+   "gpt-4o-mini-transcribe|사,싸": "사",
+   "gpt-4o-mini-transcribe|싸,사": "사"
+  }
+ },
+ "charon/ba-a0ce.1": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "바",
+   "gpt-4o-transcribe|빠,파,바": "바",
+   "gpt-4o-mini-transcribe|바,파,빠": "바",
+   "gpt-4o-mini-transcribe|빠,파,바": "바"
+  }
+ },
+ "charon/a-671a.0": {
+  "choices": {
+   "gpt-4o-transcribe|아": "아",
+   "gpt-4o-mini-transcribe|아": "아"
+  }
+ },
+ "charon/ja-2c4d.0": {
+  "choices": {
+   "gpt-4o-transcribe|자,차,짜": "자",
+   "gpt-4o-transcribe|짜,차,자": "자",
+   "gpt-4o-mini-transcribe|자,차,짜": "자",
+   "gpt-4o-mini-transcribe|짜,차,자": "자"
+  }
+ },
+ "charon/ka-0c26.0": {
+  "choices": {
+   "gpt-4o-transcribe|카,가,까": "카",
+   "gpt-4o-transcribe|까,가,카": "카",
+   "gpt-4o-mini-transcribe|카,가,까": "카",
+   "gpt-4o-mini-transcribe|까,가,카": "카"
+  }
+ },
+ "charon/ta-73f3.0": {
+  "choices": {
+   "gpt-4o-transcribe|타,다,따": "타",
+   "gpt-4o-transcribe|따,다,타": "타",
+   "gpt-4o-mini-transcribe|타,다,따": "카",
+   "gpt-4o-mini-transcribe|따,다,타": "카"
+  }
+ },
+ "charon/pa-0830.0": {
+  "choices": {
+   "gpt-4o-transcribe|파,바,빠": "파",
+   "gpt-4o-transcribe|빠,바,파": "파",
+   "gpt-4o-mini-transcribe|파,바,빠": "파",
+   "gpt-4o-mini-transcribe|빠,바,파": "파"
+  }
+ },
+ "charon/ta-73f3.1": {
+  "choices": {
+   "gpt-4o-transcribe|타,다,따": "타",
+   "gpt-4o-transcribe|따,다,타": "타",
+   "gpt-4o-mini-transcribe|타,다,따": "타",
+   "gpt-4o-mini-transcribe|따,다,타": "타"
+  }
+ },
+ "charon/ha-b59d.0": {
+  "choices": {
+   "gpt-4o-transcribe|하": "하",
+   "gpt-4o-mini-transcribe|하": "하"
+  }
+ },
+ "charon/kka-2a80.0": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "까",
+   "gpt-4o-transcribe|카,가,까": "까",
+   "gpt-4o-mini-transcribe|까,가,카": "까",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "charon/tta-4ade.0": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라함런",
+   "gpt-4o-transcribe|타,다,따": "따라함론",
+   "gpt-4o-mini-transcribe|따,다,타": "따라 함론",
+   "gpt-4o-mini-transcribe|타,다,따": "다라함론"
+  }
+ },
+ "charon/tta-4ade.1": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라 한 번",
+   "gpt-4o-transcribe|타,다,따": "타라한번",
+   "gpt-4o-mini-transcribe|따,다,타": "다라한문",
+   "gpt-4o-mini-transcribe|타,다,따": "달아한문"
+  }
+ },
+ "charon/ppa-02ab.0": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "빠",
+   "gpt-4o-transcribe|파,바,빠": "빠",
+   "gpt-4o-mini-transcribe|빠,바,파": "빠",
+   "gpt-4o-mini-transcribe|파,바,빠": "바"
+  }
+ },
+ "charon/tta-4ade.2": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따라니까.",
+   "gpt-4o-transcribe|타,다,따": "따라니까",
+   "gpt-4o-mini-transcribe|따,다,타": "따라니까.",
+   "gpt-4o-mini-transcribe|타,다,따": "따라니까"
+  }
+ },
+ "charon/ssa-60a8.0": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "사",
+   "gpt-4o-transcribe|사,싸": "사",
+   "gpt-4o-mini-transcribe|싸,사": "사",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "charon/ssa-60a8.1": {
+  "choices": {
+   "gpt-4o-transcribe|싸,사": "싸",
+   "gpt-4o-transcribe|사,싸": "싸",
+   "gpt-4o-mini-transcribe|싸,사": "싸",
+   "gpt-4o-mini-transcribe|사,싸": "사"
+  }
+ },
+ "charon/tta-4ade.3": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "다",
+   "gpt-4o-transcribe|타,다,따": "다",
+   "gpt-4o-mini-transcribe|따,다,타": "다?",
+   "gpt-4o-mini-transcribe|타,다,따": "다?"
+  }
+ },
+ "charon/jja-3208.0": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "짜",
+   "gpt-4o-transcribe|차,자,짜": "차",
+   "gpt-4o-mini-transcribe|짜,자,차": "다",
+   "gpt-4o-mini-transcribe|차,자,짜": "다"
+  }
+ },
+ "charon/eo-33e9.0": {
+  "choices": {
+   "gpt-4o-transcribe|어,오": "어",
+   "gpt-4o-transcribe|오,어": "어",
+   "gpt-4o-mini-transcribe|어,오": "어?",
+   "gpt-4o-mini-transcribe|오,어": "어?"
+  }
+ },
+ "charon/o-5f37.0": {
+  "choices": {
+   "gpt-4o-transcribe|오,어": "오",
+   "gpt-4o-transcribe|어,오": "오",
+   "gpt-4o-mini-transcribe|오,어": "오.",
+   "gpt-4o-mini-transcribe|어,오": "어."
+  }
+ },
+ "charon/u-e209.0": {
+  "choices": {
+   "gpt-4o-transcribe|우,으": "「우」",
+   "gpt-4o-transcribe|으,우": "우",
+   "gpt-4o-mini-transcribe|우,으": "후",
+   "gpt-4o-mini-transcribe|으,우": "후"
+  }
+ },
+ "charon/u-e209.1": {
+  "choices": {
+   "gpt-4o-transcribe|우,으": "우",
+   "gpt-4o-transcribe|으,우": "우",
+   "gpt-4o-mini-transcribe|우,으": "우",
+   "gpt-4o-mini-transcribe|으,우": "우"
+  }
+ },
+ "charon/jja-3208.1": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "자",
+   "gpt-4o-transcribe|차,자,짜": "자",
+   "gpt-4o-mini-transcribe|짜,자,차": "자",
+   "gpt-4o-mini-transcribe|차,자,짜": "자"
+  }
+ },
+ "charon/jja-3208.2": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "짜",
+   "gpt-4o-transcribe|차,자,짜": "자",
+   "gpt-4o-mini-transcribe|짜,자,차": "자",
+   "gpt-4o-mini-transcribe|차,자,짜": "자"
+  }
+ },
+ "charon/jja-3208.3": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "짜",
+   "gpt-4o-transcribe|차,자,짜": "차",
+   "gpt-4o-mini-transcribe|짜,자,차": "자",
+   "gpt-4o-mini-transcribe|차,자,짜": "차"
+  }
+ },
+ "charon/eu-c2ab.0": {
+  "choices": {
+   "gpt-4o-transcribe|으,우": "으",
+   "gpt-4o-transcribe|우,으": "으",
+   "gpt-4o-mini-transcribe|으,우": "으",
+   "gpt-4o-mini-transcribe|우,으": "으"
+  }
+ },
+ "charon/i-e7a2.0": {
+  "choices": {
+   "gpt-4o-transcribe|이": "이",
+   "gpt-4o-mini-transcribe|이": "이"
+  }
+ },
+ "charon/ya-0ef2.0": {
+  "choices": {
+   "gpt-4o-transcribe|야": "야",
+   "gpt-4o-mini-transcribe|야": "야!"
+  }
+ },
+ "charon/yeo-a4a8.0": {
+  "choices": {
+   "gpt-4o-transcribe|여,요": "여",
+   "gpt-4o-transcribe|요,여": "요",
+   "gpt-4o-mini-transcribe|여,요": "여",
+   "gpt-4o-mini-transcribe|요,여": "여"
+  }
+ },
+ "charon/yo-b5f5.0": {
+  "choices": {
+   "gpt-4o-transcribe|요,여": "요",
+   "gpt-4o-transcribe|여,요": "요",
+   "gpt-4o-mini-transcribe|요,여": "요",
+   "gpt-4o-mini-transcribe|여,요": "요."
+  }
+ },
+ "charon/ae-2e6e.0": {
+  "choices": {
+   "gpt-4o-transcribe|애": "애",
+   "gpt-4o-mini-transcribe|애": "애"
+  }
+ },
+ "charon/yu-d58f.0": {
+  "choices": {
+   "gpt-4o-transcribe|유": "유",
+   "gpt-4o-mini-transcribe|유": "유"
+  }
+ },
+ "charon/e-52cc.0": {
+  "choices": {
+   "gpt-4o-transcribe|에": "에",
+   "gpt-4o-mini-transcribe|에": "네."
+  }
+ },
+ "charon/e-52cc.1": {
+  "choices": {
+   "gpt-4o-transcribe|에": "에",
+   "gpt-4o-mini-transcribe|에": "에?"
+  }
+ },
+ "charon/wa-a3e2.0": {
+  "choices": {
+   "gpt-4o-transcribe|와,워": "와",
+   "gpt-4o-transcribe|워,와": "와",
+   "gpt-4o-mini-transcribe|와,워": "와",
+   "gpt-4o-mini-transcribe|워,와": "와"
+  }
+ },
+ "charon/oe-c9aa.0": {
+  "choices": {
+   "gpt-4o-transcribe|외": "외",
+   "gpt-4o-mini-transcribe|외": "왜?"
+  }
+ },
+ "charon/wo-c1f4.0": {
+  "choices": {
+   "gpt-4o-transcribe|워,와": "워",
+   "gpt-4o-transcribe|와,워": "워",
+   "gpt-4o-mini-transcribe|워,와": "워",
+   "gpt-4o-mini-transcribe|와,워": "와"
+  }
+ },
+ "charon/yae-792d.0": {
+  "choices": {
+   "gpt-4o-transcribe|얘": "얘",
+   "gpt-4o-mini-transcribe|얘": "예."
+  }
+ },
+ "charon/we-8948.0": {
+  "choices": {
+   "gpt-4o-transcribe|웨": "웨",
+   "gpt-4o-mini-transcribe|웨": "왜?"
+  }
+ },
+ "charon/ui-204e.0": {
+  "choices": {
+   "gpt-4o-transcribe|의": "브리",
+   "gpt-4o-mini-transcribe|의": "브리"
+  }
+ },
+ "charon/go-a4de.0": {
+  "choices": {
+   "gpt-4o-transcribe|고,코,꼬,거": "코",
+   "gpt-4o-transcribe|거,꼬,코,고": "고",
+   "gpt-4o-mini-transcribe|고,코,꼬,거": "고.",
+   "gpt-4o-mini-transcribe|거,꼬,코,고": "고"
+  }
+ },
+ "charon/ui-204e.1": {
+  "choices": {
+   "gpt-4o-transcribe|의": "의",
+   "gpt-4o-mini-transcribe|의": "의"
+  }
+ },
+ "charon/geo-647c.0": {
+  "choices": {
+   "gpt-4o-transcribe|거,커,꺼,고": "거",
+   "gpt-4o-transcribe|고,꺼,커,거": "거",
+   "gpt-4o-mini-transcribe|거,커,꺼,고": "거",
+   "gpt-4o-mini-transcribe|고,꺼,커,거": "거"
+  }
+ },
+ "kore/gang-6a06.4": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "한",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "한",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "한"
+  }
+ },
+ "kore/sang-4a5b.4": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "산"
+  }
+ },
+ "kore/sang-4a5b.5": {
+  "choices": {
+   "gpt-4o-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-transcribe|쌍,삼,산,상": "산",
+   "gpt-4o-mini-transcribe|상,산,삼,쌍": "산",
+   "gpt-4o-mini-transcribe|쌍,삼,산,상": "산"
+  }
+ },
+ "kore/gang-6a06.5": {
+  "choices": {
+   "gpt-4o-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-transcribe|깡,캉,감,간,강": "간",
+   "gpt-4o-mini-transcribe|강,간,감,캉,깡": "간",
+   "gpt-4o-mini-transcribe|깡,캉,감,간,강": "간"
+  }
+ },
+ "kore/bak-9da8.4": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "팎",
+   "gpt-4o-transcribe|빢,팎,밖": "밖",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "닫",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "닭"
+  }
+ },
+ "kore/ppang-2094.4": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빤",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "빤"
+  }
+ },
+ "kore/ppang-2094.5": {
+  "choices": {
+   "gpt-4o-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-transcribe|빰,빤,팡,방,빵": "빵",
+   "gpt-4o-mini-transcribe|빵,방,팡,빤,빰": "빵",
+   "gpt-4o-mini-transcribe|빰,빤,팡,방,빵": "빵"
+  }
+ },
+ "kore/bak-9da8.5": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-transcribe|빢,팎,밖": "팥",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "밭",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "밭"
+  }
+ },
+ "kore/bang-5085.4": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "반",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "반",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "반",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "반"
+  }
+ },
+ "kore/bang-5085.5": {
+  "choices": {
+   "gpt-4o-transcribe|방,빵,반,밤,팡": "밤",
+   "gpt-4o-transcribe|팡,밤,반,빵,방": "밤",
+   "gpt-4o-mini-transcribe|방,빵,반,밤,팡": "밤",
+   "gpt-4o-mini-transcribe|팡,밤,반,빵,방": "밤"
+  }
+ },
+ "kore/yeongeo-da1e.4": {
+  "plain": "영어"
+ },
+ "kore/baek-764d.4": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "팩",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "백",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팽"
+  }
+ },
+ "kore/baek-764d.5": {
+  "choices": {
+   "gpt-4o-transcribe|백,팩,빽,밷,뱁": "백",
+   "gpt-4o-transcribe|뱁,밷,빽,팩,백": "백",
+   "gpt-4o-mini-transcribe|백,팩,빽,밷,뱁": "팩",
+   "gpt-4o-mini-transcribe|뱁,밷,빽,팩,백": "팩"
+  }
+ },
+ "kore/hangukeo-831f.4": {
+  "plain": "한국어"
+ },
+ "kore/ilboneo-ccde.4": {
+  "plain": "일본어"
+ },
+ "kore/chil-2ba2.4": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "kore/baleum-d29f.4": {
+  "plain": "발음"
+ },
+ "kore/ba-a0ce.4": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "파",
+   "gpt-4o-transcribe|빠,파,바": "파",
+   "gpt-4o-mini-transcribe|바,파,빠": "파",
+   "gpt-4o-mini-transcribe|빠,파,바": "파"
+  }
+ },
+ "kore/chil-2ba2.5": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "치",
+   "gpt-4o-mini-transcribe|찔,질,칠": "추"
+  }
+ },
+ "kore/ba-a0ce.5": {
+  "choices": {
+   "gpt-4o-transcribe|바,파,빠": "다",
+   "gpt-4o-transcribe|빠,파,바": "빠",
+   "gpt-4o-mini-transcribe|바,파,빠": "타",
+   "gpt-4o-mini-transcribe|빠,파,바": "타"
+  }
+ },
+ "kore/kka-2a80.4": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "까",
+   "gpt-4o-transcribe|카,가,까": "까",
+   "gpt-4o-mini-transcribe|까,가,카": "가",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "kore/kka-2a80.5": {
+  "choices": {
+   "gpt-4o-transcribe|까,가,카": "가",
+   "gpt-4o-transcribe|카,가,까": "가",
+   "gpt-4o-mini-transcribe|까,가,카": "가",
+   "gpt-4o-mini-transcribe|카,가,까": "가"
+  }
+ },
+ "kore/ppa-02ab.4": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "아",
+   "gpt-4o-transcribe|파,바,빠": "파",
+   "gpt-4o-mini-transcribe|빠,바,파": "아",
+   "gpt-4o-mini-transcribe|파,바,빠": "아"
+  }
+ },
+ "kore/tta-4ade.4": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "다",
+   "gpt-4o-transcribe|타,다,따": "따",
+   "gpt-4o-mini-transcribe|따,다,타": "따",
+   "gpt-4o-mini-transcribe|타,다,따": "다"
+  }
+ },
+ "kore/tta-4ade.5": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따",
+   "gpt-4o-transcribe|타,다,따": "따",
+   "gpt-4o-mini-transcribe|따,다,타": "따",
+   "gpt-4o-mini-transcribe|타,다,따": "다"
+  }
+ },
+ "kore/yae-792d.4": {
+  "choices": {
+   "gpt-4o-transcribe|얘": "얘",
+   "gpt-4o-mini-transcribe|얘": "예"
+  }
+ },
+ "kore/ppa-02ab.5": {
+  "choices": {
+   "gpt-4o-transcribe|빠,바,파": "빠",
+   "gpt-4o-transcribe|파,바,빠": "바",
+   "gpt-4o-mini-transcribe|빠,바,파": "아",
+   "gpt-4o-mini-transcribe|파,바,빠": "아"
+  }
+ },
+ "kore/ui-204e.4": {
+  "choices": {
+   "gpt-4o-transcribe|의": "의",
+   "gpt-4o-mini-transcribe|의": "의"
+  }
+ },
+ "charon/bap-56d1.4": {
+  "choices": {
+   "gpt-4o-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-transcribe|빱,팝,밭,박,밥": "팝",
+   "gpt-4o-mini-transcribe|밥,박,밭,팝,빱": "밥",
+   "gpt-4o-mini-transcribe|빱,팝,밭,박,밥": "밥"
+  }
+ },
+ "charon/gan-84c9.4": {
+  "choices": {
+   "gpt-4o-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-transcribe|깐,칸,강,감,간": "간",
+   "gpt-4o-mini-transcribe|간,감,강,칸,깐": "간",
+   "gpt-4o-mini-transcribe|깐,칸,강,감,간": "간"
+  }
+ },
+ "charon/bak-9da8.4": {
+  "choices": {
+   "gpt-4o-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-transcribe|빢,팎,밖": "밖",
+   "gpt-4o-mini-transcribe|밖,팎,빢": "밖",
+   "gpt-4o-mini-transcribe|빢,팎,밖": "박"
+  }
+ },
+ "charon/bak-a261.4": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "박",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "아",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "아"
+  }
+ },
+ "charon/ban-9a82.4": {
+  "choices": {
+   "gpt-4o-transcribe|반,밤,방,판,빤": "반",
+   "gpt-4o-transcribe|빤,판,방,밤,반": "반",
+   "gpt-4o-mini-transcribe|반,밤,방,판,빤": "반",
+   "gpt-4o-mini-transcribe|빤,판,방,밤,반": "반"
+  }
+ },
+ "charon/chil-2ba2.4": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "취",
+   "gpt-4o-mini-transcribe|찔,질,칠": "치"
+  }
+ },
+ "charon/chil-2ba2.5": {
+  "choices": {
+   "gpt-4o-transcribe|칠,질,찔": "칠",
+   "gpt-4o-transcribe|찔,질,칠": "칠",
+   "gpt-4o-mini-transcribe|칠,질,찔": "추",
+   "gpt-4o-mini-transcribe|찔,질,칠": "쯔"
+  }
+ },
+ "charon/bak-a261.5": {
+  "choices": {
+   "gpt-4o-transcribe|박,밭,밥,팍,빡": "팍",
+   "gpt-4o-transcribe|빡,팍,밥,밭,박": "팍",
+   "gpt-4o-mini-transcribe|박,밭,밥,팍,빡": "박",
+   "gpt-4o-mini-transcribe|빡,팍,밥,밭,박": "박"
+  }
+ },
+ "charon/hangukeo-831f.4": {
+  "plain": "한국어"
+ },
+ "charon/ilboneo-ccde.4": {
+  "plain": "일본어"
+ },
+ "charon/tta-4ade.4": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따",
+   "gpt-4o-transcribe|타,다,따": "다",
+   "gpt-4o-mini-transcribe|따,다,타": "다",
+   "gpt-4o-mini-transcribe|타,다,따": "다"
+  }
+ },
+ "charon/jja-3208.4": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "자",
+   "gpt-4o-transcribe|차,자,짜": "차",
+   "gpt-4o-mini-transcribe|짜,자,차": "차",
+   "gpt-4o-mini-transcribe|차,자,짜": "차"
+  }
+ },
+ "charon/tta-4ade.5": {
+  "choices": {
+   "gpt-4o-transcribe|따,다,타": "따",
+   "gpt-4o-transcribe|타,다,따": "타",
+   "gpt-4o-mini-transcribe|따,다,타": "아",
+   "gpt-4o-mini-transcribe|타,다,따": "아"
+  }
+ },
+ "charon/jja-3208.5": {
+  "choices": {
+   "gpt-4o-transcribe|짜,자,차": "자",
+   "gpt-4o-transcribe|차,자,짜": "짜",
+   "gpt-4o-mini-transcribe|짜,자,차": "자",
+   "gpt-4o-mini-transcribe|차,자,짜": "자"
+  }
+ },
+ "kore/iyagi-41db.0": {
+  "plain": "이야기"
+ },
+ "kore/goyangi-4edc.0": {
+  "plain": "고양이"
+ },
+ "kore/yak-1085.0": {
+  "choices": {
+   "gpt-4o-transcribe|약,얃,얍": "약",
+   "gpt-4o-transcribe|얍,얃,약": "약",
+   "gpt-4o-mini-transcribe|약,얃,얍": "약",
+   "gpt-4o-mini-transcribe|얍,얃,약": "약"
+  }
+ },
+ "kore/jinjja-af9f.0": {
+  "plain": "진짜"
+ },
+ "kore/gajja-3958.0": {
+  "plain": "가짜."
+ },
+ "kore/oeguk-5ba6.0": {
+  "plain": "웨이브",
+  "choices": {
+   "gpt-4o-transcribe|외국": "외국",
+   "gpt-4o-mini-transcribe|외국": "외국"
+  }
+ },
+ "kore/jjajangmyeon-d84b.0": {
+  "plain": "짜장면"
+ },
+ "kore/choego-2c13.0": {
+  "plain": "최고"
+ },
+ "kore/waeyo-1410.0": {
+  "plain": "왜?",
+  "choices": {
+   "gpt-4o-transcribe|왜요": "왜요?",
+   "gpt-4o-mini-transcribe|왜요": "왜요?"
+  }
+ },
+ "kore/weding-fc7a.0": {
+  "plain": "웨이딩",
+  "choices": {
+   "gpt-4o-transcribe|웨딩": "웨딩",
+   "gpt-4o-mini-transcribe|웨딩": "웨딩"
+  }
+ },
+ "charon/goyangi-4edc.0": {
+  "plain": "고양이"
+ },
+ "charon/iyagi-41db.0": {
+  "plain": "이야기"
+ },
+ "charon/yak-1085.0": {
+  "choices": {
+   "gpt-4o-transcribe|약,얃,얍": "얍",
+   "gpt-4o-transcribe|얍,얃,약": "얍",
+   "gpt-4o-mini-transcribe|약,얃,얍": "야",
+   "gpt-4o-mini-transcribe|얍,얃,약": "야"
+  }
+ },
+ "charon/yak-1085.1": {
+  "choices": {
+   "gpt-4o-transcribe|약,얃,얍": "약",
+   "gpt-4o-transcribe|얍,얃,약": "약",
+   "gpt-4o-mini-transcribe|약,얃,얍": "약",
+   "gpt-4o-mini-transcribe|얍,얃,약": "야?"
+  }
+ },
+ "charon/jinjja-af9f.0": {
+  "plain": "진짜?"
+ },
+ "charon/gajja-3958.0": {
+  "plain": "가짜"
+ },
+ "charon/jjajangmyeon-d84b.0": {
+  "plain": "짜장면"
+ },
+ "charon/oeguk-5ba6.0": {
+  "plain": "외국"
+ },
+ "charon/choego-2c13.0": {
+  "plain": "최고"
+ },
+ "charon/waeyo-1410.0": {
+  "plain": "휠",
+  "choices": {
+   "gpt-4o-transcribe|왜요": "왜요",
+   "gpt-4o-mini-transcribe|왜요": "왜요?"
+  }
+ },
+ "charon/weding-fc7a.0": {
+  "plain": "웨딩"
+ }
+}

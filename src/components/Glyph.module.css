@@ -1,0 +1,24 @@
+/* Strokes of a letter: round ends and joins, written in when new (pathLength 1: the dash is the whole stroke). */
+.box { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.svg path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Written in, one stroke after another (--i). Hidden until its turn, so a round end does not show as a dot. */
+.write {
+  stroke-dasharray: 1 1;
+  animation: write 0.34s ease-out both;
+  animation-delay: calc(var(--i, 0) * 0.16s);
+}
+@keyframes write {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+
+/* A stroke just written in: lit in the accent, then settling to its own colour. */
+.lit { animation: lit 1.6s ease-out both; }
+.write.lit { animation: write 0.34s ease-out both, lit 1.6s ease-out both; animation-delay: calc(var(--i, 0) * 0.16s), 0s; }
+@keyframes lit {
+  0%, 45% { stroke: var(--accent); }
+  100% { stroke: var(--c); }
+}

@@ -1,0 +1,31 @@
+/* The mouth drawings: flat colours from globals.css, one hairline weight, no shading or shadow. */
+.svg { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+.air { fill: #fff; }
+.skin { fill: var(--skin); stroke: var(--skin-line); stroke-width: 4; stroke-linejoin: round; }
+.cavity { fill: var(--cavity); }
+.tongue { fill: var(--tongue); stroke: var(--tongue-line); stroke-width: 4; }
+.tooth { fill: #fff; stroke: #8a7a70; stroke-width: 2.5; stroke-linejoin: round; }
+.line { fill: none; stroke: var(--skin-line); stroke-width: 3; stroke-linecap: round; }
+.brow { fill: none; stroke: #3b3b3b; stroke-width: 5; stroke-linecap: round; }
+.hair { fill: #4a3b32; }
+.eye { fill: #2b2b2b; }
+.lips { fill: #e86a7a; stroke: var(--tongue-line); stroke-width: 4; }
+.lipLine { fill: none; stroke: var(--tongue-line); stroke-width: 5; stroke-linecap: round; }
+.rim { fill: none; stroke: var(--ink); stroke-width: 6; }
+
+/* Where the tongue touches: a spot and a ring that widens, as the rain's ripples do. */
+.spot { fill: var(--accent); }
+.pulse { fill: none; stroke: var(--accent); stroke-width: 5; transform-box: fill-box; transform-origin: center; animation: pulse 1.3s ease-out infinite; }
+@keyframes pulse {
+  from { transform: scale(1); opacity: 0.9; }
+  to { transform: scale(3.2); opacity: 0; }
+}
+
+/* The letter: written over the drawing in the accent, then standing on its own in ink. */
+.letter path { fill: none; stroke: var(--accent); stroke-linecap: round; stroke-linejoin: round; }
+.write { stroke-dasharray: 1 1; animation: write 0.5s ease-out both; animation-delay: calc(var(--i, 0) * 0.22s); }
+@keyframes write {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  1% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}

@@ -1,0 +1,26 @@
+/* 練習: the sound to hear, the choices, a hint after a miss. Hairlines, one accent; a miss is only dashed. */
+.practice { display: flex; flex-direction: column; gap: 14px; }
+.head { position: relative; display: flex; align-items: center; justify-content: center; padding: 4px 0; }
+.count { position: absolute; right: 0; font-family: var(--font-en); font-size: 13px; color: var(--faint); letter-spacing: 0.04em; }
+.listen {
+  position: relative; width: 76px; height: 76px; border-radius: 50%;
+  border: 1px solid var(--accent); background: var(--accent); color: #fff;
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer;
+}
+.listen[data-playing]::before, .listen[data-playing]::after {
+  content: ""; position: absolute; inset: -1px; border-radius: 50%; border: 1.5px solid var(--accent);
+  animation: ripple 1.6s ease-out infinite; pointer-events: none;
+}
+.listen[data-playing]::after { animation-delay: 0.8s; }
+@keyframes ripple { from { transform: scale(1); opacity: 0.55; } to { transform: scale(1.7); opacity: 0; } }
+.choices { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.choice {
+  width: 100%; min-height: 76px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  padding: 10px 4px; border: 1.5px solid var(--line-2); border-radius: var(--radius); background: var(--paper); color: var(--ink); cursor: pointer;
+}
+.choice[data-state="right"] { border-color: var(--accent); background: var(--tint); }
+.choice[data-state="wrong"] { border-style: dashed; opacity: 0.55; }
+.hint { min-height: 128px; }
+.right { margin: 0; font-size: 16px; font-weight: 600; color: var(--accent); text-align: center; }
+.done { display: flex; flex-direction: column; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); animation: settle 0.4s ease-out both; }
+@keyframes settle { from { opacity: 0; transform: translateY(8px); } }

@@ -1,0 +1,8946 @@
+{
+ "voices": [
+  {
+   "id": "kore",
+   "name": "Kore",
+   "sex": "f"
+  },
+  {
+   "id": "charon",
+   "name": "Charon",
+   "sex": "m"
+  }
+ ],
+ "clips": {
+  "kore/ai-983b": {
+   "text": "아이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oi-3420": {
+   "text": "오이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/na-19e0": {
+   "text": "나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나",
+    "나",
+    "나",
+    "나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/neo-7e86": {
+   "text": "너",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "너",
+    "너",
+    "너",
+    "너"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/namu-5489": {
+   "text": "나무",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나무"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/nuna-ea95": {
+   "text": "누나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "누나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gogi-c654": {
+   "text": "고기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geogi-6b7a": {
+   "text": "거기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "거기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eomeoni-8ae4": {
+   "text": "어머니",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어머니"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gasu-eb43": {
+   "text": "가수",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가수"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gagu-702c": {
+   "text": "가구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ima-0944": {
+   "text": "이마",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "이마"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ai-983b": {
+   "text": "아이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/na-19e0": {
+   "text": "나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나",
+    "나",
+    "나",
+    "나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/neo-7e86": {
+   "text": "너",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "너",
+    "너",
+    "너.",
+    "너?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oi-3420": {
+   "text": "오이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nuna-ea95": {
+   "text": "누나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "누나."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gogi-c654": {
+   "text": "고기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/namu-5489": {
+   "text": "나무",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나무"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/geogi-6b7a": {
+   "text": "거기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "거기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eomeoni-8ae4": {
+   "text": "어머니",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어머니"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gasu-eb43": {
+   "text": "가수",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가수"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ima-0944": {
+   "text": "이마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gagu-702c": {
+   "text": "가구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sai-a362": {
+   "text": "사이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/nai-14dd": {
+   "text": "나이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ani-4c10": {
+   "text": "아니",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아니"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/goguma-f0cd": {
+   "text": "고구마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고구마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mogi-932e": {
+   "text": "모기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "모기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gisa-ac6d": {
+   "text": "기사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/agi-7398": {
+   "text": "아기",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "아기"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/musi-f2ad": {
+   "text": "무시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geomi-0062": {
+   "text": "거미",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "거미"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/soseu-b499": {
+   "text": "소스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oasiseu-28cb": {
+   "text": "오아시스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오아시스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/siso-b452": {
+   "text": "시소",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시소"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seusi-98a4": {
+   "text": "스시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스시",
+    "스시",
+    "스시",
+    "스시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/aiseu-a96b": {
+   "text": "아이스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/miso-2bc1": {
+   "text": "미소",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "미소",
+    "미소",
+    "미소",
+    "미소"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gaseu-2ac5": {
+   "text": "가스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가스",
+    "가스",
+    "가스",
+    "가스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gomo-3915": {
+   "text": "고모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고모",
+    "고모",
+    "고모.",
+    "고모."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/imo-8c21": {
+   "text": "이모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이모"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/nugu-e5fd": {
+   "text": "누구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "누구?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eoneu-ba3c": {
+   "text": "어느",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어느"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/igeo-f1a1": {
+   "text": "이거",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이거"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gasa-8475": {
+   "text": "가사",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "가사"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ua-852e": {
+   "text": "우아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우아",
+    "우아",
+    "우아",
+    "우아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geugeo-e751": {
+   "text": "그거",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그거"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/isa-1a1c": {
+   "text": "이사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mu-2572": {
+   "text": "무",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무",
+    "무",
+    "무",
+    "무"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/so-4621": {
+   "text": "소",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "소",
+    "소",
+    "소",
+    "소"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ama-824c": {
+   "text": "아마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gu-531c": {
+   "text": "구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "구",
+    "구",
+    "구",
+    "구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geu-c3b2": {
+   "text": "그",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그",
+    "그",
+    "그",
+    "그"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keopi-2a0b": {
+   "text": "커피",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "커피"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/kopi-89f5": {
+   "text": "코피",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "코피"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/tomato-3a59": {
+   "text": "토마토",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토마토."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/banana-34b8": {
+   "text": "바나나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바나나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/beoseu-8d76": {
+   "text": "버스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버스",
+    "버스",
+    "버스",
+    "버스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pija-b432": {
+   "text": "피자",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "피자"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/chijeu-c45c": {
+   "text": "치즈",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치즈."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hana-de88": {
+   "text": "하나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bada-b168": {
+   "text": "바다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pi-2ca8": {
+   "text": "피",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "피",
+    "피",
+    "피",
+    "피"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/bi-3b57": {
+   "text": "비",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비",
+    "비",
+    "비",
+    "비"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gochu-f2fc": {
+   "text": "고추",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고추"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dubu-971e": {
+   "text": "두부",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "두부"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/gicha-7573": {
+   "text": "기차",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기차"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jido-31ee": {
+   "text": "지도",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지도"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/podo-ac8b": {
+   "text": "포도",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "포도"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/moja-b0a2": {
+   "text": "모자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "모자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/abeoji-914c": {
+   "text": "아버지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아버지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/baji-9b09": {
+   "text": "바지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eodi-f306": {
+   "text": "어디",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어디"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/juseu-56ce": {
+   "text": "주스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "주스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kokoa-3ec4": {
+   "text": "코코아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코코아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/piano-0df7": {
+   "text": "피아노",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "피아노"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/taieo-5e82": {
+   "text": "타이어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "타이어"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/koteu-1c37": {
+   "text": "코트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pati-645c": {
+   "text": "파티",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파티"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ki-b89e": {
+   "text": "키",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "키",
+    "키",
+    "키",
+    "키"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ko-fa22": {
+   "text": "코",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "코",
+    "코",
+    "코",
+    "쿨!"
+   ],
+   "takes": 3,
+   "publishedAttempt": 1
+  },
+  "kore/cha-85eb": {
+   "text": "차",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "차",
+    "차",
+    "차",
+    "차"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/chima-ccbc": {
+   "text": "치마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/buja-d6ce": {
+   "text": "부자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/babo-4570": {
+   "text": "바보",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바보"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hama-5d55": {
+   "text": "하마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/apateu-c1ba": {
+   "text": "아파트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아파트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bija-b047": {
+   "text": "비자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비자",
+    "비자",
+    "비자",
+    "비자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sopa-431c": {
+   "text": "소파",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소파"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/saja-e80d": {
+   "text": "사자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/otobai-e17a": {
+   "text": "오토바이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오토바이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seupocheu-9025": {
+   "text": "스포츠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스포츠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pibu-2667": {
+   "text": "피부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "피부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dosi-a738": {
+   "text": "도시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jigu-296b": {
+   "text": "지구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gita-edeb": {
+   "text": "기타",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기타"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/noteu-74a4": {
+   "text": "노트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/saida-da8c": {
+   "text": "사이다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사이다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mateu-4332": {
+   "text": "마트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hodu-eb98": {
+   "text": "호두",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "호두"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bubu-b0fb": {
+   "text": "부부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dogu-2d00": {
+   "text": "도구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/aju-0f1d": {
+   "text": "아주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hateu-1822": {
+   "text": "하트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dasi-f544": {
+   "text": "다시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "다시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jaju-af24": {
+   "text": "자주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/chuga-b8b1": {
+   "text": "추가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "추가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/toseuteu-14cd": {
+   "text": "토스트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토스트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/teochi-dcb9": {
+   "text": "터치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "터치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kadeu-0990": {
+   "text": "카드",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카드"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bidio-aef4": {
+   "text": "비디오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비디오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/odio-9c14": {
+   "text": "오디오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오디오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seuta-c763": {
+   "text": "스타",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "스타"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/koseu-f2ec": {
+   "text": "코스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jiha-f37e": {
+   "text": "지하",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지하"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jeogi-a7db": {
+   "text": "저기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "저기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jeo-0523": {
+   "text": "저",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "저",
+    "저",
+    "저",
+    "저"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jada-232d": {
+   "text": "자다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자다",
+    "자다",
+    "자다",
+    "자다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/chada-dd2f": {
+   "text": "차다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "차다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sada-0d75": {
+   "text": "사다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사다."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tada-84e7": {
+   "text": "타다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "타다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/hada-da5d": {
+   "text": "하다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keuda-5685": {
+   "text": "크다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "크다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/da-bab5": {
+   "text": "다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "다",
+    "다",
+    "다",
+    "다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/apeuda-4a85": {
+   "text": "아프다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아프다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/deo-4523": {
+   "text": "더",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "더",
+    "더",
+    "더",
+    "더"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gudu-db94": {
+   "text": "구두",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "구두"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/soju-8f40": {
+   "text": "소주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/radio-8838": {
+   "text": "라디오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라디오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kamera-3582": {
+   "text": "카메라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카메라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/deurama-fd17": {
+   "text": "드라마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "드라마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/appa-748a": {
+   "text": "아빠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아빠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oppa-0e15": {
+   "text": "오빠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오빠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tokki-2212": {
+   "text": "토끼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토끼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/meori-9529": {
+   "text": "머리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "머리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dari-35e8": {
+   "text": "다리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "다리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/uri-6264": {
+   "text": "우리",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "우리"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/nara-8e48": {
+   "text": "나라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나라",
+    "나라",
+    "나라",
+    "나라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/doro-dcc3": {
+   "text": "도로",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도로"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ori-80ae": {
+   "text": "오리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keuriseumaseu-37d6": {
+   "text": "크리스마스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "크리스마스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/raiteo-c727": {
+   "text": "라이터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라이터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/beoteo-2837": {
+   "text": "버터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kkachi-c3cd": {
+   "text": "까치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "까치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kkori-61b0": {
+   "text": "꼬리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "꼬리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kokkiri-245d": {
+   "text": "코끼리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코끼리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ppuri-2c34": {
+   "text": "뿌리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뿌리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ittaga-509f": {
+   "text": "이따가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이따가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ssada-e616": {
+   "text": "싸다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "싸다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 0
+  },
+  "kore/bissada-c21c": {
+   "text": "비싸다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비싸다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ttada-bc58": {
+   "text": "따다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "따다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jjada-dfb6": {
+   "text": "짜다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "짜다",
+    "짜다.",
+    "짜다",
+    "짜다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ajeossi-af26": {
+   "text": "아저씨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아저씨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/agassi-e268": {
+   "text": "아가씨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아가씨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sori-fdac": {
+   "text": "소리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seori-1192": {
+   "text": "서리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "서리",
+    "서리",
+    "서리",
+    "서리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geori-949f": {
+   "text": "거리",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "거리"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/gori-c445": {
+   "text": "고리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/roma-34d3": {
+   "text": "로마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "로마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/reosia-4275": {
+   "text": "러시아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "러시아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bori-59a0": {
+   "text": "보리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "보리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/heori-ba76": {
+   "text": "허리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "허리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/koria-6906": {
+   "text": "코리아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코리아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pari-4dab": {
+   "text": "파리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/osaka-90bc": {
+   "text": "오사카",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오사카"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ppoppo-8619": {
+   "text": "뽀뽀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뽀뽀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ssi-6dff": {
+   "text": "씨",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "씨",
+    "씨",
+    "씨",
+    "씨"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/ttaro-15e2": {
+   "text": "따로",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "따로"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ppareuda-25a1": {
+   "text": "빠르다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "빠르다",
+    "빠르다",
+    "빠르다",
+    "빠르다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bappeuda-fe9b": {
+   "text": "바쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gippeuda-2cd4": {
+   "text": "기쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기쁘다."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/nappeuda-9755": {
+   "text": "나쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tto-5b92": {
+   "text": "또",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "또",
+    "또",
+    "또",
+    "또"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sseuda-8856": {
+   "text": "쓰다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쓰다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/akka-c645": {
+   "text": "아까",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아까"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kkoma-81c5": {
+   "text": "꼬마",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "꼬마"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/rubi-b63b": {
+   "text": "루비",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "루비"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/uyu-64fb": {
+   "text": "우유",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우유"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yagu-7b71": {
+   "text": "야구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "야구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yeoja-dc32": {
+   "text": "여자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yori-5528": {
+   "text": "요리",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "요리"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/yeou-58d6": {
+   "text": "여우",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여우"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hyuji-7443": {
+   "text": "휴지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "휴지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yuri-5416": {
+   "text": "유리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dokyo-5014": {
+   "text": "도쿄",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도쿄"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gyoto-ac71": {
+   "text": "교토",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교토"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/norae-85da": {
+   "text": "노래",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노래"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gae-7831": {
+   "text": "개",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "개",
+    "개",
+    "개",
+    "개"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gyosu-d62c": {
+   "text": "교수",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교수"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sae-3c30": {
+   "text": "새",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "새",
+    "새",
+    "새",
+    "새"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bae-74ba": {
+   "text": "배",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "배",
+    "배",
+    "배",
+    "배"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ge-6d03": {
+   "text": "게",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "게",
+    "게",
+    "개",
+    "개"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/sigye-185d": {
+   "text": "시계",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시계"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gage-8a13": {
+   "text": "가게",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가게"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/segye-1090": {
+   "text": "세계",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "세계"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/menyu-ce49": {
+   "text": "메뉴",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메뉴"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kape-70cf": {
+   "text": "카페",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카페"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keikeu-8da2": {
+   "text": "케이크",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "케이크"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/deiteu-5695": {
+   "text": "데이트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "데이트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sagwa-9d82": {
+   "text": "사과",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사과"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gwaja-8164": {
+   "text": "과자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "과자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gaja-80bd": {
+   "text": "가자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hwaga-b175": {
+   "text": "화가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "화가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hoesa-d430": {
+   "text": "회사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "회사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dwaeji-c268": {
+   "text": "돼지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "돼지."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/wi-01a3": {
+   "text": "위",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "위",
+    "위",
+    "위",
+    "위"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/gwi-1bda": {
+   "text": "귀",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "귀",
+    "귀",
+    "귀",
+    "귀"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "kore/wae-90fe": {
+   "text": "왜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "왜",
+    "왜",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gi-3dfd": {
+   "text": "기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기",
+    "기",
+    "기",
+    "기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jwi-208e": {
+   "text": "쥐",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쥐",
+    "쥐",
+    "쥐",
+    "쥐"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/uisa-6b20": {
+   "text": "의사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "의사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/uija-8808": {
+   "text": "의자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "의자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/uimi-cc18": {
+   "text": "의미",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "의미"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/chwimi-ceba": {
+   "text": "취미",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "취미"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/wichi-6f9c": {
+   "text": "위치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "위치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/weiteo-debc": {
+   "text": "웨이터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "웨이터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/syawo-79bf": {
+   "text": "샤워",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "샤워"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seuweteo-4013": {
+   "text": "스웨터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스웨터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/waipai-a4eb": {
+   "text": "와이파이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "와이파이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yeogi-287e": {
+   "text": "여기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bwipe-407a": {
+   "text": "뷔페",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뷔페"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eokkae-9d78": {
+   "text": "어깨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어깨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jjigae-ab6b": {
+   "text": "찌개",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "찌개"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sseuregi-ca59": {
+   "text": "쓰레기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쓰레기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yaegi-e2d5": {
+   "text": "얘기",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "얘기"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "kore/yeppeuda-7462": {
+   "text": "예쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "예쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gyogwaseo-8897": {
+   "text": "교과서",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교과서"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/muryo-d86c": {
+   "text": "무료",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무료"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gaeguri-530b": {
+   "text": "개구리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "개구리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hae-d519": {
+   "text": "해",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "해",
+    "해",
+    "해",
+    "해"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/memo-7756": {
+   "text": "메모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메모",
+    "메모",
+    "메모",
+    "메모"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/maeu-9afd": {
+   "text": "매우",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "매우"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jaemi-1719": {
+   "text": "재미",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "재미"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ne-5f0a": {
+   "text": "네",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "네",
+    "네",
+    "네.",
+    "네."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ye-7eb3": {
+   "text": "예",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "예",
+    "예",
+    "예.",
+    "예."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/aniyo-97da": {
+   "text": "아니요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아니요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mwo-914f": {
+   "text": "뭐",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뭐",
+    "뭐",
+    "뭐?",
+    "뭐?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kaenada-74da": {
+   "text": "캐나다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "캐나다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mesiji-5e81": {
+   "text": "메시지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메시지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seuteikeu-cc3c": {
+   "text": "스테이크",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스테이크"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/cheri-5140": {
+   "text": "체리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "체리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tisyeocheu-a1b8": {
+   "text": "티셔츠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "티셔츠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/syupeo-2735": {
+   "text": "슈퍼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "슈퍼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hyuga-35e6": {
+   "text": "휴가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "휴가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sosiji-3d93": {
+   "text": "소시지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소시지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yumeo-f9dc": {
+   "text": "유머",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유머"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pyo-7e75": {
+   "text": "표",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "표",
+    "표",
+    "표",
+    "표"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gim-3d64": {
+   "text": "김",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "김",
+    "김",
+    "김",
+    "김"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/gyohoe-2419": {
+   "text": "교회",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교회"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ramyeon-a68d": {
+   "text": "라면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seoul-bc17": {
+   "text": "서울",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "서울"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hanguk-2cc3": {
+   "text": "한국",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "한국"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hangeul-d481": {
+   "text": "한글",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "한글"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sarang-37b7": {
+   "text": "사랑",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "사랑"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/chingu-3de5": {
+   "text": "친구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "친구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/seonsaengnim-0925": {
+   "text": "선생님",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "선생님"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mul-320a": {
+   "text": "물",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "물",
+    "물",
+    "물",
+    "물"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bap-56d1": {
+   "text": "밥",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "밥",
+    "밥",
+    "밥",
+    "밥"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bulgogi-c291": {
+   "text": "불고기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "불고기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gimchi-5df1": {
+   "text": "김치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "김치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/annyeong-a929": {
+   "text": "안녕",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "안녕"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/annyeonghaseyo-6b7b": {
+   "text": "안녕하세요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "안녕하세요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gamsa-9de5": {
+   "text": "감사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "감사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/saram-3c70": {
+   "text": "사람",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사람",
+    "사람",
+    "사람",
+    "사람"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gongbu-56e4": {
+   "text": "공부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "공부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sigan-192e": {
+   "text": "시간",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "시간"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/gabang-6d55": {
+   "text": "가방",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가방"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/wain-f277": {
+   "text": "와인",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "와인"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/usan-ecd5": {
+   "text": "우산",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우산"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hotel-ce2e": {
+   "text": "호텔",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "호텔"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gang-6a06": {
+   "text": "강",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "간",
+    "간",
+    "간",
+    "간"
+   ],
+   "takes": 6
+  },
+  "kore/san-3d01": {
+   "text": "산",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "산",
+    "산",
+    "산",
+    "산"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/sam-36b5": {
+   "text": "삼",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "삼",
+    "삼.",
+    "삼",
+    "삼"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/sang-4a5b": {
+   "text": "상",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "산",
+    "산",
+    "산",
+    "산"
+   ],
+   "takes": 6
+  },
+  "kore/gam-71e5": {
+   "text": "감",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "감",
+    "감",
+    "감",
+    "감"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gan-84c9": {
+   "text": "간",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "간",
+    "간",
+    "간",
+    "간"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gom-be0e": {
+   "text": "곰",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "곰",
+    "곰",
+    "곰",
+    "곰"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gong-c5ed": {
+   "text": "공",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "공",
+    "공",
+    "공",
+    "공"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/kong-1b31": {
+   "text": "콩",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "콩",
+    "콩",
+    "콩",
+    "콩"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/chaek-bf91": {
+   "text": "책",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "책",
+    "책",
+    "책",
+    "책"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jip-2d4f": {
+   "text": "집",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "집",
+    "집",
+    "집",
+    "집"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/got-a997": {
+   "text": "곧",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "곧",
+    "곧",
+    "곧?",
+    "곧"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mal-aa65": {
+   "text": "말",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "말",
+    "말",
+    "말",
+    "말"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/bat-4a39": {
+   "text": "밭",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "밭",
+    "밭",
+    "밭",
+    "밭"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kkot-c579": {
+   "text": "꽃",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "꽃",
+    "꽃",
+    "꽃",
+    "꽃"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ot-79fa": {
+   "text": "옷",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "옷",
+    "옷",
+    "옷",
+    "옷"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/nat-0a22": {
+   "text": "낮",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "낮",
+    "낮",
+    "낮",
+    "낮"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bueok-6b0b": {
+   "text": "부엌",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부엌"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ap-3e2c": {
+   "text": "앞",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "앞",
+    "앞",
+    "앞",
+    "앞"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bak-a261": {
+   "text": "박",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "박",
+    "팍",
+    "박",
+    "박."
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/bak-9da8": {
+   "text": "밖",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "밖",
+    "팥",
+    "밭",
+    "밭"
+   ],
+   "takes": 6
+  },
+  "kore/ppang-2094": {
+   "text": "빵",
+   "attempt": 5,
+   "status": "pass",
+   "heard": [
+    "빵",
+    "빵",
+    "빵",
+    "빵"
+   ],
+   "takes": 6,
+   "publishedAttempt": 5
+  },
+  "kore/bang-5085": {
+   "text": "방",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "밤",
+    "밤",
+    "밤",
+    "밤"
+   ],
+   "takes": 6
+  },
+  "kore/bam-553e": {
+   "text": "밤",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "밤",
+    "밤",
+    "밤",
+    "밤"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ttalgi-b0cc": {
+   "text": "딸기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "딸기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ban-9a82": {
+   "text": "반",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "반",
+    "반",
+    "반",
+    "반"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/dal-c74d": {
+   "text": "달",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "달",
+    "달。",
+    "달",
+    "달"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ttal-3e46": {
+   "text": "딸",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "딸",
+    "딸",
+    "딸",
+    "딸"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tal-808b": {
+   "text": "탈",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "탈",
+    "탈",
+    "탈",
+    "태"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/bul-8f54": {
+   "text": "불",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "불",
+    "불",
+    "부일",
+    "불"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "kore/ppul-3cc1": {
+   "text": "뿔",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뿔",
+    "뿔",
+    "뿔",
+    "뿔"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pul-52fa": {
+   "text": "풀",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "풀",
+    "풀",
+    "풀",
+    "풀"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/kkul-b592": {
+   "text": "꿀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "꿀",
+    "꿀",
+    "꿀",
+    "꿀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bal-9436": {
+   "text": "발",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "발",
+    "발",
+    "발",
+    "발"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pal-fb98": {
+   "text": "팔",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "팔",
+    "팔",
+    "팔",
+    "팔"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/gul-4684": {
+   "text": "굴",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "굴",
+    "굴",
+    "굴",
+    "굴"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ssal-615f": {
+   "text": "쌀",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "쌀",
+    "쌀",
+    "쌀",
+    "쌀"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/sal-434d": {
+   "text": "살",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "살",
+    "살",
+    "살",
+    "살"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/geubun-0929": {
+   "text": "그분",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그분"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ilbon-8478": {
+   "text": "일본",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "일본"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/gubun-0867": {
+   "text": "구분",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "구분"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yeongeo-da1e": {
+   "text": "영어",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "영어"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "kore/ireum-03c9": {
+   "text": "이름",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이름"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/maeum-b332": {
+   "text": "마음",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마음"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oneul-89c6": {
+   "text": "오늘",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오늘"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jumal-a682": {
+   "text": "주말",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "주말"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/naeil-6c59": {
+   "text": "내일",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "내일",
+    "내일",
+    "내일",
+    "내일"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/byeongwon-0925": {
+   "text": "병원",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "병원"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sijang-3525": {
+   "text": "시장",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "시장"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/yeonghwa-b842": {
+   "text": "영화",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "영화"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yeohaeng-6106": {
+   "text": "여행",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여행"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eunhaeng-dc44": {
+   "text": "은행",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "은행"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jeonhwa-e13b": {
+   "text": "전화",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "전화"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/daehak-f3df": {
+   "text": "대학",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "대학"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/noteubuk-6b50": {
+   "text": "노트북",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노트북"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keompyuteo-bef3": {
+   "text": "컴퓨터",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "컴퓨터"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/haendeupon-4317": {
+   "text": "핸드폰",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "핸드폰"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/aiseukeurim-a196": {
+   "text": "아이스크림",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이스크림"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/haembeogeo-6e2c": {
+   "text": "햄버거",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "햄버거"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/naengmyeon-e74a": {
+   "text": "냉면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "냉면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/galbi-0ecf": {
+   "text": "갈비",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "갈비"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kolra-a8f2": {
+   "text": "콜라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "콜라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/chikin-1057": {
+   "text": "치킨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치킨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/aidol-4c33": {
+   "text": "아이돌",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이돌"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/konseoteu-b063": {
+   "text": "콘서트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "콘서트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sajin-3500": {
+   "text": "사진",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사진"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/undong-1ba2": {
+   "text": "운동",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "운동"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gonghang-4a86": {
+   "text": "공항",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "공항"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/jihacheol-8624": {
+   "text": "지하철",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지하철"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hwajangsil-af79": {
+   "text": "화장실",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "화장실"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/mianhaeyo-2cf2": {
+   "text": "미안해요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "미안해요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/saranghaeyo-e257": {
+   "text": "사랑해요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사랑해요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/remon-eb8d": {
+   "text": "레몬",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "레몬"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eeokeon-15b1": {
+   "text": "에어컨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "에어컨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/rimokeon-21ce": {
+   "text": "리모컨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "리모컨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/beteunam-8050": {
+   "text": "베트남",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "베트남"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/robot-36a5": {
+   "text": "로봇",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "로봇"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/beoteun-895d": {
+   "text": "버튼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버튼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/keoteun-9e15": {
+   "text": "커튼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "커튼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sip-4f57": {
+   "text": "십",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "십",
+    "십",
+    "십",
+    "십"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/il-f43a": {
+   "text": "일",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "일.",
+    "일.",
+    "일",
+    "일"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/syoping-b15d": {
+   "text": "쇼핑",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쇼핑"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/chil-2ba2": {
+   "text": "칠",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "칠",
+    "칠",
+    "치",
+    "추"
+   ],
+   "takes": 6
+  },
+  "kore/yuk-d3fc": {
+   "text": "육",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "육",
+    "육",
+    "육",
+    "육"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/baek-764d": {
+   "text": "백",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "백",
+    "백",
+    "팩",
+    "팩"
+   ],
+   "takes": 6
+  },
+  "kore/cheon-9765": {
+   "text": "천",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "천",
+    "천",
+    "천",
+    "천"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/man-c9e1": {
+   "text": "만",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "만",
+    "만",
+    "만?",
+    "만?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eumak-f2e0": {
+   "text": "음악",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "음악"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hangukeo-831f": {
+   "text": "한국어",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "한국어"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "kore/won-95e0": {
+   "text": "원",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "원",
+    "원",
+    "원",
+    "원"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ilboneo-ccde": {
+   "text": "일본어",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "일본어"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "kore/daneo-1fe5": {
+   "text": "단어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "단어"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/baleum-d29f": {
+   "text": "발음",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "발음"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "kore/jikeop-b3ad": {
+   "text": "직업",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "직업"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/pyeonuijeom-202d": {
+   "text": "편의점",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "편의점"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/haksaeng-7f7a": {
+   "text": "학생",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "학생"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/hakgyo-094d": {
+   "text": "학교",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "학교",
+    "학교",
+    "학교",
+    "학교"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/maekju-5bb1": {
+   "text": "맥주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "맥주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/tteokboki-2b5e": {
+   "text": "떡볶이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "떡볶이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/samgyeopsal-65a6": {
+   "text": "삼겹살",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "삼겹살"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/taeksi-a5ff": {
+   "text": "택시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "택시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/bibimbap-4535": {
+   "text": "비빔밥",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비빔밥"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/makgeolri-a0fc": {
+   "text": "막걸리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "막걸리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gamsahapnida-c8ee": {
+   "text": "감사합니다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "감사합니다."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/matiteoyo-6b4e": {
+   "text": "맛있어요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "맛있어요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jotayo-95f5": {
+   "text": "좋아요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "좋아요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ra-f84b": {
+   "text": "라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라.",
+    "라.",
+    "라",
+    "라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ma-d02d": {
+   "text": "마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마",
+    "마",
+    "마",
+    "마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ga-8b15": {
+   "text": "가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가",
+    "가",
+    "가",
+    "가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/sa-1d85": {
+   "text": "사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사",
+    "싸",
+    "사",
+    "사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/a-671a": {
+   "text": "아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아",
+    "아",
+    "아...",
+    "아..."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ja-2c4d": {
+   "text": "자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자",
+    "자",
+    "자",
+    "자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ka-0c26": {
+   "text": "카",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "카",
+    "카",
+    "카",
+    "카"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/ta-73f3": {
+   "text": "타",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "타",
+    "타",
+    "타",
+    "타"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "kore/ba-a0ce": {
+   "text": "바",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "다",
+    "빠",
+    "타",
+    "타"
+   ],
+   "takes": 6
+  },
+  "kore/pa-0830": {
+   "text": "파",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파",
+    "파",
+    "파",
+    "파"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ha-b59d": {
+   "text": "하",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하",
+    "하",
+    "하",
+    "하"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/kka-2a80": {
+   "text": "까",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "가",
+    "가",
+    "가",
+    "가"
+   ],
+   "takes": 6
+  },
+  "kore/tta-4ade": {
+   "text": "따",
+   "attempt": 5,
+   "status": "pass",
+   "heard": [
+    "따",
+    "따",
+    "따",
+    "다"
+   ],
+   "takes": 6,
+   "publishedAttempt": 5
+  },
+  "kore/ppa-02ab": {
+   "text": "빠",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "빠",
+    "바",
+    "아",
+    "아"
+   ],
+   "takes": 6
+  },
+  "kore/ssa-60a8": {
+   "text": "싸",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "싸",
+    "싸",
+    "싸",
+    "사"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "kore/jja-3208": {
+   "text": "짜",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "짜",
+    "짜",
+    "짜",
+    "짜"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/o-5f37": {
+   "text": "오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오",
+    "오",
+    "오",
+    "오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eo-33e9": {
+   "text": "어",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "어",
+    "오",
+    "어",
+    "어"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/u-e209": {
+   "text": "우",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우",
+    "우",
+    "우",
+    "우"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/eu-c2ab": {
+   "text": "으",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "으",
+    "으",
+    "으.",
+    "으"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/i-e7a2": {
+   "text": "이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이",
+    "이",
+    "이",
+    "이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ya-0ef2": {
+   "text": "야",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "야",
+    "야",
+    "야",
+    "야"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yeo-a4a8": {
+   "text": "여",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여",
+    "여",
+    "여",
+    "여"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yo-b5f5": {
+   "text": "요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "요",
+    "요",
+    "요",
+    "요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yu-d58f": {
+   "text": "유",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유",
+    "유",
+    "유",
+    "유"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ae-2e6e": {
+   "text": "애",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "애",
+    "애",
+    "애",
+    "애"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yae-792d": {
+   "text": "얘",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "얘",
+    "얘",
+    "예",
+    "예"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "kore/e-52cc": {
+   "text": "에",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "에",
+    "에",
+    "에",
+    "에"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oe-c9aa": {
+   "text": "외",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "왜",
+    "왜",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/wo-c1f4": {
+   "text": "워",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "워",
+    "워",
+    "워",
+    "워"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/we-8948": {
+   "text": "웨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "웨",
+    "웨",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/wa-a3e2": {
+   "text": "와",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "와",
+    "와",
+    "와",
+    "와"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/ui-204e": {
+   "text": "의",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "의",
+    "의",
+    "의",
+    "의"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/mogi-932e": {
+   "text": "모기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "모기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sai-a362": {
+   "text": "사이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ani-4c10": {
+   "text": "아니",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아니"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nai-14dd": {
+   "text": "나이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/goguma-f0cd": {
+   "text": "고구마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고구마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/agi-7398": {
+   "text": "아기",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "아기"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/musi-f2ad": {
+   "text": "무시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/geomi-0062": {
+   "text": "거미",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "거미"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gisa-ac6d": {
+   "text": "기사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/soseu-b499": {
+   "text": "소스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oasiseu-28cb": {
+   "text": "오아시스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오아시스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/siso-b452": {
+   "text": "시소",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시소"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gaseu-2ac5": {
+   "text": "가스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/aiseu-a96b": {
+   "text": "아이스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/miso-2bc1": {
+   "text": "미소",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "미소"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/imo-8c21": {
+   "text": "이모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이모"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gomo-3915": {
+   "text": "고모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고모"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seusi-98a4": {
+   "text": "스시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eoneu-ba3c": {
+   "text": "어느",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어느"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nugu-e5fd": {
+   "text": "누구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "누구",
+    "누구",
+    "누구?",
+    "누구?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/igeo-f1a1": {
+   "text": "이거",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이거"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gasa-8475": {
+   "text": "가사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ua-852e": {
+   "text": "우아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우아",
+    "우아",
+    "우아",
+    "우아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/geugeo-e751": {
+   "text": "그거",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그거"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/isa-1a1c": {
+   "text": "이사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/so-4621": {
+   "text": "소",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소",
+    "소",
+    "소",
+    "소"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mu-2572": {
+   "text": "무",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무",
+    "무",
+    "무",
+    "무"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gu-531c": {
+   "text": "구",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "구",
+    "구",
+    "구",
+    "구"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/geu-c3b2": {
+   "text": "그",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그",
+    "구",
+    "그",
+    "그"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keopi-2a0b": {
+   "text": "커피",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "커피"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kopi-89f5": {
+   "text": "코피",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코피"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ama-824c": {
+   "text": "아마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tomato-3a59": {
+   "text": "토마토",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토마토"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/banana-34b8": {
+   "text": "바나나",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바나나"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pija-b432": {
+   "text": "피자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "피자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/beoseu-8d76": {
+   "text": "버스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chijeu-c45c": {
+   "text": "치즈",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치즈"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hana-de88": {
+   "text": "하나",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "하나."
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/bada-b168": {
+   "text": "바다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bi-3b57": {
+   "text": "비",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비",
+    "비",
+    "비",
+    "비"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pi-2ca8": {
+   "text": "피",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "피",
+    "피",
+    "피",
+    "피"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/gicha-7573": {
+   "text": "기차",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기차"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gochu-f2fc": {
+   "text": "고추",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고추"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dubu-971e": {
+   "text": "두부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "두부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jido-31ee": {
+   "text": "지도",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "지도"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/podo-ac8b": {
+   "text": "포도",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "포도"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/baji-9b09": {
+   "text": "바지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/moja-b0a2": {
+   "text": "모자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "모자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/abeoji-914c": {
+   "text": "아버지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아버지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/juseu-56ce": {
+   "text": "주스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "주스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eodi-f306": {
+   "text": "어디",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어디"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/piano-0df7": {
+   "text": "피아노",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "피아노"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kokoa-3ec4": {
+   "text": "코코아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코코아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/koteu-1c37": {
+   "text": "코트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pati-645c": {
+   "text": "파티",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파티"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ki-b89e": {
+   "text": "키",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "키",
+    "키",
+    "키",
+    "키"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/taieo-5e82": {
+   "text": "타이어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "타이어",
+    "타이어",
+    "타이어",
+    "타이어"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ko-fa22": {
+   "text": "코",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코",
+    "코",
+    "코",
+    "코"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chima-ccbc": {
+   "text": "치마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/cha-85eb": {
+   "text": "차",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "차",
+    "차",
+    "차",
+    "차"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/buja-d6ce": {
+   "text": "부자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/babo-4570": {
+   "text": "바보",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바보"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hama-5d55": {
+   "text": "하마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/apateu-c1ba": {
+   "text": "아파트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아파트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bija-b047": {
+   "text": "비자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sopa-431c": {
+   "text": "소파",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소파"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/saja-e80d": {
+   "text": "사자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/otobai-e17a": {
+   "text": "오토바이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오토바이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seupocheu-9025": {
+   "text": "스포츠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스포츠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pibu-2667": {
+   "text": "피부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "피부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dosi-a738": {
+   "text": "도시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jigu-296b": {
+   "text": "지구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gita-edeb": {
+   "text": "기타",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "기타"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hateu-1822": {
+   "text": "하트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/noteu-74a4": {
+   "text": "노트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mateu-4332": {
+   "text": "마트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hodu-eb98": {
+   "text": "호두",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "호두"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bubu-b0fb": {
+   "text": "부부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부부",
+    "부부",
+    "부부",
+    "부부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/saida-da8c": {
+   "text": "사이다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사이다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dogu-2d00": {
+   "text": "도구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/aju-0f1d": {
+   "text": "아주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dasi-f544": {
+   "text": "다시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "다시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jaju-af24": {
+   "text": "자주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chuga-b8b1": {
+   "text": "추가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "추가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/toseuteu-14cd": {
+   "text": "토스트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토스트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/teochi-dcb9": {
+   "text": "터치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "터치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kadeu-0990": {
+   "text": "카드",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "카드"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/bidio-aef4": {
+   "text": "비디오",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "비디오"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/koseu-f2ec": {
+   "text": "코스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/odio-9c14": {
+   "text": "오디오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오디오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seuta-c763": {
+   "text": "스타",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "스타"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/jeogi-a7db": {
+   "text": "저기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "저기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jiha-f37e": {
+   "text": "지하",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지하"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jada-232d": {
+   "text": "자다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jeo-0523": {
+   "text": "저",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "저",
+    "저",
+    "저?",
+    "저..."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chada-dd2f": {
+   "text": "차다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "차다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tada-84e7": {
+   "text": "타다",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "타다"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/sada-0d75": {
+   "text": "사다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hada-da5d": {
+   "text": "하다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keuda-5685": {
+   "text": "크다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "크다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/apeuda-4a85": {
+   "text": "아프다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아프다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/da-bab5": {
+   "text": "다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "다",
+    "다",
+    "다",
+    "다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/deo-4523": {
+   "text": "더",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "더",
+    "더",
+    "더",
+    "더"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/gudu-db94": {
+   "text": "구두",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "구두",
+    "구두",
+    "구두",
+    "구두"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/radio-8838": {
+   "text": "라디오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라디오"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kamera-3582": {
+   "text": "카메라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카메라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/soju-8f40": {
+   "text": "소주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oppa-0e15": {
+   "text": "오빠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오빠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/appa-748a": {
+   "text": "아빠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아빠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/deurama-fd17": {
+   "text": "드라마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "드라마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tokki-2212": {
+   "text": "토끼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "토끼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/meori-9529": {
+   "text": "머리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "머리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/uri-6264": {
+   "text": "우리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dari-35e8": {
+   "text": "다리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "다리",
+    "다리",
+    "다리",
+    "다리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/doro-dcc3": {
+   "text": "도로",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도로"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nara-8e48": {
+   "text": "나라",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "나라"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ori-80ae": {
+   "text": "오리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keuriseumaseu-37d6": {
+   "text": "크리스마스",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "크리스마스"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/raiteo-c727": {
+   "text": "라이터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라이터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/beoteo-2837": {
+   "text": "버터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kkori-61b0": {
+   "text": "꼬리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "꼬리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kkachi-c3cd": {
+   "text": "까치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "까치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kokkiri-245d": {
+   "text": "코끼리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코끼리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ppuri-2c34": {
+   "text": "뿌리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뿌리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ssada-e616": {
+   "text": "싸다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "싸다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bissada-c21c": {
+   "text": "비싸다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비싸다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ittaga-509f": {
+   "text": "이따가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이따가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jjada-dfb6": {
+   "text": "짜다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "짜다"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ttada-bc58": {
+   "text": "따다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "따다",
+    "따다",
+    "따다",
+    "따다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ajeossi-af26": {
+   "text": "아저씨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아저씨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/agassi-e268": {
+   "text": "아가씨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아가씨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seori-1192": {
+   "text": "서리",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "서리",
+    "서리",
+    "서리",
+    "서리"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/sori-fdac": {
+   "text": "소리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gori-c445": {
+   "text": "고리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/roma-34d3": {
+   "text": "로마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "로마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/reosia-4275": {
+   "text": "러시아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "러시아."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bori-59a0": {
+   "text": "보리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "보리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/geori-949f": {
+   "text": "거리",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "거리"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/heori-ba76": {
+   "text": "허리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "허리",
+    "허리",
+    "허리",
+    "허리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/koria-6906": {
+   "text": "코리아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "코리아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pari-4dab": {
+   "text": "파리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/osaka-90bc": {
+   "text": "오사카",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오사카"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ppoppo-8619": {
+   "text": "뽀뽀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뽀뽀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ssi-6dff": {
+   "text": "씨",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "씨",
+    "씨",
+    "씨",
+    "시"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ttaro-15e2": {
+   "text": "따로",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "따로"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bappeuda-fe9b": {
+   "text": "바쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "바쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gippeuda-2cd4": {
+   "text": "기쁘다",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "기쁘다."
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ppareuda-25a1": {
+   "text": "빠르다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "빠르다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nappeuda-9755": {
+   "text": "나쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "나쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tto-5b92": {
+   "text": "또",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "또",
+    "또",
+    "또",
+    "또"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sseuda-8856": {
+   "text": "쓰다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쓰다",
+    "쓰다",
+    "쓰다",
+    "쓰다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kkoma-81c5": {
+   "text": "꼬마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "꼬마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/akka-c645": {
+   "text": "아까",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아까."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/uyu-64fb": {
+   "text": "우유",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "우유"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yagu-7b71": {
+   "text": "야구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "야구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeoja-dc32": {
+   "text": "여자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yori-5528": {
+   "text": "요리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "요리",
+    "요리",
+    "요리",
+    "요리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/rubi-b63b": {
+   "text": "루비",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "루비"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yuri-5416": {
+   "text": "유리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeou-58d6": {
+   "text": "여우",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여우",
+    "여우",
+    "여우",
+    "여우"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hyuji-7443": {
+   "text": "휴지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "휴지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gyosu-d62c": {
+   "text": "교수",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교수"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dokyo-5014": {
+   "text": "도쿄",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "도쿄"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gyoto-ac71": {
+   "text": "교토",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교토"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/norae-85da": {
+   "text": "노래",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노래"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gae-7831": {
+   "text": "개",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "개",
+    "깨",
+    "개",
+    "개."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bae-74ba": {
+   "text": "배",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "배",
+    "배",
+    "배",
+    "배"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/sae-3c30": {
+   "text": "새",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "새",
+    "새",
+    "새.",
+    "새"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ge-6d03": {
+   "text": "게",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "게",
+    "게",
+    "게",
+    "게"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gage-8a13": {
+   "text": "가게",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가게"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sigye-185d": {
+   "text": "시계",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시계"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/menyu-ce49": {
+   "text": "메뉴",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메뉴"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/segye-1090": {
+   "text": "세계",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "세계"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/kape-70cf": {
+   "text": "카페",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카페"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keikeu-8da2": {
+   "text": "케이크",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "케이크"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/deiteu-5695": {
+   "text": "데이트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "데이트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sagwa-9d82": {
+   "text": "사과",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사과"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gwaja-8164": {
+   "text": "과자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "과자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hwaga-b175": {
+   "text": "화가",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "화가"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/gaja-80bd": {
+   "text": "가자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가자."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hoesa-d430": {
+   "text": "회사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "회사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dwaeji-c268": {
+   "text": "돼지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "돼지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/wae-90fe": {
+   "text": "왜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "왜",
+    "왜",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/wi-01a3": {
+   "text": "위",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "위",
+    "위",
+    "위",
+    "위"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gwi-1bda": {
+   "text": "귀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "귀",
+    "귀",
+    "귀",
+    "귀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jwi-208e": {
+   "text": "쥐",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쥐",
+    "쥐",
+    "쥐",
+    "쥐"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/uisa-6b20": {
+   "text": "의사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "의사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/uija-8808": {
+   "text": "의자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "의자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gi-3dfd": {
+   "text": "기",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "기",
+    "기",
+    "기",
+    "기?"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/chwimi-ceba": {
+   "text": "취미",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "취미"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/uimi-cc18": {
+   "text": "의미",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "의미"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/wichi-6f9c": {
+   "text": "위치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "위치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/syawo-79bf": {
+   "text": "샤워",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "샤워"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/weiteo-debc": {
+   "text": "웨이터",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "웨이터",
+    "웨이터",
+    "웨이터",
+    "웨이터"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/bwipe-407a": {
+   "text": "뷔페",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뷔페.",
+    "뷔페.",
+    "뷔페",
+    "뷔페"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/waipai-a4eb": {
+   "text": "와이파이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "와이파이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeogi-287e": {
+   "text": "여기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여기",
+    "여기",
+    "여기",
+    "여기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seuweteo-4013": {
+   "text": "스웨터",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "스웨터"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/jjigae-ab6b": {
+   "text": "찌개",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "찌개",
+    "찌개",
+    "찌개",
+    "찌개"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eokkae-9d78": {
+   "text": "어깨",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "어깨"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/sseuregi-ca59": {
+   "text": "쓰레기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쓰레기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeppeuda-7462": {
+   "text": "예쁘다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "예쁘다"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/memo-7756": {
+   "text": "메모",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메모"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yaegi-e2d5": {
+   "text": "얘기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "얘기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gyogwaseo-8897": {
+   "text": "교과서",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교과서"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gaeguri-530b": {
+   "text": "개구리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "개구리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/muryo-d86c": {
+   "text": "무료",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "무료",
+    "무료",
+    "무료",
+    "무료"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hae-d519": {
+   "text": "해",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "해",
+    "해",
+    "해",
+    "해"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/maeu-9afd": {
+   "text": "매우",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "매우"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jaemi-1719": {
+   "text": "재미",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "재미"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ne-5f0a": {
+   "text": "네",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "네",
+    "네",
+    "네.",
+    "네."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ye-7eb3": {
+   "text": "예",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "예",
+    "예",
+    "예",
+    "예"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mwo-914f": {
+   "text": "뭐",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뭐",
+    "뭐",
+    "뭐",
+    "뭐"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/cheri-5140": {
+   "text": "체리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "체리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kaenada-74da": {
+   "text": "캐나다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "캐나다."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/aniyo-97da": {
+   "text": "아니요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아니요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mesiji-5e81": {
+   "text": "메시지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "메시지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sosiji-3d93": {
+   "text": "소시지",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "소시지"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tisyeocheu-a1b8": {
+   "text": "티셔츠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "티셔츠"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/syupeo-2735": {
+   "text": "슈퍼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "슈퍼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seuteikeu-cc3c": {
+   "text": "스테이크",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "스테이크"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hyuga-35e6": {
+   "text": "휴가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "휴가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yumeo-f9dc": {
+   "text": "유머",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유머"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pyo-7e75": {
+   "text": "표",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "표",
+    "표",
+    "표",
+    "표"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gyohoe-2419": {
+   "text": "교회",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "교회"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gim-3d64": {
+   "text": "김",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "김",
+    "김",
+    "김",
+    "김"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ramyeon-a68d": {
+   "text": "라면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hanguk-2cc3": {
+   "text": "한국",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "한국"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hangeul-d481": {
+   "text": "한글",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "한글"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sarang-37b7": {
+   "text": "사랑",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사랑"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seoul-bc17": {
+   "text": "서울",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "서울"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/seonsaengnim-0925": {
+   "text": "선생님",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "선생님"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chingu-3de5": {
+   "text": "친구",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "친구"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mul-320a": {
+   "text": "물",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "물",
+    "물",
+    "물",
+    "물"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gimchi-5df1": {
+   "text": "김치",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "김치"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bulgogi-c291": {
+   "text": "불고기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "불고기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/annyeong-a929": {
+   "text": "안녕",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "안녕"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bap-56d1": {
+   "text": "밥",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "밥",
+    "팝",
+    "밥",
+    "밥"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/annyeonghaseyo-6b7b": {
+   "text": "안녕하세요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "안녕하세요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gamsa-9de5": {
+   "text": "감사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "감사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/saram-3c70": {
+   "text": "사람",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사람"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sigan-192e": {
+   "text": "시간",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시간"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gongbu-56e4": {
+   "text": "공부",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "공부"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gabang-6d55": {
+   "text": "가방",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가방"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/wain-f277": {
+   "text": "와인",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "와인"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hotel-ce2e": {
+   "text": "호텔",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "호텔"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/usan-ecd5": {
+   "text": "우산",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "우산"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/san-3d01": {
+   "text": "산",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "산",
+    "싼",
+    "산",
+    "산"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/gang-6a06": {
+   "text": "강",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "강",
+    "강",
+    "강",
+    "강"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/sam-36b5": {
+   "text": "삼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "삼",
+    "삼.",
+    "삼",
+    "쌈"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sang-4a5b": {
+   "text": "상",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "사운",
+    "상",
+    "상",
+    "상"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/gam-71e5": {
+   "text": "감",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "깜",
+    "감",
+    "감",
+    "감"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gan-84c9": {
+   "text": "간",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "간",
+    "간",
+    "간",
+    "간"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/gong-c5ed": {
+   "text": "공",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "공",
+    "「공」",
+    "공",
+    "공"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gom-be0e": {
+   "text": "곰",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "곰",
+    "곰",
+    "곰",
+    "곰"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/chaek-bf91": {
+   "text": "책",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "책",
+    "책",
+    "책",
+    "책"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kong-1b31": {
+   "text": "콩",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "콩",
+    "콩",
+    "콩",
+    "콩"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jip-2d4f": {
+   "text": "집",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "집",
+    "집",
+    "집",
+    "집"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mal-aa65": {
+   "text": "말",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "말",
+    "말",
+    "말",
+    "말"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/got-a997": {
+   "text": "곧",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "곧",
+    "곧",
+    "곧",
+    "곧"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bat-4a39": {
+   "text": "밭",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "밭",
+    "밭",
+    "밭",
+    "밭"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/kkot-c579": {
+   "text": "꽃",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "꽃",
+    "꽃",
+    "꽃",
+    "꽃"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/ot-79fa": {
+   "text": "옷",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "옷",
+    "옷",
+    "옷",
+    "옷"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/nat-0a22": {
+   "text": "낮",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "낮",
+    "낮",
+    "낮",
+    "낮"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bueok-6b0b": {
+   "text": "부엌",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "부엌"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ap-3e2c": {
+   "text": "앞",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "앞",
+    "앞",
+    "앞",
+    "앞"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bak-9da8": {
+   "text": "밖",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "밖",
+    "밖",
+    "밖",
+    "박"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/bak-a261": {
+   "text": "박",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "팍",
+    "팍",
+    "박",
+    "박"
+   ],
+   "takes": 6
+  },
+  "charon/bang-5085": {
+   "text": "방",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "방",
+    "팡",
+    "방",
+    "방"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ppang-2094": {
+   "text": "빵",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "빵",
+    "빵",
+    "빵",
+    "방"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ban-9a82": {
+   "text": "반",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "반",
+    "반",
+    "반",
+    "반"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/bam-553e": {
+   "text": "밤",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "밤",
+    "밤",
+    "밤",
+    "밤"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ttalgi-b0cc": {
+   "text": "딸기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "딸기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/dal-c74d": {
+   "text": "달",
+   "attempt": 2,
+   "status": "pass",
+   "heard": [
+    "달",
+    "달",
+    "달",
+    "달"
+   ],
+   "takes": 3,
+   "publishedAttempt": 2
+  },
+  "charon/ttal-3e46": {
+   "text": "딸",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "딸",
+    "딸",
+    "딸",
+    "딸"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/tal-808b": {
+   "text": "탈",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "탈",
+    "탈",
+    "탈",
+    "팔"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bul-8f54": {
+   "text": "불",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "불",
+    "불",
+    "불",
+    "불."
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/ppul-3cc1": {
+   "text": "뿔",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "뿔",
+    "뿔",
+    "뿔",
+    "뿔"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pul-52fa": {
+   "text": "풀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "풀",
+    "풀",
+    "풀",
+    "풀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gul-4684": {
+   "text": "굴",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "굴",
+    "굴",
+    "굴",
+    "굴"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kkul-b592": {
+   "text": "꿀",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "꿀",
+    "꿀",
+    "꿀",
+    "꿀"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/bal-9436": {
+   "text": "발",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "발",
+    "발",
+    "발",
+    "발."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pal-fb98": {
+   "text": "팔",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "팔",
+    "팔",
+    "파이",
+    "팔"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sal-434d": {
+   "text": "살",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "살",
+    "살",
+    "살",
+    "살"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gubun-0867": {
+   "text": "구분",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "구분"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ssal-615f": {
+   "text": "쌀",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쌀",
+    "쌀",
+    "쌀",
+    "쌀"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ilbon-8478": {
+   "text": "일본",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "일본"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/geubun-0929": {
+   "text": "그분",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "그분",
+    "그분",
+    "그분",
+    "그분"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ireum-03c9": {
+   "text": "이름",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이름"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/maeum-b332": {
+   "text": "마음",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마음"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeongeo-da1e": {
+   "text": "영어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "영어"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/naeil-6c59": {
+   "text": "내일",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "내일"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jumal-a682": {
+   "text": "주말",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "주말"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oneul-89c6": {
+   "text": "오늘",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오늘"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/byeongwon-0925": {
+   "text": "병원",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "병원"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeonghwa-b842": {
+   "text": "영화",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "영화"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeohaeng-6106": {
+   "text": "여행",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여행"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eunhaeng-dc44": {
+   "text": "은행",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "은행"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sijang-3525": {
+   "text": "시장",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "시장"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jeonhwa-e13b": {
+   "text": "전화",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "전화"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/daehak-f3df": {
+   "text": "대학",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "대학",
+    "대학",
+    "대학",
+    "대학"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/noteubuk-6b50": {
+   "text": "노트북",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "노트북."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keompyuteo-bef3": {
+   "text": "컴퓨터",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "컴퓨터"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/aiseukeurim-a196": {
+   "text": "아이스크림",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이스크림"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/haembeogeo-6e2c": {
+   "text": "햄버거",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "햄버거"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kolra-a8f2": {
+   "text": "콜라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "콜라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/haendeupon-4317": {
+   "text": "핸드폰",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "핸드폰"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/naengmyeon-e74a": {
+   "text": "냉면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "냉면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chikin-1057": {
+   "text": "치킨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "치킨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/aidol-4c33": {
+   "text": "아이돌",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아이돌"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/konseoteu-b063": {
+   "text": "콘서트",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "콘서트"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sajin-3500": {
+   "text": "사진",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사진"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/undong-1ba2": {
+   "text": "운동",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "운동"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/galbi-0ecf": {
+   "text": "갈비",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "갈비"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/gonghang-4a86": {
+   "text": "공항",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "공항"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/jihacheol-8624": {
+   "text": "지하철",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "지하철"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hwajangsil-af79": {
+   "text": "화장실",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "화장실"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/mianhaeyo-2cf2": {
+   "text": "미안해요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "미안해요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/saranghaeyo-e257": {
+   "text": "사랑해요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사랑해요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/robot-36a5": {
+   "text": "로봇",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "로봇"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/remon-eb8d": {
+   "text": "레몬",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "레몬"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eeokeon-15b1": {
+   "text": "에어컨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "에어컨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/rimokeon-21ce": {
+   "text": "리모컨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "리모컨"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/beteunam-8050": {
+   "text": "베트남",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "베트남"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/keoteun-9e15": {
+   "text": "커튼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "커튼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/beoteun-895d": {
+   "text": "버튼",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "버튼"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/sip-4f57": {
+   "text": "십",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "십",
+    "십",
+    "십",
+    "십"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/syoping-b15d": {
+   "text": "쇼핑",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "쇼핑"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/il-f43a": {
+   "text": "일",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "일",
+    "일",
+    "일",
+    "일"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/chil-2ba2": {
+   "text": "칠",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "칠",
+    "칠",
+    "추",
+    "쯔"
+   ],
+   "takes": 6
+  },
+  "charon/yuk-d3fc": {
+   "text": "육",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "육",
+    "육",
+    "육",
+    "육"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/baek-764d": {
+   "text": "백",
+   "attempt": 3,
+   "status": "pass",
+   "heard": [
+    "백",
+    "백",
+    "백",
+    "백"
+   ],
+   "takes": 4,
+   "publishedAttempt": 3
+  },
+  "charon/cheon-9765": {
+   "text": "천",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "천",
+    "촌",
+    "천",
+    "천"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/man-c9e1": {
+   "text": "만",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "만",
+    "망",
+    "만",
+    "만"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/won-95e0": {
+   "text": "원",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "원",
+    "원",
+    "원",
+    "원"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/eumak-f2e0": {
+   "text": "음악",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "음악."
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/hangukeo-831f": {
+   "text": "한국어",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "한국어"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/ilboneo-ccde": {
+   "text": "일본어",
+   "attempt": 4,
+   "status": "pass",
+   "heard": [
+    "일본어"
+   ],
+   "takes": 5,
+   "publishedAttempt": 4
+  },
+  "charon/daneo-1fe5": {
+   "text": "단어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "단어."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/baleum-d29f": {
+   "text": "발음",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "발음"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/pyeonuijeom-202d": {
+   "text": "편의점",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "편의점"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/hakgyo-094d": {
+   "text": "학교",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "학교"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/haksaeng-7f7a": {
+   "text": "학생",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "학생"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jikeop-b3ad": {
+   "text": "직업",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "직업"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/taeksi-a5ff": {
+   "text": "택시",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "택시"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/maekju-5bb1": {
+   "text": "맥주",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "맥주"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/samgyeopsal-65a6": {
+   "text": "삼겹살",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "삼겹살"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tteokboki-2b5e": {
+   "text": "떡볶이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "떡볶이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/makgeolri-a0fc": {
+   "text": "막걸리",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "막걸리"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/bibimbap-4535": {
+   "text": "비빔밥",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "비빔밥"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gamsahapnida-c8ee": {
+   "text": "감사합니다",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "감사합니다."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/matiteoyo-6b4e": {
+   "text": "맛있어요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "맛있어요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jotayo-95f5": {
+   "text": "좋아요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "좋아요"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ga-8b15": {
+   "text": "가",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가",
+    "가",
+    "가",
+    "가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ra-f84b": {
+   "text": "라",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "라",
+    "라",
+    "라",
+    "라"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ma-d02d": {
+   "text": "마",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "마",
+    "마",
+    "마",
+    "마"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ba-a0ce": {
+   "text": "바",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "바",
+    "바",
+    "바",
+    "바"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/sa-1d85": {
+   "text": "사",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "사",
+    "사",
+    "사",
+    "사"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/a-671a": {
+   "text": "아",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "아",
+    "아",
+    "아",
+    "아"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ja-2c4d": {
+   "text": "자",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "자",
+    "자",
+    "자",
+    "자"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ka-0c26": {
+   "text": "카",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "카",
+    "카",
+    "카",
+    "카"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ta-73f3": {
+   "text": "타",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "타",
+    "타",
+    "타",
+    "타"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/pa-0830": {
+   "text": "파",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "파",
+    "파",
+    "파",
+    "파"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ha-b59d": {
+   "text": "하",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "하",
+    "하",
+    "하",
+    "하"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/kka-2a80": {
+   "text": "까",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "까",
+    "까",
+    "까",
+    "가"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/tta-4ade": {
+   "text": "따",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "따",
+    "타",
+    "아",
+    "아"
+   ],
+   "takes": 6
+  },
+  "charon/ppa-02ab": {
+   "text": "빠",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "빠",
+    "빠",
+    "빠",
+    "바"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ssa-60a8": {
+   "text": "싸",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "싸",
+    "싸",
+    "싸",
+    "사"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/eo-33e9": {
+   "text": "어",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "어",
+    "어",
+    "어?",
+    "어?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jja-3208": {
+   "text": "짜",
+   "attempt": 5,
+   "status": "review",
+   "heard": [
+    "자",
+    "짜",
+    "자",
+    "자"
+   ],
+   "takes": 6
+  },
+  "charon/o-5f37": {
+   "text": "오",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "오",
+    "오",
+    "오.",
+    "어."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/u-e209": {
+   "text": "우",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "우",
+    "우",
+    "우",
+    "우"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/eu-c2ab": {
+   "text": "으",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "으",
+    "으",
+    "으",
+    "으"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/i-e7a2": {
+   "text": "이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이",
+    "이",
+    "이",
+    "이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ya-0ef2": {
+   "text": "야",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "야",
+    "야",
+    "야!",
+    "야!"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yeo-a4a8": {
+   "text": "여",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "여",
+    "요",
+    "여",
+    "여"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yo-b5f5": {
+   "text": "요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "요",
+    "요",
+    "요",
+    "요."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ae-2e6e": {
+   "text": "애",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "애",
+    "애",
+    "애",
+    "애"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yu-d58f": {
+   "text": "유",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "유",
+    "유",
+    "유",
+    "유"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/e-52cc": {
+   "text": "에",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "에",
+    "에",
+    "에?",
+    "에?"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/wa-a3e2": {
+   "text": "와",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "와",
+    "와",
+    "와",
+    "와"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oe-c9aa": {
+   "text": "외",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "외",
+    "외",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yae-792d": {
+   "text": "얘",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "얘",
+    "얘",
+    "예.",
+    "예."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/wo-c1f4": {
+   "text": "워",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "워",
+    "워",
+    "워",
+    "와"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/we-8948": {
+   "text": "웨",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "웨",
+    "웨",
+    "왜?",
+    "왜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/ui-204e": {
+   "text": "의",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "의",
+    "의",
+    "의",
+    "의"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "kore/iyagi-41db": {
+   "text": "이야기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이야기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/goyangi-4edc": {
+   "text": "고양이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고양이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jinjja-af9f": {
+   "text": "진짜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "진짜"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/gajja-3958": {
+   "text": "가짜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가짜."
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/yak-1085": {
+   "text": "약",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "약",
+    "약",
+    "약",
+    "약"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/oeguk-5ba6": {
+   "text": "외국",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "외국",
+    "외국",
+    "외국",
+    "외국"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/jjajangmyeon-d84b": {
+   "text": "짜장면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "짜장면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/choego-2c13": {
+   "text": "최고",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "최고"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/waeyo-1410": {
+   "text": "왜요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "왜요?",
+    "왜요?",
+    "왜요?",
+    "왜요?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/goyangi-4edc": {
+   "text": "고양이",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "고양이"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "kore/weding-fc7a": {
+   "text": "웨딩",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "웨딩",
+    "웨딩",
+    "웨딩",
+    "웨딩"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/iyagi-41db": {
+   "text": "이야기",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "이야기"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/yak-1085": {
+   "text": "약",
+   "attempt": 1,
+   "status": "pass",
+   "heard": [
+    "약",
+    "약",
+    "약",
+    "야?"
+   ],
+   "takes": 2,
+   "publishedAttempt": 1
+  },
+  "charon/jinjja-af9f": {
+   "text": "진짜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "진짜?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/gajja-3958": {
+   "text": "가짜",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "가짜"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/jjajangmyeon-d84b": {
+   "text": "짜장면",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "짜장면"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/oeguk-5ba6": {
+   "text": "외국",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "외국"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/choego-2c13": {
+   "text": "최고",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "최고"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/weding-fc7a": {
+   "text": "웨딩",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "웨딩"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  },
+  "charon/waeyo-1410": {
+   "text": "왜요",
+   "attempt": 0,
+   "status": "pass",
+   "heard": [
+    "왜요",
+    "왜요",
+    "왜요?",
+    "왜요?"
+   ],
+   "takes": 1,
+   "publishedAttempt": 0
+  }
+ }
+}

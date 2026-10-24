@@ -1,0 +1,14 @@
+/* A syllable holding a letter not met yet: dotted underneath, a button with no box. */
+.unknown {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline dotted var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.28em;
+}
+.unknown:hover { color: var(--accent); }
+.word { color: var(--accent); font-weight: 600; }

@@ -1,0 +1,39 @@
+.title { display: inline-flex; align-items: baseline; gap: 10px; }
+.titleKind { font-size: 13px; font-weight: 600; color: var(--muted); }
+.titleCh { font-size: 22px; font-weight: 600; }
+
+.head { display: flex; gap: 18px; align-items: center; }
+.headText { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.anchor { margin: 0; font-size: 20px; font-weight: 600; display: flex; flex-direction: column; gap: 2px; }
+.how { font-size: 13.5px; font-weight: 400; color: var(--muted); }
+.sound { display: flex; align-items: center; gap: 10px; }
+.soundText { font-size: 18px; color: var(--ink-2); }
+
+.section { display: flex; flex-direction: column; gap: 8px; padding-top: 4px; border-top: 1px solid var(--line); }
+.h3 { margin: 12px 0 0; font-size: 13px; font-weight: 600; color: var(--muted); }
+.text { margin: 0; font-size: 15px; }
+.keys { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.keysNote { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.owed { margin: 0; padding: 10px 12px; border-left: 3px solid var(--again); background: var(--again-tint); font-size: 14px; color: var(--ink); }
+.met { margin: 0; font-size: 13px; color: var(--muted); }
+.words { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.words li { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.meaning { font-size: 13.5px; color: var(--muted); display: flex; flex-direction: column; }
+.said { font-size: 12.5px; }
+
+/* Several letters met in one place (a syllable of a sentence): looked at in turn. */
+.among { margin: 0 0 4px; display: flex; flex-wrap: wrap; gap: 6px; }
+.amongChip {
+  min-width: 40px; height: 36px; padding: 0 10px; border: 1px solid var(--line-2); border-radius: 10px;
+  background: var(--paper); font-size: 16px; color: var(--ink); cursor: pointer;
+}
+.amongChip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--tint); }
+
+/* パッチム: the seven sounds, by what they sound like */
+.groups { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.groups > li { display: flex; gap: 14px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.groupSound { flex-shrink: 0; width: 1.6em; font-size: 22px; font-weight: 600; color: var(--accent); }
+.groupMain { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.groupNote { font-size: 13.5px; color: var(--ink-2); }
+.groupWords { display: flex; flex-wrap: wrap; gap: 10px 16px; }
+.groupWord { display: inline-flex; align-items: center; gap: 6px; }

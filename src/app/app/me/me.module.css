@@ -1,0 +1,33 @@
+.stats { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.stats > div { padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); }
+.stats dt { font-size: 12.5px; color: var(--muted); }
+.stats dd { margin: 2px 0 0; font-size: 22px; font-weight: 600; font-family: var(--font-en); }
+@media (min-width: 720px) {
+  .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* The letters: the 90 seconds', then the rest in the order they come */
+.groupTitle { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+.family { list-style: none; margin: 0; padding: 4px 0 10px; display: flex; flex-wrap: wrap; gap: 6px; border-bottom: 1px solid var(--line); }
+.way { font-size: 11.5px; font-weight: 600; color: inherit; }
+.letter[data-state="met"] .way { color: var(--ink); }
+.letter[data-state="new"] .way { color: var(--faint); }
+.letter[data-state="owed"] .way { color: var(--again); }
+.letter {
+  width: 52px; height: 52px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--paper); cursor: pointer;
+}
+.letter[data-state="new"] { border-style: dashed; }
+.letter[data-state="owed"] { border-color: var(--again); background: var(--again-tint); }
+.letter:hover { border-color: var(--accent); }
+
+.days { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.days > li { padding: 12px 0; border-top: 1px solid var(--line); }
+.days > li:last-child { border-bottom: 1px solid var(--line); }
+.dayHead { margin: 0 0 6px; font-size: 15px; font-weight: 600; display: flex; gap: 8px; align-items: center; }
+.dayHead > span { font-size: 12px; font-weight: 500; color: var(--accent); }
+.dayList { margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.dayList > div { display: flex; gap: 12px; font-size: 14px; }
+.dayList dt { flex-shrink: 0; width: 7em; color: var(--muted); }
+.dayList dd { margin: 0; }
+.metList { display: flex; flex-wrap: wrap; gap: 0 10px; }
