@@ -1,4 +1,4 @@
-# dependencies, in any folder (promo/ has its own)
+# dependencies, in any folder (film/ and promo/ have their own)
 node_modules/
 
 # next.js
@@ -14,9 +14,11 @@ next-env.d.ts
 # the raw takes behind the clips (data/clips.json keeps which passed), and other generation scratch
 scripts/work/
 
-# the film's renders and caches (promo/out/hangul.mp4 is several tens of MB)
+# the films' renders and caches (film/out/hangul.mp4 is several tens of MB)
+film/out/
+film/.cache/
 promo/out/
-promo/.cache/
+promo/node_modules/.cache/
 
 # misc
 .DS_Store

@@ -93,6 +93,9 @@ Korean keyboard (as on 한컴타자연습) and heard.
 - `/app/me` 自分: counts (own, never compared), the letters (the 90 seconds', then `MEET_ORDER`; faint until met, violet
   when owed; looked up from here they are not met), days, the 90 seconds again, 学習の記録, `/app/me/settings` (sound,
   voice, the typing guide, account, clearing the record). `/login`: ことのは's, unchanged in kind.
+  ことのあめでつなぐ (`src/lib/connect.ts`): off to ことのあめ's `/connect` (log in or sign up there), back to `/login`
+  with a one-time token in the fragment, spent with `verifyOtp` (`signInWithKotonoame`) only when the random state kept
+  on this device before leaving comes back with it (a link carrying someone else's token cannot sign the learner in).
 - `components/Keyboard.tsx`: the 두벌식 keyboard on screen, and the keyboard in front of the learner by key code (ignored
   while a sheet is open or an input has the focus); the next key lit, letters not in use faint; keys never take the
   focus. `KeyMap`: the keyboard small and still, a key lit. `components/TypeLine.tsx`: a word or sentence to type: the
@@ -150,10 +153,18 @@ Korean keyboard (as on 한컴타자연습) and heard.
   the keys are text.
 - Pure modules imported by tests and scripts use `.ts` extensions in their imports (Node strips types).
 - Phone first; from 720 px the tabs become a column on the left (BottomNav, the sisters' CSS).
-- The app icon is the one picture with gradients: for now 雨に育つパステルの芽 from ことのあめ's folder
-  (`design/icon-source.png`); the maker may choose another and run `design/make-icons.py` again.
+- The app icon is the one picture with gradients: 虹色の雫と芽生え, made by the maker with ChatGPT in the sisters' style
+  (`design/icon-source.png`; `design/sisters-reference.png` is what it was shown). `design/make-icons.py` measures the
+  cream card on its near-white ground by the shadow's darkest line (sides on rows and columns clear of the drawing,
+  corners along their diagonals) and cuts it as a rounded square; a new picture may need those rows and columns moved.
+  The promo copies `public/icons/icon-512.png` (`promo/scripts/assets.mjs`).
 
-## The promotional film (`promo/`)
+## The films
 
-Its own Remotion project (its own package.json; left out of the app's tsconfig and eslint), described in
-`promo/README.md`: 爆速ハングル, 3:48, Zundamon by VOICEVOX. `cd promo && node bin/build.mjs && npm run render`.
+- `promo/`: the app's promotional film, as the sisters' (`../english/promo`, `../作成したもの/hanjaatume/promo`): the app's
+  screens drawn again beside one plain sentence at a time, 1920×1080, about 99 s, a narration by Gemini TTS, the
+  Korean words in the app's own clips. Its own Remotion project (its own package.json; left out of the app's tsconfig
+  and eslint); it imports the app's pure modules (`src/lib/glyph.ts`, `hangul.ts`, `dubeol.ts`) so letters and typing
+  are the app's. `promo/README.md`. When the app's look or words change, change the film's screens too.
+- `film/`: 爆速ハングル, the learning animation the app grew from (3:48, Zundamon by VOICEVOX), its own Remotion project:
+  `film/README.md`. `cd film && node bin/build.mjs && npm run render`.

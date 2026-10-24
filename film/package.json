@@ -1,0 +1,20 @@
+{
+  "name": "hangul-bakusoku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "爆速ハングル学習アニメーション（ずんだもん・VOICEVOX・Remotion）",
+  "type": "module",
+  "scripts": {
+    "build": "node bin/build.mjs",
+    "se": "node bin/gen-se.mjs",
+    "studio": "remotion studio src/index.js",
+    "still": "remotion still src/index.js Hangul",
+    "render": "remotion render src/index.js Hangul out/hangul.mp4 --concurrency 4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.499",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.499"
+  }
+}

@@ -1,20 +1,29 @@
 {
-  "name": "hangul-bakusoku",
-  "version": "1.0.0",
+  "name": "kotonome-promo",
+  "version": "0.1.0",
   "private": true,
-  "description": "爆速ハングル学習アニメーション（ずんだもん・VOICEVOX・Remotion）",
   "type": "module",
+  "description": "ことのめ のプロモーション映像（Remotion）",
   "scripts": {
-    "build": "node bin/build.mjs",
-    "se": "node bin/gen-se.mjs",
-    "studio": "remotion studio src/index.js",
-    "still": "remotion still src/index.js Hangul",
-    "render": "remotion render src/index.js Hangul out/hangul.mp4 --concurrency 4"
+    "assets": "node scripts/assets.mjs",
+    "voice": "node scripts/voice.mjs",
+    "music": "node scripts/marks.mjs | python scripts/music.py public/sound",
+    "studio": "remotion studio src/index.ts",
+    "stills": "node scripts/stills.mjs out/stills",
+    "render": "remotion render src/index.ts Promo out/kotonome-promo.mp4",
+    "card": "remotion still src/index.ts Card out/kotonome-card.png"
   },
   "dependencies": {
+    "@remotion/bundler": "4.0.499",
     "@remotion/cli": "4.0.499",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "@remotion/renderer": "4.0.499",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "remotion": "4.0.499"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "esbuild": "0.28.1",
+    "typescript": "^5"
   }
 }

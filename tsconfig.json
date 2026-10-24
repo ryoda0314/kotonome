@@ -31,5 +31,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "promo", "scripts/work"]
+  "exclude": ["node_modules", "film", "promo", "scripts/work"]
 }
