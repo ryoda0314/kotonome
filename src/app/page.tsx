@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 
 const t = ja.intro;
 
-/** The first screen, static: how it goes (90 seconds, then the rain, letters met there, the keyboard) and the way in. */
+/** The first screen, static: how it goes (16 letters, then the rain, letters met there, the keyboard) and the way in. */
 export default function Home() {
   return (
     <div className={styles.page}>

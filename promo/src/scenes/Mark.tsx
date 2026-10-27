@@ -3,7 +3,7 @@ import { Img, staticFile } from "remotion";
 import { fall, prog } from "../anim";
 import { C, FONT } from "../theme";
 
-export const TAGLINE = "90秒だけ知って、あとは浴びる。";
+export const TAGLINE = "16字だけ知って、あとは浴びる。";
 
 export function NameMark({
   frame,

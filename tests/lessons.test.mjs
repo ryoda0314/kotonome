@@ -11,7 +11,7 @@ import { emptyState, knownSet, mergeStates, seeFirst, seeLesson } from "../src/l
 const audio = JSON.parse(readFileSync("src/content/audio.json", "utf8"));
 const hasClip = (text) => (audio.have[clipId(text)] ?? []).length > 0;
 
-test("the 90 seconds and the next 90 seconds bring every letter once", () => {
+test("最初の16字 and 次の字 bring every letter once", () => {
   const all = [...FIRST_LETTERS, ...LESSONS.flatMap((l) => l.items.filter((x) => LETTER.has(x)))];
   assert.equal(new Set(all).size, all.length);
   assert.deepEqual(new Set(all), new Set(LETTERS.map((l) => l.ch)));

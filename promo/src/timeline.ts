@@ -2,7 +2,7 @@
 // 書く）から、例文の声は src/clips.json（scripts/assets.mjs）から、打つ長さは打ち方（anim.ts typing）から。声が言い
 // 終わってから、次のできごとへ進む。韓国語の語は、アプリ自身の声（public/app/clips）を、ナレーションと重ならない所で。
 //
-// 見る人：ハングルが記号に見えていて、字の表を前に止まっている人。最初の90秒だけで読みはじめられること、そのあとは
+// 見る人：ハングルが記号に見えていて、字の表を前に止まっている人。最初の16字だけで読みはじめられること、そのあとは
 // 音つきの語を浴び、知らない字はその場で、聞いた語はふつうのキーボードで自分の指で打つ、を、アプリの画面で見せる。
 import { f, typing } from "./anim";
 import CLIPS from "./clips.json";
@@ -51,7 +51,7 @@ function make() {
   const title = { start: hook.end, icon: hook.end + 0.3, word: hook.end + 0.7, lead: hook.end + 1.5, end: 0 };
   title.end = say("V05", title.word - 0.05) + 0.5;
 
-  // C1. 最初の90秒：思い出す。나 → ㄴ。아 → ㄱ と押して間違え、口の絵が出て、ㅇ。가 → ㄱ。
+  // C1. 最初の16字：思い出す。나 → ㄴ。아 → ㄱ と押して間違え、口の絵が出て、ㅇ。가 → ㄱ。
   const first = { start: title.end - 0.2, cap: 0, go1: 0, press1: 0, go2: 0, wrong2: 0, press2: 0, go3: 0, press3: 0, end: 0 };
   first.cap = first.start + 0.4;
   first.go1 = say("V06", first.start + 0.5) + 0.25;
@@ -108,7 +108,7 @@ function make() {
   again.fall = again.next + 0.3;
   again.end = again.fall + 2.4;
 
-  // C7. 次の90秒：ㄱ の口のまま、線をもう1本で ㅋ。가 → 카。
+  // C7. 次の字：ㄱ の口のまま、線をもう1本で ㅋ。가 → 카。
   const next = { start: again.end, cap: 0, grow: 0, s1: 0, s2: 0, end: 0 };
   next.cap = next.start + 0.4;
   next.grow = next.start + 0.9;

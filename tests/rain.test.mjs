@@ -15,7 +15,7 @@ function through(s, plan) {
   return finishRain(meetLetters(s, met, plan.at), { at: plan.at, words: plan.words.map((w) => w.ko), met, mixed: [], typed: [] });
 }
 
-test("the first rain: only the 90 seconds' letters, nothing new, no sentences yet", () => {
+test("the first rain: only the first 16 letters, nothing new, no sentences yet", () => {
   const s = seeFirst({ v: 2, letters: {}, words: {}, lines: {}, drills: {}, rains: [] }, 1);
   const plan = planRain(s, 1000, SENTENCES, seeded(5));
   assert.equal(plan.fresh, null);

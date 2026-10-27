@@ -21,7 +21,7 @@ test("a go missed comes once more, a little later", () => {
   assert.deepEqual(again(["a", "b"], 1), ["a", "b", "b"]);
 });
 
-test("the 90 seconds' practice: each letter three times, heard as its syllable", () => {
+test("the practice in 最初の16字: each letter three times, heard as its syllable", () => {
   const items = letterPractice(["ㄱ", "ㄴ", "ㅇ", "ㅁ", "ㅅ"], 3);
   assert.equal(items.length, 15);
   assert.deepEqual(items.find((x) => x.answer === "ㅇ").say, "아");

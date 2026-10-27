@@ -14,10 +14,10 @@ export function exportMarkdown(s: State, prompt: string): string {
   const lines: string[] = [prompt, "", "# ことのめ の記録", ""];
   const known = knownSet(s);
   const met = ALL_ITEMS.filter((x) => known.has(x));
-  lines.push(`- 90秒: ${s.first ? `${dayOf(s.first)} に見た` : "まだ"}`);
+  lines.push(`- 最初の16字: ${s.first ? `${dayOf(s.first)} に見た` : "まだ"}`);
   for (const [i, id] of LESSON_IDS.entries()) {
     const at = s.lessons?.[id];
-    lines.push(`- 次の90秒 ${i + 1}（${LESSON_NAMES[id]}）: ${at ? `${dayOf(at)} に済` : "まだ"}`);
+    lines.push(`- 次の字 ${i + 1}（${LESSON_NAMES[id]}）: ${at ? `${dayOf(at)} に済` : "まだ"}`);
   }
   lines.push(`- 出会った字: ${met.filter((x) => LETTER.has(x)).length} / 40（パッチム${known.has(PATCHIM) ? "も" : "はまだ"}）`);
   lines.push(`- 読める語: ${readableWords(s, known).length}`);
@@ -30,7 +30,7 @@ export function exportMarkdown(s: State, prompt: string): string {
   const order = met
     .filter((x) => !FIRST_LETTERS.includes(x) && s.letters[x]?.met)
     .sort((a, b) => (s.letters[a].met ?? 0) - (s.letters[b].met ?? 0));
-  if (!order.length) lines.push("- まだ（90秒の字だけ）");
+  if (!order.length) lines.push("- まだ（最初の16字だけ）");
   for (const x of order) lines.push(`- ${nameOf(x)}: ${dayOf(s.letters[x].met as number)}`);
 
   const mixed = Object.keys(s.letters)

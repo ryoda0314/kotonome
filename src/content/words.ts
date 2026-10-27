@@ -1,5 +1,5 @@
 // The words that fall in 浴びる and are typed in 打つ. A word falls once everything it asks of the reader has been
-// met (hangul.ts needsOf: its letters beyond the 90 seconds', パッチム, 発音); the groups below follow the order they
+// met (hangul.ts needsOf: its letters beyond 最初の16字, パッチム, 発音); the groups below follow the order they
 // are met in (MEET_ORDER), only for whoever edits this file.
 //
 //   ja    the meaning, plainly (a loanword's meaning is the word a Japanese speaker already knows: 커피 → コーヒー)
@@ -16,7 +16,7 @@ export type Word = { ko: string; ja: string; kind: WordKind; say?: string };
 const w = (ko: string, ja: string, kind: WordKind, say?: string): Word => (say ? { ko, ja, kind, say } : { ko, ja, kind });
 
 export const WORDS: Word[] = [
-  // 90秒の字だけで（ㄱ ㄴ ㅇ ㅁ ㅅ、ㄷ ㅂ ㅈ ㅎ、ㄹ と ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ）
+  // 最初の16字だけで（ㄱ ㄴ ㅇ ㅁ ㅅ、ㄷ ㅂ ㅈ ㅎ、ㄹ と ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ）
   w("아이", "子ども", "native"),
   w("오이", "きゅうり", "native"),
   w("나", "わたし（ぼく）", "native"),

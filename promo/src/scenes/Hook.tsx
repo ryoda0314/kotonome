@@ -1,5 +1,5 @@
 // A. 問い：ハングルが記号に見える。「カキクケコ」の舌の形が ㄱ（口の絵から字を取り出す）。子音は口の形の絵。
-// 九十秒で、もう読める：字母が四角に組み上がって 라디오、ラジオ。
+// 十六字で、もう読める：字母が四角に組み上がって 라디오、ラジオ。
 import { fall, leave, prog } from "../anim";
 import { JoinWord, Letter, Word } from "../glyph";
 import { MouthPicture, type MouthLetter } from "../mouth";
@@ -84,7 +84,7 @@ export function Hook({ frame }: { frame: number }) {
         </div>
       ) : null}
 
-      {/* 九十秒で、もう読める：라디오 */}
+      {/* 十六字で、もう読める：라디오 */}
       {frame >= h.join ? (
         <div style={fall(frame, h.join, 12, 14)}>
           <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", justifyContent: "center" }}>
@@ -92,7 +92,7 @@ export function Hook({ frame }: { frame: number }) {
           </div>
           <p style={{ ...caption, top: 560, fontSize: 48, fontWeight: 500, color: C.ink2, ...fall(frame, h.read + 12, 12, 14) }}>ラジオ</p>
           <p style={{ ...caption, top: 720, fontSize: 64, ...fall(frame, h.read + 30, 14, 16) }}>
-            <span style={{ color: C.accent }}>90秒</span>で、もう読める。
+            <span style={{ color: C.accent }}>16字</span>で、もう読める。
           </p>
         </div>
       ) : null}

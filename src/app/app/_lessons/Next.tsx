@@ -1,6 +1,6 @@
 "use client";
 
-// 次の90秒: one of the lessons of src/lib/lessons.ts, page by page, in the 90 seconds' way. At the end its letters (or
+// 次の字: one of the lessons of src/lib/lessons.ts, page by page, in the way of 最初の16字. At the end its letters (or
 // パッチム) are met and the learner goes back to the rain, which now passes them over.
 
 import Link from "next/link";

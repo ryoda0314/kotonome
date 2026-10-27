@@ -178,16 +178,28 @@ export function letterInk(ch: string, { added = false, prefix = ch, color }: { a
   }));
 }
 
-/** A syllable's strokes in 0..100, parts coloured by role (or all one colour); `marked` parts in the accent. */
+/** Not looked at yet: a letter drawn faint beside the one being shown (the ㅏ of 가 while ㄱ is met). */
+export const FAINT = "var(--faint)";
+
+/**
+ * A syllable's strokes in 0..100, parts coloured by role (or all one colour); `marked` parts in the accent, `faint`
+ * letters faint.
+ */
 export function syllableInk(
   syl: string,
-  { at = 0, color, prefix = `${at}`, marked }: { at?: number; color?: string; prefix?: string; marked?: ReadonlySet<string> } = {},
+  {
+    at = 0,
+    color,
+    prefix = `${at}`,
+    marked,
+    faint,
+  }: { at?: number; color?: string; prefix?: string; marked?: ReadonlySet<string>; faint?: ReadonlySet<string> } = {},
 ): Ink[] {
   return syllableParts(syl).flatMap((p) =>
     scale(p.strokes, at, 0).map((pts, i) => ({
       key: `${prefix}:${p.role}:${p.ch}:${i}`,
       pts,
-      color: marked?.has(p.role) ? VOWEL : (color ?? roleColor(p.role)),
+      color: faint?.has(p.ch) ? FAINT : marked?.has(p.role) ? VOWEL : (color ?? roleColor(p.role)),
       width: W,
     })),
   );
@@ -195,12 +207,18 @@ export function syllableInk(
 
 export const GAP = 14;
 
-/** A word as squares in a row, in 0..(100+gap)·n. `marks`: parts to light, as "syllable:role" ("1:cho"). */
-export function wordInk(text: string, opts: { color?: string; marks?: ReadonlySet<string> } = {}): { items: Ink[]; width: number } {
+/**
+ * A word as squares in a row, in 0..(100+gap)·n. `marks`: parts to light, as "syllable:role" ("1:cho"); `faint`:
+ * letters drawn faint.
+ */
+export function wordInk(
+  text: string,
+  opts: { color?: string; marks?: ReadonlySet<string>; faint?: ReadonlySet<string> } = {},
+): { items: Ink[]; width: number } {
   const syls = syllablesOf(text);
   const items = syls.flatMap((s, i) => {
     const marked = opts.marks ? new Set([...opts.marks].filter((m) => m.startsWith(`${i}:`)).map((m) => m.split(":")[1])) : undefined;
-    return syllableInk(s, { at: i * (SIZE + GAP), prefix: `${i}`, color: opts.color, marked });
+    return syllableInk(s, { at: i * (SIZE + GAP), prefix: `${i}`, color: opts.color, marked, faint: opts.faint });
   });
   return { items, width: Math.max(SIZE, syls.length * SIZE + (syls.length - 1) * GAP) };
 }
@@ -227,6 +245,7 @@ export function Word({
   label,
   fit = false,
   marks,
+  faint,
 }: {
   text: string;
   height?: number;
@@ -235,8 +254,9 @@ export function Word({
   label?: string;
   fit?: boolean;
   marks?: ReadonlySet<string>;
+  faint?: ReadonlySet<string>;
 }) {
-  const { items, width } = wordInk(text, { color, marks });
+  const { items, width } = wordInk(text, { color, marks, faint });
   const natural = (height * (width + 16)) / (SIZE + 16);
   const style = fit ? { width: "100%", maxWidth: natural, aspectRatio: `${width + 16} / ${SIZE + 16}` } : { width: natural, height };
   return (

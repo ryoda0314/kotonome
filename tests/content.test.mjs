@@ -24,7 +24,7 @@ test("every word once, in Hangul, with a meaning", () => {
   }
 });
 
-test("everything there is to meet: the 90 seconds, then MEET_ORDER, every letter once", () => {
+test("everything there is to meet: 最初の16字, then MEET_ORDER, every letter once", () => {
   assert.equal(new Set(ALL_ITEMS).size, ALL_ITEMS.length);
   const letters = ALL_ITEMS.filter((x) => LETTERS.some((l) => l.ch === x));
   assert.equal(letters.length, 40);

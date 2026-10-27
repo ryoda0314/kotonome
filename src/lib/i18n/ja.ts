@@ -6,22 +6,25 @@ import type { DrillId } from "../typing-core.ts";
 // ことのあめ: the sister app whose accounts (and database) this one uses.
 const KOTONOAME_URL = (process.env.NEXT_PUBLIC_KOTONOAME_URL || "https://polylinga.vercel.app").replace(/\/$/, "");
 
+/** A consonant out of the mouth: what is said, and what it shows in steps, each shown as the picture gets there. */
+const mouth = (row: string, steps: string[]) => ({ row, say: `「${row}」と言ってみて。`, steps, how: steps.join("") });
+
 export const ja = {
   name: "ことのめ",
   kotonoame: { name: "ことのあめ", url: KOTONOAME_URL },
   description:
-    "最初の90秒で、子音は口の形、母音は音で。あとは音つきの語を浴び、知らない字は出会ったときにその場で調べ、ふつうの韓国語キーボードで自分の指で打つ。",
+    "最初の16字で、子音は口の形、母音は音で。あとは音つきの語を浴び、知らない字は出会ったときにその場で調べ、ふつうの韓国語キーボードで自分の指で打つ。",
 
   intro: {
-    lead: "90秒だけ知って、あとは浴びる。",
+    lead: "16字だけ知って、あとは浴びる。",
     body: [
-      "最初は90秒だけ。子音は口の形の絵（ㄱ は舌の奥、ㅁ は閉じた口）、母音は音で。字の表を覚えるところからは始めません。",
+      "最初は16字だけ。子音は口の形の絵（ㄱ は舌の奥、ㅁ は閉じた口）、母音は音で。字の表を覚えるところからは始めません。",
       "あとは、音つきの語を浴びる。知らない字は、出会ったときに押せばその場で分かる。全部の字を覚えてから進まなくていい。",
       "聞いた語は、ふつうの韓国語キーボードで、自分の指で打ってみる。スマホやパソコンで韓国語を打つのと同じ配列です。",
     ],
     places: ["舌の奥", "舌の先", "口", "歯", "のど"],
     sample: ["라디오", "바나나", "드라마"],
-    sampleNote: "90秒のあと、もう読める",
+    sampleNote: "16字を知ったら、もう読める",
     start: "はじめる",
     note: "登録はいりません。記録はこの端末に残ります。",
     link: "ことのあめのアカウントがあれば、つなぐと記録がどの端末でも続きます",
@@ -41,19 +44,25 @@ export const ja = {
   },
 
   first: {
-    title: "最初の90秒",
+    title: "最初の16字",
     skip: "とばす",
     pageOf: (n: number, total: number) => `${n} / ${total}`,
+    // Steps: what the mouth does (as it moves), how that is the letter (as it is written over it), and for ㅇ what it
+    // does in a word (as it lifts off).
     mouth: {
-      "ㄱ": { row: "カキクケコ", say: "「カキクケコ」と言ってみて。", how: "舌の奥が上がって、のどの入口をふさぐ。横から見たその舌の形が ㄱ。" },
-      "ㄴ": { row: "ナニヌネノ", say: "「ナニヌネノ」と言ってみて。", how: "舌の先が、上の歯ぐきにつく。その形が ㄴ。" },
-      "ㅇ": { row: "アー", say: "「アー」と言ってみて。", how: "のどがまるく開く。まるいのどが ㅇ。語の最初では音がなく、母音だけを読む。" },
-      "ㅁ": { row: "マミムメモ", say: "「マミムメモ」と言ってみて。", how: "くちびるを閉じる。正面から見た、閉じた口が ㅁ。" },
-      "ㅅ": { row: "サシスセソ", say: "「サシスセソ」と言ってみて。", how: "とがった歯のすき間から、息がもれる。歯の形が ㅅ。" },
-    } as Record<string, { row: string; say: string; how: string }>,
+      "ㄱ": mouth("カキクケコ", ["舌の奥が上がって、のどの入口をふさぐ。", "横から見たその舌の形が ㄱ。"]),
+      "ㄴ": mouth("ナニヌネノ", ["舌の先が、上の歯ぐきにつく。", "横から見たその舌の形が ㄴ。"]),
+      "ㅇ": mouth("アー", ["のどがまるく開く。", "まるいのどが ㅇ。", "母音だけを読むときにも、左にこの ㅇ を置く。そのときは音なし。"]),
+      "ㅁ": mouth("マミムメモ", ["くちびるを閉じる。", "正面から見た、閉じた口が ㅁ。"]),
+      "ㅅ": mouth("サシスセソ", ["とがった歯のすき間から、息がもれる。", "とがった歯の形が ㅅ。"]),
+    } as Record<string, { row: string; say: string; steps: string[]; how: string }>,
+    replay: "もう一度見る",
+    // A consonant is heard with ㅏ (가), drawn faint: which one is the letter being met, and what the other is.
+    leftOnly: (ch: string) => `いまの字は、左の ${ch}。右の ㅏ は「ア」（あとで出てきます）。`,
     grow: {
       title: "同じ場所で、もう1つ",
       lead: "口の場所はそのままで、音を少し変えると、字に線がふえる。",
+      leftOnly: "変わるのは、左の字だけ。右の ㅏ は「ア」のまま。",
       items: {
         "ㄷ": { say: "「ナ」の口のまま、舌の先で歯ぐきを軽くはじいてみて。", how: "舌の先をはじくと、タ。ㄴ に線が1本ふえて ㄷ。" },
         "ㅂ": { say: "「マ」の口のまま、閉じたくちびるをはじけさせてみて。", how: "くちびるをはじけさせると、パ。ㅁ の両側が上に伸びて ㅂ。" },
@@ -66,18 +75,18 @@ export const ja = {
     recall: {
       title: "思い出す",
       consonants: "分かったら、すぐ何度も。音を聞いて、その字を押してみて。口の形を思い出して。",
-      vowels: "分かったら、すぐ何度も。音を聞いて、その母音を押してみて。",
+      vowels: "分かったら、すぐ何度も。音を聞いて、その母音を押してみて。口の形を思い出して。",
       mouthHint: (row: string) => `「${row}」と言うときの口。`,
       rieulHint: "ひらがなの「ら」に似た字。",
       vowelHint: (how: string) => `${how}。`,
       done: (n: number) => `もう${n}つ、口の形で思い出せる。`,
       donePair: (a: string, b: string) => `${a} と ${b} も、口の形から。`,
       doneRieul: "子音は、これで10。",
+      doneVowelsSome: (n: number) => `母音も、もう${n}つ。`,
       doneVowels: "母音も、これで6つ。",
     },
+    // Two at a time, the two said alike in Japanese side by side, each with its mouth from the front.
     vowels: {
-      title: "母音は、音で",
-      lead: "押して、聞いてみて。",
       items: [
         { ch: "ㅏ", say: "ア" },
         { ch: "ㅓ", say: "オ（口を大きく）" },
@@ -86,28 +95,42 @@ export const ja = {
         { ch: "ㅡ", say: "ウ（口を横に引いて）" },
         { ch: "ㅣ", say: "イ" },
       ],
+      pages: {
+        ai: { title: "母音は、音で。まずは「ア」と「イ」", lead: "押して、聞いてみて。口の形も見て。" },
+        o: { title: "「オ」は2つ", lead: "口を大きく開けた「オ」が ㅓ。口をまるくすぼめた「オ」が ㅗ。" },
+        u: { title: "「ウ」も2つ", lead: "口をすぼめて前に出す「ウ」が ㅜ。口を横に引いた「ウ」が ㅡ。" },
+      } as Record<string, { title: string; lead: string }>,
+      both: "続けて聞く",
     },
     join: {
       title: "組むと、1つの字",
       lead: "漢字のへんとつくりのように、子音と母音を1つの四角に。縦長の母音は右に、横長の母音は下に。",
-      read: "読んでみて。押すと、音と意味。",
-      words: ["나무", "바나나", "라디오"],
+      silent: "母音だけを読むときは、左に音のない ㅇ を置く。오 は「オ」。",
+      syls: ["나", "무", "오"],
+      notes: { "나": "右に", "무": "下に", "오": "ㅇ は音なし" } as Record<string, string>,
+    },
+    read: {
+      title: "1つずつ聞いて、つなげる",
+      lead: "四角を1つずつ読んで、つなげると語になる。",
+      word: "나무",
+      self: "こんどは自分で。読んでから押してみて。音と意味で答え合わせ。",
+      words: ["바나나", "라디오", "오이"],
     },
     end: {
-      title: "これで90秒。",
+      title: "これで16字。",
       body: [
         "子音の形は、口の形。母音は、音。ほかの字は、まだ知らなくていい。",
         "あとは浴びるだけ。最初の雨は、いまの16字だけで読める語。そのあとは1回の雨に1つずつ、新しいものが混ざります。知らない字は、押せばその場で分かります。",
-        "続きは「次の90秒」でも。同じやり方で、次の字へ進めます。",
+        "続きは「次の字」でも。同じやり方で、次の字へ進めます。",
       ],
       start: "浴びる",
     },
   },
 
   next: {
-    title: "次の90秒",
-    number: (n: number) => `次の90秒 ${"①②③"[n] ?? ""}`,
-    lead: "最初の90秒と同じやり方で、次の字へ。少し見て、すぐ何度も練習して、読む。やらなくても、雨の中で1つずつ出会えます。",
+    title: "次の字",
+    number: (n: number) => `次の字 ${"①②③"[n] ?? ""}`,
+    lead: "最初の16字と同じやり方で、次の字へ。少し見て、すぐ何度も練習して、読む。やらなくても、雨の中で1つずつ出会えます。",
     back: "浴びるへもどる",
     finish: "浴びる",
     done: "済",
@@ -278,7 +301,7 @@ export const ja = {
     owed: "打ち間違えたので、また降ってきます",
     mixed: (n: number) => `打ち間違えた回数 ${n}`,
     met: (day: string) => `${day} に出会った`,
-    first: "最初の90秒の字",
+    first: "最初の16字",
     others: "この字のほかの字",
     patchim: {
       title: "パッチム",
@@ -302,8 +325,8 @@ export const ja = {
     stats: { letters: "出会った字", words: "読んだ語", typed: "打った語", rains: "雨" },
     letters: "字ごと",
     lettersLead: "押すと、その字のこと。薄い字はまだ出会っていない字、紫の字はまた降ってきます。",
-    first: "最初の90秒で",
-    later: "そのあと、次の90秒か雨の中で（雨ではこの順に）",
+    first: "最初の16字",
+    later: "そのあと、次の字か雨の中で（雨ではこの順に）",
     days: "日ごと",
     daysEmpty: "「浴びる」で雨を浴びると、ここに日ごとに残ります。",
     dayRains: (n: number) => `雨 ${n}`,
@@ -313,7 +336,7 @@ export const ja = {
     today: "今日",
     yesterday: "きのう",
     replay: "もう一度見る",
-    lessons: "90秒",
+    lessons: "16字と、次の字",
     export: "学習の記録",
     exportLead: "これまでを一つの文章に。好きな AI に貼って、いまの様子を見てもらえます（アプリは AI を呼びません）。",
     settings: "記録と設定",

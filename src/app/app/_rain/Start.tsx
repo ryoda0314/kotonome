@@ -1,6 +1,6 @@
 "use client";
 
-// 浴びる, or before the first rain the 90 seconds (once; passing them over counts as having seen them).
+// 浴びる, or before the first rain 最初の16字 (once; passing it over counts as having seen it).
 
 import page from "@/components/page.module.css";
 import { ja } from "@/lib/i18n/ja";

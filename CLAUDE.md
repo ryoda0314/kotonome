@@ -3,14 +3,14 @@
 # ことのめ
 
 Read [CONCEPT.md](CONCEPT.md) before adding anything. A little at a time, and practised many times right after it is
-understood (CONCEPT.md 原則2): the learner is never handed a page of new letters, and nothing new is seen only once. A feature that does not fit the flow (最初に90秒 → 浴びる → 気づく →
+understood (CONCEPT.md 原則2): the learner is never handed a page of new letters, and nothing new is seen only once. A feature that does not fit the flow (最初に16字 → 浴びる → 気づく →
 打ってみる → また出会う) does not get built. No scores, no accuracy shown, no speed, no streaks, no badges, no forced
 review, no table of letters to memorize up front, no rules taught first (no 天地人, no lessons on how vowels are built or
-how sounds change), no katakana readings. Beyond the first 90 seconds every letter is met inside words and sentences and
+how sounds change), no katakana readings. Beyond the first 16 letters every letter is met inside words and sentences and
 looked up there and then. The sister apps are ことのあめ (`../polylinga`), ことのは (`../english`), ことのおと
 (`../作品,app/chinese`) and ことのね (`../作成したもの/hanjaatume`); this one borrows their look, their accounts and their way
 of keeping a record. The way of learning is the maker's own (https://note.com/ryoda_/n/n4e69c14a99cb): the film's 90
-seconds (`promo/`, 爆速ハングル), then sentences with sound, each new letter looked up when met, typed on the standard
+seconds (`film/`, 爆速ハングル), then sentences with sound, each new letter looked up when met, typed on the standard
 Korean keyboard (as on 한컴타자연습) and heard.
 
 ## Stack
@@ -31,12 +31,12 @@ Korean keyboard (as on 한컴타자연습) and heard.
 
 - `hangul.ts`: syllables into letters and back (Unicode arithmetic), and what each of the 40 letters is: the Japanese
   hand-hold (カ行, 口を大きく開けたオ), how the mouth does it, a plain note on its shape (shown only once it is met).
-  `FIRST_LETTERS`: the 90 seconds' 16 (the mouth's ㄱ ㄴ ㅇ ㅁ ㅅ, grown from them in the same places ㄷ ㅂ ㅈ ㅎ, ㄹ,
+  `FIRST_LETTERS`: 最初の16字 (the mouth's ㄱ ㄴ ㅇ ㅁ ㅅ, grown from them in the same places ㄷ ㅂ ㅈ ㅎ, ㄹ,
   and ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ); `from` on a letter is the one it
   grew from or the two it is made of (ㅁ → ㅂ, ㅗ ＋ ㅏ → ㅘ), shown beside it in 答え合わせ (`components/Grown.tsx`). Two
   ways of reading are met like letters: `PATCHIM` (받침, a consonant under the vowel) and `SAID` (발음, a word said otherwise than spelled beyond a
   closing consonant said as one of seven). `MEET_ORDER`: the order the rest come in the rains, one a rain, what opens
-  the most everyday words first. `needsOf(word)`: what a text asks beyond the 90 seconds. `clipId`: romanization + 4 hex
+  the most everyday words first. `needsOf(word)`: what a text asks beyond 最初の16字. `clipId`: romanization + 4 hex
   of FNV-1a, the same name in the browser and the scripts.
 - `dubeol.ts`: the standard keyboard, 두벌식 (KS X 5002): the layout by physical key code (KeyQ is ㅂ whatever is printed
   on it; Shift for ㅃ ㅉ ㄸ ㄲ ㅆ ㅒ ㅖ), and what the keys make, as a Korean input method: a consonant after a vowel
@@ -44,22 +44,22 @@ Korean keyboard (as on 한컴타자연습) and heard.
   (ㄹㄱ → ㄺ) and give the second away before a vowel. ⌫ takes back one key. `keysFor(text)`: the only way to type a text,
   key by key, each key with the letter it belongs to; `guide` compares the keys pressed with it (next key, how many ⌫,
   the letter that should have come where it went off). Punctuation is shown, never typed (`normalize`).
-- `record.ts`: the record. Only events are kept (times): when the 90 seconds were seen (`first`), letters and ways met
+- `record.ts`: the record. Only events are kept (times): when 最初の16字 was seen (`first`), letters and ways met
   (`met`), mixed up while typing (`mixed`) and typed right again (`cleared`), words read and typed, sentences typed,
-  rounds of 자리연습, rains. `knownSet`: the 90 seconds' letters and everything met. A letter mixed up is owed and comes
+  rounds of 자리연습, rains. `knownSet`: the first 16 letters and everything met. A letter mixed up is owed and comes
   back after `RETURN_MS` or `RETURN_RAINS`, whichever first (`isDue`); letters met in the last two rains come again
   (`freshLetters`). `mergeStates` keeps everything either copy has. `revive` accepts only this shape (v2): a record from
   before the redesign (v1, the eight steps) is left behind.
-- `rain-core.ts`: what falls in a rain. The first rain has nothing new (90 seconds' letters only, loanwords first: read,
+- `rain-core.ts`: what falls in a rain. The first rain has nothing new (the first 16 letters only, loanwords first: read,
   and the meaning is there). Each rain after it brings the next thing in `MEET_ORDER` not met yet (`nextToMeet`; a
   letter met by looking it up is passed over): up to 3 of the 6 words hold it, in its plainest words; the rest readable,
   due letters first, then letters just met, then never read. 3 to type, the new one's first. Up to 2 of ことのあめ's
   sentences with the words, the fewest letters not met first (at most `LINE_UNKNOWN_MAX`), from the rain that brings
   パッチム.
-- `lessons.ts`: 次の90秒, three lessons in the 90 seconds' way (breath: ㅋ ㅌ ㅍ ㅊ ㄲ ㄸ ㅃ ㅆ ㅉ; vowels: ㅑ … ㅞ;
+- `lessons.ts`: 次の字, three lessons in the way of 最初の16字 (breath: ㅋ ㅌ ㅍ ㅊ ㄲ ㄸ ㅃ ㅆ ㅉ; vowels: ㅑ … ㅞ;
   patchim): steps (`grow` beside what it comes from, `practice`/`words` many goes, `compare`, `show`, `join`, `read`,
-  `end`), the words of each in `ja.next`. With the 90 seconds they bring every letter once; each lesson's words are
-  readable with the 90 seconds and that lesson alone (`tests/lessons.test.mjs`). Gone through (`record.ts`
+  `end`), the words of each in `ja.next`. With 最初の16字 they bring every letter once; each lesson's words are
+  readable with 最初の16字 and that lesson alone (`tests/lessons.test.mjs`). Gone through (`record.ts`
   `seeLesson`, `lessons`), its letters are met and the rain passes them over.
 - `practice.ts`: the goes of 練習 (`rounds`: shuffled rounds, never the same twice in a row, seeded so always the same;
   `again`: a missed go once more a little later; `practiceFor`: after 気づく, the new letter twice to each of up to three
@@ -73,25 +73,31 @@ Korean keyboard (as on 한컴타자연습) and heard.
 
 ## The app
 
-- `/` intro (static). `/app` 浴びる (`_rain/Start.tsx`): the 90 seconds the first time (`_lessons/First.tsx`: three mouth
-  pictures from the side with the letter taken out of each, `components/Mouth.tsx`, then 思い出す (`_parts/Practice.tsx`:
-  hear, press the letter, every letter three rounds; a wrong press shows the mouth again and that go comes once more a
-  little later; nothing counted), two from the front and 思い出す for all five, then a stroke more in the same place two
-  pairs at a time (ㄴ → ㄷ, ㅁ → ㅂ; ㅅ → ㅈ, ㅇ → ㅎ: the plain one's mouth, the two letters, 나 then 다) each two
-  practised at once, ㄹ by its shape (like ら) and practised with ㄴ ㄷ, the six vowels to hear and 思い出す, two letters sliding into a square, three words read with only these; とばす passes it over
-  and counts as seen), then the rain (`_rain/Rain.tsx`): 浴びる (words fall; read, then press: sound, vowels lit, meaning, letters, a
+- `/` intro (static). `/app` 浴びる (`_rain/Start.tsx`): 最初の16字 the first time (`_lessons/First.tsx`: three mouth
+  pictures from the side with the letter taken out of each, `components/Mouth.tsx`, slowly (the mouth at rest, then
+  moving, the letter written stroke by stroke over it, then lifted off and said; each sentence shown as the picture
+  gets there) and もう一度見る once through; a consonant is heard with ㅏ (가), drawn faint (`FAINT`) and said to be
+  the left one; then 思い出す (`_parts/Practice.tsx`:
+  hear, press the letter, every letter three rounds; a wrong press shows the mouth again with the letter written on
+  it, and that go comes once more a little later; nothing counted), two from the front and 思い出す for all five, then
+  a stroke more in the same place two pairs at a time (ㄴ → ㄷ, ㅁ → ㅂ; ㅅ → ㅈ, ㅇ → ㅎ: the plain one's mouth, the
+  two letters, 나 then 다 said twice, もう一度見る) each two practised at once, ㄹ by its shape (like ら) and practised
+  with ㄴ ㄷ, the vowels two at a time with their mouths from the front (`VowelMouth`: ㅏ ㅣ, the two オ ㅓ ㅗ, the two
+  ウ ㅜ ㅡ) and 思い出す after the first four and after all six, letters coming together one square after another and
+  said (나 右に, 무 下に, 오 with ㅇ silent where a vowel is read alone), 나무 read one square at a time, then three words
+  read with only these; とばす passes it over and counts as seen), then the rain (`_rain/Rain.tsx`): 浴びる (words fall; read, then press: sound, vowels lit, meaning, letters, a
   letter not met dashed) → 気づく when something is new (`_rain/Notice.tsx`: the words holding it with it lit, hear, then
   答え合わせ and 聞き比べる `_parts/Compare.tsx`, then すぐ練習: the new letter among those it is told from, 10 goes, or
   for パッチム words like 산/삼/상) → 打ってみる (`components/TypeLine.tsx`, 3 words) → 文の中で
   (`_rain/Lines.tsx`, ことのあめ's clips from its public `pl-audio` bucket; a syllable holding a letter not met is dotted
   and opens it, `components/KoText.tsx`) → the new thing and the letters typed off the way are said to come back
-  (violet); at the end of a rain, the next of 次の90秒 that still has something new. `/app/first`: the 90 seconds
-  again (from 自分). `/app/next/[id]`: one of 次の90秒 (`_lessons/Next.tsx`). The lessons share their player and pages
-  (`_lessons/Lesson.tsx`, `_lessons/pages.tsx`) with the 90 seconds (`_lessons/First.tsx`).
+  (violet); at the end of a rain, the next of 次の字 that still has something new. `/app/first`: 最初の16字
+  again (from 自分). `/app/next/[id]`: one of 次の字 (`_lessons/Next.tsx`). The lessons share their player and pages
+  (`_lessons/Lesson.tsx`, `_lessons/pages.tsx`) with 最初の16字 (`_lessons/First.tsx`).
 - `/app/type` 打つ: 자리연습 by row (`/app/type/keys/[row]`, `_type/Drill.tsx`), 単語 (`_type/WordsRound.tsx`), 短文
   (`_type/LinesRound.tsx`), 打って聞く (`_type/Free.tsx`: a word's or sentence's own clip, else the device's Korean voice).
-- `/app/me` 自分: counts (own, never compared), the letters (the 90 seconds', then `MEET_ORDER`; faint until met, violet
-  when owed; looked up from here they are not met), days, the 90 seconds again, 学習の記録, `/app/me/settings` (sound,
+- `/app/me` 自分: counts (own, never compared), the letters (最初の16字, then `MEET_ORDER`; faint until met, violet
+  when owed; looked up from here they are not met), days, 最初の16字 again, 学習の記録, `/app/me/settings` (sound,
   voice, the typing guide, account, clearing the record). `/login`: ことのは's, unchanged in kind.
   ことのあめでつなぐ (`src/lib/connect.ts`): off to ことのあめ's `/connect` (log in or sign up there), back to `/login`
   with a one-time token in the fragment, spent with `verifyOtp` (`signInWithKotonoame`) only when the random state kept

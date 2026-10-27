@@ -10,16 +10,16 @@ export const KICKER = { icon: { left: CAP.left, top: 301, size: 34 }, text: { le
 
 /** 一切れ：ただの字か、色や字体を変えた字（韓国語）。`at`：その字に色が付くコマ（無ければ一文が降りたとき）。 */
 export type Part = string | { text: string; color?: string; font?: "ko"; at?: number };
-/** いまどこか：最初の90秒、雨の四つの所、また出会う、次の90秒。 */
+/** いまどこか：最初の16字、雨の四つの所、また出会う、次の字。 */
 export type Door = "first" | "rain" | "notice" | "type" | "lines" | "again" | "next";
 export const DOOR_NAME: Record<Door, string> = {
-  first: "最初の90秒",
+  first: "最初の16字",
   rain: "浴びる",
   notice: "気づく",
   type: "打ってみる",
   lines: "文の中で",
   again: "また出会う",
-  next: "次の90秒",
+  next: "次の字",
 };
 const DOOR_ICON: Record<Door, IconName> = { first: "sprout", rain: "rain", notice: "eye", type: "keys", lines: "lines", again: "rain", next: "sprout" };
 const doorColor = (door: Door) => (door === "again" ? C.again : C.accent);

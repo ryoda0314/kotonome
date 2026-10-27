@@ -1,4 +1,4 @@
-/* The 90 seconds and the next 90 seconds: pages one after another, the place shown as small marks, 次へ at the bottom. Hairlines, one accent. */
+/* 最初の16字 and 次の字: pages one after another, the place shown as small marks, 次へ at the bottom. Hairlines, one accent. */
 .pageOf { font-family: var(--font-en); font-size: 13px; color: var(--faint); letter-spacing: 0.04em; }
 .dots { display: flex; gap: 4px; margin: 0; padding: 10px 0 0; list-style: none; }
 .dots li { flex: 1; height: 3px; border-radius: 2px; background: var(--line); }
@@ -20,6 +20,16 @@
 .speakLine { display: flex; align-items: center; gap: 12px; font-size: 20px; opacity: 0; transition: opacity 0.4s ease; }
 .speakLine[data-shown] { opacity: 1; }
 
+/* A mouth page's sentences, each shown as the picture gets there (their room kept, so nothing jumps) */
+.steps { display: flex; flex-direction: column; }
+.step { margin: 0; font-size: 16px; line-height: 1.85; color: var(--ink); opacity: 0; transform: translateY(4px); transition: opacity 0.5s ease, transform 0.5s ease; }
+.step[data-shown] { opacity: 1; transform: none; }
+/* Which letter is the one met (가: the left ㄱ; ㅏ faint) */
+.leftOnly { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-2); }
+.speakLine .leftOnly { flex: 1; min-width: 0; }
+/* もう一度見る, once through */
+.replayRow { display: flex; justify-content: flex-end; min-height: 44px; }
+
 /* A stroke more in the same place: the mouth of the plain one, then the two letters */
 .growRow { display: flex; align-items: center; gap: 16px; padding: 4px 0; }
 .growPicture { flex-shrink: 0; width: 132px; }
@@ -40,23 +50,34 @@
 /* 思い出す: the hint after a miss, and the letters when every go is through (the rest is _parts/Practice) */
 .hintMouth { display: flex; align-items: center; gap: 14px; animation: settle 0.3s ease-out both; }
 .hintPicture { flex-shrink: 0; width: 120px; }
+.hintSide { display: flex; flex-direction: column; gap: 6px; }
 .hintText { margin: 0; font-size: 15px; line-height: 1.7; color: var(--ink-2); }
 .recalledRow { display: flex; flex-wrap: wrap; gap: 10px; }
 
-/* The vowels, to hear */
-.vowels { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
-.vowels > li { animation: fall 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+/* The vowels, two at a time, each with its mouth */
+.vowelPair { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.vowelPair > li { animation: fall 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.vowelPair > li + li { animation-delay: 0.12s; }
 .vowel {
-  width: 100%; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 12px 4px 10px;
+  width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 8px 12px;
   border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--paper); color: var(--ink); cursor: pointer;
 }
 .vowel[data-playing] { border-color: var(--accent); background: var(--tint); }
-.vowelSay { font-size: 13px; color: var(--ink-2); text-align: center; line-height: 1.4; }
+.vowelMouth { display: block; width: min(100%, 130px); }
+.vowelSay { font-size: 14px; color: var(--ink-2); text-align: center; line-height: 1.4; }
 
-/* Two letters into one square */
-.joins { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.join { display: block; width: 100%; padding: 0 6px; }
-.join + .join { border-left: 1px solid var(--line); }
+/* Letters into one square, one after another, a note beside each */
+.joins { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.joins > li { display: flex; align-items: center; gap: 16px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.join { display: block; flex: 0 0 auto; width: min(60%, 230px); padding: 0; border: 0; background: none; cursor: pointer; }
+.joinNote { font-size: 15px; color: var(--ink-2); opacity: 0; transition: opacity 0.4s ease; }
+.joinNote[data-shown] { opacity: 1; }
+
+/* A word read one square at a time */
+.stepRead { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 12px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.stepWord { display: block; width: min(64%, 240px); }
+.stepMeaning { min-height: 1.6em; font-size: 16px; color: var(--ink-2); opacity: 0; transition: opacity 0.4s ease; }
+.stepMeaning[data-shown] { opacity: 1; }
 
 .letters { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 0; }
 

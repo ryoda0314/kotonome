@@ -1,6 +1,6 @@
 "use client";
 
-// A lesson, page by page (the 90 seconds, and each of the next 90 seconds): the place shown as small marks, 次へ at the
+// A lesson, page by page (最初の16字, and each of 次の字): the place shown as small marks, 次へ at the
 // bottom and back; nothing has to be done before 次へ. The last page's button finishes the lesson.
 
 import { useEffect, useState, type ReactNode } from "react";

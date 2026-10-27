@@ -34,7 +34,7 @@ type Cons = { strokes: Stroke[]; add?: number[] };
 export const CONSONANTS: Record<string, Cons> = {
   "ㄱ": { strokes: [[[0.14, 0.18], [0.82, 0.18], [0.82, 0.88]]] },
   // ㄴ, ㄷ and ㅌ share their strokes exactly (and ㄱ/ㅋ, ㅅ/ㅈ/ㅊ), so the stroke that grows one from another is the only
-  // one written in (the 90 seconds: ㄴ → ㄷ).
+  // one written in (最初の16字: ㄴ → ㄷ).
   "ㄴ": { strokes: [[[0.18, 0.18], [0.18, 0.82], [0.88, 0.82]]] },
   "ㄷ": { strokes: [[[0.18, 0.18], [0.84, 0.18]], [[0.18, 0.18], [0.18, 0.82], [0.88, 0.82]]], add: [0] },
   "ㄹ": { strokes: [[[0.17, 0.14], [0.82, 0.14], [0.82, 0.48], [0.18, 0.48], [0.18, 0.84], [0.87, 0.84]]] },

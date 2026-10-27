@@ -1,4 +1,4 @@
-// 一目でわかる紹介画像（npm run card、1920×1080）：名前と一行、それに三つの所——最初の90秒（口の形の字）、浴びる（音つき
+// 一目でわかる紹介画像（npm run card、1920×1080）：名前と一行、それに三つの所——最初の16字（口の形の字）、浴びる（音つき
 // の語、知らない字はその場で）、打つ（ふつうの韓国語キーボード）。
 import { AbsoluteFill, Img, staticFile } from "remotion";
 import { Letter, Word } from "./glyph";
@@ -25,11 +25,11 @@ export function Card() {
         <Img src={staticFile("app/icon.png")} style={{ width: 120, height: 120, borderRadius: "22%" }} />
         <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
           <span style={{ fontFamily: FONT.mincho, fontWeight: 700, fontSize: 76, letterSpacing: "0.06em", lineHeight: 1.1 }}>ことのめ</span>
-          <span style={{ fontSize: 36, fontWeight: 600 }}>90秒だけ知って、あとは浴びる。</span>
+          <span style={{ fontSize: 36, fontWeight: 600 }}>16字だけ知って、あとは浴びる。</span>
         </div>
       </div>
       <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 36 }}>
-        <Point n="最初の90秒" title="子音は口の形、母音は音で" body="少し見たら、すぐ何度も思い出す。字の表は覚えない。">
+        <Point n="最初の16字" title="子音は口の形、母音は音で" body="少し見たら、すぐ何度も思い出す。字の表は覚えない。">
           <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
             <span style={{ width: 210, height: 210 }}>
               <MouthPicture ch="ㄱ" />

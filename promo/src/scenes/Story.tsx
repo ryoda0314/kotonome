@@ -1,11 +1,11 @@
 // C. アプリの画面で、ひとめぐり。左に映像の言葉、右にアプリ。
-//   最初の90秒：思い出す（音を聞いて字を押す。間違えると口の絵）。
+//   最初の16字：思い出す（音を聞いて字を押す。間違えると、その字を描いた口の絵）。
 //   浴びる：6つの語が降る。카드 を押すと音と意味と字。知らない ㅋ を押すと、その場で字のシート。
 //   気づく：ㅋ の入った 카드・코코아・키 を並べて聞く。答え合わせ（ㄱ に線が1本）。
 //   打ってみる：카드 を두벌식で。ㅋ を ㄱ と打ち間違えて ⌫、打ち直す。打ち終えると 카드 が鳴る。
 //   文の中で：ことのあめ の例文「여기 카드 되는구나.」を例文の声で。点線の 되 は、まだ出会っていない字。
 //   また出会う：雨のおわり。次の雨で ㅋ の入った別の語が紫で降る。
-//   次の90秒：ㄱ の口のまま、線をもう1本で ㅋ。
+//   次の字：ㄱ の口のまま、線をもう1本で ㅋ。
 import type { CSSProperties, ReactNode } from "react";
 import { guide, keysFor, typeKeys, textOf, composing, KEY_OF } from "../../../src/lib/dubeol.ts";
 import { lettersOf } from "../../../src/lib/hangul.ts";
@@ -37,7 +37,7 @@ const CAPS: Cap[] = [
     from: T.next.cap,
     door: "next",
     main: [["次の字も、"], ["知っている字のとなりに。"]],
-    sub: [[ko("ㄱ"), " に線をもう1本で ", ko("ㅋ", C.accent), "。"], ["最初の90秒と同じやり方の、次の90秒。"]],
+    sub: [[ko("ㄱ"), " に線をもう1本で ", ko("ㅋ", C.accent), "。"], ["最初の16字と同じやり方の、次の字。"]],
   },
 ];
 
@@ -79,7 +79,7 @@ function Page({ children, style }: { children: ReactNode; style?: CSSProperties 
   return <div style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 63, padding: "0 16px", overflow: "hidden", ...style }}>{children}</div>;
 }
 
-/** ページの印（最初の90秒と次の90秒の、点の帯）。 */
+/** ページの印（最初の16字と次の字の、点の帯）。 */
 function Dots({ n, at }: { n: number; at: number }) {
   return (
     <div style={{ display: "flex", gap: 4, padding: "10px 0 0" }}>
@@ -110,7 +110,7 @@ const pill = (s: ReactNode, on = false) => (
   </span>
 );
 
-// ---- 最初の90秒：思い出す ----------------------------------------------------------------------------------------
+// ---- 最初の16字：思い出す ----------------------------------------------------------------------------------------
 
 function FirstScreen({ frame }: { frame: number }) {
   const t = T.first;
@@ -150,8 +150,8 @@ function FirstScreen({ frame }: { frame: number }) {
   return (
     <>
       <Page>
-        <Bar title="最初の90秒" right={<>{pageOf("4 / 19")}{pill("とばす")}</>} />
-        <Dots n={19} at={3} />
+        <Bar title="最初の16字" right={<>{pageOf("4 / 23")}{pill("とばす")}</>} />
+        <Dots n={23} at={3} />
         <div style={{ display: "flex", flexDirection: "column", gap: 16, padding: "20px 0" }}>
           <p style={big}>思い出す</p>
           <p style={text}>分かったら、すぐ何度も。音を聞いて、その字を押してみて。口の形を思い出して。</p>
@@ -169,7 +169,7 @@ function FirstScreen({ frame }: { frame: number }) {
             ) : wrong.length ? (
               <div style={{ display: "flex", alignItems: "center", gap: 14, ...fall(frame, t.wrong2, 8, 9) }}>
                 <span style={{ width: 120, height: 120, flexShrink: 0 }}>
-                  <MouthPicture ch="ㅇ" />
+                  <MouthPicture ch="ㅇ" write={prog(frame, t.wrong2 + 6, 18)} />
                 </span>
                 <span style={{ fontSize: 15, lineHeight: 1.7, color: C.ink2 }}>「アー」と言うときの口。</span>
               </div>
@@ -623,7 +623,7 @@ function AgainScreen({ frame }: { frame: number }) {
               </div>
               <p style={lead}>はじめての字と打ち間違えた字は、別の語の中でまた降ってきます。</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 4, padding: "14px 16px", border: `1px solid ${C.line2}`, borderRadius: 12 }}>
-                <span style={{ fontSize: 12.5, fontWeight: 600, color: C.accent }}>次の90秒 ①</span>
+                <span style={{ fontSize: 12.5, fontWeight: 600, color: C.accent }}>次の字 ①</span>
                 <span style={{ fontSize: 17, fontWeight: 600 }}>息を強く・のどを締めて</span>
                 <span style={{ fontSize: 13.5, lineHeight: 1.7, color: C.muted }}>ㅋ ㅌ ㅍ ㅊ と ㄲ ㄸ ㅃ ㅆ ㅉ。知っている字に、線がもう1本か、同じ字がもう1つ。</span>
               </div>
@@ -639,7 +639,7 @@ function AgainScreen({ frame }: { frame: number }) {
   );
 }
 
-// ---- 次の90秒 ------------------------------------------------------------------------------------------------------
+// ---- 次の字 ------------------------------------------------------------------------------------------------------
 
 function NextScreen({ frame }: { frame: number }) {
   const t = T.next;
@@ -647,7 +647,7 @@ function NextScreen({ frame }: { frame: number }) {
     <>
       <Page>
         <Bar
-          sub="次の90秒 ①"
+          sub="次の字 ①"
           title="息を強く・のどを締めて"
           right={
             <>

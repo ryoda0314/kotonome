@@ -22,16 +22,16 @@ import {
 
 const rain = (at, more = {}) => ({ at, words: [], met: [], mixed: [], typed: [], ...more });
 
-test("what a word asks of the reader beyond the 90 seconds", () => {
+test("what a word asks of the reader beyond 最初の16字", () => {
   assert.deepEqual(needsOf({ ko: "나무" }), []);
-  assert.deepEqual(needsOf({ ko: "라디오" }), [], "the letters grown from the five are the 90 seconds' too");
+  assert.deepEqual(needsOf({ ko: "라디오" }), [], "the letters grown from the five are among 最初の16字 too");
   assert.deepEqual(needsOf({ ko: "커피" }).sort(), ["ㅋ", "ㅍ"].sort());
   assert.deepEqual(needsOf({ ko: "김" }), [PATCHIM]);
   assert.deepEqual(needsOf({ ko: "음악", say: "으막" }).sort(), [PATCHIM, SAID].sort());
   assert.ok(!needsOf({ ko: "꽃", say: "꼳" }).includes(SAID), "a closing consonant said as one of seven is パッチム's");
 });
 
-test("the 90 seconds' letters are there from the start; the rest once met", () => {
+test("the first 16 letters are there from the start; the rest once met", () => {
   const s = emptyState();
   assert.equal(knownSet(s).size, FIRST_LETTERS.length);
   assert.ok(canRead({ ko: "스시" }, knownSet(s)));
@@ -62,7 +62,7 @@ test("letters met in the last two rains come again", () => {
   s = finishRain(s, rain(100));
   s = meetLetters(s, ["ㅋ"], 150);
   s = finishRain(s, rain(200, { met: ["ㅋ"] }));
-  assert.deepEqual(freshLetters(s), ["ㅋ"], "the 90 seconds' letters are not fresh");
+  assert.deepEqual(freshLetters(s), ["ㅋ"], "the first 16 letters are not fresh");
   s = finishRain(finishRain(s, rain(300)), rain(400));
   assert.deepEqual(freshLetters(s), []);
 });

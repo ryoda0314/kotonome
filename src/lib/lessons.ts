@@ -1,4 +1,4 @@
-// 次の90秒: the 90 seconds' way, taken further (CONCEPT.md: 入口). Three short lessons, each a little at a time and
+// 次の字: the way of 最初の16字, taken further (CONCEPT.md: 入口). Three short lessons, each a little at a time and
 // practised many times right after each part (原則2), ending on words read with only what is known: the letters that
 // breathe out hard or hold the throat tight (ㅋ ㅌ ㅍ ㅊ, ㄲ ㄸ ㅃ ㅆ ㅉ), the vowels that grow or join (ㅑ … ㅢ), and the
 // letter under the vowel (パッチム). Each new letter is shown beside the one it grew from (hangul.ts `from`). Taking a

@@ -1,10 +1,11 @@
 "use client";
 
-// The inside of the mouth, for the 90 seconds (the same drawing as the promotional film, promo/src/components/
+// The inside of the mouth, for 最初の16字 (the same drawing as the promotional film, promo/src/components/
 // Diagrams.jsx): a side view cut through the head for ㄱ ㄴ ㅇ, the face from the front for ㅁ ㅅ. Flat colours, one
 // line weight, no shading. The tongue is a polygon with the same number of points in every pose, so it moves from
 // resting to カ行 or ナ行 point by point. The letter is first written over the part that makes it (the tongue's
-// shape, the closed lips, the pointed tooth, the throat), then lifts off the drawing as the letter itself.
+// shape, the closed lips, the pointed tooth, the throat), then lifts off the drawing as the letter itself. The six basic
+// vowels have their mouths from the front too (VowelMouth), as they are said.
 
 import { useEffect, useState } from "react";
 import { CONSONANTS, mapBox, toPath, type Box, type Pt, type Stroke } from "@/lib/glyph";
@@ -95,10 +96,10 @@ function SideView({ pose, t }: { pose: Pose; t: number }) {
   );
 }
 
-function FrontView({ mouth }: { mouth: "closed" | "teeth" }) {
-  const teeth = [214, 256, 300, 344, 386].map((x) => `M${x - 23} 468 L${x} ${x === 300 ? 372 : 414} L${x + 23} 468 Z`);
+/** The face from the front, without its mouth. */
+function Face() {
   return (
-    <g>
+    <>
       <rect x={-40} y={-20} width={700} height={720} className={styles.air} />
       <ellipse cx={300} cy={318} rx={226} ry={238} className={styles.skin} />
       <path
@@ -107,6 +108,15 @@ function FrontView({ mouth }: { mouth: "closed" | "teeth" }) {
       />
       <ellipse cx={212} cy={262} rx={16} ry={24} className={styles.eye} />
       <ellipse cx={388} cy={262} rx={16} ry={24} className={styles.eye} />
+    </>
+  );
+}
+
+function FrontView({ mouth }: { mouth: "closed" | "teeth" }) {
+  const teeth = [214, 256, 300, 344, 386].map((x) => `M${x - 23} 468 L${x} ${x === 300 ? 372 : 414} L${x + 23} 468 Z`);
+  return (
+    <g>
+      <Face />
       {mouth === "closed" ? (
         <g>
           <rect x={214} y={352} width={172} height={100} rx={34} className={styles.lips} />
@@ -125,14 +135,89 @@ function FrontView({ mouth }: { mouth: "closed" | "teeth" }) {
 }
 
 /**
+ * The six basic vowels' mouths from the front, as they are said (heard, never built): the lips' outline and the
+ * opening, as half-widths and half-heights. Two said alike in Japanese are told apart by the mouth: ㅓ wide open and
+ * ㅗ rounded (both オ), ㅜ rounded and ㅡ drawn sideways (both ウ).
+ */
+const VOWEL_MOUTH: Record<string, { lips: [number, number]; open: [number, number]; teeth?: boolean; tongue?: boolean }> = {
+  "ㅏ": { lips: [76, 72], open: [60, 56], teeth: true, tongue: true },
+  "ㅓ": { lips: [72, 54], open: [56, 38], teeth: true, tongue: true },
+  "ㅗ": { lips: [44, 48], open: [22, 26] },
+  "ㅜ": { lips: [32, 34], open: [11, 13] },
+  "ㅡ": { lips: [90, 20], open: [74, 6], teeth: true },
+  "ㅣ": { lips: [88, 32], open: [72, 16], teeth: true },
+};
+export const VOWEL_MOUTHS: ReadonlySet<string> = new Set(Object.keys(VOWEL_MOUTH));
+/** Closer than the consonants' view: the lower face, so the mouth is large enough to tell the two オ and two ウ apart. */
+const VOWEL_VIEW = { x: 300, y: 372, r: 200 };
+
+/** A basic vowel's mouth, from the front. */
+export function VowelMouth({ ch, label }: { ch: string; label: string }) {
+  const m = VOWEL_MOUTH[ch];
+  if (!m) return null;
+  const [cx, cy] = [300, 408];
+  const id = `vowel-${ch}`;
+  const V = VOWEL_VIEW;
+  const vb = `${V.x - V.r} ${V.y - V.r} ${V.r * 2} ${V.r * 2}`;
+  return (
+    <svg viewBox={vb} className={styles.svg} role="img" aria-label={label}>
+      <defs>
+        <clipPath id={`lens-${id}`}>
+          <circle cx={V.x} cy={V.y} r={V.r - 3} />
+        </clipPath>
+        <clipPath id={`open-${id}`}>
+          <ellipse cx={cx} cy={cy} rx={m.open[0]} ry={m.open[1]} />
+        </clipPath>
+      </defs>
+      <circle cx={V.x} cy={V.y} r={V.r - 3} className={styles.air} />
+      <g clipPath={`url(#lens-${id})`}>
+        <Face />
+        <ellipse cx={cx} cy={cy} rx={m.lips[0]} ry={m.lips[1]} className={styles.lips} />
+        <ellipse cx={cx} cy={cy} rx={m.open[0]} ry={m.open[1]} className={styles.cavity} />
+        <g clipPath={`url(#open-${id})`}>
+          {m.tongue ? <ellipse cx={cx} cy={cy + m.open[1] * 0.75} rx={m.open[0] * 0.75} ry={m.open[1] * 0.45} className={styles.tongue} /> : null}
+          {m.teeth ? <rect x={cx - m.open[0]} y={cy - m.open[1]} width={m.open[0] * 2} height={Math.max(5, m.open[1] * 0.5)} className={styles.tooth} /> : null}
+        </g>
+      </g>
+      <circle cx={V.x} cy={V.y} r={V.r - 3} className={styles.rimThin} />
+    </svg>
+  );
+}
+
+/**
+ * How long each part takes (ms). Quick where the picture is a reminder (a hint, beside a grown letter); slow where the
+ * letter is first met, so each part can be followed: the mouth at rest, then moving, the letter stroke by stroke.
+ */
+const PACE = {
+  quick: { still: 300, move: 700, stroke: 500, gap: 220, lift: 520 },
+  slow: { still: 1000, move: 1500, stroke: 900, gap: 900, lift: 1000 },
+};
+
+/** Whether the tongue moves for this letter (the others are a still picture). */
+export const moves = (ch: MouthLetter) => ch in CONTACT;
+
+/**
+ * The slow picture's parts (ms): when the tongue starts moving and when it is in place, from the start (0 for a still
+ * picture), and how long the letter takes to write and to lift off.
+ */
+export function slowTimes(ch: MouthLetter) {
+  const p = PACE.slow;
+  const still = moves(ch) ? p.still : 0;
+  const placed = moves(ch) ? p.still + p.move : 0;
+  const written = (CONSONANTS[ch].strokes.length - 1) * p.gap + p.stroke;
+  return { still, placed, written, lift: p.lift };
+}
+
+/**
  * One consonant's picture. `stage`: 0 the mouth as it says the row of kana (the tongue moves into place), 1 the
  * letter written over the part that makes it, 2 the letter lifted off the drawing.
  */
-export function MouthPicture({ ch, stage, label }: { ch: MouthLetter; stage: 0 | 1 | 2; label: string }) {
+export function MouthPicture({ ch, stage, label, slow = false }: { ch: MouthLetter; stage: 0 | 1 | 2; label: string; slow?: boolean }) {
   const side = SIDE_VIEW.has(ch);
   const pose: Pose = ch === "ㄱ" ? "k" : ch === "ㄴ" ? "n" : "rest";
-  const tPose = useRamp(true, 700, 300);
-  const tLift = useRamp(stage >= 2, 520);
+  const pace = slow ? PACE.slow : PACE.quick;
+  const tPose = useRamp(true, pace.move, pace.still);
+  const tLift = useRamp(stage >= 2, pace.lift);
   const over: Stroke[] = mapBox(CONSONANTS[ch].strokes, OVER[ch]);
   const big: Stroke[] = mapBox(CONSONANTS[ch].strokes, LETTER_BOX);
   const k = ease(tLift);
@@ -140,7 +225,13 @@ export function MouthPicture({ ch, stage, label }: { ch: MouthLetter; stage: 0 |
   const contact = CONTACT[ch];
   const vb = `${VIEW.x - VIEW.r} ${VIEW.y - VIEW.r} ${VIEW.r * 2} ${VIEW.r * 2}`;
   return (
-    <svg viewBox={vb} className={styles.svg} role="img" aria-label={label}>
+    <svg
+      viewBox={vb}
+      className={styles.svg}
+      role="img"
+      aria-label={label}
+      style={{ "--stroke": `${pace.stroke}ms`, "--gap": `${pace.gap}ms` } as React.CSSProperties}
+    >
       <defs>
         <clipPath id={`lens-${ch}`}>
           <circle cx={VIEW.x} cy={VIEW.y} r={VIEW.r - 4} />

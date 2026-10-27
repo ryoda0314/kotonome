@@ -13,7 +13,7 @@ test("the record as one text: counts, letters in the order met, letters typed of
   s = finishRain(s, { at: at(4), words: ["아이", "김"], met: [PATCHIM], mixed: ["ㅓ"], typed: ["거기"] });
   const md = exportMarkdown(s, "PROMPT");
   assert.ok(md.startsWith("PROMPT\n"));
-  assert.match(md, /90秒: 2026-10-22 に見た/);
+  assert.match(md, /最初の16字: 2026-10-22 に見た/);
   assert.match(md, /出会った字: 16 \/ 40（パッチムも）/);
   assert.match(md, /- パッチム: 2026-10-22/);
   assert.match(md, /ㅓ（オ）: 1 回、まだまた降ってくる/);

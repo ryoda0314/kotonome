@@ -1,18 +1,20 @@
 "use client";
 
-// The kinds of page the 90 seconds and the next 90 seconds are made of: a letter out of the mouth, letters grown from
-// known ones (beside them, their sounds one after the other), 思い出す (many goes, `_parts/Practice.tsx`), letters
-// coming together in one square, words to read, to hear side by side, and the end. Nothing is counted.
+// The kinds of page 最初の16字 and 次の字 are made of: a letter out of the mouth, letters grown from
+// known ones (beside them, their sounds one after the other), vowels two at a time with their mouths, 思い出す (many
+// goes, `_parts/Practice.tsx`), letters coming together in one square, a word read one square at a time, words to read,
+// to hear side by side, and the end. Nothing is counted. What moves goes slowly enough to follow, a part at a time, and
+// once through can be watched again (a learner on their own, with no one beside them to say it again).
 
-import { Fragment, useEffect, useState, type ReactNode } from "react";
-import { InkSvg, Letter, useMorph, Word, type Ink } from "@/components/Glyph";
+import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
+import { FAINT, GAP, InkSvg, Letter, syllableInk, useMorph, Word, type Ink } from "@/components/Glyph";
 import { Grown } from "@/components/Grown";
 import { Icon } from "@/components/Icon";
-import { MouthPicture, type MouthLetter } from "@/components/Mouth";
+import { MouthPicture, slowTimes, VOWEL_MOUTHS, VowelMouth, type MouthLetter } from "@/components/Mouth";
 import { Speak } from "@/components/Speak";
-import { say, usePlaying } from "@/components/sound";
+import { say, stop, usePlaying } from "@/components/sound";
 import { WORD } from "@/content/words";
-import { CONSONANTS, letterStrokes, mapBox, syllableParts } from "@/lib/glyph";
+import { CONSONANTS, letterStrokes, mapBox, syllableParts, syllablesOf } from "@/lib/glyph";
 import { LETTER, soundOf } from "@/lib/hangul";
 import { ja } from "@/lib/i18n/ja";
 import type { PracticeItem } from "@/lib/practice";
@@ -24,6 +26,8 @@ import styles from "./lessons.module.css";
 
 const t = ja.first;
 const MOUTHS = new Set(["ㄱ", "ㄴ", "ㅇ", "ㅁ", "ㅅ"]);
+/** In 最初の16字 a consonant is heard with ㅏ (가) before any vowel is met: ㅏ is drawn faint. */
+export const VOWEL_LATER: ReadonlySet<string> = new Set(["ㅏ"]);
 
 /** The mouth a consonant is made in: one of the five, following what it grew from (ㅌ → ㄷ → ㄴ). */
 export function mouthOf(ch: string): MouthLetter | undefined {
@@ -35,48 +39,148 @@ export function mouthOf(ch: string): MouthLetter | undefined {
 /** What a letter's sounds are, from what it comes from to it: 나 → 다, 오 아 → 와. */
 const chainOf = (ch: string) => [...(LETTER.get(ch)?.from ?? []).map(soundOf), soundOf(ch)];
 
-/** One consonant out of the mouth: the mouth says its row of kana, the letter is written over it, then lifts off. */
+/** もう一度見る, once a page's motion is through; its room kept, so nothing jumps. */
+function Replay({ shown, onReplay }: { shown: boolean; onReplay: () => void }) {
+  return (
+    <div className={styles.replayRow}>
+      {shown ? (
+        <button
+          type="button"
+          className="btn-quiet"
+          onClick={() => {
+            stop();
+            onReplay();
+          }}
+        >
+          <Icon name="replay" size={18} />
+          {t.replay}
+        </button>
+      ) : null}
+    </div>
+  );
+}
+
+/** Time to say the row of kana oneself once the tongue is in place, and to see the letter on the drawing (ms). */
+const SAY_HOLD = 1800;
+const LOOK = 1500;
+
+/**
+ * One consonant out of the mouth, slowly and one part at a time, each sentence shown as the picture gets there: the
+ * mouth at rest, then saying its row of kana (what it does), the letter written over the part that makes it (that is
+ * the letter), then lifted off and said, heard with ㅏ (가) drawn faint and said to be the left one. Once through, it
+ * can be watched again.
+ */
 export function MouthPage({ ch }: { ch: MouthLetter }) {
+  const m = t.mouth[ch];
+  const [run, setRun] = useState(0);
   const [stage, setStage] = useState<0 | 1 | 2>(0);
+  const [shown, setShown] = useState(0);
+  const [through, setThrough] = useState(false);
   useEffect(() => {
-    const a = window.setTimeout(() => setStage(1), 1400);
-    const b = window.setTimeout(() => {
-      setStage(2);
-      void say(soundOf(ch), { key: `first:${ch}` });
-    }, 2600);
-    return () => {
-      window.clearTimeout(a);
-      window.clearTimeout(b);
-    };
-  }, [ch]);
+    const at = slowTimes(ch);
+    const start = at.placed ? at.still : 700;
+    const write = at.placed ? at.placed + SAY_HOLD : start + 2000;
+    const lift = write + at.written + LOOK;
+    const timers = [
+      window.setTimeout(() => setShown(1), start),
+      window.setTimeout(() => {
+        setStage(1);
+        setShown(2);
+      }, write),
+      window.setTimeout(() => {
+        setStage(2);
+        setShown(3);
+        void say(soundOf(ch), { key: `first:${ch}` });
+      }, lift),
+      window.setTimeout(() => setThrough(true), lift + at.lift + 300),
+    ];
+    return () => timers.forEach((x) => window.clearTimeout(x));
+  }, [ch, run]);
+  const syl = soundOf(ch);
   return (
     <>
-      <p className={styles.big}>{t.mouth[ch].say}</p>
+      <p className={styles.big}>{m.say}</p>
       <div className={styles.picture}>
-        <MouthPicture ch={ch} stage={stage} label={t.mouth[ch].how} />
+        <MouthPicture key={run} ch={ch} stage={stage} label={m.how} slow />
       </div>
-      <p className={styles.text}>{t.mouth[ch].how}</p>
+      <div className={styles.steps}>
+        {m.steps.map((s, i) => (
+          <p key={s} className={styles.step} data-shown={i < shown ? "" : undefined}>
+            {s}
+          </p>
+        ))}
+      </div>
       <div className={styles.speakLine} data-shown={stage === 2 ? "" : undefined}>
-        <Speak text={soundOf(ch)} label={`${soundOf(ch)} ${ja.common.hear}`} id={`first:${ch}`} />
-        <span className="t-ko">{soundOf(ch)}</span>
+        <Speak text={syl} label={`${syl} ${ja.common.hear}`} id={`first:${ch}`} />
+        <Word text={syl} height={40} faint={VOWEL_LATER} />
+        <span className={styles.leftOnly}>{t.leftOnly(ch)}</span>
       </div>
+      <Replay
+        shown={through}
+        onReplay={() => {
+          setStage(0);
+          setShown(0);
+          setThrough(false);
+          setRun((r) => r + 1);
+        }}
+      />
     </>
   );
 }
 
+/** The sounds of a grown letter one after another (나 → 다), drawn, `faint` letters faint. */
+function Chain({ ch, faint }: { ch: string; faint?: ReadonlySet<string> }) {
+  return (
+    <div className={styles.pairSounds}>
+      {chainOf(ch).map((s, i, all) => (
+        <Fragment key={`${s}:${i}`}>
+          <Speak text={s} label={`${s} ${ja.common.hear}`} id={`grow:${s}`} size="sm" />
+          <Word text={s} height={30} faint={faint} />
+          {i === all.length - 2 ? <Icon name="arrow" size={16} /> : i < all.length - 1 ? <span className={styles.plus}>＋</span> : null}
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
+/** Each sound of a grown letter's chain, and the pause before it is said through again (ms). */
+const CHAIN_STEP = 1400;
+const CHAIN_PAUSE = 1200;
+
 /**
  * Letters grown from known ones: for a consonant the mouth it is made in; each letter beside what it comes from (the
- * strokes that grew written in, lit) and its sounds one after the other (나 → 다; 오 아 → 와), the first said at once.
+ * strokes that grew written in, lit) and its sounds one after the other, said through twice (나 → 다, 나 → 다). Once
+ * through, it can be watched again. `faint`: letters not met yet, drawn faint in the sounds, `note` saying which one to
+ * look at (最初の16字).
  */
-export function GrowPage({ chs, kicker, say: line, how }: { chs: string[]; kicker: string; say: string; how: string }) {
+export function GrowPage({
+  chs,
+  kicker,
+  say: line,
+  how,
+  faint,
+  note,
+}: {
+  chs: string[];
+  kicker: string;
+  say: string;
+  how: string;
+  faint?: ReadonlySet<string>;
+  note?: string;
+}) {
   const mouth = mouthOf(chs[0]);
+  const [run, setRun] = useState(0);
+  const [through, setThrough] = useState(false);
   const first = chainOf(chs[0]);
   useEffect(() => {
-    const timers = first.map((s, i) => window.setTimeout(() => void say(s, { key: `grow:${s}` }), 900 + i * 1300));
+    const round = first.length * CHAIN_STEP + CHAIN_PAUSE;
+    const times = [0, 1].flatMap((r) => first.map((s, i) => ({ s, at: 900 + r * round + i * CHAIN_STEP })));
+    const timers = times.map(({ s, at }) => window.setTimeout(() => void say(s, { key: `grow:${s}` }), at));
+    timers.push(window.setTimeout(() => setThrough(true), times[times.length - 1].at + CHAIN_STEP));
     return () => timers.forEach((x) => window.clearTimeout(x));
-    // Said once as the page comes up.
+    // Said as the page comes up, and again on もう一度見る.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [chs.join("")]);
+  }, [chs.join(""), run]);
   return (
     <>
       <p className={styles.kicker}>{kicker}</p>
@@ -87,7 +191,7 @@ export function GrowPage({ chs, kicker, say: line, how }: { chs: string[]; kicke
             <MouthPicture ch={mouth} stage={0} label={t.mouth[mouth].how} />
           </span>
         ) : null}
-        <div className={styles.grownList}>
+        <div className={styles.grownList} key={run}>
           {chs.map((ch) => (
             <Grown key={ch} ch={ch} size={chs.length > 1 ? 48 : 60} />
           ))}
@@ -95,16 +199,16 @@ export function GrowPage({ chs, kicker, say: line, how }: { chs: string[]; kicke
       </div>
       <p className={styles.text}>{how}</p>
       {chs.map((ch) => (
-        <div key={ch} className={styles.pairSounds}>
-          {chainOf(ch).map((s, i, all) => (
-            <Fragment key={`${s}:${i}`}>
-              <Speak text={s} label={`${s} ${ja.common.hear}`} id={`grow:${s}`} size="sm" />
-              <span className="t-ko">{s}</span>
-              {i === all.length - 2 ? <Icon name="arrow" size={16} /> : i < all.length - 1 ? <span className={styles.plus}>＋</span> : null}
-            </Fragment>
-          ))}
-        </div>
+        <Chain key={ch} ch={ch} faint={faint} />
       ))}
+      {note ? <p className={styles.leftOnly}>{note}</p> : null}
+      <Replay
+        shown={through}
+        onReplay={() => {
+          setThrough(false);
+          setRun((r) => r + 1);
+        }}
+      />
     </>
   );
 }
@@ -123,15 +227,19 @@ export function RieulPage() {
         <span className={styles.ra}>ら</span>
       </div>
       <p className={styles.text}>{t.grow.rieul}</p>
-      <div className={styles.pairSounds}>
+      <div className={styles.speakLine} data-shown="">
         <Speak text="라" label={`라 ${ja.common.hear}`} id="grow:ㄹ" />
-        <span className="t-ko">라</span>
+        <Word text="라" height={40} faint={VOWEL_LATER} />
+        <span className={styles.leftOnly}>{t.leftOnly("ㄹ")}</span>
       </div>
     </>
   );
 }
 
-/** What helps find a letter again after a miss: the mouth it is made in, or for a vowel how it is said. */
+/**
+ * What helps find a letter again after a miss: the mouth it is made in (one of the five written over it, so the mouth
+ * leads back to the letter), what it grew from, or for a vowel its mouth and how it is said.
+ */
 function letterHint(ch: string): ReactNode {
   const l = LETTER.get(ch);
   if (!l) return null;
@@ -143,12 +251,17 @@ function letterHint(ch: string): ReactNode {
     <div className={styles.hintMouth}>
       {mouth ? (
         <span className={styles.hintPicture}>
-          <MouthPicture ch={mouth} stage={0} label={t.mouth[mouth].how} />
+          <MouthPicture ch={mouth} stage={mouth === ch ? 1 : 0} label={t.mouth[mouth].how} />
         </span>
-      ) : l.from ? (
-        <Grown ch={ch} size={40} />
+      ) : VOWEL_MOUTHS.has(ch) ? (
+        <span className={styles.hintPicture}>
+          <VowelMouth ch={ch} label={text} />
+        </span>
       ) : null}
-      <span className={styles.hintText}>{text}</span>
+      <span className={styles.hintSide}>
+        {l.from ? <Grown ch={ch} size={36} /> : null}
+        <span className={styles.hintText}>{text}</span>
+      </span>
     </div>
   );
 }
@@ -201,47 +314,71 @@ export function Recall({
   );
 }
 
-/** The six basic vowels, to hear. */
-export function VowelsPage() {
+/**
+ * Two basic vowels side by side, each with its mouth from the front (the two said alike in Japanese told apart by the
+ * mouth): said one after the other as the page comes up, each again on a press, both again with 続けて聞く.
+ */
+export function VowelPairPage({ chs, title, lead }: { chs: string[]; title: string; lead: string }) {
   const playing = usePlaying();
+  const [run, setRun] = useState(0);
+  useEffect(() => {
+    const timers = chs.map((ch, i) => window.setTimeout(() => void say(soundOf(ch), { key: `first:${ch}` }), 900 + i * 1500));
+    return () => timers.forEach((x) => window.clearTimeout(x));
+    // Said as the page comes up, and again on 続けて聞く.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chs.join(""), run]);
   return (
     <>
-      <p className={styles.big}>{t.vowels.title}</p>
-      <p className={styles.text}>{t.vowels.lead}</p>
-      <ul className={styles.vowels}>
-        {t.vowels.items.map((v, i) => (
-          <li key={v.ch} style={{ animationDelay: `${i * 0.12}s` }}>
-            <button
-              type="button"
-              className={styles.vowel}
-              data-playing={playing === `first:${v.ch}` ? "" : undefined}
-              onClick={() => void say(soundOf(v.ch), { key: `first:${v.ch}` })}
-              aria-label={`${v.ch} ${v.say}`}
-            >
-              <Letter ch={v.ch} size={48} />
-              <span className={styles.vowelSay}>{v.say}</span>
-            </button>
-          </li>
-        ))}
+      <p className={styles.big}>{title}</p>
+      <p className={styles.text}>{lead}</p>
+      <ul className={styles.vowelPair}>
+        {chs.map((ch) => {
+          const v = t.vowels.items.find((x) => x.ch === ch);
+          return (
+            <li key={ch}>
+              <button
+                type="button"
+                className={styles.vowel}
+                data-playing={playing === `first:${ch}` ? "" : undefined}
+                onClick={() => void say(soundOf(ch), { key: `first:${ch}` })}
+                aria-label={`${ch} ${v?.say ?? ""}`}
+              >
+                <span className={styles.vowelMouth}>
+                  <VowelMouth ch={ch} label={v?.say ?? ch} />
+                </span>
+                <Letter ch={ch} size={56} />
+                <span className={styles.vowelSay}>{v?.say}</span>
+              </button>
+            </li>
+          );
+        })}
       </ul>
+      <div className={styles.replayRow}>
+        <button
+          type="button"
+          className="btn-quiet"
+          onClick={() => {
+            stop();
+            setRun((r) => r + 1);
+          }}
+        >
+          <Icon name="speaker" size={18} />
+          {t.vowels.both}
+        </button>
+      </div>
     </>
   );
 }
 
 const SIZE = 100;
-const GAP = 40;
+const APART = 40;
 
-/** A syllable's letters apart in a row, then in one square, and apart again: the parts slide, point for point. */
-function Join({ syl }: { syl: string }) {
-  const [together, setTogether] = useState(false);
-  useEffect(() => {
-    const id = window.setInterval(() => setTogether((x) => !x), 1800);
-    return () => window.clearInterval(id);
-  }, []);
+/** A syllable's letters apart in a row or in one square: the parts slide, point for point. Pressed, it says itself. */
+function Join({ syl, together, onPress }: { syl: string; together: boolean; onPress: () => void }) {
   const p = syllableParts(syl);
-  const width = p.length * SIZE + (p.length - 1) * GAP;
+  const width = p.length * SIZE + (p.length - 1) * APART;
   const items: Ink[] = p.flatMap((part, k) => {
-    const box: [number, number, number, number] = [k * (SIZE + GAP), 0, k * (SIZE + GAP) + SIZE, SIZE];
+    const box: [number, number, number, number] = [k * (SIZE + APART), 0, k * (SIZE + APART) + SIZE, SIZE];
     const apart = mapBox(part.role === "jung" ? letterStrokes(part.ch) : CONSONANTS[part.ch].strokes, box);
     const joined = mapBox(part.strokes, [(width - SIZE) / 2, 0, (width + SIZE) / 2, SIZE]);
     return (together ? joined : apart).map((pts, i) => ({
@@ -253,22 +390,139 @@ function Join({ syl }: { syl: string }) {
   });
   const drawn = useMorph(items);
   return (
-    <span className={styles.join}>
+    <button type="button" className={styles.join} onClick={onPress} aria-label={`${syl} ${ja.common.hear}`}>
       <InkSvg items={drawn} width={width} height={SIZE} draw={false} label={syl} />
-    </span>
+    </button>
   );
 }
 
-export function JoinPage({ syls, title, lead }: { syls: string[]; title: string; lead: string }) {
+/** Between one square coming together and the next, and how long a pressed one stays apart (ms). */
+const JOIN_STEP = 2200;
+const PULL_MS = 700;
+
+/**
+ * Letters coming together into squares, one after another, each said as it comes together, `notes` beside each (右に、
+ * 下に、ㅇ は音なし) and `after` once all are together. Pressed, a square comes apart and together again and is said.
+ */
+export function JoinPage({
+  syls,
+  title,
+  lead,
+  notes,
+  after,
+}: {
+  syls: string[];
+  title: string;
+  lead: string;
+  notes?: Record<string, string>;
+  after?: string;
+}) {
+  const [run, setRun] = useState(0);
+  const [joined, setJoined] = useState(0);
+  const [pulled, setPulled] = useState<string | null>(null);
+  const pull = useRef<number | null>(null);
+  useEffect(() => {
+    const timers = syls.map((s, i) =>
+      window.setTimeout(() => {
+        setJoined(i + 1);
+        void say(s, { key: `join:${s}` });
+      }, 1200 + i * JOIN_STEP),
+    );
+    return () => timers.forEach((x) => window.clearTimeout(x));
+    // Comes together as the page comes up, and again on もう一度見る.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [syls.join(""), run]);
+  useEffect(
+    () => () => {
+      if (pull.current !== null) window.clearTimeout(pull.current);
+    },
+    [],
+  );
+  const press = (s: string) => {
+    if (pull.current !== null) window.clearTimeout(pull.current);
+    setPulled(s);
+    pull.current = window.setTimeout(() => {
+      setPulled(null);
+      void say(s, { key: `join:${s}` });
+    }, PULL_MS);
+  };
+  const all = joined >= syls.length;
   return (
     <>
       <p className={styles.big}>{title}</p>
       <p className={styles.text}>{lead}</p>
-      <div className={styles.joins} style={{ gridTemplateColumns: `repeat(${syls.length}, minmax(0, 1fr))` }}>
-        {syls.map((s) => (
-          <Join key={s} syl={s} />
+      <ul className={styles.joins}>
+        {syls.map((s, i) => (
+          <li key={s}>
+            <Join syl={s} together={i < joined && pulled !== s} onPress={() => press(s)} />
+            {notes?.[s] ? (
+              <span className={styles.joinNote} data-shown={i < joined ? "" : undefined}>
+                {notes[s]}
+              </span>
+            ) : null}
+          </li>
         ))}
+      </ul>
+      {after ? (
+        <p className={styles.step} data-shown={all ? "" : undefined}>
+          {after}
+        </p>
+      ) : null}
+      <Replay
+        shown={all}
+        onReplay={() => {
+          setJoined(0);
+          setRun((r) => r + 1);
+        }}
+      />
+    </>
+  );
+}
+
+/** Between one square being read and the next (ms). */
+const READ_STEP = 1600;
+
+/**
+ * A word read one square at a time: each square lit (the rest faint) and said, then the whole word said and its
+ * meaning shown. Once through, it can be heard again.
+ */
+export function StepReadPage({ word, title, lead }: { word: string; title: string; lead: string }) {
+  const syls = syllablesOf(word);
+  const [run, setRun] = useState(0);
+  const [at, setAt] = useState(-1);
+  useEffect(() => {
+    const timers = [...syls, word].map((s, i) =>
+      window.setTimeout(() => {
+        setAt(i);
+        void say(s, { key: `step:${s}` });
+      }, 900 + i * READ_STEP),
+    );
+    return () => timers.forEach((x) => window.clearTimeout(x));
+    // Read as the page comes up, and again on もう一度見る.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [word, run]);
+  const whole = at >= syls.length;
+  const items = syls.flatMap((s, i) => syllableInk(s, { at: i * (SIZE + GAP), prefix: `${i}`, color: whole || i === at ? undefined : FAINT }));
+  const width = syls.length * SIZE + (syls.length - 1) * GAP;
+  return (
+    <>
+      <p className={styles.big}>{title}</p>
+      <p className={styles.text}>{lead}</p>
+      <div className={styles.stepRead}>
+        <span className={styles.stepWord}>
+          <InkSvg items={items} width={width} height={SIZE} draw={false} label={word} />
+        </span>
+        <span className={styles.stepMeaning} data-shown={whole ? "" : undefined}>
+          {WORD.get(word)?.ja}
+        </span>
       </div>
+      <Replay
+        shown={whole}
+        onReplay={() => {
+          setAt(-1);
+          setRun((r) => r + 1);
+        }}
+      />
     </>
   );
 }

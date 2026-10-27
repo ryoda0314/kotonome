@@ -12,6 +12,8 @@
 .lips { fill: #e86a7a; stroke: var(--tongue-line); stroke-width: 4; }
 .lipLine { fill: none; stroke: var(--tongue-line); stroke-width: 5; stroke-linecap: round; }
 .rim { fill: none; stroke: var(--ink); stroke-width: 6; }
+/* The vowels' closer view: the same rim on screen */
+.rimThin { fill: none; stroke: var(--ink); stroke-width: 4; }
 
 /* Where the tongue touches: a spot and a ring that widens, as the rain's ripples do. */
 .spot { fill: var(--accent); }
@@ -23,7 +25,7 @@
 
 /* The letter: written over the drawing in the accent, then standing on its own in ink. */
 .letter path { fill: none; stroke: var(--accent); stroke-linecap: round; stroke-linejoin: round; }
-.write { stroke-dasharray: 1 1; animation: write 0.5s ease-out both; animation-delay: calc(var(--i, 0) * 0.22s); }
+.write { stroke-dasharray: 1 1; animation: write var(--stroke, 0.5s) ease-in-out both; animation-delay: calc(var(--i, 0) * var(--gap, 0.22s)); }
 @keyframes write {
   0% { stroke-dashoffset: 1; opacity: 0; }
   1% { opacity: 1; }

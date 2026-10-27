@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { ja } from "@/lib/i18n/ja";
 
-// A home-screen install opens straight into the rain (the 90 seconds the first time). Icons: public/icons, from
+// A home-screen install opens straight into the rain (最初の16字 the first time). Icons: public/icons, from
 // design/icon-source.png by design/make-icons.py.
 export default function manifest(): MetadataRoute.Manifest {
   return {

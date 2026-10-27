@@ -1,6 +1,6 @@
 "use client";
 
-// The 90 seconds again, from 自分: at the end, back to the rain.
+// 最初の16字 again, from 自分: at the end, back to the rain.
 
 import { useRouter } from "next/navigation";
 import { seeFirst } from "@/lib/record";

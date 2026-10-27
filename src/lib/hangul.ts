@@ -1,5 +1,5 @@
 // Hangul: syllables into letters and back, what each letter sounds like, and the order the letters are met in
-// (CONCEPT.md: 最初に90秒 → 出会いながら). Pure; imported by the app, the tests and the scripts (so its own imports
+// (CONCEPT.md: 最初に16字 → 出会いながら). Pure; imported by the app, the tests and the scripts (so its own imports
 // carry .ts).
 
 export const CHO = [..."ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"];
@@ -94,7 +94,7 @@ export const FINAL_SOUND: Record<string, string> = {
 // ---------------------------------------------------------------- what is met, and in what order
 
 /**
- * The 90 seconds (CONCEPT.md: 最初の90秒): the five consonants that are pictures of the mouth, the four grown from them
+ * 最初の16字 (CONCEPT.md: 入口): the five consonants that are pictures of the mouth, the four grown from them
  * in the same place (ㄷ ㅂ ㅈ ㅎ, one pair at a time) and ㄹ, then the basic vowels by their sound; each practised many
  * times right after it is shown.
  */
@@ -114,7 +114,7 @@ export const MEET_ORDER = [
   "ㄲ", "ㅆ", "ㄸ", "ㅃ", "ㅉ", "ㅘ", "ㅝ", "ㅟ", "ㅢ", "ㅚ", "ㅖ", "ㅙ", "ㅞ", "ㅒ",
 ];
 
-/** Everything there is to meet: the 90 seconds' letters, then the rest in their order. */
+/** Everything there is to meet: the first 16 letters, then the rest in their order. */
 export const ALL_ITEMS = [...FIRST_LETTERS, ...MEET_ORDER];
 
 // ---------------------------------------------------------------- syllables
@@ -185,7 +185,7 @@ function onlyFinalsSaid(ko: string, say: string): boolean {
 }
 
 /**
- * What a text asks of the reader beyond the 90 seconds: its letters not among them, パッチム when a consonant sits
+ * What a text asks of the reader beyond 最初の16字: its letters not among them, パッチム when a consonant sits
  * under a vowel, and 発音 when it is said otherwise than spelled (beyond a closing consonant said as one of the seven).
  */
 export function needsOf(word: { ko: string; say?: string }): string[] {

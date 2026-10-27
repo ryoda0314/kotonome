@@ -1,4 +1,4 @@
-// The learner's record: when they saw the 90 seconds, the letters they met and mixed up, the words they read and
+// The learner's record: when they saw 最初の16字, the letters they met and mixed up, the words they read and
 // typed, the sentences they typed, the rounds of key practice, and the rains. Only what happened is kept (as times);
 // everything shown is worked out from it.
 // Pure; kept on the device by store.ts and in the account by sync.ts, merged and never overwritten (mergeStates).
@@ -14,9 +14,9 @@ export type RainEntry = { at: number; words: string[]; met: string[]; mixed: str
 
 export type State = {
   v: 2;
-  /** When the 90 seconds were seen (or passed over). */
+  /** When 最初の16字 was seen (or passed over). */
   first?: number;
-  /** When each of the next 90 seconds was gone through (次の90秒: breath, vowels, patchim). */
+  /** When each lesson of 次の字 was gone through (breath, vowels, patchim). */
   lessons: Record<string, number>;
   letters: Record<string, LetterLog>;
   words: Record<string, WordLog>;
@@ -46,7 +46,7 @@ export function dayOf(at: number): string {
 
 // ---------------------------------------------------------------- what can be read
 
-/** What the learner has: the 90 seconds' letters, and everything met since (letters and ways of reading). */
+/** What the learner has: the first 16 letters, and everything met since (letters and ways of reading). */
 export function knownSet(s: State): Set<string> {
   const out = new Set(FIRST_LETTERS);
   for (const [ch, log] of Object.entries(s.letters)) if (log.met) out.add(ch);
@@ -75,7 +75,7 @@ export function isDue(s: State, ch: string, now: number): boolean {
 export const owedLetters = (s: State) => Object.keys(s.letters).filter((ch) => isOwed(s, ch));
 export const dueLetters = (s: State, now: number) => Object.keys(s.letters).filter((ch) => isDue(s, ch, now));
 
-/** Letters met in the last two rains (not the 90 seconds'): they come again, in other words. */
+/** Letters met in the last two rains (not 最初の16字): they come again, in other words. */
 export function freshLetters(s: State): string[] {
   const since = s.rains.length >= 2 ? s.rains[s.rains.length - 2].at : 0;
   return Object.entries(s.letters)
@@ -85,13 +85,13 @@ export function freshLetters(s: State): string[] {
 
 // ---------------------------------------------------------------- what happened
 
-/** The 90 seconds seen (or passed over): their letters are met. */
+/** 最初の16字 seen (or passed over): their letters are met. */
 export function seeFirst(s: State, at: number): State {
   const next = s.first ? s : { ...s, first: at };
   return meetLetters(next, FIRST_LETTERS, at);
 }
 
-/** One of the next 90 seconds gone through: its letters (or パッチム) are met. */
+/** One of 次の字 gone through: its letters (or パッチム) are met. */
 export function seeLesson(s: State, id: string, items: string[], at: number): State {
   const next = s.lessons?.[id] ? s : { ...s, lessons: { ...s.lessons, [id]: at } };
   return meetLetters(next, items, at);
@@ -201,7 +201,7 @@ export function bounded(s: State): State {
 
 /**
  * A record read back from the device or the account: this shape, or nothing. A record from before the redesign (v1:
- * the eight steps) is left behind, and the learner starts again from the 90 seconds.
+ * the eight steps) is left behind, and the learner starts again from 最初の16字.
  */
 export function revive(raw: unknown): State | null {
   const s = raw as Partial<State> | null;

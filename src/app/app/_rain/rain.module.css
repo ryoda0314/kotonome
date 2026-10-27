@@ -21,7 +21,7 @@
   color: var(--again); font-size: 20px; cursor: pointer;
 }
 
-/* The next of the next 90 seconds */
+/* The next of 次の字 */
 .nextLesson {
   display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: var(--radius);
   background: var(--paper); color: var(--ink); text-decoration: none;

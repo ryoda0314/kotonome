@@ -46,7 +46,7 @@ const PATHS: Record<IconName, React.ReactNode> = {
       <path d="M4 4v4.5h4.5" />
     </>
   ),
-  // The first sprout (言の芽): the 90 seconds.
+  // The first sprout (言の芽): 最初の16字.
   sprout: (
     <>
       <path d="M12 21v-9" />

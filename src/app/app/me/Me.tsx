@@ -1,7 +1,7 @@
 "use client";
 
-// 自分: looking back. The letters as they stand for this learner (not met yet, met, coming back): the 90 seconds'
-// first, then the rest in the order the rains bring them; the days; the 90 seconds again; the record's text and the
+// 自分: looking back. The letters as they stand for this learner (not met yet, met, coming back): 最初の16字
+// first, then the rest in the order the rains bring them; the days; 最初の16字 again; the record's text and the
 // settings. Counts are the learner's own, never compared.
 
 import Link from "next/link";

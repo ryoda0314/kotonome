@@ -194,7 +194,7 @@ export function Rain() {
             {plan.fresh || mixed.length ? <p className={parts.lead}>{ja.rain.comesBack(!!plan.fresh, mixed.length > 0)}</p> : null}
             {firstToday ? <p className={parts.lead}>{ja.rain.enough}</p> : null}
             {(() => {
-              // The next of the next 90 seconds, while one is left that still has something new.
+              // The next of 次の字, while one is left that still has something new.
               const lesson = LESSONS.find((l) => !state.lessons?.[l.id] && l.items.some((x) => !known.has(x)));
               if (!lesson) return null;
               const c = ja.next.lessons[lesson.id];

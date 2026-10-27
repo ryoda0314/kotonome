@@ -1,6 +1,6 @@
 // 練習: right after something has been understood, it is practised many times (CONCEPT.md, 原則2): a sound is said and
 // its letter (or word) is pressed, round after round, never the same one twice in a row; one missed comes once more a
-// little later. Nothing is counted. Used by the 90 seconds' 思い出す and by 気づく after the 答え合わせ. Pure, for the
+// little later. Nothing is counted. Used by 思い出す in 最初の16字 and by 気づく after the 答え合わせ. Pure, for the
 // tests; the order is a seeded shuffle, the same every time.
 
 import { pairsFor } from "../content/pairs.ts";
