@@ -4268,16 +4268,16 @@
   },
   "kore/o-5f37": {
    "text": "오",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "오",
     "오",
-    "오",
-    "오"
+    "오.",
+    "오."
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "kore/eo-33e9": {
    "text": "어",
@@ -4294,7 +4294,7 @@
   },
   "kore/u-e209": {
    "text": "우",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "우",
@@ -4302,21 +4302,21 @@
     "우",
     "우"
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "kore/eu-c2ab": {
    "text": "으",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "으",
     "으",
-    "으.",
-    "으"
+    "으...",
+    "으..."
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "kore/i-e7a2": {
    "text": "이",
@@ -8493,16 +8493,16 @@
   },
   "charon/eo-33e9": {
    "text": "어",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "어",
     "어",
-    "어?",
-    "어?"
+    "어...",
+    "어..."
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "charon/jja-3208": {
    "text": "짜",
@@ -8518,20 +8518,20 @@
   },
   "charon/o-5f37": {
    "text": "오",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "오",
     "오",
     "오.",
-    "어."
+    "오."
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "charon/u-e209": {
    "text": "우",
-   "attempt": 1,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "우",
@@ -8539,21 +8539,21 @@
     "우",
     "우"
    ],
-   "takes": 2,
-   "publishedAttempt": 1
+   "takes": 3,
+   "publishedAttempt": 5
   },
   "charon/eu-c2ab": {
    "text": "으",
-   "attempt": 0,
+   "attempt": 5,
    "status": "pass",
    "heard": [
     "으",
     "으",
-    "으",
-    "으"
+    "으.",
+    "으..."
    ],
-   "takes": 1,
-   "publishedAttempt": 0
+   "takes": 2,
+   "publishedAttempt": 5
   },
   "charon/i-e7a2": {
    "text": "이",

@@ -1,7 +1,7 @@
 "use client";
 
 // 聞き比べる: words one letter apart side by side, each said when pressed, as often as wanted, until the difference is
-// heard (the author's 딸기 and 달기). Nothing is asked and nothing is counted.
+// heard (the author's 딸기 and 달기), all in one voice so only the letter differs. Nothing is asked and nothing is counted.
 
 import { Word } from "@/components/Glyph";
 import { say, usePlaying } from "@/components/sound";
@@ -29,7 +29,7 @@ export function Compare({ groups, title = ja.rain.notice.compare }: { groups: st
                 type="button"
                 className={styles.compareWord}
                 data-playing={playing === `cmp:${ko}` ? "" : undefined}
-                onClick={() => void say(ko, { key: `cmp:${ko}` })}
+                onClick={() => void say(ko, { key: `cmp:${ko}`, turn: 0 })}
                 aria-label={`${ko} ${ja.common.hear}`}
               >
                 <Word text={ko} height={40} fit />

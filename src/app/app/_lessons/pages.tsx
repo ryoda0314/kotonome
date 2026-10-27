@@ -84,9 +84,9 @@ class Steps {
     await narrate(id);
     this.check();
   }
-  async say(text: string, key: string) {
+  async say(text: string, key: string, turn?: number) {
     this.check();
-    await say(text, { key });
+    await say(text, { key, turn });
     this.check();
   }
   do(f: () => void) {
@@ -303,7 +303,8 @@ export function GrowPage({
     async (s) => {
       const chain = async () => {
         for (const x of first) {
-          await s.say(x, `grow:${x}`);
+          // One voice for the chain (the other on もう一度見る), so only the letter changes.
+          await s.say(x, `grow:${x}`, run);
           await s.wait(CHAIN_STEP - 900);
         }
       };
@@ -515,7 +516,8 @@ export function VowelPairPage({
       await s.wait(run ? 200 : 800);
       if (!run) await s.narrate(voice);
       for (const ch of chs) {
-        await s.say(soundOf(ch), `first:${ch}`);
+        // Both in one voice (the next 続けて聞く in the other): two voices would hide the difference.
+        await s.say(soundOf(ch), `first:${ch}`, run);
         await s.wait(600);
       }
     },
@@ -534,7 +536,7 @@ export function VowelPairPage({
                 type="button"
                 className={styles.vowel}
                 data-playing={playing === `first:${ch}` ? "" : undefined}
-                onClick={() => void say(soundOf(ch), { key: `first:${ch}` })}
+                onClick={() => void say(soundOf(ch), { key: `first:${ch}`, turn: run })}
                 aria-label={`${ch} ${v?.say ?? ""}`}
               >
                 <span className={styles.vowelMouth}>
