@@ -132,6 +132,13 @@ Korean keyboard (as on 한컴타자연습) and heard.
 - `scripts/publish-audio.mjs`: passing takes → `public/audio/<voice>/<id>.mp3` (48 kbps, trimmed and levelled as checked)
   and `src/content/audio.json`. `scripts/review-page.mjs`: `public/review/index.html` (dev server) to listen to the
   takes waiting for a person, beside the other voice.
+- The narration of 最初の16字 (`src/content/narration.json`: Japanese for the ear, letters never read aloud — 「この字」
+  「左の字」; 十六文字 since じゅうろくじ is heard as 16時): `scripts/narration.mjs` makes it with the film's generator
+  (`promo/scripts/voice.mjs --spec --out --lengths`, Gemini TTS Kore, raw in `scripts/work/narration`, `--check`
+  transcribes), `public/narration/<id>.mp3` and `src/content/narration-lengths.json`. `narrate(id)` (`sound.ts`) plays a
+  line and waits for it; with the narration (設定) or the sound off it waits the line's length, so pages keep their
+  pace. The pages run as steps (`useSteps` in `_lessons/pages.tsx`): narrate, move the picture, say the Korean, never two
+  at once; in 思い出す only the first lead and the hint after a miss are said. 次の字 has none yet.
 - `scripts/export-sentences.mjs` (with ことのあめ's public values): approved sentences of at most 14 syllables, only
   Hangul and punctuation, holding one of the words (`pieceOf`), three per word at most, kept only if their clip exists
   → `src/content/sentences.json`. `tests/dubeol.test.mjs` types every one of them from its keys.

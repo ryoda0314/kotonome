@@ -360,6 +360,8 @@ export const ja = {
     title: "記録と設定",
     listen: "聞き方",
     soundLead: "オフにすると、どこでも音が出ません。",
+    narration: "ナレーション",
+    narrationLead: "最初の16字で、画面の文を声でも。オフにしても、文は同じ速さで出ます。",
     voice: "声",
     voices: { both: "かわるがわる", kore: "女性の声", charon: "男性の声" } as Record<string, string>,
     typing: "打ち方",

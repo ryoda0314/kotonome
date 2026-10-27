@@ -18,8 +18,10 @@ const opt = (n) => {
 const flag = (n) => args.includes(`--${n}`);
 const only = opt("only")?.split(",").map((s) => s.trim());
 
-const SPEC = JSON.parse(readFileSync("voice/lines.json", "utf8"));
-const OUT = "public/voice";
+// --spec・--out・--lengths：ほかの台本にも（アプリの学習のナレーション。../scripts/narration.mjs がこの形で呼ぶ）。
+const SPEC = JSON.parse(readFileSync(opt("spec") ?? "voice/lines.json", "utf8"));
+const OUT = opt("out") ?? "public/voice";
+const LENGTHS = opt("lengths") ?? "src/voice.json";
 // 書き起こし（--check）。flash は1秒ほどのクリップで中身を作り足した（회원 → 자기소개まで）ので pro で。
 const CHECK_MODEL = "gemini-2.5-pro";
 /** 書き起こしの頼み方：形だけ伝える（どの語かは伝えない。伝えると確かめにならない）。 */
@@ -171,9 +173,9 @@ function writeDurations() {
     const f = `${OUT}/${line.id}.wav`;
     if (existsSync(f)) out[line.id] = Math.round(seconds(f) * 1000) / 1000;
   }
-  writeFileSync("src/voice.json", `${JSON.stringify(out, null, 1)}\n`);
+  writeFileSync(LENGTHS, `${JSON.stringify(out, null, 1)}\n`);
   const missing = SPEC.lines.filter((l) => !(l.id in out)).map((l) => l.id);
-  console.log(`  src/voice.json：${Object.keys(out).length}本${missing.length ? `（まだ無い：${missing.join(",")}）` : ""}`);
+  console.log(`  ${LENGTHS}：${Object.keys(out).length}本${missing.length ? `（まだ無い：${missing.join(",")}）` : ""}`);
 }
 
 // ---- 合成・確かめ ------------------------------------------------------------------------------------------------

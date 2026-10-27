@@ -7,6 +7,7 @@
 
 import { useSyncExternalStore } from "react";
 import audio from "@/content/audio.json";
+import narrationLengths from "@/content/narration-lengths.json";
 import { clipId } from "@/lib/hangul";
 import { choiceNow, prefNow } from "./local";
 import { play as playClip, preload as preloadClips, stop as stopClip } from "./player";
@@ -69,6 +70,27 @@ export async function say(text: string, { key = text, turn }: { key?: string; tu
   const ok = url ? await playClip(url) : await speakWithDevice(text);
   if (playing === key) set(null);
   return ok;
+}
+
+const NARRATION_MS: Record<string, number> = Object.fromEntries(
+  Object.entries(narrationLengths as Record<string, number>).map(([id, s]) => [id, Math.round(s * 1000)]),
+);
+
+/**
+ * Says a line of the narration of 最初の16字 (public/narration/<id>.mp3, src/content/narration.json) and resolves when
+ * it has ended. With the narration or the sound off (or no clip), it waits as long as the line would take, so a page
+ * goes at the same pace and its text is there to read.
+ */
+export async function narrate(id: string): Promise<void> {
+  const ms = NARRATION_MS[id] ?? 2000;
+  if (!prefNow("sound", true) || !prefNow("narration", true) || !(id in NARRATION_MS)) {
+    await new Promise((r) => setTimeout(r, ms));
+    return;
+  }
+  const key = `narration:${id}`;
+  set(key);
+  await playClip(`/narration/${id}.mp3`);
+  if (playing === key) set(null);
 }
 
 export function stop(): void {

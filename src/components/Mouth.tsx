@@ -212,11 +212,24 @@ export function slowTimes(ch: MouthLetter) {
  * One consonant's picture. `stage`: 0 the mouth as it says the row of kana (the tongue moves into place), 1 the
  * letter written over the part that makes it, 2 the letter lifted off the drawing.
  */
-export function MouthPicture({ ch, stage, label, slow = false }: { ch: MouthLetter; stage: 0 | 1 | 2; label: string; slow?: boolean }) {
+export function MouthPicture({
+  ch,
+  stage,
+  label,
+  slow = false,
+  moving,
+}: {
+  ch: MouthLetter;
+  stage: 0 | 1 | 2;
+  label: string;
+  slow?: boolean;
+  /** When given, the tongue stays at rest until it turns true (a page moves it as its narration gets there). */
+  moving?: boolean;
+}) {
   const side = SIDE_VIEW.has(ch);
   const pose: Pose = ch === "ㄱ" ? "k" : ch === "ㄴ" ? "n" : "rest";
   const pace = slow ? PACE.slow : PACE.quick;
-  const tPose = useRamp(true, pace.move, pace.still);
+  const tPose = useRamp(moving ?? true, pace.move, moving === undefined ? pace.still : 0);
   const tLift = useRamp(stage >= 2, pace.lift);
   const over: Stroke[] = mapBox(CONSONANTS[ch].strokes, OVER[ch]);
   const big: Stroke[] = mapBox(CONSONANTS[ch].strokes, LETTER_BOX);

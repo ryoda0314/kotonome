@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Icon } from "@/components/Icon";
-import { say, usePlaying } from "@/components/sound";
+import { narrate, say, usePlaying } from "@/components/sound";
 import { ja } from "@/lib/i18n/ja";
 import { again, type PracticeItem } from "@/lib/practice";
 import styles from "./practice.module.css";
@@ -19,6 +19,7 @@ export function Practice({
   hint,
   done,
   onFinished,
+  hintVoice,
 }: {
   items: PracticeItem[];
   /** How a choice is drawn (a letter, a word); `lit` when it is the one just pressed right. */
@@ -29,12 +30,16 @@ export function Practice({
   done: ReactNode;
   /** Every go is through (the first time). */
   onFinished?: () => void;
+  /** A line of narration said with the hint after a miss, before the sound comes again (最初の16字). */
+  hintVoice?: (answer: string) => string | undefined;
 }) {
   const [queue, setQueue] = useState(items);
   const [i, setI] = useState(0);
   const [wrong, setWrong] = useState<string[]>([]);
   const [right, setRight] = useState(false);
   const timer = useRef<number | null>(null);
+  /** The go whose hint is being said (its sound comes after it, only while it is still the go). */
+  const current = useRef<PracticeItem | null>(null);
   const playing = usePlaying();
   const go = queue[i];
   const finished = i >= queue.length;
@@ -58,9 +63,20 @@ export function Practice({
       // The first miss of a go brings it back once more, a little later.
       if (!wrong.length) setQueue(again(queue, i));
       setWrong((w) => (w.includes(id) ? w : [...w, id]));
-      void say(go.say, { key: "practice" });
+      const line = !wrong.length ? hintVoice?.(go.answer) : undefined;
+      if (line) {
+        // The hint said, then the sound again, unless the learner has gone on meanwhile.
+        current.current = go;
+        void narrate(line).then(() => {
+          if (current.current === go) void say(go.say, { key: "practice" });
+        });
+      } else {
+        current.current = null;
+        void say(go.say, { key: "practice" });
+      }
       return;
     }
+    current.current = null;
     setRight(true);
     const last = i + 1 >= queue.length;
     timer.current = window.setTimeout(() => {

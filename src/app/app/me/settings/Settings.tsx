@@ -18,6 +18,7 @@ const never = () => () => undefined;
 export function Settings() {
   const state = useRecord();
   const [sound, setSound] = usePref("sound", true);
+  const [narration, setNarration] = usePref("narration", true);
   const [voice, setVoice] = useChoice<VoiceChoice>("voice", VOICE_CHOICES, "both");
   const [guide, setGuide] = usePref("guide", true);
   const [me, setMe] = useState<Account | null | undefined>(undefined);
@@ -44,6 +45,13 @@ export function Settings() {
             <span className={page.note}>{t.soundLead}</span>
           </span>
           <input type="checkbox" checked={sound} onChange={(e) => setSound(e.target.checked)} />
+        </label>
+        <label className={styles.toggle}>
+          <span>
+            <span className={styles.toggleTitle}>{t.narration}</span>
+            <span className={page.note}>{t.narrationLead}</span>
+          </span>
+          <input type="checkbox" checked={narration} onChange={(e) => setNarration(e.target.checked)} />
         </label>
         <div className={styles.toggle}>
           <span className={styles.toggleTitle}>{t.voice}</span>

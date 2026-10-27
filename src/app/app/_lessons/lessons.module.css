@@ -53,6 +53,8 @@
 .hintSide { display: flex; flex-direction: column; gap: 6px; }
 .hintText { margin: 0; font-size: 15px; line-height: 1.7; color: var(--ink-2); }
 .recalledRow { display: flex; flex-wrap: wrap; gap: 10px; }
+/* The goes' room while the first 思い出す is being explained */
+.waitPractice { min-height: 160px; }
 
 /* The vowels, two at a time, each with its mouth */
 .vowelPair { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
