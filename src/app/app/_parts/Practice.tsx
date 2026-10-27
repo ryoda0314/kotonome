@@ -20,6 +20,7 @@ export function Practice({
   done,
   onFinished,
   hintVoice,
+  hold,
 }: {
   items: PracticeItem[];
   /** How a choice is drawn (a letter, a word); `lit` when it is the one just pressed right. */
@@ -32,6 +33,8 @@ export function Practice({
   onFinished?: () => void;
   /** A line of narration said with the hint after a miss, before the sound comes again (最初の16字). */
   hintVoice?: (answer: string) => string | undefined;
+  /** While true, the go's sound is not said on its own (a narration is being said first). */
+  hold?: boolean;
 }) {
   const [queue, setQueue] = useState(items);
   const [i, setI] = useState(0);
@@ -45,10 +48,10 @@ export function Practice({
   const finished = i >= queue.length;
 
   useEffect(() => {
-    if (!go) return;
+    if (!go || hold) return;
     const t = window.setTimeout(() => void say(go.say, { key: "practice" }), 450);
     return () => window.clearTimeout(t);
-  }, [go]);
+  }, [go, hold]);
 
   useEffect(
     () => () => {

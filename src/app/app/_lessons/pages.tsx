@@ -432,7 +432,7 @@ export function Recall({
   done: ReactNode;
   /** For words: what to listen for after a miss. */
   wordHint?: string;
-  /** The lead said first, the goes starting after it (the first 思い出す). */
+  /** The lead said first (the first 思い出す); the goes are there at once, their first sound waits for it. */
   voice?: string;
   /** The hint after a miss, said (最初の16字). */
   hintVoice?: (answer: string) => string | undefined;
@@ -448,48 +448,46 @@ export function Recall({
     <>
       <p className={styles.big}>{t.recall.title}</p>
       <p className={styles.text}>{lead}</p>
-      {ready ? null : <div className={styles.waitPractice} />}
-      {!ready ? null : (
-        <Practice
-          hintVoice={hintVoice}
-          items={items}
-          face={(id, lit) =>
-            LETTER.has(id) ? (
-              <Letter
-                ch={id}
-                size={48}
-                color={lit ? "var(--accent)" : undefined}
-              />
-            ) : (
-              <>
-                <Word text={id} height={40} fit />
-                <span className={parts.seenMeaning}>{WORD.get(id)?.ja}</span>
-              </>
-            )
-          }
-          hint={(id) =>
-            LETTER.has(id) ? (
-              letterHint(id)
-            ) : (
-              <p className={styles.hintText}>{wordHint}</p>
-            )
-          }
-          done={
+      <Practice
+        hold={!ready}
+        hintVoice={hintVoice}
+        items={items}
+        face={(id, lit) =>
+          LETTER.has(id) ? (
+            <Letter
+              ch={id}
+              size={48}
+              color={lit ? "var(--accent)" : undefined}
+            />
+          ) : (
             <>
-              <div className={styles.recalledRow}>
-                {shown.map((id) =>
-                  LETTER.has(id) ? (
-                    <Letter key={id} ch={id} size={40} />
-                  ) : (
-                    <Word key={id} text={id} height={32} />
-                  ),
-                )}
-              </div>
-              <p className={styles.big}>{done}</p>
+              <Word text={id} height={40} fit />
+              <span className={parts.seenMeaning}>{WORD.get(id)?.ja}</span>
             </>
-          }
-        />
-      )}
+          )
+        }
+        hint={(id) =>
+          LETTER.has(id) ? (
+            letterHint(id)
+          ) : (
+            <p className={styles.hintText}>{wordHint}</p>
+          )
+        }
+        done={
+          <>
+            <div className={styles.recalledRow}>
+              {shown.map((id) =>
+                LETTER.has(id) ? (
+                  <Letter key={id} ch={id} size={40} />
+                ) : (
+                  <Word key={id} text={id} height={32} />
+                ),
+              )}
+            </div>
+            <p className={styles.big}>{done}</p>
+          </>
+        }
+      />
     </>
   );
 }
