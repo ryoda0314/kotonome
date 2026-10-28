@@ -174,10 +174,16 @@ Korean keyboard (as on 한컴타자연습) and heard.
 
 ## The films
 
-- `promo/`: the app's promotional film, as the sisters' (`../english/promo`, `../作成したもの/hanjaatume/promo`): the app's
-  screens drawn again beside one plain sentence at a time, 1920×1080, about 99 s, a narration by Gemini TTS, the
-  Korean words in the app's own clips. Its own Remotion project (its own package.json; left out of the app's tsconfig
-  and eslint); it imports the app's pure modules (`src/lib/glyph.ts`, `hangul.ts`, `dubeol.ts`) so letters and typing
-  are the app's. `promo/README.md`. When the app's look or words change, change the film's screens too.
+- `promo/`: the app's promotional film, 1920×1080, about 91 s, a narration by Gemini TTS, the Korean words in the app's
+  own clips. First how plain Hangul is, quickly (the maker's wish: the letters before the app), asked from the first
+  frame (a big ㄱ in the mouth's circle, この字、何の形？; it sinks onto the tongue: 「カキクケコ」の舌の形; then ㄴ beside it),
+  the five consonants, a stroke more in the same place (ㄴ→ㄷ, ㅇ→ㅎ, ㅁ→ㅂ, ㅅ→ㅈ), six vowels with their sounds, 나무
+  joined, three words read. Then, as the answer, the line from 『訓民正音』 (1446, 鄭麟趾's postface) 故智者不終朝而㑹，
+  愚者可浹旬而學 in two ruled upright columns (Noto Serif SC, the one serif with 㑹) with 不終朝 lit: 朝のうちに、
+  読みはじめられる (not first: opening on it bores and loses the viewer). Then that the app teaches it, as the sisters'
+  films do (`../english/promo`): its screens drawn again beside one plain sentence at a time (最初の16字's ㅁ page, 浴びる
+  with the letter sheet, 打ってみる). Its own Remotion project (its own package.json; left out of the app's tsconfig and
+  eslint); it imports the app's pure modules (`src/lib/glyph.ts`, `hangul.ts`, `dubeol.ts`) so letters and typing are
+  the app's. `promo/README.md`. When the app's look or words change, change the film's screens too.
 - `film/`: 爆速ハングル, the learning animation the app grew from (3:48, Zundamon by VOICEVOX), its own Remotion project:
   `film/README.md`. `cd film && node bin/build.mjs && npm run render`.

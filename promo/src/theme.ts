@@ -27,9 +27,11 @@ export const FONT = {
   ja: `"PlexJP", sans-serif`,
   ko: `"PlexKR", "PlexJP", sans-serif`,
   mincho: `"Shippori", serif`,
+  // 『訓民正音』の一文（漢文）。㑹 のある明朝（しっぽり明朝にも IBM Plex にも無い）。
+  classic: `"SerifSC", serif`,
 } as const;
 
-// アプリの字。`npm run assets` が public/fonts に置く。
+// アプリの字と、引用の明朝。`npm run assets` が public/fonts に置く。
 const FACES: [family: string, file: string, weight: string][] = [
   ["PlexJP", "fonts/IBMPlexSansJP-Regular.ttf", "400"],
   ["PlexJP", "fonts/IBMPlexSansJP-Medium.ttf", "500"],
@@ -38,6 +40,7 @@ const FACES: [family: string, file: string, weight: string][] = [
   ["PlexKR", "fonts/IBMPlexSansKR-Medium.ttf", "500"],
   ["PlexKR", "fonts/IBMPlexSansKR-SemiBold.ttf", "600"],
   ["Shippori", "fonts/ShipporiMincho-Bold.ttf", "700"],
+  ["SerifSC", "fonts/NotoSerifSC-Bold.ttf", "700"],
 ];
 
 let loading: Promise<unknown> | null = null;

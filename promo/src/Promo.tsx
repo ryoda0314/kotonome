@@ -4,9 +4,10 @@ import { prog } from "./anim";
 import { End } from "./scenes/End";
 import { Hook } from "./scenes/Hook";
 import { NameMark } from "./scenes/Mark";
+import { Quote } from "./scenes/Quote";
 import { Story } from "./scenes/Story";
 import { C, FONT, useFonts } from "./theme";
-import { CLIP_AT, LINE_AT, T, TOTAL, TYPE, VOICE_AT } from "./timeline";
+import { CLIP_AT, READ, READ_STEP, T, TOTAL, TYPE, VOICE_AT } from "./timeline";
 
 /** `from` から `to`（コマ）まで見せる。両端は `fade` コマで薄れる。 */
 function Window({
@@ -38,13 +39,16 @@ export function Promo() {
   return (
     <AbsoluteFill style={{ background: C.paper, color: C.ink, fontFamily: FONT.ui, WebkitFontSmoothing: "antialiased" }}>
       <style>{"* { box-sizing: border-box; }"}</style>
-      <Window frame={frame} from={0} to={T.title.start + 8} fadeIn={false} fade={16}>
+      <Window frame={frame} from={0} to={T.quote.start + 8} fadeIn={false} fade={14}>
         <Hook frame={frame} />
       </Window>
-      <Window frame={frame} from={T.title.start} to={T.first.start + 10} fade={14}>
+      <Window frame={frame} from={T.quote.start} to={T.title.start + 8} fade={14}>
+        <Quote frame={frame} />
+      </Window>
+      <Window frame={frame} from={T.title.start} to={T.lesson.start + 10} fade={14}>
         <NameMark frame={frame} icon={T.title.icon} word={T.title.word} lead={T.title.lead} size={280} top={150} wordSize={104} leadSize={46} />
       </Window>
-      <Window frame={frame} from={T.first.start} to={T.end.start + 10} fade={14}>
+      <Window frame={frame} from={T.lesson.start} to={T.end.start + 10} fade={14}>
         <Story frame={frame} />
       </Window>
       <Window frame={frame} from={T.end.start} to={TOTAL} fade={20} fadeOut={false}>
@@ -61,8 +65,8 @@ const MUSIC = 0.5;
 /** 声のあいだ、音楽をどれだけ下げるか（0〜1）。 */
 const DUCK = 0.5;
 
-/** 声（ナレーション・アプリの声・例文）が鳴っている所。音楽はここで下がる。 */
-const SPEAKING = [...VOICE_AT, ...CLIP_AT, LINE_AT];
+/** 声（ナレーション・アプリの声）が鳴っている所。音楽はここで下がる。 */
+const SPEAKING = [...VOICE_AT, ...CLIP_AT];
 
 /** 音楽を下げる度合い（コマごと、0〜1）。声の 4 コマ前から下げはじめ、声が消えてから、ゆっくり戻す。 */
 const DUCKING: number[] = (() => {
@@ -87,18 +91,15 @@ function Clip({ from, src, volume = 1, frames }: { from: number; src: string; vo
 
 function Sound() {
   const h = T.hook;
-  const f1 = T.first;
   const r = T.rain;
-  const n = T.notice;
   const ty = T.type;
-  const l = T.lines;
-  const a = T.again;
   const musicVolume = (frame: number) =>
     MUSIC * interpolate(frame, [0, 20, TOTAL - 75, TOTAL - 4], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) * (1 - DUCK * (DUCKING[frame] ?? 0));
-  // 語が降るときの雨粒：冒頭の5語、雨の6語、次の雨の6語。
-  const drops = [0, 7, 14, 21, 28].map((d) => h.words + d);
-  const rainDrops = [0, 4, 7, 11, 14, 18].flatMap((d) => [r.fall + d, a.fall + 6 + d]);
-  const taps = [f1.press1, f1.wrong2, f1.press2, f1.press3, r.press, r.chip, n.w1, n.w2, n.w3, n.reveal, l.play, l.translate, a.next];
+  // 語が降るときの雨粒：雨の6語。
+  const rainDrops = [0, 4, 7, 11, 14, 18].map((d) => r.fall + d);
+  // 十六字で読める語：書かれるたびに、小さな雫。
+  const readDrops = READ.map((_, i) => h.read0 + Math.round(i * READ_STEP * 30) - 6);
+  const taps = [r.press, r.chip];
   // 打ってみる：キーを押すたびに小さな音。
   const keys = TYPE.presses.map((p) => ty.type + p.at);
   return (
@@ -110,9 +111,8 @@ function Sound() {
       {CLIP_AT.map((c) => (
         <Clip key={`${c.text}${c.from}`} from={c.from} src={`app/clips/${clipId(c.text)}.wav`} />
       ))}
-      <Clip from={LINE_AT.from} src="app/line.wav" />
-      {drops.map((at, i) => (
-        <Clip key={`d${at}`} from={at} src={`sound/drop${(i % 3) + 1}.wav`} volume={0.2} />
+      {readDrops.map((at, i) => (
+        <Clip key={`w${at}`} from={at} src={`sound/drop${(i % 3) + 1}.wav`} volume={0.18} />
       ))}
       {rainDrops.map((at, i) => (
         <Clip key={`r${at}`} from={at} src={`sound/drop${(i % 3) + 1}.wav`} volume={0.16} />
@@ -129,7 +129,7 @@ function Sound() {
       {keys.map((at) => (
         <Clip key={`k${at}`} from={at - 1} src="sound/tap.wav" volume={0.32} />
       ))}
-      <Clip from={h.read + 4} src="sound/chime.wav" volume={0.26} />
+      <Clip from={T.quote.lit + 4} src="sound/chime.wav" volume={0.26} />
       <Clip from={ty.done + 2} src="sound/chime.wav" volume={0.24} />
     </>
   );

@@ -1,101 +1,134 @@
-// A. 問い：ハングルが記号に見える。「カキクケコ」の舌の形が ㄱ（口の絵から字を取り出す）。子音は口の形の絵。
-// 十六字で、もう読める：字母が四角に組み上がって 라디오、ラジオ。
-import { fall, leave, prog } from "../anim";
+// A. 問いとしくみ：はじめの一コマから、大きな ㄱ と「この字、何の形？」。字が口の絵の舌へ降りて重なり、「カキクケコ」の
+// 舌の形。口の絵は左へ寄り、右に ㄴ：「ナニヌネノ」なら、この形。子音は口の形の絵（五つ）。同じ場所で線を一本足すと
+// 別の音（ㄴ→ㄷ・ㅇ→ㅎ・ㅁ→ㅂ・ㅅ→ㅈ、나→다）。母音は六つ（音といっしょに）。組むと一つの音（ㄴ ㅏ ㅁ ㅜ → 나무、木）。
+// 十六字で、もう読める（라디오・바나나・드라마）。
+import { f, fall, leave, mix, prog, SOFT } from "../anim";
 import { JoinWord, Letter, Word } from "../glyph";
 import { MouthPicture, type MouthLetter } from "../mouth";
-import { T } from "../timeline";
+import { READ, READ_STEP, sounding, T, VOWEL_STEP, VOWELS } from "../timeline";
 import { C, FONT } from "../theme";
+import { Icon } from "../ui";
 
-/** 記号に見える語：ばらばらの場所に、少し傾いて降ってくる。 */
-const SCATTER: [text: string, x: number, y: number, h: number, tilt: number][] = [
-  ["라디오", 260, 170, 120, -4],
-  ["바나나", 1180, 120, 104, 3],
-  ["드라마", 760, 360, 132, 0],
-  ["커피", 300, 560, 112, 5],
-  ["김치", 1290, 520, 120, -3],
+/** 子音五つと口の場所。同じ場所で線を一本足した字。 */
+const FIVE: [MouthLetter, string, string | null][] = [
+  ["ㄱ", "舌の奥", null],
+  ["ㄴ", "舌の先", "ㄷ"],
+  ["ㅇ", "のど", "ㅎ"],
+  ["ㅁ", "口", "ㅂ"],
+  ["ㅅ", "歯", "ㅈ"],
 ];
-const FIVE: [MouthLetter, string][] = [
-  ["ㄱ", "舌の奥"],
-  ["ㄴ", "舌の先"],
-  ["ㅇ", "のど"],
-  ["ㅁ", "口"],
-  ["ㅅ", "歯"],
-];
+const LETTER = 170;
+/** 口の絵：はじめは一つ（真ん中）、ㄴ が来ると左右に二つ。 */
+const LENS = 560;
+const LENS_TOP = 110;
+const ONE = (1920 - LENS) / 2;
+const PAIR = [330, 1030];
 
 const caption = { position: "absolute", left: 0, right: 0, margin: 0, textAlign: "center", fontFamily: FONT.ui, fontWeight: 600, color: C.ink } as const;
+const row = { position: "absolute", left: 0, right: 0, display: "flex", justifyContent: "center" } as const;
+
+/** `from` から `to` まで：降りてきて（`enter` が false なら、はじめから在る）、次が来ると上がって消える。 */
+function Part({ frame, from, to, enter = true, children }: { frame: number; from: number; to: number; enter?: boolean; children: React.ReactNode }) {
+  if (frame < from || frame >= to + 12) return null;
+  return <div style={frame >= to ? leave(frame, to, 12) : enter ? fall(frame, from, 16, 16) : undefined}>{children}</div>;
+}
 
 export function Hook({ frame }: { frame: number }) {
   const h = T.hook;
   return (
     <>
-      {/* 記号に見える語 */}
-      {frame < h.mouth + 12 ? (
-        <div style={frame >= h.mouth ? leave(frame, h.mouth, 12) : undefined}>
-          {SCATTER.map(([text, x, y, height, tilt], i) => (
-            <div key={text} style={{ position: "absolute", left: x, top: y, transform: `rotate(${tilt}deg)` }}>
-              <div style={fall(frame, h.words + i * 7, 26, 18)}>
-                <Word text={text} height={height} ink color={C.ink2} />
-              </div>
-            </div>
-          ))}
-          <p style={{ ...caption, top: 830, fontSize: 56, ...fall(frame, h.words + 20, 14, 18) }}>ハングル、記号に見えていませんか？</p>
+      {/* この字、何の形？ → 「カキクケコ」の舌の形 → 「ナニヌネノ」なら、この形 */}
+      <Part frame={frame} from={h.start} to={h.five} enter={false}>
+        <div style={{ position: "absolute", left: mix(ONE, PAIR[0], prog(frame, h.second, 21, SOFT)), top: LENS_TOP, width: LENS, height: LENS }}>
+          <MouthPicture ch="ㄱ" pose={prog(frame, h.reveal, 18)} write={1} lift={1 - prog(frame, h.reveal + 3, 24)} />
         </div>
-      ) : null}
-
-      {/* 「カキクケコ」の舌の形が、ㄱ */}
-      {frame >= h.mouth && frame < h.five + 12 ? (
-        <div style={frame >= h.five ? leave(frame, h.five, 12) : fall(frame, h.mouth, 16, 16)}>
-          <div style={{ position: "absolute", left: 230, top: 150, width: 640, height: 640 }}>
-            <MouthPicture
-              ch="ㄱ"
-              pose={prog(frame, h.pose, 21)}
-              pulse={frame >= h.pose + 21 && frame < h.write ? ((frame - h.pose - 21) % 39) / 39 : undefined}
-              write={prog(frame, h.write, 24)}
-              lift={prog(frame, h.lift, 18)}
-            />
+        {frame >= h.second ? (
+          <div style={{ position: "absolute", left: PAIR[1], top: LENS_TOP, width: LENS, height: LENS, ...fall(frame, h.second + 6, 16, 16) }}>
+            <MouthPicture ch="ㄴ" pose={prog(frame, h.land, 18)} write={1} lift={1 - prog(frame, h.land + 3, 24)} />
           </div>
-          <div style={{ position: "absolute", left: 990, top: 330, width: 780 }}>
-            <p style={{ margin: 0, fontSize: 54, fontWeight: 600, lineHeight: 1.45, fontFamily: FONT.ui, ...fall(frame, h.mouth + 8, 14, 16) }}>
-              「カキクケコ」と言うとき、
-              <br />
-              舌の奥が上がる。
-            </p>
-            <p style={{ margin: "34px 0 0", display: "flex", alignItems: "center", gap: 18, fontSize: 54, fontWeight: 600, fontFamily: FONT.ui, ...fall(frame, h.write, 14, 16) }}>
-              その形が、
-              <Letter ch="ㄱ" size={68} color={C.accent} />
-              <span style={{ fontSize: 40, color: C.muted, fontWeight: 500 }}>（カ行）</span>
-            </p>
-          </div>
-        </div>
-      ) : null}
-
-      {/* 子音は、口の形の絵 */}
-      {frame >= h.five && frame < h.join + 12 ? (
-        <div style={frame >= h.join ? leave(frame, h.join, 12) : undefined}>
-          <div style={{ position: "absolute", left: 0, right: 0, top: 260, display: "flex", justifyContent: "center", gap: 70 }}>
-            {FIVE.map(([ch, place], i) => (
-              <div key={ch} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18, ...fall(frame, h.five + i * 5, 16, 14) }}>
-                <Letter ch={ch} size={190} write={prog(frame, h.five + i * 5, 18)} />
-                <span style={{ fontSize: 34, color: C.muted, fontFamily: FONT.ja }}>{place}</span>
-              </div>
-            ))}
-          </div>
-          <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.five + 14, 14, 16) }}>子音は、口の形の絵。</p>
-        </div>
-      ) : null}
-
-      {/* 十六字で、もう読める：라디오 */}
-      {frame >= h.join ? (
-        <div style={fall(frame, h.join, 12, 14)}>
-          <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", justifyContent: "center" }}>
-            <JoinWord text="라디오" p={prog(frame, h.read - 14, 26)} height={230} />
-          </div>
-          <p style={{ ...caption, top: 560, fontSize: 48, fontWeight: 500, color: C.ink2, ...fall(frame, h.read + 12, 12, 14) }}>ラジオ</p>
-          <p style={{ ...caption, top: 720, fontSize: 64, ...fall(frame, h.read + 30, 14, 16) }}>
-            <span style={{ color: C.accent }}>16字</span>で、もう読める。
+        ) : null}
+        {frame < h.answer + 12 ? <p style={{ ...caption, top: 730, fontSize: 76, ...(frame >= h.reveal ? leave(frame, h.reveal, 12) : {}) }}>この字、何の形？</p> : null}
+        {frame >= h.answer && frame < h.second + 12 ? (
+          <p style={{ ...caption, top: 740, fontSize: 56, ...(frame >= h.second ? leave(frame, h.second, 12) : fall(frame, h.answer, 14, 16)) }}>
+            「カキクケコ」と言うときの、舌の形。
           </p>
+        ) : null}
+        {frame >= h.second ? (
+          <>
+            <p style={{ ...caption, left: PAIR[0], right: "auto", width: LENS, top: 720, fontSize: 48, ...fall(frame, h.second + 10, 12, 14) }}>「カキクケコ」</p>
+            <p style={{ ...caption, left: PAIR[1], right: "auto", width: LENS, top: 720, fontSize: 48, ...fall(frame, h.land, 12, 14) }}>「ナニヌネノ」</p>
+          </>
+        ) : null}
+      </Part>
+
+      {/* 子音は、口の形の絵。同じ場所で線を一本足すと、別の音 */}
+      <Part frame={frame} from={h.five} to={h.vowels}>
+        <div style={{ ...row, top: 120, gap: 80 }}>
+          {FIVE.map(([ch, place, grown], i) => {
+            // 나 → 다 が鳴るあいだ、その字が灯る。
+            const na = sounding(frame, "나") >= 0 && ch === "ㄴ";
+            const da = sounding(frame, "다") >= 0 && grown === "ㄷ";
+            return (
+              <div key={ch} style={{ width: LETTER, display: "flex", flexDirection: "column", alignItems: "center", ...fall(frame, h.five + i * 5, 16, 14) }}>
+                <Letter ch={ch} size={LETTER} write={prog(frame, h.five + i * 5, 18)} color={na ? C.accent : undefined} />
+                <span style={{ marginTop: 10, fontSize: 32, color: C.muted, fontFamily: FONT.ja }}>{place}</span>
+                {grown ? (
+                  <div style={{ marginTop: 26, display: "flex", flexDirection: "column", alignItems: "center", gap: 14, ...fall(frame, h.grown + i * 4, 12, 14) }}>
+                    <span style={{ display: "inline-flex", transform: "rotate(90deg)", color: C.faint }}>
+                      <Icon name="arrow" size={34} stroke={1.8} />
+                    </span>
+                    <Letter ch={grown} size={LETTER} grow={prog(frame, h.grown + i * 4 + 4, 16)} color={da ? C.accent : undefined} />
+                  </div>
+                ) : null}
+              </div>
+            );
+          })}
         </div>
-      ) : null}
+        <p style={{ ...caption, top: 720, fontSize: 60, ...(frame < h.grow ? fall(frame, h.five + 14, 14, 16) : leave(frame, h.grow, 10)) }}>子音は、口の形の絵。</p>
+        {frame >= h.grow ? <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.grow + 8, 14, 16) }}>同じ場所で、線を一本足すと、別の音。</p> : null}
+      </Part>
+
+      {/* 母音は、六つ */}
+      <Part frame={frame} from={h.vowels} to={h.join}>
+        <div style={{ ...row, top: 260, gap: 50 }}>
+          {VOWELS.map((ch, i) => {
+            const at = h.vowel0 + f(i * VOWEL_STEP);
+            return (
+              <div key={ch} style={fall(frame, at - 4, 14, 12)}>
+                <Letter ch={ch} size={LETTER} write={prog(frame, at - 4, 12)} />
+              </div>
+            );
+          })}
+        </div>
+        <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.vowels + 8, 14, 16) }}>母音は、六つ。</p>
+      </Part>
+
+      {/* 組むと、一つの音：나무 */}
+      <Part frame={frame} from={h.join} to={h.read}>
+        <div style={{ ...row, top: 200 }}>
+          <JoinWord text="나무" p={prog(frame, h.joined, 27)} height={260} />
+        </div>
+        <p style={{ ...caption, top: 520, fontSize: 52, fontWeight: 500, color: C.ink2, ...fall(frame, h.tree, 12, 14) }}>木</p>
+        <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.join + 8, 14, 16) }}>組み合わせると、ひとつの音。</p>
+      </Part>
+
+      {/* 十六字で、もう読める */}
+      <Part frame={frame} from={h.read} to={h.end}>
+        <div style={{ ...row, top: 250, gap: 70 }}>
+          {READ.map(([ko, ja], i) => {
+            const at = h.read0 + f(i * READ_STEP);
+            return (
+              <div key={ko} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 26, ...fall(frame, at - 6, 14, 12) }}>
+                <Word text={ko} height={150} write={prog(frame, at - 6, 16)} />
+                <span style={{ fontSize: 40, color: C.ink2, fontFamily: FONT.ja, ...fall(frame, at + 8, 10, 12) }}>{ja}</span>
+              </div>
+            );
+          })}
+        </div>
+        <p style={{ ...caption, top: 720, fontSize: 64, ...fall(frame, h.read + 8, 14, 16) }}>
+          <span style={{ color: C.accent }}>16字</span>で、もう読める。
+        </p>
+      </Part>
     </>
   );
 }

@@ -7,7 +7,8 @@ const SIZE = 100;
 const W = 7.6;
 export const GAP = 14;
 
-type Ink = { key: string; pts: Pt[]; color: string };
+/** 一本の線。`p`：その線だけの書けた割合（無ければ全体の `write` から）。 */
+type Ink = { key: string; pts: Pt[]; color: string; p?: number };
 const scale = (strokes: Stroke[], x = 0): Pt[][] => mapBox(strokes, [x, 0, x + SIZE, SIZE]);
 
 /** 線を描く。`write`：書けた割合（線の数で割って、一本ずつ）。 */
@@ -16,7 +17,7 @@ export function InkSvg({ items, width, write = 1 }: { items: Ink[]; width: numbe
   return (
     <svg viewBox={`-8 -8 ${width + 16} ${SIZE + 16}`} style={{ display: "block", width: "100%", height: "100%", overflow: "visible" }}>
       {items.map((it, i) => {
-        const p = Math.max(0, Math.min(1, write * n - i));
+        const p = it.p ?? Math.max(0, Math.min(1, write * n - i));
         if (p <= 0) return null;
         return (
           <path
@@ -37,11 +38,14 @@ export function InkSvg({ items, width, write = 1 }: { items: Ink[]; width: numbe
   );
 }
 
-/** 一字。`added`：線を足した字（ㅋ の真ん中の横棒）を、その線だけアクセントで。 */
-export function Letter({ ch, size, color, write = 1, added = false }: { ch: string; size: number; color?: string; write?: number; added?: boolean }) {
-  const lit = added ? new Set(addedStrokes(ch)) : new Set<number>();
+/**
+ * 一字。`added`：線を足した字（ㅋ の真ん中の横棒）を、その線だけアクセントで。`grow`：足した線だけを書く割合（ほかの線は
+ * はじめから書いてある。ㄴ に線が足されて ㄷ になる）。
+ */
+export function Letter({ ch, size, color, write = 1, added = false, grow }: { ch: string; size: number; color?: string; write?: number; added?: boolean; grow?: number }) {
+  const lit = added || grow !== undefined ? new Set(addedStrokes(ch)) : new Set<number>();
   const own = color ?? (CONSONANTS[ch] ? C.ink : C.accent);
-  const items = scale(letterStrokes(ch)).map((pts, i) => ({ key: `${ch}:${i}`, pts, color: lit.has(i) ? C.accent : own }));
+  const items = scale(letterStrokes(ch)).map((pts, i) => ({ key: `${ch}:${i}`, pts, color: lit.has(i) ? C.accent : own, p: grow === undefined ? undefined : lit.has(i) ? grow : 1 }));
   return (
     <span style={{ display: "inline-flex", width: size, height: size, flexShrink: 0 }}>
       <InkSvg items={items} width={SIZE} write={write} />
@@ -50,17 +54,33 @@ export function Letter({ ch, size, color, write = 1, added = false }: { ch: stri
 }
 
 /**
- * 語：四角を横に並べる。`ink`：全部墨（読む前のカード）。`marks`："音節:役割"（"0:cho"）の所をアクセントで。
- * `height`：四角ひとつの高さ。
+ * 語：四角を横に並べる。`ink`：全部墨（読む前のカード）。`marks`："音節:役割"（"0:cho"）の所をアクセントで。`dim`：同じ
+ * 書き方の所を薄く（まだ出てこない字：나 の ㅏ）。`height`：四角ひとつの高さ。
  */
-export function Word({ text, height, ink = false, marks, write = 1, color }: { text: string; height: number; ink?: boolean; marks?: ReadonlySet<string>; write?: number; color?: string }) {
+export function Word({
+  text,
+  height,
+  ink = false,
+  marks,
+  dim,
+  write = 1,
+  color,
+}: {
+  text: string;
+  height: number;
+  ink?: boolean;
+  marks?: ReadonlySet<string>;
+  dim?: ReadonlySet<string>;
+  write?: number;
+  color?: string;
+}) {
   const syls = syllablesOf(text);
   const items: Ink[] = syls.flatMap((s, i) =>
     syllableParts(s).flatMap((p) =>
       scale(p.strokes, i * (SIZE + GAP)).map((pts, k) => ({
         key: `${i}:${p.role}:${k}`,
         pts,
-        color: marks?.has(`${i}:${p.role}`) ? C.accent : color ?? (ink || p.role !== "jung" ? C.ink : C.accent),
+        color: dim?.has(`${i}:${p.role}`) ? C.line2 : marks?.has(`${i}:${p.role}`) ? C.accent : color ?? (ink || p.role !== "jung" ? C.ink : C.accent),
       })),
     ),
   );
