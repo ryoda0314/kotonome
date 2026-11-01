@@ -1,6 +1,6 @@
 // A. 問いとしくみ：はじめの一コマから、大きな ㄱ と「この字、何の形？」。字が口の絵の舌へ降りて重なり、「カキクケコ」の
-// 舌の形。口の絵は左へ寄り、右に ㄴ：「ナニヌネノ」なら、この形。子音は口の形の絵（五つ）。同じ場所で線を一本足すと
-// 別の音（ㄴ→ㄷ・ㅇ→ㅎ・ㅁ→ㅂ・ㅅ→ㅈ、나→다）。母音は六つ（音といっしょに）。組むと一つの音（ㄴ ㅏ ㅁ ㅜ → 나무、木）。
+// 舌の形。口の絵は左へ寄り、右に ㄴ：「ナニヌネノ」なら、この形。子音は口の形の絵（五つ）。同じ場所で線を増やすと
+// 別の音（ㄴ→ㄷ・ㅅ→ㅈ は1本、ㅇ→ㅎ は2本、ㅁ→ㅂ は両側が上に伸びる。나→다）。母音は六つ（音といっしょに）。組むと一つの音（ㄴ ㅏ ㅁ ㅜ → 나무、木）。
 // 十六字で、もう読める（라디오・바나나・드라마）。
 import { f, fall, leave, mix, prog, SOFT } from "../anim";
 import { JoinWord, Letter, Word } from "../glyph";
@@ -9,7 +9,7 @@ import { READ, READ_STEP, sounding, T, VOWEL_STEP, VOWELS } from "../timeline";
 import { C, FONT } from "../theme";
 import { Icon } from "../ui";
 
-/** 子音五つと口の場所。同じ場所で線を一本足した字。 */
+/** 子音五つと口の場所。同じ場所で線を増やした字（1本とは限らない：ㅎ は2本、ㅂ は両側が伸びる）。 */
 const FIVE: [MouthLetter, string, string | null][] = [
   ["ㄱ", "舌の奥", null],
   ["ㄴ", "舌の先", "ㄷ"],
@@ -61,7 +61,7 @@ export function Hook({ frame }: { frame: number }) {
         ) : null}
       </Part>
 
-      {/* 子音は、口の形の絵。同じ場所で線を一本足すと、別の音 */}
+      {/* 子音は、口の形の絵。同じ場所で線を増やすと、別の音 */}
       <Part frame={frame} from={h.five} to={h.vowels}>
         <div style={{ ...row, top: 120, gap: 80 }}>
           {FIVE.map(([ch, place, grown], i) => {
@@ -85,7 +85,7 @@ export function Hook({ frame }: { frame: number }) {
           })}
         </div>
         <p style={{ ...caption, top: 720, fontSize: 60, ...(frame < h.grow ? fall(frame, h.five + 14, 14, 16) : leave(frame, h.grow, 10)) }}>子音は、口の形の絵。</p>
-        {frame >= h.grow ? <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.grow + 8, 14, 16) }}>同じ場所で、線を一本足すと、別の音。</p> : null}
+        {frame >= h.grow ? <p style={{ ...caption, top: 720, fontSize: 60, ...fall(frame, h.grow + 8, 14, 16) }}>同じ場所で、線を増やすと、別の音。</p> : null}
       </Part>
 
       {/* 母音は、六つ */}

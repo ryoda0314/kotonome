@@ -275,6 +275,37 @@ export function BottomNav({ active }: { active: "rain" | "type" | "me" }) {
   );
 }
 
+/** ページの印（最初の16字の、点の帯：pages.module.css の .dots）。 */
+export function Dots({ n, at }: { n: number; at: number }) {
+  return (
+    <div style={{ display: "flex", gap: 4, padding: "10px 0 0" }}>
+      {Array.from({ length: n }, (_, i) => (
+        <span key={i} style={{ flex: 1, height: 3, borderRadius: 2, background: i <= at ? C.accent : C.line, opacity: i === at ? 0.5 : 1 }} />
+      ))}
+    </div>
+  );
+}
+
+export const pageOf = (s: string) => <span style={{ fontSize: 13, color: C.faint, letterSpacing: "0.04em" }}>{s}</span>;
+export const pill = (s: ReactNode, on = false) => (
+  <span
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      gap: 4,
+      minHeight: 36,
+      padding: "0 12px",
+      borderRadius: 999,
+      border: `1px solid ${on ? C.accent : C.line2}`,
+      background: on ? C.tint : C.paper,
+      color: on ? C.accent : C.ink,
+      fontSize: 13,
+    }}
+  >
+    {s}
+  </span>
+);
+
 /** アイコンと、明朝の ことのめ。 */
 export function Logo({ size = 28 }: { size?: number }) {
   return (

@@ -1,11 +1,14 @@
 """映像の音楽と小さな音。ここで作るので、映像の中の音はだれのものでもない（ことのは の映像と同じ作り方）。
 
     node scripts/marks.mjs | python scripts/music.py public/sound        (npm run music)
+    node scripts/marks.mjs install | python scripts/music.py public/sound --music install-music.wav   (npm run install-music)
 
-映像の区切り（秒）を標準入力から読む（src/timeline.ts の MUSIC_MARKS）：title（しくみの始まり）、story（線を一本足す
-ところ）、later（名前）、end（終わりのカード）、total。音楽はゆっくり静かに：引用のあいだはやわらかな和音だけ、しくみで
-フェルトのピアノのような分散和音がまばらに入り、線を足すところから流れ、名前で小さな鐘が答え、終わりのカードで主和音に
-帰る。小節の線が終わりのカードに落ちるよう速さを決めるので、和音はどれも区切りに合う。種を決めてあるので、同じ区切りからは同じ音ができる。numpy だけ使う。
+映像の区切り（秒）を標準入力から読む：title、story、later、end（終わりのカード）、total。音楽はゆっくり静かに：title まで
+はやわらかな和音だけ、title からフェルトのピアノのような分散和音がまばらに入り、story から流れ、later で小さな鐘が答え、
+終わりのカードで主和音に帰る。紹介映像（src/timeline.ts の MUSIC_MARKS）は、はじめから分散和音、子音五つから流れ、名前で
+鐘。ホーム画面への追加のしかた（src/install-timeline.ts の INSTALL_MARKS）は、iPhone から分散和音、Android から流れ、
+「メニューに見つからないときは」で鐘。小節の線が終わりのカードに落ちるよう速さを決めるので、和音はどれも区切りに合う。
+種を決めてあるので、同じ区切りからは同じ音ができる。numpy だけ使う。
 """
 
 import json
@@ -283,6 +286,11 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     marks = json.loads(sys.stdin.read())
     write(out / name, music(marks))
+    # Another film's music (--music, the install film) leaves the small sounds as the promotional film made them: they
+    # come after the music from the same random stream, so making them again here would change them.
+    if name != "music.wav":
+        print(f"wrote {out}: {name} {marks['total']:.1f}s")
+        return
     for i, f0 in enumerate((1050, 1250, 1450), start=1):
         write(out / f"drop{i}.wav", normal(drop(f0), 0.7))
     write(out / "tap.wav", normal(tap(), 0.6))

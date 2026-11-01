@@ -9,7 +9,7 @@ import { Letter, Word } from "../glyph";
 import { MouthPicture } from "../mouth";
 import { sounding, T, TYPE } from "../timeline";
 import { C, FONT } from "../theme";
-import { Bar, big, BottomNav, Caret, Icon, KeyMap, Keyboard, lead, Press, RAIN_STEPS, Speak, text, Track } from "../ui";
+import { Bar, big, BottomNav, Caret, Dots, Icon, KeyMap, Keyboard, lead, pageOf, pill, Press, RAIN_STEPS, Speak, text, Track } from "../ui";
 import { Captions, type Cap } from "./Caption";
 
 /** 映像の言葉。 */
@@ -62,37 +62,6 @@ function Panel({ frame }: { frame: number }) {
 function Page({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   return <div style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 63, padding: "0 16px", overflow: "hidden", ...style }}>{children}</div>;
 }
-
-/** ページの印（最初の16字の、点の帯）。 */
-function Dots({ n, at }: { n: number; at: number }) {
-  return (
-    <div style={{ display: "flex", gap: 4, padding: "10px 0 0" }}>
-      {Array.from({ length: n }, (_, i) => (
-        <span key={i} style={{ flex: 1, height: 3, borderRadius: 2, background: i <= at ? C.accent : C.line, opacity: i === at ? 0.5 : 1 }} />
-      ))}
-    </div>
-  );
-}
-
-const pageOf = (s: string) => <span style={{ fontSize: 13, color: C.faint, letterSpacing: "0.04em" }}>{s}</span>;
-const pill = (s: ReactNode, on = false) => (
-  <span
-    style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: 4,
-      minHeight: 36,
-      padding: "0 12px",
-      borderRadius: 999,
-      border: `1px solid ${on ? C.accent : C.line2}`,
-      background: on ? C.tint : C.paper,
-      color: on ? C.accent : C.ink,
-      fontSize: 13,
-    }}
-  >
-    {s}
-  </span>
-);
 
 // ---- 最初の16字：口の形 -------------------------------------------------------------------------------------------
 
