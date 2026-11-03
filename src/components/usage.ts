@@ -1,14 +1,17 @@
 "use client";
 
 // How many use ことのめ, for its maker (ことのあめ's admin): counted the same way in every sister, as ことのね's
-// (its src/util/usage.ts). Four things go and nothing else: the app's name, this device's number (a random one made on
-// this device, tied to no one and to no account), what happened (open: the app opened; learn: a rain gone through to
-// its end; say: a word or sentence typed to its end), and whether it was opened from the home screen. A plain request
-// with the public key, never the app's Supabase client, so a signed-in learner's session does not go with it; never a
-// name, an email or what was typed. Counted only at the public address in a production build (usage-core.ts), and not
-// once the learner switches it off in 記録と設定. A count that cannot be sent is let go without a word.
+// (its src/util/usage.ts). These go and nothing else: the app's name, this device's number (a random one made on this
+// device, tied to no one and to no account), what happened (open: the app opened; learn: a rain gone through to its
+// end; say: a word or sentence typed to its end), whether it was opened from the home screen, whether a ことのあめ
+// account is signed in here (yes or no only, from the session on the device: sync.ts account()), and the kind of device
+// (ios, android, pc or other: usage-core.ts platformOf). A plain request with the public key, never the app's Supabase
+// client, so a signed-in learner's session does not go with it; never the account's id, a name, an email or what was
+// typed. Counted only at the public address in a production build (usage-core.ts), and not once the learner switches
+// it off in 記録と設定. A count that cannot be sent is let go without a word.
 // ことのあめ keeps it: pl_app_ping in ../polylinga/supabase/migrations/20261103000000_app_usage.sql.
-import { countsHere } from "@/lib/usage-core";
+import { account } from "@/lib/sync";
+import { countsHere, platformOf } from "@/lib/usage-core";
 import { prefNow } from "./local";
 
 export type UsageKind = "open" | "learn" | "say";
@@ -56,14 +59,30 @@ export function countUsage(kind: UsageKind): void {
     if (!countsHere(location.origin, SITE, process.env.NODE_ENV === "production") || !sendsUsage()) return;
     const device = deviceId();
     if (!device) return;
-    fetch(`${URL_}/rest/v1/rpc/pl_app_ping`, {
-      method: "POST",
-      headers: { apikey: KEY, Authorization: `Bearer ${KEY}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ p_app: APP, p_device: device, p_kind: kind, p_standalone: standalone() }),
-      keepalive: true,
-    }).catch(() => {
-      // Not counted this time.
-    });
+    const body = {
+      p_app: APP,
+      p_device: device,
+      p_kind: kind,
+      p_standalone: standalone(),
+      p_platform: platformOf(navigator.userAgent, navigator.maxTouchPoints ?? 0),
+    };
+    // Signed in or not, from the session kept on this device: only that yes or no goes, nothing of the account.
+    account()
+      .then(
+        (a) => !!a,
+        () => false,
+      )
+      .then((signedIn) =>
+        fetch(`${URL_}/rest/v1/rpc/pl_app_ping`, {
+          method: "POST",
+          headers: { apikey: KEY, Authorization: `Bearer ${KEY}`, "Content-Type": "application/json" },
+          body: JSON.stringify({ ...body, p_signed_in: signedIn }),
+          keepalive: true,
+        }),
+      )
+      .catch(() => {
+        // Not counted this time.
+      });
   } catch {
     // Not counted this time.
   }

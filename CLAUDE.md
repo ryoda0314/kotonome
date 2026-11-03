@@ -26,11 +26,13 @@ Korean keyboard (as on 한컴타자연습) and heard.
   Without `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY` the app runs on the device only and says so.
 - How many use it (`src/components/usage.ts`, ことのね's way, the same in every sister): `countUsage(kind)` calls
   ことのあめ's `pl_app_ping` (`../polylinga/supabase/migrations/20261103000000_app_usage.sql`) with the app
-  (`kotonome`), this device's number (`hangul:device`, a random UUID made here), the kind and whether it was opened from
-  the home screen, and nothing else: a plain `fetch` with the anon key, never `supabase()` (a signed-in learner's session
-  must not go with it). `open` once a page load (`components/CountOpen.tsx` in the `/app` shell; the intro or `/login`
-  alone is not counted), `learn` a rain gone through to its end (`_rain/Rain.tsx` `go("end")`, beside `finishRain`),
-  `say` a word or sentence typed to its end (`components/TypeLine.tsx`, beside `onTyped`: 打ってみる, 単語, 短文; not
+  (`kotonome`), this device's number (`hangul:device`, a random UUID made here), the kind, whether it was opened from the
+  home screen, whether a ことのあめ account is signed in here (`p_signed_in`: only `!!account()`, from the session on
+  the device) and the kind of device (`p_platform`: `platformOf` in `src/lib/usage-core.ts`, ios / android / pc /
+  other), and nothing else: a plain `fetch` with the anon key, never `supabase()` (a signed-in learner's session, id or
+  email must not go with it). `open` once a page load (`components/CountOpen.tsx` in the `/app` shell; the intro or
+  `/login` alone is not counted), `learn` a rain gone through to its end (`_rain/Rain.tsx` `go("end")`, beside
+  `finishRain`), `say` a word or sentence typed to its end (`components/TypeLine.tsx`, beside `onTyped`: 打ってみる, 単語, 短文; not
   打って聞く or 자리연습). Only in a production build at `NEXT_PUBLIC_SITE_URL` (default
   https://kotonome-kappa.vercel.app; `countsHere` in `src/lib/usage-core.ts`); off with 使われ方の数を送る in 記録と設定
   (`usePref("sendUsage")`, `hangul:sendUsage`). A count that fails is let go without a word.
