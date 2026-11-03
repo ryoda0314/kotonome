@@ -14,6 +14,7 @@ import { Icon } from "@/components/Icon";
 import { useOpenLetter } from "@/components/LetterSheet";
 import { preload, stop } from "@/components/sound";
 import { TypeLine } from "@/components/TypeLine";
+import { countUsage } from "@/components/usage";
 import SENTENCES from "@/content/sentences.json";
 import { isWay, lettersOf, PATCHIM, SAID } from "@/lib/hangul";
 import { ja } from "@/lib/i18n/ja";
@@ -95,6 +96,8 @@ export function Rain() {
       const all = [...new Set([...mixed, ...more])];
       const entry = { at: plan.at, words: plan.words.map((w) => w.ko), met, mixed: all, typed: plan.types.map((w) => w.ko) };
       commit((s) => finishRain(meetLetters(s, met, Date.now()), entry));
+      // A rain gone through to its end (components/usage.ts).
+      countUsage("learn");
     }
     setPhase(to);
     window.scrollTo({ top: 0 });

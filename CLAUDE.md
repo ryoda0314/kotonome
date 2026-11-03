@@ -24,6 +24,16 @@ Korean keyboard (as on 한컴타자연습) and heard.
   merged, never overwritten (`mergeStates`). Everything of this app's in that project is prefixed `hg_` (named for the
   script, not the app); never touch `pl_`, `kn_`, `en_` or the old app's tables, and do not create test users there.
   Without `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY` the app runs on the device only and says so.
+- How many use it (`src/components/usage.ts`, ことのね's way, the same in every sister): `countUsage(kind)` calls
+  ことのあめ's `pl_app_ping` (`../polylinga/supabase/migrations/20261103000000_app_usage.sql`) with the app
+  (`kotonome`), this device's number (`hangul:device`, a random UUID made here), the kind and whether it was opened from
+  the home screen, and nothing else: a plain `fetch` with the anon key, never `supabase()` (a signed-in learner's session
+  must not go with it). `open` once a page load (`components/CountOpen.tsx` in the `/app` shell; the intro or `/login`
+  alone is not counted), `learn` a rain gone through to its end (`_rain/Rain.tsx` `go("end")`, beside `finishRain`),
+  `say` a word or sentence typed to its end (`components/TypeLine.tsx`, beside `onTyped`: 打ってみる, 単語, 短文; not
+  打って聞く or 자리연습). Only in a production build at `NEXT_PUBLIC_SITE_URL` (default
+  https://kotonome-kappa.vercel.app; `countsHere` in `src/lib/usage-core.ts`); off with 使われ方の数を送る in 記録と設定
+  (`usePref("sendUsage")`, `hangul:sendUsage`). A count that fails is let go without a word.
 - The content is TypeScript in `src/content/` (typed, checked by `tests/content.test.mjs`); its audio is static MP3 in
   `public/audio/<voice>/<clip id>.mp3`, listed in `src/content/audio.json`.
 
@@ -98,7 +108,7 @@ Korean keyboard (as on 한컴타자연습) and heard.
   (`_type/LinesRound.tsx`), 打って聞く (`_type/Free.tsx`: a word's or sentence's own clip, else the device's Korean voice).
 - `/app/me` 自分: counts (own, never compared), the letters (最初の16字, then `MEET_ORDER`; faint until met, violet
   when owed; looked up from here they are not met), days, 最初の16字 again, 学習の記録, `/app/me/settings` (sound,
-  voice, the typing guide, account, clearing the record). `/login`: ことのは's, unchanged in kind.
+  voice, the typing guide, account, clearing the record, sending the usage count). `/login`: ことのは's, unchanged in kind.
   ことのあめでつなぐ (`src/lib/connect.ts`): off to ことのあめ's `/connect` (log in or sign up there), back to `/login`
   with a one-time token in the fragment, spent with `verifyOtp` (`signInWithKotonoame`) only when the random state kept
   on this device before leaving comes back with it (a link carrying someone else's token cannot sign the learner in).

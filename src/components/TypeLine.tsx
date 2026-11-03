@@ -15,6 +15,7 @@ import { KoText } from "./KoText";
 import { usePref } from "./local";
 import { play, stop as stopClip } from "./player";
 import { say, stop, usePlaying } from "./sound";
+import { countUsage } from "./usage";
 import styles from "./TypeLine.module.css";
 
 export type TypeResult = { mixed: string[] };
@@ -123,6 +124,8 @@ export function TypeLine({
       setDone(true);
       hear();
       onTyped?.({ mixed: [...mixed.current] });
+      // A word or sentence typed to its end, in 打ってみる or in 打つ (usage.ts).
+      countUsage("say");
     }
   };
 

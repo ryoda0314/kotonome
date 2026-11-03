@@ -6,6 +6,7 @@ import { Icon } from "@/components/Icon";
 import { useChoice, usePref } from "@/components/local";
 import page from "@/components/page.module.css";
 import { VOICE_CHOICES, type VoiceChoice } from "@/components/sound";
+import { SEND_USAGE } from "@/components/usage";
 import { ja } from "@/lib/i18n/ja";
 import { useRecord } from "@/lib/store";
 import { account, resetRecord, signOut, supabase, type Account } from "@/lib/sync";
@@ -14,13 +15,14 @@ import styles from "./settings.module.css";
 const t = ja.settings;
 const never = () => () => undefined;
 
-/** 記録と設定: how to hear, how to type, the ことのあめ account, and clearing the record. */
+/** 記録と設定: how to hear, how to type, the ことのあめ account, clearing the record, and the usage count. */
 export function Settings() {
   const state = useRecord();
   const [sound, setSound] = usePref("sound", true);
   const [narration, setNarration] = usePref("narration", true);
   const [voice, setVoice] = useChoice<VoiceChoice>("voice", VOICE_CHOICES, "both");
   const [guide, setGuide] = usePref("guide", true);
+  const [sendUsage, setSendUsage] = usePref(SEND_USAGE, true);
   const [me, setMe] = useState<Account | null | undefined>(undefined);
   const [done, setDone] = useState(false);
   const canLink = useSyncExternalStore(never, () => !!supabase(), () => false);
@@ -126,6 +128,13 @@ export function Settings() {
           </button>
         </div>
         {done ? <p className={page.note}>{t.done}</p> : null}
+        <label className={styles.toggle}>
+          <span>
+            <span className={styles.toggleTitle}>{t.usage}</span>
+            <span className={page.note}>{t.usageLead}</span>
+          </span>
+          <input type="checkbox" checked={sendUsage} onChange={(e) => setSendUsage(e.target.checked)} />
+        </label>
       </section>
     </div>
   );
